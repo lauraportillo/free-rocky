@@ -1,14 +1,18 @@
 import React from 'react';
 import '../stylesheets/Home.scss';
+import rocky from '../images/rocky-1.png';
+import icon from '../images/start-button.jpg';
 
 const Home = (props) => {
   return (
-    <article>
+    <article className="home">
       <div>
-        <img src="" alt="" />
+        <img src={rocky} alt="dog rocky" />
       </div>
       <h1>free rocky</h1>
-      <button></button>
+      <button>
+        <img src={icon} alt="start button" />
+      </button>
     </article>
   );
 };
