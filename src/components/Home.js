@@ -6,12 +6,10 @@ import icon from '../images/start-button.jpg';
 const Home = (props) => {
   return (
     <article className="home">
-      <div>
-        <img src={rocky} alt="dog rocky" />
-      </div>
-      <h1>free rocky</h1>
-      <button>
-        <img src={icon} alt="start button" />
+      <div className="home__image"></div>
+      <h1 className="home__title">free rocky</h1>
+      <button className="home__btn">
+        <img className="home__btn--img" src={icon} alt="start button" />
       </button>
     </article>
   );

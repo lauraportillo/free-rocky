@@ -4,3 +4,25 @@
   justify-content: center;
   align-items: center;
 }
+
+// .containerHeader__image {
+//   background: url('../images/rickandmortybanner1.jpg') no-repeat;
+//   background-size: contain;
+//   background-position: center center;
+//   width: 100%;
+//   height: 56.25vw;
+// }
+
+.home__btn {
+  width: 50px;
+  height: 50px;
+  background: none;
+  color: inherit;
+  border: none;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}
+.home__btn--img {
+  width: 100%;
+}
