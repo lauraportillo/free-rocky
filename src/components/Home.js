@@ -1,6 +1,6 @@
 import React from 'react';
 import '../stylesheets/Home.scss';
-import rocky from '../images/rocky-1.png';
+import rocky from '../images/rocky-1-320.png';
 import icon from '../images/start-button.jpg';
 
 const Home = (props) => {
