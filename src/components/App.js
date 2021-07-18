@@ -6,8 +6,6 @@ import { Route, Switch } from 'react-router-dom';
 
 // Components
 import Home from './Home';
-// import Header from './Header';
-// import Footer from './Footer';
 
 // Styles
 import '../stylesheets/App.scss';

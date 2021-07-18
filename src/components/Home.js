@@ -1,19 +1,24 @@
-import React from 'react';
+// Components
+import Header from './Header';
+import Footer from './Footer';
+// Styles
 import '../stylesheets/Home.scss';
-import rocky from '../images/rocky-1-320.png';
+// Images
 import icon from '../images/start-button.jpg';
 
 const Home = (props) => {
   return (
-    <article className="home">
-      <div className="home__image">
-        <div className="home__image--rocky"></div>
-      </div>
-      <h1 className="home__title">free rocky</h1>
-      <button className="home__btn">
-        <img className="home__btn--img" src={icon} alt="start button" />
-      </button>
-    </article>
+    <>
+      <Header />
+      <main className="home">
+        <div className="home__image"></div>
+        <h1 className="home__title">free rocky</h1>
+        <button className="home__btn">
+          <img className="home__btn--img" src={icon} alt="start button" />
+        </button>
+      </main>
+      <Footer />
+    </>
   );
 };
 
