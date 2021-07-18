@@ -4,14 +4,15 @@
   justify-content: center;
   align-items: center;
 }
-
-// .containerHeader__image {
-//   background: url('../images/rickandmortybanner1.jpg') no-repeat;
-//   background-size: contain;
-//   background-position: center center;
-//   width: 100%;
-//   height: 56.25vw;
-// }
+.home__image {
+}
+.home__image--rocky {
+  background: url('../images/rocky-1-320.png') no-repeat;
+  background-size: contain;
+  background-position: center center;
+  width: 320px;
+  height: 240px;
+}
 
 .home__btn {
   width: 50px;
