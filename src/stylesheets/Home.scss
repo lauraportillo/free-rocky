@@ -1,3 +1,5 @@
+@import 'Variables';
+
 .home {
   display: flex;
   flex-direction: column;
@@ -11,6 +13,10 @@
   background-position: center center;
   width: 320px;
   height: 240px;
+}
+.home__title {
+  font-family: $typo2;
+  font-size: 30px;
 }
 
 .home__btn {
