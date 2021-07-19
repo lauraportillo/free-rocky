@@ -1,0 +1,30 @@
+@import 'Variables';
+
+.footer {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+}
+.footer__copy {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: $typo5;
+  font-size: 12px;
+  font-weight: 400;
+}
+.footer__copy--link {
+  cursor: pointer;
+}
+.footer__copy--link:hover {
+  font-weight: 900;
+}
+
+@media all and (min-width: 768px) {
+  .footer__copy {
+    font-size: 14px;
+  }
+}
+
+@media all and (min-width: 1280px) {
+}
