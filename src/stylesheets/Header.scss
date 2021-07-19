@@ -1,0 +1,16 @@
+@import 'Variables';
+
+.headerNav__menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.headerNav__menu--item {
+  text-transform: uppercase;
+  font-family: $tipo5;
+  font-size: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
