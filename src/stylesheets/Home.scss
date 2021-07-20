@@ -13,6 +13,8 @@
   background-position: center center;
   width: 320px;
   height: 240px;
+  margin-top: 50px;
+  margin-bottom: 30px;
 }
 .home__title {
   font-family: $typo2;
@@ -28,6 +30,7 @@
   font: inherit;
   cursor: pointer;
   outline: inherit;
+  margin-top: 20px;
 }
 .home__btn--img {
   width: 100%;
