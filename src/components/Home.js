@@ -4,7 +4,7 @@ import Footer from './Footer';
 // Styles
 import '../stylesheets/Home.scss';
 // Images
-import icon from '../images/start-button.jpg';
+import icon from '../images/button-red.png';
 
 const Home = (props) => {
   return (
