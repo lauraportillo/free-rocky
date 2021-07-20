@@ -4,7 +4,7 @@ import Footer from './Footer';
 // Styles
 import '../stylesheets/Home.scss';
 // Images
-import icon from '../images/button-red.png';
+import icon from '../images/button-white.png';
 
 const Home = (props) => {
   return (
@@ -12,7 +12,7 @@ const Home = (props) => {
       <Header />
       <main className="home">
         <div className="home__image"></div>
-        <h1 className="home__title">free rocky</h1>
+        <h1 className="home__title">free rocky!</h1>
         <button className="home__btn">
           <img className="home__btn--img" src={icon} alt="start button" />
         </button>
