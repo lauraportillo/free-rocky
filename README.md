@@ -1,4 +1,4 @@
-# Free Rocky
+# Free Rocky!
 
 I made this web with **React.JS**
 

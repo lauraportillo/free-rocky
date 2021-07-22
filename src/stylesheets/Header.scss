@@ -29,6 +29,13 @@
 }
 
 @media all and (min-width: 768px) {
+  .headerNav__menu {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .headerNav__menu--item {
+    font-size: 12px;
+  }
 }
 
 @media all and (min-width: 1280px) {
