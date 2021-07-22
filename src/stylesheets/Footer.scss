@@ -4,6 +4,9 @@
   margin-top: 40px;
   display: flex;
   flex-direction: column;
+  position: fixed;
+  bottom: 50px;
+  width: 100%;
 }
 .footer__copy {
   display: flex;
