@@ -4,9 +4,6 @@
   margin-top: 40px;
   display: flex;
   flex-direction: column;
-  position: fixed;
-  bottom: 20px;
-  width: 100%;
 }
 .footer__copy {
   display: flex;
@@ -25,14 +22,16 @@
 }
 
 @media all and (min-width: 768px) {
-  .footer {
-    bottom: 50px;
-  }
-
   .footer__copy {
     font-size: 14px;
+  }
+  .footer {
+    margin-top: 180px;
   }
 }
 
 @media all and (min-width: 1280px) {
+  .footer {
+    margin-top: 300px;
+  }
 }
