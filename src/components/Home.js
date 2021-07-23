@@ -1,3 +1,5 @@
+// React
+import { Link } from 'react-router-dom';
 // Components
 import Header from './Header';
 import Footer from './Footer';
@@ -14,7 +16,9 @@ const Home = (props) => {
         <div className="home__image"></div>
         <h1 className="home__title">free rocky!</h1>
         <button className="home__btn">
-          <img className="home__btn--img" src={icon} alt="start button" />
+          <Link to="/clue01">
+            <img className="home__btn--img" src={icon} alt="start button" />
+          </Link>
         </button>
       </main>
       <Footer />
