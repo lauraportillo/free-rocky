@@ -16,7 +16,7 @@ const Home = (props) => {
         <div className="home__image"></div>
         <h1 className="home__title">free rocky!</h1>
         <button className="home__btn">
-          <Link to="/clue01">
+          <Link to="/start">
             <img className="home__btn--img" src={icon} alt="start button" />
           </Link>
         </button>

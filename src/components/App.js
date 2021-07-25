@@ -6,7 +6,7 @@ import { Route, Switch } from 'react-router-dom';
 
 // Components
 import Home from './Home';
-import Clue01 from './Clue01';
+import Start from './Start';
 
 // Styles
 import '../stylesheets/App.scss';
@@ -17,7 +17,7 @@ const App = () => {
     <div className="containerBody">
       <Switch>
         <Route exact path="/" component={Home} />
-        <Route exact path="/clue01" component={Clue01} />
+        <Route exact path="/start" component={Start} />
       </Switch>
     </div>
   );
