@@ -11,9 +11,9 @@ const Start = (props) => {
     <>
       <header className="startHeader">
         <h1 className="startHeader__title">free rocky!</h1>
-        <div>
-          <h2>time remaining</h2>
-          <div>00.00</div>
+        <div className="startHeader__time">
+          <h2 className="startHeader__time--title">time remaining</h2>
+          <div className="startHeader__time--timer">00.00</div>
         </div>
       </header>
       <main className="startMain">

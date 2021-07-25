@@ -7,10 +7,12 @@ const Clue01 = (props) => {
   return (
     <>
       <div className="back">
-        <h1>primera hoja del juego</h1>
+        <h1 className="back">primera hoja del juego</h1>
 
-        <h2>
-          <Link to="/">go back</Link>
+        <h2 className="back">
+          <Link to="/" className="back">
+            go back
+          </Link>
         </h2>
       </div>
     </>
