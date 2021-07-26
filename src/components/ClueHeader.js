@@ -1,12 +1,6 @@
-// React
-import { Link } from 'react-router-dom';
-// Components
-import Clue01 from './Clue01';
-import Footer from './Footer';
-// Styles
-import '../stylesheets/Start.scss';
+import '../stylesheets/ClueHeader.scss';
 
-const Start = (props) => {
+const ClueHeader = (props) => {
   return (
     <>
       <header className="startHeader">
@@ -16,12 +10,8 @@ const Start = (props) => {
           <div className="startHeader__time--timer">00.00</div>
         </div>
       </header>
-      <main className="startMain">
-        <Clue01 />
-      </main>
-      <Footer />
     </>
   );
 };
 
-export default Start;
+export default ClueHeader;

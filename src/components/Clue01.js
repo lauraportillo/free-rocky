@@ -1,12 +1,16 @@
 // React
 import { Link } from 'react-router-dom';
+// Components
+import ClueHeader from './ClueHeader';
+import Footer from './Footer';
 // Styles
 import '../stylesheets/Clue01.scss';
 
 const Clue01 = (props) => {
   return (
     <>
-      <div className="back">
+      <ClueHeader />
+      <main className="back">
         <h1 className="back">primera hoja del juego</h1>
 
         <h2 className="back">
@@ -14,7 +18,8 @@ const Clue01 = (props) => {
             go back
           </Link>
         </h2>
-      </div>
+      </main>
+      <Footer />
     </>
   );
 };
