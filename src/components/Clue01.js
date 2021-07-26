@@ -10,14 +10,13 @@ const Clue01 = (props) => {
   return (
     <>
       <ClueHeader />
-      <main className="back">
-        <h1 className="back">primera hoja del juego</h1>
-
-        <h2 className="back">
-          <Link to="/" className="back">
+      <main className="clue01">
+        <h1 className="clue01__title">primera hoja juego</h1>
+        <h4 className="clue01__btn">
+          <Link to="/" className="clue01__btn">
             go back
           </Link>
-        </h2>
+        </h4>
       </main>
       <Footer />
     </>

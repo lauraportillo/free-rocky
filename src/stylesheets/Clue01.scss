@@ -1,5 +1,19 @@
 @import 'Variables';
 
-.back {
+.clue01 {
+  color: $color1;
+  background-color: $color2;
+  width: 300px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.clue01__title {
+  color: $color1;
+}
+.clue01__btn {
   color: $color1;
 }
