@@ -8,6 +8,7 @@ const Form = (props) => {
   return (
     <form onSubmit={handleForm} className="form">
       <Input handleName={props.handleName} name={props.name} />
+      <input type="submit" value="Submit" class="form__button" />
     </form>
   );
 };
