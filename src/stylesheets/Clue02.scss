@@ -14,6 +14,19 @@
 .clue02__title {
   color: $color1;
 }
-.clue02__btn {
+.clue02Nav__menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: $color1;
+}
+.clue02Nav__menu--item {
+  text-transform: uppercase;
+  font-family: $typo1;
+  font-size: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
   color: $color1;
 }

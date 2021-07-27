@@ -11,13 +11,22 @@ const Clue02 = (props) => {
     <>
       <ClueHeader />
       <main className="clue02">
-        <h1 className="clue02__title">segunda hoja juego</h1>
-
-        <h4 className="clue02__btn">
-          <Link to="/clue01" className="clue02__btn">
-            go back
-          </Link>
-        </h4>
+        <h1 className="clue02__title">segunda</h1>
+        <nav className="clue02Nav">
+          <ul className="clue02Nav__menu">
+            <li>
+              <Link to="/" className="clue02Nav__menu--item">
+                Home
+              </Link>
+            </li>
+            <li className="clue02Nav__menu--item">|</li>
+            <li>
+              <Link to="/clue01" className="clue02Nav__menu--item">
+                Go back
+              </Link>
+            </li>
+          </ul>
+        </nav>
       </main>
       <Footer />
     </>

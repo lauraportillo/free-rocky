@@ -14,42 +14,7 @@
 .clue01__title {
   color: $color1;
 }
-.clue01__btn {
+
+.clue01__form--btn {
   color: $color1;
-}
-@import 'Variables';
-
-.form {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.form__button {
-  width: 60px;
-  height: 30px;
-  // margin: 30px 214px 0 0;
-  // padding: 0 25px 0 26px;
-  // font-size: 20px;
-  border-radius: 20px;
-  border: solid 2px $color3;
-  background-color: $color2;
-  color: $color3;
-}
-.form__button:hover {
-  color: $color2;
-  background-color: $color3;
-  border: none;
-  outline: none;
-  transition: all 1s;
-}
-
-.form__input {
-  width: 160px;
-  height: 30px;
-  border-radius: 10px;
-  border: solid $color1 1px;
-  border-style: dotted;
-  text-align: center;
-  font-size: 16px;
-  outline: inherit;
 }
