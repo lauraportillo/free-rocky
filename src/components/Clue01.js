@@ -18,6 +18,15 @@ const Clue01 = (props) => {
             <button class="clue01__form--btn">Play</button>
           </Link>
         </form>
+        <nav className="clue01Nav">
+          <ul className="clue01Nav__menu">
+            <li>
+              <Link to="/" className="clue01Nav__menu--item">
+                Home
+              </Link>
+            </li>
+          </ul>
+        </nav>
       </main>
       <Footer />
     </>
