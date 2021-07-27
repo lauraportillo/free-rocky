@@ -1,0 +1,19 @@
+@import 'Variables';
+
+.clue02 {
+  color: $color1;
+  background-color: $color2;
+  width: 300px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.clue02__title {
+  color: $color1;
+}
+.clue02__btn {
+  color: $color1;
+}
