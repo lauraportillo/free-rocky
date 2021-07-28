@@ -12,7 +12,6 @@ const Clue01 = (props) => {
       <ClueHeader />
       <main className="clue01">
         <h1 className="clue01__title">primera</h1>
-        <h2 className="clue01__title">prueba 2 de git</h2>
         <form className="clue01__form">
           <input className="clue01__form--input" type="text" name="name" id="name" placeholder="enter your answer..." />
           <Link to="/clue02">
@@ -35,3 +34,7 @@ const Clue01 = (props) => {
 };
 
 export default Clue01;
+
+// QUÉ TENGO QUE HACER:
+// recoger lo que escriba el usuario en el input
+// si coincide con la clave, entonces habilitar el botón que te lleva a la siguiente clave
