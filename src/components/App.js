@@ -23,6 +23,10 @@ const App = () => {
     }
   };
 
+  const handleReset = () => {
+    setName('');
+  };
+
   return (
     <div className="containerBody">
       <Switch>
@@ -31,7 +35,7 @@ const App = () => {
         </Route>
 
         <Route exact path="/clue01">
-          <Clue01 handleName={handleName} name={name} />
+          <Clue01 handleName={handleName} name={name} handleReset={handleReset} />
         </Route>
 
         <Route exact path="/clue02">

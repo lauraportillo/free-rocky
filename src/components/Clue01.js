@@ -20,7 +20,7 @@ const Clue01 = (props) => {
         <form onSubmit={handleForm} className="clue01__form">
           <div>
             <Input handleName={props.handleName} name={props.name} className="clue01__form--input" />
-            <ResetButton />
+            <ResetButton handleReset={props.handleReset} />
           </div>
           <Link to="/clue02">
             <button className="clue01__form--btn">Next</button>
