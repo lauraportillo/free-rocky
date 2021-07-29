@@ -2,8 +2,8 @@ import '../stylesheets/Input.scss';
 
 const Input = (props) => {
   const handleChange = (ev) => {
-    props.handleName({
-      key: 'name',
+    props.handleClue01({
+      key: 'clue01',
       value: ev.target.value,
     });
   };
@@ -12,10 +12,10 @@ const Input = (props) => {
       <input
         className="keyInput"
         type="text"
-        name="name"
-        id="name"
-        placeholder="enter your answer..."
-        value={props.name}
+        name="clue01"
+        id="clue01"
+        placeholder="enter the clue..."
+        value={props.clue01}
         onChange={handleChange}
       />
     </>

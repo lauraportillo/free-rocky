@@ -19,7 +19,7 @@ const Clue01 = (props) => {
         <h1 className="clue01__title">primera</h1>
         <form onSubmit={handleForm} className="clue01__form">
           <div>
-            <Input handleName={props.handleName} name={props.name} className="clue01__form--input" />
+            <Input handleClue01={props.handleClue01} clue01={props.clue01} className="clue01__form--input" />
             <ResetButton handleReset={props.handleReset} />
           </div>
           <Link to="/clue02">

@@ -13,18 +13,18 @@ import '../stylesheets/Reset.scss';
 
 const App = () => {
   //state
-  const [name, setName] = useState('');
-  console.log(name);
+  const [clue01, setClue01] = useState('');
+  console.log(clue01);
 
   //function definition that handles the changes in the inputs
-  const handleName = (inputChange) => {
-    if (inputChange.key === 'name') {
-      setName(inputChange.value);
+  const handleClue01 = (inputChange) => {
+    if (inputChange.key === 'clue01') {
+      setClue01(inputChange.value);
     }
   };
 
   const handleReset = () => {
-    setName('');
+    setClue01('');
   };
 
   return (
@@ -35,7 +35,7 @@ const App = () => {
         </Route>
 
         <Route exact path="/clue01">
-          <Clue01 handleName={handleName} name={name} handleReset={handleReset} />
+          <Clue01 handleClue01={handleClue01} clue01={clue01} handleReset={handleReset} />
         </Route>
 
         <Route exact path="/clue02">
