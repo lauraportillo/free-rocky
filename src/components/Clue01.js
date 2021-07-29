@@ -2,18 +2,22 @@
 import { Link } from 'react-router-dom';
 // Components
 import ClueHeader from './ClueHeader';
+import Input from './Input';
 import Footer from './Footer';
 // Styles
 import '../stylesheets/Clue01.scss';
 
 const Clue01 = (props) => {
+  const handleForm = (ev) => {
+    ev.preventDefault();
+  };
   return (
     <>
       <ClueHeader />
       <main className="clue01">
         <h1 className="clue01__title">primera</h1>
-        <form className="clue01__form">
-          <input className="clue01__form--input" type="text" name="name" id="name" placeholder="enter your answer..." />
+        <form onSubmit={handleForm} className="clue01__form">
+          <Input handleClue01={props.handleClue01} name={props.name} className="clue01__form--input" />
           <Link to="/clue02">
             <button className="clue01__form--btn">Play</button>
           </Link>
