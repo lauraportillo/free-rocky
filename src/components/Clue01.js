@@ -15,7 +15,7 @@ const Clue01 = (props) => {
         <form className="clue01__form">
           <input className="clue01__form--input" type="text" name="name" id="name" placeholder="enter your answer..." />
           <Link to="/clue02">
-            <button class="clue01__form--btn">Play</button>
+            <button className="clue01__form--btn">Play</button>
           </Link>
         </form>
         <nav className="clue01Nav">
