@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 // Components
 import ClueHeader from './ClueHeader';
 import Input from './Input';
+import ResetButton from './ResetButton';
 import Footer from './Footer';
 // Styles
 import '../stylesheets/Clue01.scss';
@@ -17,9 +18,12 @@ const Clue01 = (props) => {
       <main className="clue01">
         <h1 className="clue01__title">primera</h1>
         <form onSubmit={handleForm} className="clue01__form">
-          <Input handleName={props.handleName} name={props.name} className="clue01__form--input" />
+          <div>
+            <Input handleName={props.handleName} name={props.name} className="clue01__form--input" />
+            <ResetButton />
+          </div>
           <Link to="/clue02">
-            <button className="clue01__form--btn">Play</button>
+            <button className="clue01__form--btn">Next</button>
           </Link>
         </form>
         <nav className="clue01Nav">

@@ -14,6 +14,7 @@ import '../stylesheets/Reset.scss';
 const App = () => {
   //state
   const [name, setName] = useState('');
+  console.log(name);
 
   //function definition that handles the changes in the inputs
   const handleName = (inputChange) => {

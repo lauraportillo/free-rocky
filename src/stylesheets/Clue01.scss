@@ -16,6 +16,14 @@
 }
 .clue01__form {
   margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.clue01__form--btn {
+  margin-top: 20px;
+  color: $color1;
 }
 .clue01Nav__menu {
   display: flex;
