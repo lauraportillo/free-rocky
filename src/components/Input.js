@@ -10,6 +10,7 @@ const Input = (props) => {
   return (
     <>
       <input
+        className="keyInput"
         type="text"
         name="name"
         id="name"

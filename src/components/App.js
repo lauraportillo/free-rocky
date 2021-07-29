@@ -25,9 +25,17 @@ const App = () => {
   return (
     <div className="containerBody">
       <Switch>
-        <Route exact path="/" component={Home} />
-        <Route exact path="/clue01" component={Clue01} handleName={handleName} name={name} />
-        <Route exact path="/clue02" component={Clue02} />
+        <Route exact path="/">
+          <Home />
+        </Route>
+
+        <Route exact path="/clue01">
+          <Clue01 handleName={handleName} name={name} />
+        </Route>
+
+        <Route exact path="/clue02">
+          <Clue02 />
+        </Route>
       </Switch>
     </div>
   );
