@@ -2,7 +2,7 @@ import '../stylesheets/Input.scss';
 
 const Input = (props) => {
   const handleChange = (ev) => {
-    props.handleClue01({
+    props.handleName({
       key: 'name',
       value: ev.target.value,
     });

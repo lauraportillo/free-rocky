@@ -17,7 +17,7 @@ const Clue01 = (props) => {
       <main className="clue01">
         <h1 className="clue01__title">primera</h1>
         <form onSubmit={handleForm} className="clue01__form">
-          <Input handleClue01={props.handleClue01} name={props.name} className="clue01__form--input" />
+          <Input handleName={props.handleName} name={props.name} className="clue01__form--input" />
           <Link to="/clue02">
             <button className="clue01__form--btn">Play</button>
           </Link>
