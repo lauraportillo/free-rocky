@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 // Components
 import ClueHeader from './ClueHeader';
 import Input from './Input';
+import NextButton from './NextButton';
 import ResetButton from './ResetButton';
 import Footer from './Footer';
 // Styles
@@ -24,9 +25,7 @@ const Clue01 = (props) => {
             <ResetButton handleReset={props.handleReset} />
           </div>
           <Link to="/clue02">
-            <button disabled={!props.enabled} handlePassword={props.handlePassword} className="clue01__form--btn">
-              Next
-            </button>
+            <NextButton handlePassword={props.handlePassword} />
           </Link>
         </form>
         <nav className="clue01Nav">
