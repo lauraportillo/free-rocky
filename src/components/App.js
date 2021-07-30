@@ -28,6 +28,14 @@ const App = () => {
     setClue01('');
   };
 
+  const handlePassword = () => {
+    const password = 'clave';
+    if (clue01 === password) {
+      setEnabled(true);
+    } else {
+      setEnabled(false);
+    }
+  };
   return (
     <div className="containerBody">
       <Switch>
@@ -36,7 +44,13 @@ const App = () => {
         </Route>
 
         <Route exact path="/clue01">
-          <Clue01 handleClue01={handleClue01} handleReset={handleReset} clue01={clue01} enabled={enabled} />
+          <Clue01
+            handleClue01={handleClue01}
+            handleReset={handleReset}
+            handlePassword={handlePassword}
+            clue01={clue01}
+            enabled={enabled}
+          />
         </Route>
 
         <Route exact path="/clue02">

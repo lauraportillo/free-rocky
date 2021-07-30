@@ -12,6 +12,7 @@ const Clue01 = (props) => {
   const handleForm = (ev) => {
     ev.preventDefault();
   };
+
   return (
     <>
       <ClueHeader />
@@ -23,7 +24,7 @@ const Clue01 = (props) => {
             <ResetButton handleReset={props.handleReset} />
           </div>
           <Link to="/clue02">
-            <button disabled={!props.enabled} className="clue01__form--btn">
+            <button disabled={!props.enabled} handlePassword={props.handlePassword} className="clue01__form--btn">
               Next
             </button>
           </Link>
