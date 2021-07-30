@@ -14,6 +14,7 @@ import '../stylesheets/Reset.scss';
 const App = () => {
   //state
   const [clue01, setClue01] = useState('');
+  const [enabled, setEnabled] = useState(false);
   console.log(clue01);
 
   //function definition that handles the changes in the inputs
@@ -35,7 +36,7 @@ const App = () => {
         </Route>
 
         <Route exact path="/clue01">
-          <Clue01 handleClue01={handleClue01} clue01={clue01} handleReset={handleReset} />
+          <Clue01 handleClue01={handleClue01} handleReset={handleReset} clue01={clue01} enabled={enabled} />
         </Route>
 
         <Route exact path="/clue02">
