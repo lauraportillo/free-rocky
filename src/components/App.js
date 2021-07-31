@@ -15,6 +15,7 @@ const App = () => {
   //state
   const [clue01, setClue01] = useState('');
   const [enabled, setEnabled] = useState(false);
+  const [hiddenClass, setHiddenClass] = useState('hidden');
   console.log(clue01);
 
   //function definition that handles the changes in the inputs
@@ -26,6 +27,7 @@ const App = () => {
 
   const handleReset = () => {
     setClue01('');
+    setHiddenClass('hidden');
   };
 
   const handlePassword = () => {
@@ -51,6 +53,7 @@ const App = () => {
             handlePassword={handlePassword}
             clue01={clue01}
             enabled={enabled}
+            hiddenClass={hiddenClass}
           />
         </Route>
 
