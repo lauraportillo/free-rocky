@@ -7,7 +7,7 @@ const NextButton = (props) => {
 
   return (
     <>
-      <button disabled={!props.enabled} handlePassword={handlePassword} className="next">
+      <button disabled={!props.enabled} onClick={handlePassword} className="next">
         Next
       </button>
     </>
