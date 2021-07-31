@@ -32,7 +32,7 @@ const App = () => {
 
   const handlePassword = () => {
     const password = 'clave';
-    if (clue01 === password) {
+    if (setClue01 === password) {
       setEnabled(true);
     } else {
       setEnabled(false);
