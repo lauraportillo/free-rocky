@@ -9,7 +9,7 @@ const Game = (props) => {
     <>
       <Header />
       <main className="game">
-        <p>
+        <p className="game__description">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci quibusdam nam voluptates numquam quaerat
           distinctio molestiae accusantium facilis corrupti omnis blanditiis sapiente, laudantium quod impedit sit
           tempora harum beatae aspernatur? Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint pariatur,

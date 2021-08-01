@@ -1,0 +1,15 @@
+@import 'Variables';
+
+.game {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+}
+
+.game__description {
+  font-size: 14px;
+  font-family: $typo1;
+  color: $color2;
+}
