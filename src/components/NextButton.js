@@ -1,8 +1,8 @@
 import '../stylesheets/NextButton.scss';
 
 const NextButton = (props) => {
-  const handlePassword = (ev) => {
-    props.handlePassword();
+  const handleClue01 = (ev) => {
+    props.handleClue01();
   };
 
   const renderMessage = () => {
@@ -24,7 +24,12 @@ const NextButton = (props) => {
 
   return (
     <>
-      <button disabled={!props.enabled} onClick={handlePassword} clue01={props.clue01} className="next">
+      <button
+        disabled={props.clue01 === 'clave' ? null : true}
+        onClick={handleClue01}
+        clue01={props.clue01}
+        className="next"
+      >
         {/* <button disabled={!props.enabled} onClick={handlePassword} clue01={props.clue01} className="next"> */}
         Next
       </button>

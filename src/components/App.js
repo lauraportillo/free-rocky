@@ -16,12 +16,29 @@ const App = () => {
   const [clue01, setClue01] = useState('');
   const [enabled, setEnabled] = useState(false);
   const [hiddenClass, setHiddenClass] = useState('hidden');
-  console.log(clue01);
+  // console.log(clue01);
 
   //function definition that handles the changes in the inputs
   const handleClue01 = (inputChange) => {
+    console.log('App2', inputChange);
     if (inputChange.key === 'clue01') {
       setClue01(inputChange.value);
+    }
+
+    // separar por aqui en dos funciones y que la parte de abajo se ejecute cuando cambie clue01
+    // que handle password se ejecute cuando cambie clue01
+    // buscar onchage clue01
+
+    console.log('App', clue01);
+    setHiddenClass('');
+    const password = 'clave';
+    if (clue01 === password) {
+      // console.log('estamos en el if');
+      console.log('App', clue01);
+      setEnabled(true);
+    } else {
+      setEnabled(false);
+      // console.log('estamos en el else');
     }
   };
 
@@ -31,15 +48,15 @@ const App = () => {
     setHiddenClass('hidden');
   };
 
-  const handlePassword = () => {
-    setHiddenClass('');
-    const password = 'clave';
-    if (setClue01 === password) {
-      setEnabled(true);
-    } else {
-      setEnabled(false);
-    }
-  };
+  // const handlePassword = () => {
+  //   setHiddenClass('');
+  //   const password = 'clave';
+  //   if (clue01 === password) {
+  //     setEnabled(true);
+  //   } else {
+  //     setEnabled(false);
+  //   }
+  // };
 
   return (
     <div className="containerBody">
@@ -52,7 +69,7 @@ const App = () => {
           <Clue01
             handleClue01={handleClue01}
             handleReset={handleReset}
-            handlePassword={handlePassword}
+            // handlePassword={handlePassword}
             clue01={clue01}
             enabled={enabled}
             hiddenClass={hiddenClass}
