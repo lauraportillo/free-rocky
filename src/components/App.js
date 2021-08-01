@@ -27,10 +27,12 @@ const App = () => {
 
   const handleReset = () => {
     setClue01('');
+    setEnabled(false);
     setHiddenClass('hidden');
   };
 
   const handlePassword = () => {
+    setHiddenClass('');
     const password = 'clave';
     if (setClue01 === password) {
       setEnabled(true);

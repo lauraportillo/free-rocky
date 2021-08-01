@@ -25,6 +25,7 @@ const NextButton = (props) => {
   return (
     <>
       <button disabled={!props.enabled} onClick={handlePassword} clue01={props.clue01} className="next">
+        {/* <button disabled={!props.enabled} onClick={handlePassword} clue01={props.clue01} className="next"> */}
         Next
       </button>
 
