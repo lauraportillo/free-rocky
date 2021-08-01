@@ -4,6 +4,7 @@ import { Route, Switch } from 'react-router-dom';
 
 // Components
 import Home from './Home';
+import Game from './Game';
 import Clue01 from './Clue01';
 import Clue02 from './Clue02';
 
@@ -44,6 +45,9 @@ const App = () => {
       <Switch>
         <Route exact path="/">
           <Home />
+        </Route>
+        <Route exact path="/game">
+          <Game />
         </Route>
 
         <Route exact path="/clue01">
