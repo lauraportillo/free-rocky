@@ -12,6 +12,7 @@ const Input = (props) => {
     <>
       <input
         className="keyInput"
+        autocomplete="off"
         type="text"
         name="clue01"
         id="clue01"
