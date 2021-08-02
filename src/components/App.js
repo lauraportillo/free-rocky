@@ -33,16 +33,6 @@ const App = () => {
 
   const handleNext = () => {};
 
-  // const handlePassword = () => {
-  //   setHiddenClass('');
-  //   const password = 'clave';
-  //   if (setClue01 === password) {
-  //     setEnabled(true);
-  //   } else {
-  //     setEnabled(false);
-  //   }
-  // };
-
   return (
     <div className="containerBody">
       <Switch>
