@@ -2,8 +2,6 @@ import '../stylesheets/Input.scss';
 
 const Input = (props) => {
   const handleChange = (ev) => {
-    console.log('input', ev.target.value);
-    // console.log(ev.target.value);
     props.handleClue01({
       key: 'clue01',
       value: ev.target.value,
