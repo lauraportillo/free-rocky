@@ -31,6 +31,8 @@ const App = () => {
     setHiddenClass('hidden');
   };
 
+  const handleNext = () => {};
+
   // const handlePassword = () => {
   //   setHiddenClass('');
   //   const password = 'clave';
@@ -52,7 +54,7 @@ const App = () => {
           <Clue01
             handleClue01={handleClue01}
             handleReset={handleReset}
-            // handlePassword={handlePassword}
+            handleNext={handleNext}
             clue01={clue01}
             enabled={enabled}
             hiddenClass={hiddenClass}

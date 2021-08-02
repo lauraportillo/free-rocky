@@ -1,3 +1,4 @@
+// Styles
 import '../stylesheets/ResetButton.scss';
 
 const ResetButton = (props) => {
