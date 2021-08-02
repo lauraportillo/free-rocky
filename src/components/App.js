@@ -14,7 +14,6 @@ import '../stylesheets/Reset.scss';
 const App = () => {
   //state
   const [clue01, setClue01] = useState('');
-  const [enabled, setEnabled] = useState(false);
   const [hiddenClass, setHiddenClass] = useState('hidden');
   console.log(clue01);
 
@@ -27,11 +26,8 @@ const App = () => {
 
   const handleReset = () => {
     setClue01('');
-    setEnabled(false);
     setHiddenClass('hidden');
   };
-
-  const handleNext = () => {};
 
   return (
     <div className="containerBody">
@@ -41,14 +37,7 @@ const App = () => {
         </Route>
 
         <Route exact path="/clue01">
-          <Clue01
-            handleClue01={handleClue01}
-            handleReset={handleReset}
-            handleNext={handleNext}
-            clue01={clue01}
-            enabled={enabled}
-            hiddenClass={hiddenClass}
-          />
+          <Clue01 handleClue01={handleClue01} handleReset={handleReset} clue01={clue01} hiddenClass={hiddenClass} />
         </Route>
 
         <Route exact path="/clue02">

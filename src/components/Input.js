@@ -1,3 +1,4 @@
+// Styles
 import '../stylesheets/Input.scss';
 
 const Input = (props) => {
