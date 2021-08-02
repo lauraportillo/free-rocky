@@ -1,12 +1,13 @@
+// React
+import { useHistory } from 'react-router-dom';
+// Styles
 import '../stylesheets/NextButton.scss';
 
 const NextButton = (props) => {
-  const handlePassword = (ev) => {
-    props.handlePassword();
-  };
+  const history = useHistory();
 
   const renderMessage = () => {
-    const password = 'clave';
+    const password = 'pepino';
     if (props.clue01 === password) {
       return (
         <>
@@ -24,7 +25,12 @@ const NextButton = (props) => {
 
   return (
     <>
-      <button disabled={!props.enabled} onClick={handlePassword} className="next">
+      <button
+        disabled={props.clue01 === 'pepino' ? null : true}
+        onClick={() => history.push('/clue02')}
+        clue01={props.clue01}
+        className="next"
+      >
         Next
       </button>
 
