@@ -19,9 +19,10 @@ const App = () => {
   console.log(clue01);
 
   //function definition that handles the changes in the inputs
+  //input blocked in lowercase - try to improve it
   const handleClue01 = (inputChange) => {
     if (inputChange.key === 'clue01') {
-      setClue01(inputChange.value);
+      setClue01(inputChange.value.toLowerCase());
     }
   };
 
