@@ -16,13 +16,13 @@ const App = () => {
   //state
   const [clue01, setClue01] = useState('');
   const [hiddenClass, setHiddenClass] = useState('hidden');
-  console.log(clue01);
 
   //function definition that handles the changes in the inputs
   const handleClue01 = (inputChange) => {
     if (inputChange.key === 'clue01') {
       setClue01(inputChange.value);
     }
+    setHiddenClass('');
   };
 
   const handleReset = () => {
