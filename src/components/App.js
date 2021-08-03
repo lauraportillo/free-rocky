@@ -21,7 +21,7 @@ const App = () => {
   //function definition that handles the changes in the inputs
   const handleClue01 = (inputChange) => {
     if (inputChange.key === 'clue01') {
-      setClue01(inputChange.value.toLowerCase());
+      setClue01(inputChange.value);
     }
   };
 
