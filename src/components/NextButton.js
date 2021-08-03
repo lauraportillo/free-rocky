@@ -6,7 +6,7 @@ import '../stylesheets/NextButton.scss';
 const NextButton = (props) => {
   const history = useHistory();
 
-  const password = 'clave';
+  const password = 'pepino';
 
   const renderMessage = () => {
     if (props.clue01 === password) {

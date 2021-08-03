@@ -17,7 +17,6 @@ const Input = (props) => {
         name="clue01"
         id="clue01"
         placeholder="enter the clue..."
-        value={props.clue01}
         onChange={handleChange}
       />
     </>
