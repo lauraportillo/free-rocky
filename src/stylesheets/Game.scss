@@ -7,6 +7,7 @@
   align-items: center;
   margin: 30px;
   margin-top: 10px;
+  width: 260px;
 }
 .game__title {
   margin-bottom: 20px;
@@ -21,4 +22,21 @@
   font-size: 14px;
   font-family: $typo1;
   color: $color2;
+}
+
+@media all and (min-width: 768px) {
+  .game {
+    width: 480px;
+    margin-top: 30px;
+  }
+  .game__title {
+    font-size: 50px;
+  }
+  .game__description {
+    margin-top: 30px;
+    font-size: 16px;
+  }
+}
+
+@media all and (min-width: 1280px) {
 }

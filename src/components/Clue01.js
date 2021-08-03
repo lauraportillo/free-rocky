@@ -43,7 +43,3 @@ const Clue01 = (props) => {
 };
 
 export default Clue01;
-
-// QUÉ TENGO QUE HACER:
-// recoger lo que escriba el usuario en el input
-// si coincide con la clave, entonces habilitar el botón que te lleva a la siguiente clave
