@@ -3,22 +3,19 @@ import '../stylesheets/Input.scss';
 
 const Input = (props) => {
   const handleChange = (ev) => {
-    props.handleInput({
-      key: 'input',
-      value: ev.target.value,
-    });
+    props.handleInput(ev.target.name, ev.target.value);
   };
   return (
     <>
       <input
         onChange={handleChange}
         className={`keyInput ${props.className}`}
-        autocomplete="off"
         type={props.type}
-        name={props.input}
-        id={props.input}
+        name={props.name}
+        id={props.name}
         placeholder={props.placeholder}
-        value={props.input}
+        value={props.value}
+        autocomplete="off"
       />
 
       {/* <input

@@ -23,13 +23,13 @@ const Clue01 = (props) => {
           <div>
             <Input
               handleInput={props.handleInput}
-              input={props.input}
+              clue01={props.clue01}
               className="clue01__form--input"
               type="text"
-              name="input"
-              id="input"
+              name="clue01"
+              id="clue01"
               placeholder="enter the clue..."
-              value={props.input}
+              value={props.clue01}
             />
             <ResetButton handleReset={props.handleReset} />
           </div>
@@ -37,7 +37,8 @@ const Clue01 = (props) => {
           <NextButton
             //IMPROVE: la clave tiene que ser la de clue 01 y pasar por props a next
             handleInput={props.handleInput}
-            input={props.input}
+            // clue01={props.clue01}
+            input={props.clue01}
             password={props.password[0]}
             route={props.route[0]}
             hiddenClass={props.hiddenClass}

@@ -16,19 +16,24 @@ const App = () => {
   //state
   const [password] = useState(['primera', 'segunda', 'tercera']);
   const [route] = useState(['/clue02', '/clue03', '/clue04']);
-  const [input, setInput] = useState('');
+  const [clue01, setClue01] = useState('');
+  const [clue02, setClue02] = useState('');
   const [hiddenClass, setHiddenClass] = useState('hidden');
 
   //function definition that handles the changes in the inputs
-  const handleInput = (inputChange) => {
-    if (inputChange.key === 'input') {
-      setInput(inputChange.value);
+
+  const handleInput = (inputKey, inputValue) => {
+    if (inputKey === 'clue01') {
+      setClue01(inputValue);
+    } else if (inputKey === 'clue02') {
+      setClue02(inputValue);
     }
     setHiddenClass('');
   };
 
   const handleReset = () => {
-    setInput('');
+    setClue01('');
+    setClue02('');
     setHiddenClass('hidden');
   };
 
@@ -48,13 +53,20 @@ const App = () => {
             handleReset={handleReset}
             password={password}
             route={route}
-            input={input}
+            clue01={clue01}
             hiddenClass={hiddenClass}
           />
         </Route>
 
         <Route exact path="/clue02">
-          <Clue02 />
+          <Clue02
+            handleInput={handleInput}
+            handleReset={handleReset}
+            password={password}
+            route={route}
+            clue02={clue02}
+            hiddenClass={hiddenClass}
+          />
         </Route>
       </Switch>
     </div>
