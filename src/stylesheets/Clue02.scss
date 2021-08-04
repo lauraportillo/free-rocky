@@ -14,6 +14,14 @@
 .clue02__title {
   color: $color1;
 }
+.clue02__form {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .clue02Nav__menu {
   display: flex;
   justify-content: center;
