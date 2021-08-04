@@ -26,6 +26,7 @@ const Clue01 = (props) => {
           </div>
 
           <NextButton
+            //IMPROVE: la clave tiene que ser la de clue 01 y pasar por props a next
             handleInput={props.handleInput}
             input={props.input}
             password={props.password}

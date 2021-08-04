@@ -26,6 +26,7 @@ const NextButton = (props) => {
     <>
       <button
         disabled={props.input.toLowerCase() === props.password ? null : true}
+        //IMPROVE
         onClick={() => history.push('/clue02')}
         input={props.input}
         className="next"
