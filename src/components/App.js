@@ -27,7 +27,7 @@ const App = () => {
     } else if (inputKey === 'clue02') {
       setClue02(inputValue);
     }
-    // setHiddenClass('');
+    setHiddenClass('');
   };
 
   const handleReset = () => {

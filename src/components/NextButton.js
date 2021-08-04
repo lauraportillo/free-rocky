@@ -13,6 +13,12 @@ const NextButton = (props) => {
           <h3 className="next">Correcto ✔</h3>
         </>
       );
+    } else if (props.input.length === 0) {
+      return (
+        <>
+          <div className="hidden" />
+        </>
+      );
     } else {
       return (
         <>
@@ -26,15 +32,14 @@ const NextButton = (props) => {
     <>
       <button
         disabled={props.input.toLowerCase() === props.password ? null : true}
-        //IMPROVEMENT
         onClick={() => history.push(props.route)}
-        input={props.input}
         className="next"
       >
         Next
       </button>
 
-      <div className={`next ${props.hiddenClass}`}>{renderMessage()}</div>
+      <div>{renderMessage()}</div>
+      {/* <div className={`next ${props.hiddenClass}`}>{renderMessage()}</div> */}
     </>
   );
 };
