@@ -39,7 +39,6 @@ const NextButton = (props) => {
       </button>
 
       <div>{renderMessage()}</div>
-      {/* <div className={`next ${props.hiddenClass}`}>{renderMessage()}</div> */}
     </>
   );
 };

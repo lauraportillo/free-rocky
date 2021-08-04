@@ -39,9 +39,9 @@ const Clue01 = (props) => {
             input={props.clue01}
             password={props.password[0]}
             route={props.route[0]}
-            hiddenClass={props.hiddenClass}
           />
         </form>
+
         <nav className="clue01Nav">
           <ul className="clue01Nav__menu">
             <li>

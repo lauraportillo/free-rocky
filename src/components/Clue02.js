@@ -39,7 +39,6 @@ const Clue02 = (props) => {
             input={props.clue02}
             password={props.password[1]}
             route={props.route[1]}
-            hiddenClass={props.hiddenClass}
           />
         </form>
 
