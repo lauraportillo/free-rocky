@@ -11,6 +11,18 @@ const Input = (props) => {
   return (
     <>
       <input
+        onChange={handleChange}
+        className={`keyInput ${props.className}`}
+        autocomplete="off"
+        type={props.type}
+        name={props.input}
+        id={props.input}
+        placeholder={props.placeholder}
+        value={props.input}
+      />
+
+      {/* <input
+        onChange={handleChange}
         className="keyInput"
         autocomplete="off"
         type="text"
@@ -18,8 +30,7 @@ const Input = (props) => {
         id="input"
         placeholder="enter the clue..."
         value={props.input}
-        onChange={handleChange}
-      />
+      /> */}
     </>
   );
 };

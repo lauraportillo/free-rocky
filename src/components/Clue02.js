@@ -18,9 +18,9 @@ const Clue02 = (props) => {
       <ClueHeader />
       <main className="clue02">
         <h1 className="clue02__title">segunda</h1>
-        <form onSubmit={handleForm} className="clue01__form">
+        <form onSubmit={handleForm} className="clue02__form">
           <div>
-            <Input handleInput={props.handleInput} input={props.input} className="clue01__form--input" />
+            <Input handleInput={props.handleInput} input={props.input} className="clue02__form--input" />
             <ResetButton handleReset={props.handleReset} />
           </div>
 

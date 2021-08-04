@@ -21,7 +21,16 @@ const Clue01 = (props) => {
         <h1 className="clue01__title">primera</h1>
         <form onSubmit={handleForm} className="clue01__form">
           <div>
-            <Input handleInput={props.handleInput} input={props.input} className="clue01__form--input" />
+            <Input
+              handleInput={props.handleInput}
+              input={props.input}
+              className="clue01__form--input"
+              type="text"
+              name="input"
+              id="input"
+              placeholder="enter the clue..."
+              value={props.input}
+            />
             <ResetButton handleReset={props.handleReset} />
           </div>
 
