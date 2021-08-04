@@ -3,8 +3,8 @@ import '../stylesheets/Input.scss';
 
 const Input = (props) => {
   const handleChange = (ev) => {
-    props.handleClue01({
-      key: 'clue01',
+    props.handleInput({
+      key: 'input',
       value: ev.target.value,
     });
   };
@@ -14,10 +14,10 @@ const Input = (props) => {
         className="keyInput"
         autocomplete="off"
         type="text"
-        name="clue01"
-        id="clue01"
+        name="input"
+        id="input"
         placeholder="enter the clue..."
-        value={props.clue01}
+        value={props.input}
         onChange={handleChange}
       />
     </>

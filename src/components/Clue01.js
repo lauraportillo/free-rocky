@@ -21,13 +21,13 @@ const Clue01 = (props) => {
         <h1 className="clue01__title">primera</h1>
         <form onSubmit={handleForm} className="clue01__form">
           <div>
-            <Input handleClue01={props.handleClue01} clue01={props.clue01} className="clue01__form--input" />
+            <Input handleInput={props.handleInput} input={props.input} className="clue01__form--input" />
             <ResetButton handleReset={props.handleReset} />
           </div>
 
           <NextButton
-            handleClue01={props.handleClue01}
-            clue01={props.clue01}
+            handleInput={props.handleInput}
+            input={props.input}
             password={props.password}
             hiddenClass={props.hiddenClass}
           />

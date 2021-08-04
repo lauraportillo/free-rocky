@@ -7,7 +7,7 @@ const NextButton = (props) => {
   const history = useHistory();
 
   const renderMessage = () => {
-    if (props.clue01.toLowerCase() === props.password) {
+    if (props.input.toLowerCase() === props.password) {
       return (
         <>
           <h3 className="next">Correcto</h3>
@@ -25,9 +25,9 @@ const NextButton = (props) => {
   return (
     <>
       <button
-        disabled={props.clue01.toLowerCase() === props.password ? null : true}
+        disabled={props.input.toLowerCase() === props.password ? null : true}
         onClick={() => history.push('/clue02')}
-        clue01={props.clue01}
+        input={props.input}
         className="next"
       >
         Next

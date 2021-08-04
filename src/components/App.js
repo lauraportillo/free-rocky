@@ -15,19 +15,19 @@ import '../stylesheets/Reset.scss';
 const App = () => {
   //state
   const [password] = useState('pepino');
-  const [clue01, setClue01] = useState('');
+  const [input, setInput] = useState('');
   const [hiddenClass, setHiddenClass] = useState('hidden');
 
   //function definition that handles the changes in the inputs
-  const handleClue01 = (inputChange) => {
-    if (inputChange.key === 'clue01') {
-      setClue01(inputChange.value);
+  const handleInput = (inputChange) => {
+    if (inputChange.key === 'input') {
+      setInput(inputChange.value);
     }
     setHiddenClass('');
   };
 
   const handleReset = () => {
-    setClue01('');
+    setInput('');
     setHiddenClass('hidden');
   };
 
@@ -43,10 +43,10 @@ const App = () => {
 
         <Route exact path="/clue01">
           <Clue01
-            handleClue01={handleClue01}
+            handleInput={handleInput}
             handleReset={handleReset}
             password={password}
-            clue01={clue01}
+            input={input}
             hiddenClass={hiddenClass}
           />
         </Route>
