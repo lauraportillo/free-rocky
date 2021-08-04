@@ -14,6 +14,7 @@ import '../stylesheets/Reset.scss';
 
 const App = () => {
   //state
+  const [password] = useState('pepino');
   const [clue01, setClue01] = useState('');
   const [hiddenClass, setHiddenClass] = useState('hidden');
 
@@ -41,7 +42,13 @@ const App = () => {
         </Route>
 
         <Route exact path="/clue01">
-          <Clue01 handleClue01={handleClue01} handleReset={handleReset} clue01={clue01} hiddenClass={hiddenClass} />
+          <Clue01
+            handleClue01={handleClue01}
+            handleReset={handleReset}
+            password={password}
+            clue01={clue01}
+            hiddenClass={hiddenClass}
+          />
         </Route>
 
         <Route exact path="/clue02">

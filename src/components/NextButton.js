@@ -6,10 +6,8 @@ import '../stylesheets/NextButton.scss';
 const NextButton = (props) => {
   const history = useHistory();
 
-  const password = 'pepino';
-
   const renderMessage = () => {
-    if (props.clue01.toLowerCase() === password) {
+    if (props.clue01.toLowerCase() === props.password) {
       return (
         <>
           <h3 className="next">Correcto</h3>
@@ -27,7 +25,7 @@ const NextButton = (props) => {
   return (
     <>
       <button
-        disabled={props.clue01.toLowerCase() === password ? null : true}
+        disabled={props.clue01.toLowerCase() === props.password ? null : true}
         onClick={() => history.push('/clue02')}
         clue01={props.clue01}
         className="next"

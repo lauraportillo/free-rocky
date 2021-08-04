@@ -25,7 +25,12 @@ const Clue01 = (props) => {
             <ResetButton handleReset={props.handleReset} />
           </div>
 
-          <NextButton handleClue01={props.handleClue01} clue01={props.clue01} hiddenClass={props.hiddenClass} />
+          <NextButton
+            handleClue01={props.handleClue01}
+            clue01={props.clue01}
+            password={props.password}
+            hiddenClass={props.hiddenClass}
+          />
         </form>
         <nav className="clue01Nav">
           <ul className="clue01Nav__menu">
