@@ -17,17 +17,6 @@ const Input = (props) => {
         value={props.value}
         autocomplete="off"
       />
-
-      {/* <input
-        onChange={handleChange}
-        className="keyInput"
-        autocomplete="off"
-        type="text"
-        name="input"
-        id="input"
-        placeholder="enter the clue..."
-        value={props.input}
-      /> */}
     </>
   );
 };

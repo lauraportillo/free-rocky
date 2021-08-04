@@ -13,6 +13,7 @@ const Clue02 = (props) => {
   const handleForm = (ev) => {
     ev.preventDefault();
   };
+
   return (
     <>
       <ClueHeader />
@@ -34,9 +35,7 @@ const Clue02 = (props) => {
           </div>
 
           <NextButton
-            //IMPROVE: la clave tiene que ser la de clue 02 y pasar por props a next
             handleInput={props.handleInput}
-            // clue02={props.clue02}
             input={props.clue02}
             password={props.password[1]}
             route={props.route[1]}
