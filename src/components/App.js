@@ -7,6 +7,7 @@ import Home from './Home';
 import Game from './Game';
 import Clue01 from './Clue01';
 import Clue02 from './Clue02';
+import Clue03 from './Clue03';
 
 // Styles
 import '../stylesheets/App.scss';
@@ -18,6 +19,7 @@ const App = () => {
   const [route] = useState(['/clue02', '/clue03', '/clue04']);
   const [clue01, setClue01] = useState('');
   const [clue02, setClue02] = useState('');
+  const [clue03, setClue03] = useState('');
 
   //function definition that handles the changes in the inputs
   const handleInput = (inputKey, inputValue) => {
@@ -25,12 +27,15 @@ const App = () => {
       setClue01(inputValue);
     } else if (inputKey === 'clue02') {
       setClue02(inputValue);
+    } else if (inputKey === 'clue03') {
+      setClue03(inputValue);
     }
   };
 
   const handleReset = () => {
     setClue01('');
     setClue02('');
+    setClue03('');
   };
 
   return (
@@ -39,6 +44,7 @@ const App = () => {
         <Route exact path="/">
           <Home />
         </Route>
+
         <Route exact path="/game">
           <Game />
         </Route>
@@ -60,6 +66,16 @@ const App = () => {
             password={password}
             route={route}
             clue02={clue02}
+          />
+        </Route>
+
+        <Route exact path="/clue03">
+          <Clue03
+            handleInput={handleInput}
+            handleReset={handleReset}
+            password={password}
+            route={route}
+            clue03={clue03}
           />
         </Route>
       </Switch>
