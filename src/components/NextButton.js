@@ -10,13 +10,13 @@ const NextButton = (props) => {
     if (props.input.toLowerCase() === props.password) {
       return (
         <>
-          <h3 className="next">Correcto</h3>
+          <h3 className="next">Correcto ✔</h3>
         </>
       );
     } else {
       return (
         <>
-          <h3 className="next">Incorrecto</h3>
+          <h3 className="next">Incorrecto ❌</h3>
         </>
       );
     }
@@ -26,8 +26,8 @@ const NextButton = (props) => {
     <>
       <button
         disabled={props.input.toLowerCase() === props.password ? null : true}
-        //IMPROVE
-        onClick={() => history.push('/clue02')}
+        //IMPROVEMENT
+        onClick={() => history.push(props.route)}
         input={props.input}
         className="next"
       >

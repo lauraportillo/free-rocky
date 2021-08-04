@@ -14,7 +14,8 @@ import '../stylesheets/Reset.scss';
 
 const App = () => {
   //state
-  const [password] = useState('pepino');
+  const [password] = useState(['primera', 'segunda', 'tercera']);
+  const [route] = useState(['/clue02', '/clue03', '/clue04']);
   const [input, setInput] = useState('');
   const [hiddenClass, setHiddenClass] = useState('hidden');
 
@@ -46,6 +47,7 @@ const App = () => {
             handleInput={handleInput}
             handleReset={handleReset}
             password={password}
+            route={route}
             input={input}
             hiddenClass={hiddenClass}
           />

@@ -27,7 +27,8 @@ const Clue02 = (props) => {
           {/* <NextButton
             handleInput={props.handleInput}
             input={props.input}
-            password={props.password}
+            password={props.password[1]}
+            route={props.route[1]}
             hiddenClass={props.hiddenClass}
           /> */}
         </form>
