@@ -15,7 +15,7 @@ const Input = (props) => {
         id={props.name}
         placeholder={props.placeholder}
         value={props.value}
-        autocomplete="off"
+        autoComplete="off"
       />
     </>
   );
