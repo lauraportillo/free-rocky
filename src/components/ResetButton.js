@@ -9,7 +9,7 @@ const ResetButton = (props) => {
   return (
     <>
       <button className="reset" onClick={handleReset}>
-        Reset
+        🗑️ Reset
       </button>
     </>
   );
