@@ -13,8 +13,6 @@ const Footer = (props) => {
         >
           By Laura Portillo
         </a>
-
-        <small>©2021</small>
       </div>
     </footer>
   );
