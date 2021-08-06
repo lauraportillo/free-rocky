@@ -8,9 +8,9 @@ const Rocky = (props) => {
   return (
     <>
       <Header />
-      <main className="Rocky">
-        <h1 className="Rocky__title">Rocky dog</h1>
-        <p className="Rocky__description">
+      <main className="rocky">
+        <h1 className="rocky__title">rocky dog</h1>
+        <p className="rocky__description">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci quibusdam nam voluptates numquam quaerat
           distinctio molestiae accusantium facilis corrupti omnis blanditiis sapiente, laudantium quod impedit sit
           tempora harum beatae aspernatur? Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint pariatur,

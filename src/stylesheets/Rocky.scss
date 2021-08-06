@@ -1,6 +1,6 @@
 @import 'Variables';
 
-.game {
+.rocky {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -9,7 +9,7 @@
   margin-top: 10px;
   width: 260px;
 }
-.game__title {
+.rocky__title {
   margin-bottom: 20px;
   font-family: $typo7;
   font-size: 30px;
@@ -17,7 +17,7 @@
   text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px $color4, 0 0 82px $color4, 0 0 92px $color4,
     0 0 102px $color4, 0 0 151px $color4;
 }
-.game__description {
+.rocky__description {
   margin-top: 10px;
   font-size: 14px;
   font-family: $typo1;
@@ -25,14 +25,14 @@
 }
 
 @media all and (min-width: 768px) {
-  .game {
+  .rocky {
     width: 480px;
     margin-top: 30px;
   }
-  .game__title {
+  .rocky__title {
     font-size: 50px;
   }
-  .game__description {
+  .rocky__description {
     margin-top: 30px;
     font-size: 16px;
   }
