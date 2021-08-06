@@ -19,7 +19,7 @@ const NextButton = (props) => {
           <div className="hidden" />
         </>
       );
-    } else {
+    } else if (props.input.length > 4) {
       return (
         <>
           <h3 className="next">Incorrecto ❌</h3>
