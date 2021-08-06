@@ -33,7 +33,6 @@ const Clue01 = (props) => {
             />
             <ResetButton handleReset={props.handleReset} />
           </div>
-
           <NextButton
             handleInput={props.handleInput}
             input={props.clue01}
