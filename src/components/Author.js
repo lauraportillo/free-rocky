@@ -9,7 +9,7 @@ const Author = (props) => {
     <>
       <Header />
       <main className="author">
-        <h1 className="author__title">me</h1>
+        <h1 className="author__title">just me</h1>
         <p className="author__description">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci quibusdam nam voluptates numquam quaerat
           distinctio molestiae accusantium facilis corrupti omnis blanditiis sapiente, laudantium quod impedit sit
