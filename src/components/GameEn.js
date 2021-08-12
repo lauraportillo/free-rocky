@@ -42,11 +42,15 @@ const GameEn = (props) => {
         </section>
 
         <ul className="menu">
-          <li className="menu__item">Luis Yrisarry</li>
+          <li className="menu__item">
+            <a className="menu__item--icon" href="http://bilfrok.com/" target="_blank" rel="noopener noreferrer">
+              Luis Yrisarry
+            </a>
+          </li>
           <li className="menu__item">
             <a
               className="menu__item--icon"
-              href="https://github.com/lauraportillo"
+              href="https://www.artstation.com/bilfrok"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -56,7 +60,7 @@ const GameEn = (props) => {
           <li className="menu__item">
             <a
               className="menu__item--icon"
-              href="https://twitter.com/LauraPo02860847"
+              href="https://www.behance.net/Bilfrok"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -66,7 +70,7 @@ const GameEn = (props) => {
           <li className="menu__item">
             <a
               className="menu__item--icon"
-              href="https://www.linkedin.com/in/laura-portillo-rodr%C3%ADguez-21965a86/"
+              href="https://www.linkedin.com/in/bilfrok/"
               target="_blank"
               rel="noopener noreferrer"
             >
