@@ -39,10 +39,12 @@ const GameEn = (props) => {
           <p className="game__description--p">
             Thank you Luis for lend me Rocky as protagonist of this great adventure!
           </p>
-          Luis Yrisarry Labadía
+        </section>
+
+        <section>
+          <span>Luis Yrisarry Labadía</span>
         </section>
       </main>
-      <Footer />
     </>
   );
 };
