@@ -41,10 +41,41 @@ const GameEn = (props) => {
           </p>
         </section>
 
-        <section>
-          <span>Luis Yrisarry Labadía</span>
-        </section>
+        <ul className="menu">
+          <li className="menu__item">Luis Yrisarry Labadía</li>
+          <li className="menu__item">
+            <a
+              className="menu__item--icon"
+              href="https://twitter.com/LauraPo02860847"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i className="fab fa-behance" alt="behance icon"></i>
+            </a>
+          </li>
+          <li className="menu__item">
+            <a
+              className="menu__item--icon"
+              href="https://www.linkedin.com/in/laura-portillo-rodr%C3%ADguez-21965a86/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i className="fa fa-linkedin" alt="linkedin icon"></i>
+            </a>
+          </li>
+          <li className="menu__item">
+            <a
+              className="menu__item--icon"
+              href="https://github.com/lauraportillo"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i className="fa fa-artstation" aria-hidden="true"></i>
+            </a>
+          </li>
+        </ul>
       </main>
+      <Footer />
     </>
   );
 };
