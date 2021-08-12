@@ -11,13 +11,11 @@ const GameEn = (props) => {
       <main className="game">
         <h1 className="game__title">the game</h1>
         <p className="game__description">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci quibusdam nam voluptates numquam quaerat
-          distinctio molestiae accusantium facilis corrupti omnis blanditiis sapiente, laudantium quod impedit sit
-          tempora harum beatae aspernatur? Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint pariatur,
-          possimus, eligendi dolorum, iure explicabo repellat ratione beatae ipsam maiores fugiat sequi architecto
-          adipisci cumque temporibus perspiciatis repudiandae illo aperiam. Lorem ipsum dolor sit amet consectetur
-          adipisicing elit. Debitis est illo deleniti ab quas incidunt ea quia sapiente officiis nisi fugit obcaecati,
-          aspernatur velit accusamus quidem id sequi. Libero, laborum.
+          Rocky is not a regular dog.It is a very special dog. It is a Bulldog with a beautiful face, like a cuddly
+          teddy bear. The perfect dog that everyone would want to live with. Rocky seems completely real, however he is
+          not flesh and blood, he is a 3d modelled dog, the work of the great artist Luis Yrisarry Labadía. Luis is a 3d
+          Artist and Art Director specialized in Characters and Digital Sculpture, with such an incredible talent. Thank
+          you Luis for lend me Rocky as protagonist of this great adventure! Luis Yrisarry Labadía
         </p>
       </main>
       <Footer />
