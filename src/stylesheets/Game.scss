@@ -30,6 +30,7 @@
   margin-left: 5px;
   margin-right: 5px;
 }
+
 .game__description {
   margin-top: 30px;
   font-size: 14px;
@@ -42,7 +43,21 @@
 }
 
 .menu {
-  background-color: grey;
+  width: 260px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 12px;
+  font-family: $typo2;
+  font-weight: 200;
+}
+.menu__item {
+  text-transform: uppercase;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.menu__item--icon {
 }
 
 @media all and (min-width: 768px) {

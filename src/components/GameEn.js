@@ -42,7 +42,17 @@ const GameEn = (props) => {
         </section>
 
         <ul className="menu">
-          <li className="menu__item">Luis Yrisarry Labadía</li>
+          <li className="menu__item">Luis Yrisarry</li>
+          <li className="menu__item">
+            <a
+              className="menu__item--icon"
+              href="https://github.com/lauraportillo"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i className="fa fa-artstation" aria-hidden="true"></i>
+            </a>
+          </li>
           <li className="menu__item">
             <a
               className="menu__item--icon"
@@ -61,16 +71,6 @@ const GameEn = (props) => {
               rel="noopener noreferrer"
             >
               <i className="fa fa-linkedin" alt="linkedin icon"></i>
-            </a>
-          </li>
-          <li className="menu__item">
-            <a
-              className="menu__item--icon"
-              href="https://github.com/lauraportillo"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <i className="fa fa-artstation" aria-hidden="true"></i>
             </a>
           </li>
         </ul>
