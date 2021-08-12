@@ -57,7 +57,14 @@
   margin-left: 5px;
   margin-right: 5px;
 }
-.menu__item--icon {
+.menu__item:hover,
+.game__lang--en:hover,
+.game__lang--es:hover {
+  color: #fff;
+  text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px $color4, 0 0 82px $color4, 0 0 92px $color4,
+    0 0 102px $color4, 0 0 151px $color4;
+  transform: scale(1.1);
+  transition: all 0.1s ease-in-out;
 }
 
 @media all and (min-width: 768px) {
