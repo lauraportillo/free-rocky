@@ -1,6 +1,5 @@
 // React
 import { Link } from 'react-router-dom';
-
 // Components
 import Header from './Header';
 import Footer from './Footer';
@@ -43,7 +42,13 @@ const GameEn = (props) => {
 
         <ul className="menu">
           <li className="menu__item">
-            <a className="menu__item--icon" href="http://bilfrok.com/" target="_blank" rel="noopener noreferrer">
+            <a
+              className="menu__item--icon"
+              href="http://bilfrok.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              title="bilfrok.com"
+            >
               Luis Yrisarry
             </a>
           </li>
@@ -53,6 +58,7 @@ const GameEn = (props) => {
               href="https://www.artstation.com/bilfrok"
               target="_blank"
               rel="noopener noreferrer"
+              title="artstation"
             >
               <i className="fa fa-artstation" aria-hidden="true"></i>
             </a>
@@ -63,6 +69,7 @@ const GameEn = (props) => {
               href="https://www.behance.net/Bilfrok"
               target="_blank"
               rel="noopener noreferrer"
+              title="behance"
             >
               <i className="fab fa-behance" alt="behance icon"></i>
             </a>
@@ -73,6 +80,7 @@ const GameEn = (props) => {
               href="https://www.linkedin.com/in/bilfrok/"
               target="_blank"
               rel="noopener noreferrer"
+              title="linkedin"
             >
               <i className="fa fa-linkedin" alt="linkedin icon"></i>
             </a>

@@ -10,6 +10,7 @@ const Footer = (props) => {
           href="https://www.linkedin.com/in/laura-portillo-rodr%C3%ADguez-21965a86/"
           target="_blank"
           rel="noopener noreferrer"
+          title="linkedin"
         >
           By Laura Portillo
         </a>
