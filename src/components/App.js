@@ -4,7 +4,7 @@ import { Route, Switch } from 'react-router-dom';
 
 // Components
 import Home from './Home';
-import Game from './Game';
+import GameEn from './GameEn';
 import Rocky from './Rocky';
 import Author from './Author';
 import Clue01 from './Clue01';
@@ -47,8 +47,8 @@ const App = () => {
           <Home />
         </Route>
 
-        <Route exact path="/game">
-          <Game />
+        <Route exact path="/gameEn">
+          <GameEn />
         </Route>
 
         <Route exact path="/rocky">

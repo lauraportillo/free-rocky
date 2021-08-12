@@ -12,7 +12,7 @@ const Header = (props) => {
         </li>
         <li className="headerNav__menu--item">|</li>
         <li className="headerNav__menu--item">
-          <Link to="/game">The game</Link>
+          <Link to="/gameEn">The game</Link>
         </li>
         <li className="headerNav__menu--item">|</li>
         <li className="headerNav__menu--item">
