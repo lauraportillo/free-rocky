@@ -5,7 +5,7 @@ import Header from './Header';
 import Footer from './Footer';
 // Styles
 import '../stylesheets/Rocky.scss';
-const RockyEn = (props) => {
+const RockyEs = (props) => {
   return (
     <>
       <Header />
@@ -28,8 +28,8 @@ const RockyEn = (props) => {
 
         <section className="rocky__description">
           <p className="rocky__description--p">
-            Rocky is not a regular dog.It is a very special dog. It is a Bulldog with a beautiful face, like a cuddly
-            teddy bear. The perfect dog that everyone would want to live with.
+            EN ESPAÑOL Rocky is not a regular dog.It is a very special dog. It is a Bulldog with a beautiful face, like
+            a cuddly teddy bear. The perfect dog that everyone would want to live with.
           </p>
           <p className="rocky__description--p">
             <span className="bold">Rocky</span> seems completely real, however it is not flesh and blood, he is a
@@ -97,4 +97,4 @@ const RockyEn = (props) => {
   );
 };
 
-export default RockyEn;
+export default RockyEs;

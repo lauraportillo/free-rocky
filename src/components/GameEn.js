@@ -14,13 +14,13 @@ const GameEn = (props) => {
 
         <ul className="game__lang">
           <li className="game__lang--en">
-            <Link to="/aboutEn" title="english">
+            <Link to="/gameEn" title="english">
               En
             </Link>
           </li>
           <li className="game__lang--item">|</li>
           <li className="game__lang--es">
-            <Link to="/aboutEs" title="español">
+            <Link to="/gameEs" title="español">
               Es
             </Link>
           </li>

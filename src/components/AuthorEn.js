@@ -14,13 +14,13 @@ const AuthorEn = (props) => {
 
         <ul className="author__lang">
           <li className="author__lang--en">
-            <Link to="/aboutEn" title="english">
+            <Link to="/authorEn" title="english">
               En
             </Link>
           </li>
           <li className="author__lang--item">|</li>
           <li className="author__lang--es">
-            <Link to="/aboutEs" title="español">
+            <Link to="/authorEs" title="español">
               Es
             </Link>
           </li>
