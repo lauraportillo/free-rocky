@@ -3,29 +3,30 @@
 .footer {
   margin-top: 40px;
   display: flex;
-  flex-direction: column;
-}
-.footer__copy {
-  display: flex;
-  flex-direction: column;
+  justify-content: center;
   align-items: center;
-  font-family: $typo1;
   font-size: 12px;
-  font-weight: 400;
-  color: $color2;
+  font-family: $typo2;
+  font-weight: 200;
 }
-.footer__copy--link {
-  cursor: pointer;
+.footer__item {
+  text-transform: uppercase;
+  margin-left: 5px;
+  margin-right: 5px;
 }
-.footer__copy--link:hover {
-  font-weight: 900;
+.footer__item:hover,
+.game__lang--en:hover,
+.game__lang--es:hover {
+  color: #fff;
+  text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px $color3, 0 0 82px $color3, 0 0 92px $color3,
+    0 0 102px $color3, 0 0 151px $color3;
+  transform: scale(1.1);
+  transition: all 0.1s ease-in-out;
 }
 
 @media all and (min-width: 768px) {
-  .footer__copy {
-    font-size: 14px;
-  }
   .footer {
+    font-size: 14px;
     margin-top: 180px;
   }
 }

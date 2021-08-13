@@ -28,8 +28,9 @@ const GameEn = (props) => {
             teddy bear. The perfect dog that everyone would want to live with.
           </p>
           <p className="game__description--p">
-            Rocky seems completely real, however he is not flesh and blood, he is a 3d modelled dog, the work of the
-            great artist Luis Yrisarry Labadía.
+            <span className="bold">Rocky</span> seems completely real, however it is not flesh and blood, he is a
+            <span className="bold">3d modelled dog</span>, the work of the great artist{' '}
+            <span className="bold">Luis Yrisarry Labadía</span>.
           </p>
           <p className="game__description--p">
             Luis is a 3d Artist and Art Director specialized in Characters and Digital Sculpture, with such an

@@ -67,6 +67,10 @@
   transition: all 0.1s ease-in-out;
 }
 
+.bold {
+  font-weight: bolder;
+}
+
 @media all and (min-width: 768px) {
   .game {
     width: 480px;
