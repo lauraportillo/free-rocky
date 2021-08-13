@@ -11,6 +11,7 @@ const Footer = (props) => {
             href="https://www.linkedin.com/in/laura-portillo-rodr%C3%ADguez-21965a86/"
             target="_blank"
             rel="noopener noreferrer"
+            title="linkedin"
           >
             <i className="fa fa-linkedin" alt="linkedin icon"></i>
           </a>
@@ -21,6 +22,7 @@ const Footer = (props) => {
             href="https://github.com/lauraportillo"
             target="_blank"
             rel="noopener noreferrer"
+            title="github"
           >
             <i className="fa fa-github-alt" alt="github icon"></i>
           </a>
@@ -31,6 +33,7 @@ const Footer = (props) => {
             href="https://twitter.com/LauraPo02860847"
             target="_blank"
             rel="noopener noreferrer"
+            title="twitter"
           >
             <i className="fa fa-twitter" alt="twitter icon"></i>
           </a>
@@ -41,6 +44,7 @@ const Footer = (props) => {
             href="mailto:lauraportillo.ark@gmail.com"
             target="_blank"
             rel="noopener noreferrer"
+            title="email"
           >
             <i className="fa fa-envelope" alt="envelope icon"></i>
           </a>
