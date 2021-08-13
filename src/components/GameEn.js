@@ -28,14 +28,25 @@ const GameEn = (props) => {
 
         <section className="game__description">
           <p className="game__description--p">
-            <span className="bold">Lorem</span> ipsum dolor sit amet, consectetur adipisicing elit. Adipisci quibusdam
-            nam voluptates numquam quaerat distinctio molestiae accusantium facilis corrupti omnis blanditiis sapiente,
-            laudantium quod impedit sit tempora harum beatae aspernatur? Lorem ipsum dolor sit amet consectetur
-            adipisicing elit. Sint pariatur, possimus, eligendi dolorum, iure explicabo repellat ratione beatae ipsam
-            maiores fugiat sequi architecto adipisci cumque temporibus perspiciatis repudiandae illo aperiam. Lorem
-            ipsum dolor sit amet consectetur adipisicing elit. Debitis est illo deleniti ab quas incidunt ea quia
-            sapiente officiis nisi fugit obcaecati, aspernatur velit accusamus quidem id sequi. Libero, laborum.
+            In 2020 a global pandemic paralyzed the entire world. Since then, Rocky's owners, out of fear that it will
+            catch the virus, locked him in an abandoned house whose door is opened with a secret password.
           </p>
+          <p className="game__description--p">Once a day, they bring him food and water.</p>
+          <p className="game__description--p">
+            Rocky is a fun and talkative dog who loves to travel around the world. He loves knowing new cultures,
+            speaking different languages, chatting with wild animals and living with friendly humans… He can't stand
+            this confinement anymore!
+          </p>
+          <p className="game__description--p">
+            Yesterday he bought some tickets to escape from that house, far, far away, but he cannot guess the secret
+            password that opens the door, and the plane takes off in a few hours.
+          </p>
+          <p className="game__description--p bold">Rocky needs your help!</p>
+          <p className="game__description--p">
+            You have 60 minutes to find out all the clues that will lead you to discover the key. Open the door and let
+            Rocky escape.
+          </p>
+          <p className="game__description--p bold">Free Rocky!</p>
         </section>
       </main>
       <Footer />
