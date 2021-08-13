@@ -16,7 +16,7 @@ const Header = (props) => {
         </li>
         <li className="headerNav__menu--item">|</li>
         <li className="headerNav__menu--item">
-          <Link to="/rocky">Rocky</Link>
+          <Link to="/rockyEn">Rocky</Link>
         </li>
         <li className="headerNav__menu--item">|</li>
         <li className="headerNav__menu--item">
