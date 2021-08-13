@@ -42,31 +42,6 @@
   margin-bottom: 10px;
 }
 
-.menu {
-  width: 260px;
-  margin-top: 20px;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  font-size: 12px;
-  font-family: $typo2;
-  font-weight: 200;
-}
-.menu__item {
-  text-transform: uppercase;
-  margin-left: 5px;
-  margin-right: 5px;
-}
-.menu__item:hover,
-.game__lang--en:hover,
-.game__lang--es:hover {
-  color: #fff;
-  text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px $color4, 0 0 82px $color4, 0 0 92px $color4,
-    0 0 102px $color4, 0 0 151px $color4;
-  transform: scale(1.1);
-  transition: all 0.1s ease-in-out;
-}
-
 .bold {
   font-weight: bolder;
 }
@@ -86,10 +61,6 @@
   .game__description {
     margin-top: 30px;
     font-size: 16px;
-  }
-  .menu {
-    width: 480px;
-    font-size: 14px;
   }
 }
 

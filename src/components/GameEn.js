@@ -28,69 +28,15 @@ const GameEn = (props) => {
 
         <section className="game__description">
           <p className="game__description--p">
-            Rocky is not a regular dog.It is a very special dog. It is a Bulldog with a beautiful face, like a cuddly
-            teddy bear. The perfect dog that everyone would want to live with.
-          </p>
-          <p className="game__description--p">
-            <span className="bold">Rocky</span> seems completely real, however it is not flesh and blood, he is a
-            <span className="bold">3d modelled dog</span>, the work of the great artist{' '}
-            <span className="bold">Luis Yrisarry Labadía</span>.
-          </p>
-          <p className="game__description--p">
-            Luis is a 3d Artist and Art Director specialized in Characters and Digital Sculpture, with such an
-            incredible talent.
-          </p>
-          <p className="game__description--p">
-            Thank you Luis for lend me Rocky as protagonist of this great adventure!
+            <span className="bold">Lorem</span> ipsum dolor sit amet, consectetur adipisicing elit. Adipisci quibusdam
+            nam voluptates numquam quaerat distinctio molestiae accusantium facilis corrupti omnis blanditiis sapiente,
+            laudantium quod impedit sit tempora harum beatae aspernatur? Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Sint pariatur, possimus, eligendi dolorum, iure explicabo repellat ratione beatae ipsam
+            maiores fugiat sequi architecto adipisci cumque temporibus perspiciatis repudiandae illo aperiam. Lorem
+            ipsum dolor sit amet consectetur adipisicing elit. Debitis est illo deleniti ab quas incidunt ea quia
+            sapiente officiis nisi fugit obcaecati, aspernatur velit accusamus quidem id sequi. Libero, laborum.
           </p>
         </section>
-
-        <ul className="menu">
-          <li className="menu__item">
-            <a
-              className="menu__item--icon"
-              href="http://bilfrok.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-              title="bilfrok.com"
-            >
-              Luis Yrisarry
-            </a>
-          </li>
-          <li className="menu__item">
-            <a
-              className="menu__item--icon"
-              href="https://www.artstation.com/bilfrok"
-              target="_blank"
-              rel="noopener noreferrer"
-              title="artstation"
-            >
-              <i className="fa fa-artstation" aria-hidden="true"></i>
-            </a>
-          </li>
-          <li className="menu__item">
-            <a
-              className="menu__item--icon"
-              href="https://www.behance.net/Bilfrok"
-              target="_blank"
-              rel="noopener noreferrer"
-              title="behance"
-            >
-              <i className="fab fa-behance" alt="behance icon"></i>
-            </a>
-          </li>
-          <li className="menu__item">
-            <a
-              className="menu__item--icon"
-              href="https://www.linkedin.com/in/bilfrok/"
-              target="_blank"
-              rel="noopener noreferrer"
-              title="linkedin"
-            >
-              <i className="fa fa-linkedin" alt="linkedin icon"></i>
-            </a>
-          </li>
-        </ul>
       </main>
       <Footer />
     </>
