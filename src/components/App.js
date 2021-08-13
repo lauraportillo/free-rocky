@@ -6,7 +6,7 @@ import { Route, Switch } from 'react-router-dom';
 import Home from './Home';
 import GameEn from './GameEn';
 import RockyEn from './RockyEn';
-import Author from './Author';
+import AuthorEn from './AuthorEn';
 import Clue01 from './Clue01';
 import Clue02 from './Clue02';
 import Clue03 from './Clue03';
@@ -55,8 +55,8 @@ const App = () => {
           <RockyEn />
         </Route>
 
-        <Route exact path="/author">
-          <Author />
+        <Route exact path="/authorEn">
+          <AuthorEn />
         </Route>
 
         <Route exact path="/clue01">

@@ -20,7 +20,7 @@ const Header = (props) => {
         </li>
         <li className="headerNav__menu--item">|</li>
         <li className="headerNav__menu--item">
-          <Link to="/author">Author</Link>
+          <Link to="/authorEn">Author</Link>
         </li>
       </ul>
     </nav>
