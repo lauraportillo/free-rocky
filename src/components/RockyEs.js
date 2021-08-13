@@ -28,20 +28,20 @@ const RockyEs = (props) => {
 
         <section className="rocky__description">
           <p className="rocky__description--p">
-            EN ESPAÑOL Rocky is not a regular dog.It is a very special dog. It is a Bulldog with a beautiful face, like
-            a cuddly teddy bear. The perfect dog that everyone would want to live with.
+            Rocky no es un perro normal. Es un perro muy especial. Es un Bulldog con una carita entrañable y achuchable.
+            El perro perfecto con el que todo el mundo querría vivir.
           </p>
           <p className="rocky__description--p">
-            <span className="bold">Rocky</span> seems completely real, however it is not flesh and blood, he is a
-            <span className="bold">3d modelled dog</span>, the work of the great artist
-            <span className="bold">Luis Yrisarry Labadía</span>.
+            <span className="bold">Rocky</span> parece completamente real, sin embargo no es de carne y hueso, es un
+            <span className="bold"> perro modelado en 3d</span>, obra del genial artista
+            <span className="bold"> Luis Yrisarry Labadía</span>.
           </p>
           <p className="rocky__description--p">
-            Luis is a 3d Artist and Art Director specialized in Characters and Digital Sculpture, with such an
-            incredible talent.
+            Luis es Artista 3D y Director de Arte especializado en personajes y escultura digital, con un enorme
+            talento.
           </p>
           <p className="rocky__description--p">
-            Thank you Luis for lend me Rocky as protagonist of this great adventure!
+            Gracias Luis por cederme a Rocky como protagonista de esta gran aventura!
           </p>
         </section>
 
