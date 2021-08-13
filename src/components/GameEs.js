@@ -5,7 +5,7 @@ import Header from './Header';
 import Footer from './Footer';
 // Styles
 import '../stylesheets/Game.scss';
-const GameEn = (props) => {
+const GameEs = (props) => {
   return (
     <>
       <Header />
@@ -38,4 +38,4 @@ const GameEn = (props) => {
   );
 };
 
-export default GameEn;
+export default GameEs;

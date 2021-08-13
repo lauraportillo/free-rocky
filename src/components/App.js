@@ -9,6 +9,7 @@ import GameEs from './GameEs';
 import RockyEn from './RockyEn';
 import RockyEs from './RockyEs';
 import AuthorEn from './AuthorEn';
+import AuthorEs from './AuthorEs';
 import Clue01 from './Clue01';
 import Clue02 from './Clue02';
 import Clue03 from './Clue03';
@@ -67,6 +68,10 @@ const App = () => {
 
         <Route exact path="/authorEn">
           <AuthorEn />
+        </Route>
+
+        <Route exact path="/authorEs">
+          <AuthorEs />
         </Route>
 
         <Route exact path="/clue01">
