@@ -17,20 +17,6 @@
   text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px $color4, 0 0 82px $color4, 0 0 92px $color4,
     0 0 102px $color4, 0 0 151px $color4;
 }
-
-.rocky__lang {
-  width: 260px;
-  display: flex;
-  text-transform: uppercase;
-  font-size: 12px;
-  font-family: $typo1;
-  margin-top: 10px;
-}
-.rocky__lang--item {
-  margin-left: 5px;
-  margin-right: 5px;
-}
-
 .rocky__description {
   margin-top: 30px;
   font-size: 14px;
@@ -57,9 +43,7 @@
   margin-left: 5px;
   margin-right: 5px;
 }
-.menu__item:hover,
-.rocky__lang--en:hover,
-.rocky__lang--es:hover {
+.menu__item:hover {
   color: #fff;
   text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px $color4, 0 0 82px $color4, 0 0 92px $color4,
     0 0 102px $color4, 0 0 151px $color4;
@@ -78,10 +62,6 @@
   }
   .rocky__title {
     font-size: 50px;
-  }
-  .rocky__lang {
-    width: 480px;
-    font-size: 16px;
   }
   .rocky__description {
     margin-top: 30px;

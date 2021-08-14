@@ -18,19 +18,6 @@
     0 0 102px $color4, 0 0 151px $color4;
 }
 
-.game__lang {
-  width: 260px;
-  display: flex;
-  text-transform: uppercase;
-  font-size: 12px;
-  font-family: $typo1;
-  margin-top: 10px;
-}
-.game__lang--item {
-  margin-left: 5px;
-  margin-right: 5px;
-}
-
 .game__description {
   margin-top: 30px;
   font-size: 14px;
@@ -53,10 +40,6 @@
   }
   .game__title {
     font-size: 50px;
-  }
-  .game__lang {
-    width: 480px;
-    font-size: 16px;
   }
   .game__description {
     margin-top: 30px;

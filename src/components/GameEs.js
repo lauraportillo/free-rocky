@@ -12,19 +12,7 @@ const GameEs = (props) => {
       <main className="game">
         <h1 className="game__title">the game</h1>
 
-        <ul className="game__lang">
-          <li className="game__lang--en">
-            <Link to="/gameEn" title="english">
-              En
-            </Link>
-          </li>
-          <li className="game__lang--item">|</li>
-          <li className="game__lang--es">
-            <Link to="/gameEs" title="español">
-              Es
-            </Link>
-          </li>
-        </ul>
+        {/* aqui van los idiomas */}
 
         <section className="game__description">
           <p className="game__description--p">
