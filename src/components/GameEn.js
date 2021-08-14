@@ -28,7 +28,7 @@ const GameEn = (props) => {
 
         <section className="game__description">
           <p className="game__description--p">
-            In 2020 a global pandemic paralyzed the entire world. Since then, Rocky's owners, out of fear that it will
+            In 2020 a global pandemic paralyzed the entire world. Since then, Rocky's owners, out of fear that he will
             catch the virus, locked him in an abandoned house whose door is opened with a secret password.
           </p>
           <p className="game__description--p">Once a day, they bring him food and water.</p>
