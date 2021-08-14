@@ -1,7 +1,6 @@
-// React
-import { Link } from 'react-router-dom';
 // Components
 import Header from './Header';
+import Languages from './Languages';
 import Footer from './Footer';
 // Styles
 import '../stylesheets/Rocky.scss';
@@ -12,7 +11,7 @@ const RockyEs = (props) => {
       <main className="rocky">
         <h1 className="rocky__title">rocky dog</h1>
 
-        {/* aqui van los idiomas */}
+        <Languages />
 
         <section className="rocky__description">
           <p className="rocky__description--p">
