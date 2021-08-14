@@ -28,7 +28,7 @@ const GameEs = (props) => {
 
         <section className="game__description">
           <p className="game__description--p">
-            <span className="bold"> SSH CAMBIOS xxxxxxxxxx</span>
+            <span className="bold"> </span>
             En el año 2020, una pandemia mundial paralizó todo el planeta. Desde entonces, los dueños de Rocky, por
             miedo a que se contagiara, le han encerrado en una casa abandonada cuya puerta se abre con una clave
             secreta. Una vez al día, le traen comida y agua. Rocky es un perro divertido y dicharachero al que le
