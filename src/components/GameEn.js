@@ -5,13 +5,13 @@ import Footer from './Footer';
 // Styles
 import '../stylesheets/Game.scss';
 const GameEn = (props) => {
+  console.log(props);
   return (
     <>
       <Header />
       <main className="game">
         <h1 className="game__title">the game</h1>
-
-        <Languages languageEn={props.languages[0]} />
+        <Languages />
 
         <section className="game__description">
           <p className="game__description--p">

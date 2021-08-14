@@ -6,7 +6,7 @@ import '../stylesheets/Languages.scss';
 const Languages = (props) => {
   return (
     <ul className="lang">
-      <li className="lang__en">
+      {/* <li className="lang__en">
         <Link to={props.languageEn} title="english">
           En
         </Link>
@@ -16,7 +16,7 @@ const Languages = (props) => {
         <Link to={props.languageEs} title="español">
           Es
         </Link>
-      </li>
+      </li> */}
     </ul>
   );
 };
