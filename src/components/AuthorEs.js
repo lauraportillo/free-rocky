@@ -1,7 +1,6 @@
-// React
-import { Link } from 'react-router-dom';
 // Components
 import Header from './Header';
+import Languages from './Languages';
 import Footer from './Footer';
 // Styles
 import '../stylesheets/Author.scss';
@@ -12,7 +11,7 @@ const AuthorEs = (props) => {
       <main className="author">
         <h1 className="author__title">just me</h1>
 
-        {/* aqui van los idiomas */}
+        <Languages />
 
         <section className="author__description">
           <p className="author__description--p">
