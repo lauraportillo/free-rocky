@@ -28,11 +28,11 @@ const RockyEn = (props) => {
 
         <section className="rocky__description">
           <p className="rocky__description--p">
-            Rocky is not a regular dog.It is a very special dog. It is a Bulldog with a beautiful face, like a cuddly
+            Rocky is not a regular dog. He is a very special dog. He is a Bulldog with a beautiful face, like a cuddly
             teddy bear. The perfect dog that everyone would want to live with.
           </p>
           <p className="rocky__description--p">
-            <span className="bold">Rocky</span> seems completely real, however it is not flesh and blood, he is a
+            <span className="bold">Rocky</span> seems completely real, however he is not flesh and blood, he is a
             <span className="bold">3d modelled dog</span>, the work of the great artist
             <span className="bold">Luis Yrisarry Labadía</span>.
           </p>
