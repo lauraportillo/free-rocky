@@ -22,6 +22,7 @@ const App = () => {
   //state
   const [password] = useState(['primera', 'segunda', 'tercera']);
   const [route] = useState(['/clue02', '/clue03', '/clue04']);
+  const [languages] = useState(['/gameEn', '/gameEs', '/rockyEn', '/rockyEs', '/authorEn', '/authorEs']);
   const [clue01, setClue01] = useState('');
   const [clue02, setClue02] = useState('');
   const [clue03, setClue03] = useState('');
@@ -51,27 +52,27 @@ const App = () => {
         </Route>
 
         <Route exact path="/gameEn">
-          <GameEn />
+          <GameEn languages={languages} />
         </Route>
 
         <Route exact path="/gameEs">
-          <GameEs />
+          <GameEs languages={languages} />
         </Route>
 
         <Route exact path="/rockyEn">
-          <RockyEn />
+          <RockyEn languages={languages} />
         </Route>
 
         <Route exact path="/rockyEs">
-          <RockyEs />
+          <RockyEs languages={languages} />
         </Route>
 
         <Route exact path="/authorEn">
-          <AuthorEn />
+          <AuthorEn languages={languages} />
         </Route>
 
         <Route exact path="/authorEs">
-          <AuthorEs />
+          <AuthorEs languages={languages} />
         </Route>
 
         <Route exact path="/clue01">

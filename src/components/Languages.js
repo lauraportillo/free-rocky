@@ -7,13 +7,13 @@ const Languages = (props) => {
   return (
     <ul className="lang">
       <li className="lang__en">
-        <Link to="/gameEn" title="english">
+        <Link to={props.languageEn} title="english">
           En
         </Link>
       </li>
       <li className="lang__item">|</li>
       <li className="lang__es">
-        <Link to="/gameEs" title="español">
+        <Link to={props.languageEs} title="español">
           Es
         </Link>
       </li>
@@ -22,5 +22,3 @@ const Languages = (props) => {
 };
 
 export default Languages;
-
-// meter por props las direcciones de los links

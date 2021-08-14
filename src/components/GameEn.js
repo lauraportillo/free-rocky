@@ -11,7 +11,7 @@ const GameEn = (props) => {
       <main className="game">
         <h1 className="game__title">the game</h1>
 
-        <Languages />
+        <Languages languageEn={props.languages[0]} />
 
         <section className="game__description">
           <p className="game__description--p">
