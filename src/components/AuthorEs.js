@@ -12,19 +12,7 @@ const AuthorEs = (props) => {
       <main className="author">
         <h1 className="author__title">just me</h1>
 
-        <ul className="author__lang">
-          <li className="author__lang--en">
-            <Link to="/authorEn" title="english">
-              En
-            </Link>
-          </li>
-          <li className="author__lang--item">|</li>
-          <li className="author__lang--es">
-            <Link to="/authorEs" title="español">
-              Es
-            </Link>
-          </li>
-        </ul>
+        {/* aqui van los idiomas */}
 
         <section className="author__description">
           <p className="author__description--p">

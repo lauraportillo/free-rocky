@@ -12,19 +12,7 @@ const RockyEs = (props) => {
       <main className="rocky">
         <h1 className="rocky__title">rocky dog</h1>
 
-        <ul className="rocky__lang">
-          <li className="rocky__lang--en">
-            <Link to="/rockyEn" title="english">
-              En
-            </Link>
-          </li>
-          <li className="rocky__lang--item">|</li>
-          <li className="rocky__lang--es">
-            <Link to="/rockyEs" title="español">
-              Es
-            </Link>
-          </li>
-        </ul>
+        {/* aqui van los idiomas */}
 
         <section className="rocky__description">
           <p className="rocky__description--p">
