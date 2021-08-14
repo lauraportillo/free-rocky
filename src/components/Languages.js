@@ -22,3 +22,5 @@ const Languages = (props) => {
 };
 
 export default Languages;
+
+// meter por props las direcciones de los links

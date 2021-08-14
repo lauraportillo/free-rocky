@@ -2,6 +2,7 @@
 import { Link } from 'react-router-dom';
 // Components
 import Header from './Header';
+import Languages from './Languages';
 import Footer from './Footer';
 // Styles
 import '../stylesheets/Game.scss';
@@ -12,7 +13,7 @@ const GameEs = (props) => {
       <main className="game">
         <h1 className="game__title">the game</h1>
 
-        {/* aqui van los idiomas */}
+        <Languages />
 
         <section className="game__description">
           <p className="game__description--p">
