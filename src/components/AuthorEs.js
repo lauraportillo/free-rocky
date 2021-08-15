@@ -11,7 +11,7 @@ const AuthorEs = (props) => {
       <main className="author">
         <h1 className="author__title">just me</h1>
 
-        <Languages />
+        <Languages languageEn={props.languages[4]} languageEs={props.languages[5]} />
 
         <section className="author__description">
           <p className="author__description--p">
