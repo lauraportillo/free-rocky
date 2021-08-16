@@ -19,7 +19,6 @@ const Clue01 = (props) => {
     <>
       <ClueHeader />
       <main className="clue01">
-        {/* <h1 className="clue01__title">primera</h1> */}
         <Photo />
         <form onSubmit={handleForm} className="clue01__form">
           <div>

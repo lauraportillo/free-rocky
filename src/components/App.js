@@ -20,7 +20,7 @@ import '../stylesheets/Reset.scss';
 
 const App = () => {
   //state
-  const [password] = useState(['primera', 'segunda', 'tercera']);
+  const [password] = useState(['borobudur', 'segunda', 'tercera']);
   const [route] = useState(['/clue02', '/clue03', '/clue04']);
   const [languages] = useState(['/gameEn', '/gameEs', '/rockyEn', '/rockyEs', '/authorEn', '/authorEs']);
   const [clue01, setClue01] = useState('');
