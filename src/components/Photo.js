@@ -20,26 +20,28 @@ const Photo = (props) => {
   return (
     <>
       <section className="photo">
-        <div className="photo__row">
-          <div>
+        <div className="row">
+          <div className="row__c1">
             <img src={one} alt="piece of clue" onClick={handleClick} />
-            {props.showLetter ? 'holacaracola' : null}
+            <h3 className="row__c1--text">{props.showLetter ? '1' : null}</h3>
           </div>
           <div>
-            <img src={two} className="photo__row--piece" alt="piece of clue" />
+            <img src={two} className="row__c1--img" alt="piece of clue" />
           </div>
           <div>
             <img src={three} alt="piece of clue" />
           </div>
         </div>
-        <div className="photo__row">
+
+        <div>
           <img src={four} alt="piece of clue" />
-          <img src={five} className="photo__row--piece" alt="piece of clue" />
+          <img src={five} alt="piece of clue" />
           <img src={six} alt="piece of clue" />
         </div>
-        <div className="photo__row">
+
+        <div>
           <img src={seven} alt="piece of clue" />
-          <img src={eight} className="photo__row--piece" alt="piece of clue" />
+          <img src={eight} alt="piece of clue" />
           <img src={nine} alt="piece of clue" />
         </div>
       </section>
@@ -48,21 +50,3 @@ const Photo = (props) => {
 };
 
 export default Photo;
-
-// import React, { useState } from "react";
-
-// function App() {
-//   const [showText, setShowText] = useState(false);
-//   const onClick = () => setShowText(true);
-
-//   return (
-//     <div>
-//       <button onClick={onClick}>Click me</button>
-//       {showText ? <Text /> : null}
-//     </div>
-//   );
-// }
-
-// const Text = () => <div>You clicked the button!</div>;
-
-// export default App;

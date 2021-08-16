@@ -1,17 +1,15 @@
 @import 'Variables';
 
-// .prueba {
-//   font-size: 80px;
-//   color: $color1;
-// }
-
-.photo__row {
+.row {
   display: flex;
-  font-size: 80px;
+}
+
+.row__c1--text {
+  font-size: 40px;
   color: $color1;
 }
 
-.photo__row--piece {
+.row__c1--img {
   margin-left: 5px;
   margin-right: 5px;
 }
