@@ -5,7 +5,6 @@ import Footer from './Footer';
 // Styles
 import '../stylesheets/Game.scss';
 const GameEn = (props) => {
-  console.log(props);
   return (
     <>
       <Header />

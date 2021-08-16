@@ -8,7 +8,7 @@
 }
 
 .home__image {
-  background: url('../images/rocky-1-320.png') no-repeat;
+  background: url('../images/home/rocky-1-320.png') no-repeat;
   background-size: contain;
   background-position: center center;
   width: 320px;
@@ -48,7 +48,7 @@
 
 @media all and (min-width: 768px) {
   .home__image {
-    background: url('../images/rocky-1-500.png') no-repeat;
+    background: url('../images/home/rocky-1-500.png') no-repeat;
     width: 500px;
     height: 375px;
     margin-top: 100px;
