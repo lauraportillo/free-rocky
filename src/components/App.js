@@ -26,6 +26,7 @@ const App = () => {
   const [clue01, setClue01] = useState('');
   const [clue02, setClue02] = useState('');
   const [clue03, setClue03] = useState('');
+  const [showLetter, setShowLetter] = useState(false);
 
   //function definition that handles the changes in the inputs
   const handleInput = (inputKey, inputValue) => {
@@ -37,6 +38,8 @@ const App = () => {
       setClue03(inputValue);
     }
   };
+
+  const handleClick = () => setShowLetter(true);
 
   const handleReset = () => {
     setClue01('');
@@ -82,6 +85,8 @@ const App = () => {
             password={password}
             route={route}
             clue01={clue01}
+            showLetter={showLetter}
+            handleClick={handleClick}
           />
         </Route>
 

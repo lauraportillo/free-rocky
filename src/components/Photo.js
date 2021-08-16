@@ -13,13 +13,24 @@ import nine from '../images/01clue/mobile/nine.jpg';
 import '../stylesheets/Photo.scss';
 
 const Photo = (props) => {
+  const handleClick = (ev) => {
+    props.handleClick();
+  };
+
   return (
     <>
       <section className="photo">
         <div className="photo__row">
-          <img src={one} alt="piece of clue" />
-          <img src={two} className="photo__row--piece" alt="piece of clue" />
-          <img src={three} alt="piece of clue" />
+          <div>
+            <img src={one} alt="piece of clue" onClick={handleClick} />
+            {props.showLetter ? 'holacaracola' : null}
+          </div>
+          <div>
+            <img src={two} className="photo__row--piece" alt="piece of clue" />
+          </div>
+          <div>
+            <img src={three} alt="piece of clue" />
+          </div>
         </div>
         <div className="photo__row">
           <img src={four} alt="piece of clue" />
@@ -37,3 +48,21 @@ const Photo = (props) => {
 };
 
 export default Photo;
+
+// import React, { useState } from "react";
+
+// function App() {
+//   const [showText, setShowText] = useState(false);
+//   const onClick = () => setShowText(true);
+
+//   return (
+//     <div>
+//       <button onClick={onClick}>Click me</button>
+//       {showText ? <Text /> : null}
+//     </div>
+//   );
+// }
+
+// const Text = () => <div>You clicked the button!</div>;
+
+// export default App;
