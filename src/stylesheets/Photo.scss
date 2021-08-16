@@ -4,12 +4,18 @@
   display: flex;
 }
 
-.row__c1--text {
-  font-size: 40px;
-  color: $color1;
+.row__c1 {
+  position: relative;
 }
 
 .row__c1--img {
+}
+
+.row__c1--text1 {
+  font-size: 40px;
+  color: $color1;
+}
+.row__c2--piece {
   margin-left: 5px;
   margin-right: 5px;
 }
