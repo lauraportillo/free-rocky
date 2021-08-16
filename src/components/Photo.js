@@ -15,21 +15,23 @@ import '../stylesheets/Photo.scss';
 const Photo = (props) => {
   return (
     <>
-      <div>
-        <img src={one} alt="piece of clue" />
-        <img src={two} alt="piece of clue" />
-        <img src={three} alt="piece of clue" />
-      </div>
-      <div>
-        <img src={four} alt="piece of clue" />
-        <img src={five} alt="piece of clue" />
-        <img src={six} alt="piece of clue" />
-      </div>
-      <div>
-        <img src={seven} alt="piece of clue" />
-        <img src={eight} alt="piece of clue" />
-        <img src={nine} alt="piece of clue" />
-      </div>
+      <section className="photo">
+        <div className="photo__row">
+          <img src={one} alt="piece of clue" />
+          <img src={two} className="photo__row--piece" alt="piece of clue" />
+          <img src={three} alt="piece of clue" />
+        </div>
+        <div className="photo__row">
+          <img src={four} alt="piece of clue" />
+          <img src={five} className="photo__row--piece" alt="piece of clue" />
+          <img src={six} alt="piece of clue" />
+        </div>
+        <div className="photo__row">
+          <img src={seven} alt="piece of clue" />
+          <img src={eight} className="photo__row--piece" alt="piece of clue" />
+          <img src={nine} alt="piece of clue" />
+        </div>
+      </section>
     </>
   );
 };
