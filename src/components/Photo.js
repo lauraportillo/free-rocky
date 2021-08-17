@@ -19,7 +19,7 @@ const Photo = (props) => {
 
   return (
     <>
-      <section>
+      <section className="containerPhoto">
         <div className="row1">
           <div className="divPadre1">
             <img className="divHijo1" src={one} alt="piece of clue" onClick={handleClick} />
