@@ -19,7 +19,7 @@ const Photo = (props) => {
 
   return (
     <>
-      <section>
+      <section className="containerPhoto">
         <div className="row1">
           <div className="divPadre1">
             <img className="divHijo1" src={one} alt="piece of clue" onClick={handleClick} />
@@ -37,11 +37,28 @@ const Photo = (props) => {
           </div>
         </div>
 
-        <div>
+        <div className="row2">
+          <div className="divPadre1">
+            <img className="divHijo1" src={four} alt="piece of clue" onClick={handleClick} />
+            <h3 className="divHijo2">{props.showLetter ? '4' : null}</h3>
+          </div>
+
+          <div className="divPadre2">
+            <img className="divHijo1" src={five} alt="piece of clue" onClick={handleClick} />
+            <h3 className="divHijo2">{props.showLetter ? '5' : null}</h3>
+          </div>
+
+          <div className="divPadre3">
+            <img className="divHijo1" src={six} alt="piece of clue" onClick={handleClick} />
+            <h3 className="divHijo2">{props.showLetter ? '6' : null}</h3>
+          </div>
+        </div>
+
+        {/* <div>
           <img src={four} alt="piece of clue" />
           <img src={five} alt="piece of clue" />
           <img src={six} alt="piece of clue" />
-        </div>
+        </div> */}
 
         <div>
           <img src={seven} alt="piece of clue" />
