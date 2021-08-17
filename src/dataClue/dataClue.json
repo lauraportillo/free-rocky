@@ -1,0 +1,40 @@
+[
+    {
+      "id": 1,
+      "image":"./images/01clue/mobile/one.jpg"
+    },
+    {
+      "id": 2,
+      "image":"./images/01clue/mobile/two.jpg"
+    },
+    {
+      "id": 3,
+      "image":"./images/01clue/mobile/three.jpg"
+    },
+    {
+      "id": 4,
+      "image":"./images/01clue/mobile/four.jpg"
+    },
+    {
+      "id": 5,
+      "image":"./images/01clue/mobile/five.jpg"
+    },
+    {
+      "id": 6,
+      "image":"./images/01clue/mobile/six.jpg"
+    },
+    {
+      "id": 7,
+      "image":"./images/01clue/mobile/seven.jpg"
+    },
+    {
+      "id": 8,
+      "image":"./images/01clue/mobile/eight.jpg"
+    },
+    {
+      "id": 9,
+      "image":"./images/01clue/mobile/nine.jpg"
+    }
+      
+    ]
+  
