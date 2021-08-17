@@ -19,7 +19,12 @@ const Clue01 = (props) => {
     <>
       <ClueHeader />
       <main className="clue01">
-        <Photo showLetter={props.showLetter} handleClick={props.handleClick} password={props.password} />
+        <Photo
+          showLetter={props.showLetter}
+          handleClick={props.handleClick}
+          password={props.password}
+          photos={props.photos}
+        />
         <form onSubmit={handleForm} className="clue01__form">
           <div>
             <Input
