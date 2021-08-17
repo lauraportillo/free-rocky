@@ -17,7 +17,6 @@ const Photo = (props) => {
     props.handleClick();
   };
   let password01 = Array.from(props.password[0]);
-  console.log(password01);
 
   return (
     <>

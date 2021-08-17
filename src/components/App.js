@@ -39,7 +39,10 @@ const App = () => {
     }
   };
 
-  const handleClick = () => setShowLetter(true);
+  const handleClick = (ev) => {
+    // ev.currentTarget();
+    setShowLetter(true);
+  };
 
   const handleReset = () => {
     setClue01('');
