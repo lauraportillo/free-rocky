@@ -40,7 +40,6 @@ const App = () => {
   };
 
   const handleClick = (ev) => {
-    // ev.currentTarget();
     setShowLetter(true);
   };
 

@@ -14,7 +14,6 @@ import '../stylesheets/Photo.scss';
 
 const Photo = (props) => {
   const handleClick = (ev) => {
-    // ev.currentTarget();
     props.handleClick();
   };
   let password01 = Array.from(props.password[0]);
