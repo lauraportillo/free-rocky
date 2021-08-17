@@ -16,6 +16,8 @@ const Photo = (props) => {
   const handleClick = (ev) => {
     props.handleClick();
   };
+  let password01 = Array.from(props.password[0]);
+  console.log(password01);
 
   return (
     <>
@@ -23,51 +25,51 @@ const Photo = (props) => {
         <div className="row1">
           <div className="divPadre1">
             <img className="divHijo1" src={one} alt="piece of clue" onClick={handleClick} />
-            <h3 className="divHijo2">{props.showLetter ? '1' : null}</h3>
+            <h3 className="divHijo2">{props.showLetter ? password01[0] : null}</h3>
           </div>
 
           <div className="divPadre2">
             <img className="divHijo1" src={two} alt="piece of clue" onClick={handleClick} />
-            <h3 className="divHijo2">{props.showLetter ? '2' : null}</h3>
+            <h3 className="divHijo2">{props.showLetter ? password01[1] : null}</h3>
           </div>
 
           <div className="divPadre3">
             <img className="divHijo1" src={three} alt="piece of clue" onClick={handleClick} />
-            <h3 className="divHijo2">{props.showLetter ? '3' : null}</h3>
+            <h3 className="divHijo2">{props.showLetter ? password01[2] : null}</h3>
           </div>
         </div>
 
         <div className="row2">
           <div className="divPadre1">
             <img className="divHijo1" src={four} alt="piece of clue" onClick={handleClick} />
-            <h3 className="divHijo2">{props.showLetter ? '4' : null}</h3>
+            <h3 className="divHijo2">{props.showLetter ? password01[3] : null}</h3>
           </div>
 
           <div className="divPadre2">
             <img className="divHijo1" src={five} alt="piece of clue" onClick={handleClick} />
-            <h3 className="divHijo2">{props.showLetter ? '5' : null}</h3>
+            <h3 className="divHijo2">{props.showLetter ? password01[4] : null}</h3>
           </div>
 
           <div className="divPadre3">
             <img className="divHijo1" src={six} alt="piece of clue" onClick={handleClick} />
-            <h3 className="divHijo2">{props.showLetter ? '6' : null}</h3>
+            <h3 className="divHijo2">{props.showLetter ? password01[5] : null}</h3>
           </div>
         </div>
 
         <div className="row3">
           <div className="divPadre1">
             <img className="divHijo1" src={seven} alt="piece of clue" onClick={handleClick} />
-            <h3 className="divHijo2">{props.showLetter ? '7' : null}</h3>
+            <h3 className="divHijo2">{props.showLetter ? password01[6] : null}</h3>
           </div>
 
           <div className="divPadre2">
             <img className="divHijo1" src={eight} alt="piece of clue" onClick={handleClick} />
-            <h3 className="divHijo2">{props.showLetter ? '8' : null}</h3>
+            <h3 className="divHijo2">{props.showLetter ? password01[7] : null}</h3>
           </div>
 
           <div className="divPadre3">
             <img className="divHijo1" src={nine} alt="piece of clue" onClick={handleClick} />
-            <h3 className="divHijo2">{props.showLetter ? '9' : null}</h3>
+            <h3 className="divHijo2">{props.showLetter ? password01[8] : null}</h3>
           </div>
         </div>
       </section>

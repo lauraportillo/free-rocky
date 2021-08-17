@@ -28,9 +28,6 @@ const App = () => {
   const [clue03, setClue03] = useState('');
   const [showLetter, setShowLetter] = useState(false);
 
-  let password01 = Array.from(password[0]);
-  console.log(password01);
-
   //function definition that handles the changes in the inputs
   const handleInput = (inputKey, inputValue) => {
     if (inputKey === 'clue01') {
