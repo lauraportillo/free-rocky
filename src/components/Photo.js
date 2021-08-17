@@ -21,16 +21,19 @@ const Photo = (props) => {
     <>
       <section>
         <div className="row1">
-          <div>
-            <img src={one} alt="piece of clue" onClick={handleClick} />
-            <h3>{props.showLetter ? '1' : null}</h3>
+          <div className="divPadre1">
+            <img className="divHijo1" src={one} alt="piece of clue" onClick={handleClick} />
+            <h3 className="divHijo2">{props.showLetter ? '1' : null}</h3>
           </div>
-          <div>
-            <img src={two} alt="piece of clue" />
+
+          <div className="divPadre2">
+            <img className="divHijo1" src={two} alt="piece of clue" onClick={handleClick} />
+            <h3 className="divHijo2">{props.showLetter ? '2' : null}</h3>
           </div>
-          <div>
-            {' '}
-            <img src={three} alt="piece of clue" />
+
+          <div className="divPadre3">
+            <img className="divHijo1" src={three} alt="piece of clue" onClick={handleClick} />
+            <h3 className="divHijo2">{props.showLetter ? '3' : null}</h3>
           </div>
         </div>
 
