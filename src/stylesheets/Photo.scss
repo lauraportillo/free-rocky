@@ -8,22 +8,20 @@
 .row1 {
   display: flex;
 }
-.row2 {
-  display: flex;
-  margin-top: 46px;
-}
+.row2,
 .row3 {
   display: flex;
   margin-top: 46px;
 }
-.divPadre1 {
+
+.column1 {
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
   left: 36px;
 }
-.divPadre2 {
+.column2 {
   position: relative;
   display: flex;
   justify-content: center;
@@ -31,16 +29,15 @@
   left: 116px;
 }
 
-.divPadre3 {
+.column3 {
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
   left: 196px;
 }
-.divHijo1,
-.divHijo2,
-.divHijo3 {
+.column__img,
+.column__letter {
   position: absolute;
   color: $color1;
   font-size: 30px;
