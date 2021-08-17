@@ -19,17 +19,18 @@ const Photo = (props) => {
 
   return (
     <>
-      <section className="photo">
-        <div className="row">
-          <div className="row__c1">
-            <img src={one} alt="piece of clue" className="row__c1--img" onClick={handleClick} />
-            <h3 className="row__c1--text1">{props.showLetter ? '1' : null}</h3>
+      <section>
+        <div className="row1">
+          <div>
+            <img src={one} alt="piece of clue" onClick={handleClick} />
+            <h3>{props.showLetter ? '1' : null}</h3>
           </div>
-          <div className="row__c2">
-            <img src={two} alt="piece of clue" className="row__c2--img row__c2--piece" />
+          <div>
+            <img src={two} alt="piece of clue" />
           </div>
-          <div className="row__c3">
-            <img src={three} alt="piece of clue" className="row__c3--img" />
+          <div>
+            {' '}
+            <img src={three} alt="piece of clue" />
           </div>
         </div>
 
