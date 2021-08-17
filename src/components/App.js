@@ -1,7 +1,8 @@
 // React
 import React, { useState } from 'react';
 import { Route, Switch } from 'react-router-dom';
-
+// Data
+import dataClue from '../dataClue/dataClue.json';
 // Components
 import Home from './Home';
 import GameEn from './GameEn';
@@ -13,13 +14,13 @@ import AuthorEs from './AuthorEs';
 import Clue01 from './Clue01';
 import Clue02 from './Clue02';
 import Clue03 from './Clue03';
-
 // Styles
 import '../stylesheets/App.scss';
 import '../stylesheets/Reset.scss';
 
 const App = () => {
   //state
+  const [photos] = useState(dataClue);
   const [password] = useState(['borobudur', 'segunda', 'tercera']);
   const [route] = useState(['/clue02', '/clue03', '/clue04']);
   const [languages] = useState(['/gameEn', '/gameEs', '/rockyEn', '/rockyEs', '/authorEn', '/authorEs']);
@@ -87,6 +88,7 @@ const App = () => {
             password={password}
             route={route}
             clue01={clue01}
+            photos={photos}
             showLetter={showLetter}
             handleClick={handleClick}
           />
