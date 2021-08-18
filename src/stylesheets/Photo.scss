@@ -1,41 +1,12 @@
 @import 'Variables';
 
-.containerPhoto {
-  margin-right: 230px;
-  margin-bottom: 10px;
-}
-
-.row1 {
-  display: flex;
-}
-.row2,
-.row3 {
-  display: flex;
-  margin-top: 46px;
-}
-
-.column1 {
+.photoPiece {
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
-  left: 36px;
-}
-.column2 {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  left: 116px;
 }
 
-.column3 {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  left: 196px;
-}
 .column__img,
 .column__letter {
   position: absolute;
