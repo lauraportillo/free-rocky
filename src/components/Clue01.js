@@ -21,7 +21,7 @@ const Clue01 = (props) => {
       <main className="clue01">
         <Photo
           showLetter={props.showLetter}
-          handleClick={props.handleClick}
+          handlePhoto={props.handlePhoto}
           password={props.password}
           photos={props.photos}
         />

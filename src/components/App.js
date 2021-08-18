@@ -40,7 +40,10 @@ const App = () => {
     }
   };
 
-  const handleClick = (ev) => {
+  const handlePhoto = (clickedId) => {
+    const photoSelected = photos.find((photo) => {
+      return photo.id === clickedId;
+    });
     setShowLetter(true);
   };
 
@@ -90,7 +93,7 @@ const App = () => {
             clue01={clue01}
             photos={photos}
             showLetter={showLetter}
-            handleClick={handleClick}
+            handlePhoto={handlePhoto}
           />
         </Route>
 

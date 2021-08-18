@@ -3,13 +3,15 @@ import '../stylesheets/Photo.scss';
 
 const Photo = (props) => {
   const handleClick = (ev) => {
-    // props.handleClick(props.photo.id);
-    props.handleClick();
+    props.handlePhoto(photoId);
+    // props.handleClick();
   };
+  console.log(handleClick);
 
   const password01 = Array.from(props.password[0]);
 
-  // const photo = props.photos.map();
+  const photoId = props.photos.map((photo) => photo.id);
+  console.log(photoId);
 
   return (
     <>
