@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 // Components
 import ClueHeader from './ClueHeader';
 import Input from './Input';
-import Photo from './Photo';
+import PhotoList from './PhotoList';
 import NextButton from './NextButton';
 import ResetButton from './ResetButton';
 import Footer from './Footer';
@@ -19,7 +19,7 @@ const Clue01 = (props) => {
     <>
       <ClueHeader />
       <main className="clue01">
-        <Photo
+        <PhotoList
           showLetter={props.showLetter}
           handlePhoto={props.handlePhoto}
           password={props.password}
