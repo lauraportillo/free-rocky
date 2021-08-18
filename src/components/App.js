@@ -40,10 +40,7 @@ const App = () => {
     }
   };
 
-  const handlePhoto = (clickedId) => {
-    const photoSelected = photos.find((photo) => {
-      return photo.id === clickedId;
-    });
+  const handlePhoto = () => {
     setShowLetter(true);
   };
 

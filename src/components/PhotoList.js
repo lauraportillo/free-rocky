@@ -4,9 +4,17 @@ import Photo from './Photo';
 import '../stylesheets/PhotoList.scss';
 
 const PhotoList = (props) => {
+  const renderPhoto = props.photos.map((photo) => {
+    return (
+      <li key={photo.id.toString()}>
+        <Photo photo={photo} handlePhoto={props.handlePhoto} />
+      </li>
+    );
+  });
+
   return (
     <>
-      <div></div>
+      <ul className="photoList">{renderPhoto}</ul>
     </>
   );
 };
