@@ -41,7 +41,8 @@ const App = () => {
   };
 
   const handlePhoto = () => {
-    setShowLetter(true);
+    setShowLetter(!showLetter);
+    // setShowLetter(true);
   };
 
   const handleReset = () => {
