@@ -4,6 +4,11 @@ import Languages from './Languages';
 import Footer from './Footer';
 // Styles
 import '../stylesheets/Author.scss';
+
+// NOTAS
+// separar en parrafos y resaltar palabras importantes en negrita
+// hacer un link con la dirección del repo
+
 const AuthorEn = (props) => {
   return (
     <>
