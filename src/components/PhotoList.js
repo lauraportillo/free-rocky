@@ -7,7 +7,7 @@ const PhotoList = (props) => {
   const renderPhoto = props.photos.map((photo) => {
     return (
       <li key={photo.id.toString()}>
-        <Photo photo={photo} showLetter={props.showLetter} password={props.password} />
+        <Photo photo={photo} password={props.password} />
       </li>
     );
   });

@@ -7,10 +7,6 @@ const Photo = (props) => {
   //state
   const [showLetter, setShowLetter] = useState(false);
 
-  // const handleClick = (ev) => {
-  //   props.handlePhoto(props.photo.id);
-  // };
-
   const handleClick = () => {
     setShowLetter(true);
   };
