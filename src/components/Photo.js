@@ -1,5 +1,5 @@
 // React
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 // Styles
 import '../stylesheets/Photo.scss';
 
@@ -9,6 +9,9 @@ const Photo = (props) => {
 
   const handleClick = () => {
     setShowLetter(true);
+    setTimeout(() => {
+      setShowLetter(false);
+    }, 3000);
   };
 
   return (
