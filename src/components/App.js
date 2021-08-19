@@ -27,7 +27,6 @@ const App = () => {
   const [clue01, setClue01] = useState('');
   const [clue02, setClue02] = useState('');
   const [clue03, setClue03] = useState('');
-  const [showLetter, setShowLetter] = useState(false);
 
   //function definition that handles the changes in the inputs
   const handleInput = (inputKey, inputValue) => {
@@ -38,11 +37,6 @@ const App = () => {
     } else if (inputKey === 'clue03') {
       setClue03(inputValue);
     }
-  };
-
-  const handlePhoto = () => {
-    setShowLetter(!showLetter);
-    // setShowLetter(true);
   };
 
   const handleReset = () => {
@@ -90,8 +84,6 @@ const App = () => {
             route={route}
             clue01={clue01}
             photos={photos}
-            showLetter={showLetter}
-            handlePhoto={handlePhoto}
           />
         </Route>
 
