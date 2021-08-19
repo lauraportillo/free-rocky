@@ -15,13 +15,7 @@ const AuthorEn = (props) => {
 
         <section className="author__description">
           <p className="author__description--p">
-            <span className="bold">Lorem</span> ipsum dolor sit amet, consectetur adipisicing elit. Adipisci quibusdam
-            nam voluptates numquam quaerat distinctio molestiae accusantium facilis corrupti omnis blanditiis sapiente,
-            laudantium quod impedit sit tempora harum beatae aspernatur? Lorem ipsum dolor sit amet consectetur
-            adipisicing elit. Sint pariatur, possimus, eligendi dolorum, iure explicabo repellat ratione beatae ipsam
-            maiores fugiat sequi architecto adipisci cumque temporibus perspiciatis repudiandae illo aperiam. Lorem
-            ipsum dolor sit amet consectetur adipisicing elit. Debitis est illo deleniti ab quas incidunt ea quia
-            sapiente officiis nisi fugit obcaecati, aspernatur velit accusamus quidem id sequi. Libero, laborum.
+            <span className="bold">English:</span> English text
           </p>
         </section>
       </main>

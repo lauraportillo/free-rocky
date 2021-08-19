@@ -15,7 +15,7 @@ const AuthorEs = (props) => {
 
         <section className="author__description">
           <p className="author__description--p">
-            <span className="bold">Lorem</span> TEXTO EN CASTELLANO
+            <span className="bold">Castellano:</span> Texto en castellano
           </p>
         </section>
       </main>
