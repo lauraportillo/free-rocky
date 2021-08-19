@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "./static/css/main.51a6ed05.chunk.css",
+    "main.js": "./static/js/main.b5b9f570.chunk.js",
+    "main.js.map": "./static/js/main.b5b9f570.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.723da133.js",
+    "runtime-main.js.map": "./static/js/runtime-main.723da133.js.map",
+    "static/js/2.b495e5e0.chunk.js": "./static/js/2.b495e5e0.chunk.js",
+    "static/js/2.b495e5e0.chunk.js.map": "./static/js/2.b495e5e0.chunk.js.map",
+    "index.html": "./index.html",
+    "static/css/main.51a6ed05.chunk.css.map": "./static/css/main.51a6ed05.chunk.css.map",
+    "static/js/2.b495e5e0.chunk.js.LICENSE.txt": "./static/js/2.b495e5e0.chunk.js.LICENSE.txt",
+    "static/media/button-white.f928d6cd.png": "./static/media/button-white.f928d6cd.png",
+    "static/media/Home.scss": "./static/media/rocky-1-500.c447fc2e.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.723da133.js",
+    "static/js/2.b495e5e0.chunk.js",
+    "static/css/main.51a6ed05.chunk.css",
+    "static/js/main.b5b9f570.chunk.js"
+  ]
+}
