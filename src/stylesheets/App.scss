@@ -1,14 +1,12 @@
 @import 'Variables';
+@import 'Mixins';
 
 .container {
   background-color: $color1;
 }
 
 .containerBody {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  @include flexColumn();
 }
 
 @media all and (min-width: 768px) {
