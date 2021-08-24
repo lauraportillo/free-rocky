@@ -1,14 +1,12 @@
 @import 'Variables';
+@import 'Mixins';
 
 .clue01 {
   color: $color1;
   background-color: $color2;
   width: 300px;
   height: 400px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  @include flexColumn();
 }
 
 .clue01__title {
@@ -16,16 +14,11 @@
 }
 .clue01__form {
   margin-top: 30px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  @include flexColumn();
 }
 
 .clue01Nav__menu {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @include flex();
   margin-top: 20px;
   margin-bottom: 20px;
   color: $color1;
