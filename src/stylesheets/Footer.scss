@@ -1,10 +1,9 @@
 @import 'Variables';
+@import 'Mixins';
 
 .footer {
+  @include flex();
   margin-top: 40px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   font-size: 12px;
   font-family: $typo2;
   font-weight: 200;

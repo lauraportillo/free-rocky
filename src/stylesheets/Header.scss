@@ -1,9 +1,8 @@
 @import 'Variables';
+@import 'Mixins';
 
 .headerNav__menu {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @include flex();
   margin-top: 20px;
   margin-bottom: 20px;
 }
