@@ -12,8 +12,7 @@
   font-family: $typoNeon;
   font-size: 30px;
   color: #fff;
-  text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px $color4, 0 0 82px $color4, 0 0 92px $color4,
-    0 0 102px $color4, 0 0 151px $color4;
+  @include blueNeon();
 }
 .rocky__description {
   margin-top: 30px;
@@ -43,8 +42,7 @@
 }
 .menu__item:hover {
   color: #fff;
-  text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px $color4, 0 0 82px $color4, 0 0 92px $color4,
-    0 0 102px $color4, 0 0 151px $color4;
+  @include blueNeon();
   transform: scale(1.1);
   transition: all 0.1s ease-in-out;
 }
