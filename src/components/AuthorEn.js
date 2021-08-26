@@ -31,7 +31,7 @@ const AuthorEn = (props) => {
             Git and made many branches to test functionalities before merging with the master branch.
           </p>
 
-          <p className="author__description--p">
+          <p className="author__description--p link">
             <a
               href="https://github.com/lauraportillo/free-rocky"
               target="_blank"

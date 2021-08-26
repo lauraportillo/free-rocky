@@ -25,6 +25,10 @@
   margin-bottom: 10px;
 }
 
+.link:hover {
+  @include blueNeon();
+}
+
 .bold {
   font-weight: bolder;
 }

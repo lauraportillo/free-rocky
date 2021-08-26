@@ -16,7 +16,6 @@
 
 .lang__en:hover,
 .lang__es:hover {
-  color: #fff;
   @include blueNeon();
   transform: scale(1.1);
   transition: all 0.1s ease-in-out;
