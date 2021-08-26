@@ -31,7 +31,16 @@ const AuthorEn = (props) => {
             Git and made many branches to test functionalities before merging with the master branch.
           </p>
 
-          <p className="author__description--p">GitHub repository here: https://github.com/lauraportillo/free-rocky</p>
+          <p className="author__description--p">
+            <a
+              href="https://github.com/lauraportillo/free-rocky"
+              target="_blank"
+              rel="noopener noreferrer"
+              title="github repo"
+            >
+              👉 Click here to visit GitHub repository
+            </a>
+          </p>
 
           <p className="author__description--p">Suggestions or comments for Free Rocky are always welcome!</p>
           <p className="author__description--p">
