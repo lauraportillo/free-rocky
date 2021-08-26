@@ -19,7 +19,7 @@ const AuthorEn = (props) => {
         <Languages languageEn={props.languages[4]} languageEs={props.languages[5]} />
 
         <section className="author__description">
-          <p className="author__description--p">Hi there! </p>
+          <p className="author__description--p">Hi there!</p>
           <p className="author__description--p">
             My name is Laura and I am a junior <span className="bold">Front-end Developer</span>. I am developing an
             Escape room to continue practicing and improving my skills as a developer.
