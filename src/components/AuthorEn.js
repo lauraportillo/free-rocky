@@ -24,11 +24,16 @@ const AuthorEn = (props) => {
             My name is Laura and I am a junior <span className="bold">Front-end Developer</span>. I am developing an
             Escape room to continue practicing and improving my skills as a developer.
           </p>
+
+          <p className="author__description--p">Code world is exciting 🚀🚀🚀🚀</p>
+
           <p className="author__description--p">
-            The game is made with React.js, a JavaScript programming language library that I love and with which I would
-            like to continue working in my next steps as a developer. Code world is exciting 🚀🚀🚀🚀 I have also used
-            the Sass preprocessor for styles, using variables, nesting, mixins ... reducing lines of code. I have used
-            Git and made many branches to test functionalities before merging with the master branch.
+            The game is made with <span className="bold">React.js</span>, a <span className="bold">JavaScript</span>{' '}
+            programming language library that <span className="bold">I love</span> and with which I would like to
+            continue working in my next steps as a developer. I have also used the <span className="bold">Sass</span>{' '}
+            preprocessor for styles, using variables, nesting, mixins ... reducing lines of code. I have used{' '}
+            <span className="bold">Git</span> and made many branches to test functionalities before merging with the
+            master.
           </p>
 
           <p className="author__description--p link">
@@ -42,7 +47,9 @@ const AuthorEn = (props) => {
             </a>
           </p>
 
-          <p className="author__description--p">Suggestions or comments for Free Rocky are always welcome!</p>
+          <p className="author__description--p">
+            Suggestions or comments for <span className="bold">Free Rocky</span> are always welcome!
+          </p>
           <p className="author__description--p">
             If you liked it, share it with your friends and more people will know Rocky story.
           </p>
