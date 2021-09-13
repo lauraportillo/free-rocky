@@ -1,9 +1,14 @@
 @import 'Variables';
 @import 'Mixins';
 
+.containerClue {
+  background-color: $color2;
+  width: 100%;
+  @include flex();
+}
+
 .clue01 {
   color: $color1;
-  background-color: $color2;
   width: 300px;
   height: 400px;
   @include flexColumn();
