@@ -10,7 +10,7 @@ import icon from '../images/home/button-white.png';
 
 const Home = (props) => {
   return (
-    <>
+    <div className="containerHome">
       <Header />
       <main className="home">
         <div className="home__image"></div>
@@ -22,7 +22,7 @@ const Home = (props) => {
         </button>
       </main>
       <Footer />
-    </>
+    </div>
   );
 };
 

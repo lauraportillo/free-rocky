@@ -1,19 +1,6 @@
 @import 'Variables';
 @import 'Mixins';
 
-//REVISAR SI NECESITO DISPLAY GRID
-
-.container {
-  background-color: $color1;
-  min-height: 100vh;
-  display: grid;
-  grid-template-rows: auto 1fr auto;
-}
-
-.containerBody {
-  @include flexColumn();
-}
-
 @media all and (min-width: 768px) {
 }
 
