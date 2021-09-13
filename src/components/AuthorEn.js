@@ -5,10 +5,6 @@ import Footer from './Footer';
 // Styles
 import '../stylesheets/Author.scss';
 
-// NOTAS
-// separar en parrafos y resaltar palabras importantes en negrita
-// hacer un link con la dirección del repo
-
 const AuthorEn = (props) => {
   return (
     <>
@@ -22,7 +18,7 @@ const AuthorEn = (props) => {
           <p className="author__description--p">Hi there!</p>
           <p className="author__description--p">
             My name is Laura and I am a junior <span className="bold">Front-end Developer</span>. I am developing an
-            Escape room to continue practicing and improving my skills as a developer.
+            Escape Room to continue practicing and improving my skills as a developer.
           </p>
 
           <p className="author__description--p">Code world is exciting 🚀🚀🚀🚀</p>
