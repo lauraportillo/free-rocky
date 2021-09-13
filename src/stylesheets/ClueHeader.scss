@@ -1,6 +1,16 @@
 @import 'Variables';
 @import 'Mixins';
 
+.clueHeaderContainer {
+  @include flex();
+  background-color: $color1;
+}
+
+.clueHeader {
+  @include flexColumn();
+  height: 120px;
+}
+
 .clueHeader__title {
   font-family: $typoNeon;
   font-size: 30px;
