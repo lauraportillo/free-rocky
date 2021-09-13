@@ -3,7 +3,7 @@
 
 .footer {
   @include flex();
-  margin-top: 40px;
+  margin-bottom: 20px;
   font-size: 12px;
   font-family: $typo2;
   font-weight: 200;
@@ -20,6 +20,10 @@
   @include redNeon();
   transform: scale(1.1);
   transition: all 0.1s ease-in-out;
+}
+
+.black {
+  color: $color1;
 }
 
 @media all and (min-width: 768px) {

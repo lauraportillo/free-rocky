@@ -1,5 +1,5 @@
 // Styles
-import '../stylesheets/FooterBlack.scss';
+import '../stylesheets/Footer.scss';
 
 const FooterBlack = (props) => {
   return (
