@@ -3,17 +3,26 @@
 
 .clueHeaderContainer {
   @include flex();
-  background-color: $color1;
 }
 
 .clueHeader {
   @include flexColumn();
-  height: 120px;
+  margin-top: 30px;
 }
 
 .clueHeader__title {
   font-family: $typoNeon;
   font-size: 30px;
-  color: #fff;
-  @include redNeon();
+  color: $color1;
+}
+
+.clueHeader__time {
+  @include flexColumn();
+}
+
+.clueHeader__time--title,
+.clueHeader__time--timer {
+  font-family: $typoNeon;
+  font-size: 15px;
+  color: $color1;
 }
