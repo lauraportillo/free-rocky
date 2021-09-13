@@ -6,7 +6,7 @@ import Input from './Input';
 import PhotoList from './PhotoList';
 import NextButton from './NextButton';
 import ResetButton from './ResetButton';
-import Footer from './Footer';
+import FooterBlack from './FooterBlack';
 // Styles
 import '../stylesheets/Clue01.scss';
 
@@ -52,7 +52,7 @@ const Clue01 = (props) => {
           </ul>
         </nav>
       </main>
-      <Footer />
+      <FooterBlack />
     </div>
   );
 };

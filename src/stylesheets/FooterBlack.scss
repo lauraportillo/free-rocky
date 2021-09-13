@@ -1,0 +1,40 @@
+@import 'Variables';
+@import 'Mixins';
+
+.footer {
+  @include flex();
+  margin-top: 40px;
+  font-size: 12px;
+  font-family: $typo2;
+  font-weight: 200;
+}
+.footer__item {
+  text-transform: uppercase;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.footer__item:hover,
+.game__lang--en:hover,
+.game__lang--es:hover {
+  color: #fff;
+  @include redNeon();
+  transform: scale(1.1);
+  transition: all 0.1s ease-in-out;
+}
+
+.black {
+  color: $color1;
+}
+
+@media all and (min-width: 768px) {
+  .footer {
+    font-size: 14px;
+    margin-top: 180px;
+  }
+}
+
+@media all and (min-width: 1280px) {
+  .footer {
+    margin-top: 300px;
+  }
+}
