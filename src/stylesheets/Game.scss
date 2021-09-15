@@ -10,7 +10,6 @@
 .containerMainGame {
   @include flexColumn();
 }
-
 .game {
   @include flexColumn();
   margin: 30px;
