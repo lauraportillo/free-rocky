@@ -18,7 +18,7 @@ const Clue01 = (props) => {
   return (
     <div className="containerClue01">
       <ClueHeader />
-      <main className="containerMain">
+      <main className="containerMainClue01">
         <div className="clue01">
           <PhotoList password={props.password} photos={props.photos} />
           <form onSubmit={handleForm} className="clue01__form">

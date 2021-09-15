@@ -8,7 +8,7 @@ const GameEn = (props) => {
   return (
     <div className="containerGame">
       <Header />
-      <main className="containerMain">
+      <main className="containerMainGame">
         <div className="game">
           <h1 className="game__title">the game</h1>
           <Languages languageEn={props.languages[0]} languageEs={props.languages[1]} />
