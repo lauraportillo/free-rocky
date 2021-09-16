@@ -1,6 +1,16 @@
 @import 'Variables';
 @import 'Mixins';
 
+.containerAuthor {
+  background-color: $color1;
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+.containerMainAuthor {
+  @include flexColumn();
+}
+
 .author {
   @include flexColumn();
   margin: 30px;
