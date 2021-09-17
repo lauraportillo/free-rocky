@@ -3,8 +3,19 @@
 .next {
   color: $color1;
   margin-top: 20px;
+  font-size: 12px;
+  padding-right: 5px;
+  padding-left: 5px;
 }
 
 .hidden {
   display: none;
+}
+@media all and (min-width: 768px) {
+  .next {
+    font-size: 14px;
+  }
+}
+
+@media all and (min-width: 1280px) {
 }

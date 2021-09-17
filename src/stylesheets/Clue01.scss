@@ -26,6 +26,11 @@
   @include flexColumn();
 }
 
+.clue01__form--input {
+  font-size: 14px;
+  margin-right: 3px;
+}
+
 .clue01Nav__menu {
   @include flex();
   margin-top: 20px;
@@ -41,9 +46,13 @@
   color: $color1;
 }
 @media all and (min-width: 768px) {
-  // .clue01 {
-  //   transform: scale(2);
-  // }
+  .clue01__form--input {
+    font-size: 16px;
+    margin-right: 5px;
+  }
+  .clue01Nav__menu--item {
+    font-size: 12px;
+  }
 }
 
 @media all and (min-width: 1280px) {
