@@ -28,13 +28,14 @@
 
 @media all and (min-width: 768px) {
   .footer {
-    font-size: 14px;
-    margin-top: 180px;
+    font-size: 16px;
+    margin-bottom: 30px;
+  }
+  .footer__item {
+    margin-left: 8px;
+    margin-right: 8px;
   }
 }
 
 @media all and (min-width: 1280px) {
-  .footer {
-    margin-top: 300px;
-  }
 }
