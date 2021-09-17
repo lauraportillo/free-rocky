@@ -26,3 +26,21 @@
   font-size: 15px;
   color: $color1;
 }
+
+@media all and (min-width: 768px) {
+  .clueHeader {
+    margin-top: 40px;
+  }
+  .clueHeader__title {
+    font-size: 50px;
+  }
+
+  .clueHeader__time--title,
+  .clueHeader__time--timer {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+}
+
+@media all and (min-width: 1280px) {
+}
