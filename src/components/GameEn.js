@@ -1,6 +1,5 @@
 // Components
 import Header from './Header';
-import Languages from './Languages';
 import Footer from './Footer';
 // Styles
 import '../stylesheets/Game.scss';
@@ -11,7 +10,6 @@ const GameEn = (props) => {
       <main className="containerMainGame">
         <div className="game">
           <h1 className="game__title">the game</h1>
-          <Languages languageEn={props.languages[0]} languageEs={props.languages[1]} />
 
           <section className="game__description">
             <p className="game__description--p">
