@@ -23,6 +23,7 @@ const App = () => {
   const [photos] = useState(dataClue);
   const [password] = useState(['borobudur', 'segunda', 'tercera']);
   const [route] = useState(['/clue02', '/clue03', '/clue04']);
+  // ya no sé si necesitaria guardar los idiomas en el estado ESTUDIAR
   const [languages] = useState(['/gameEn', '/gameEs', '/rockyEn', '/rockyEs', '/authorEn', '/authorEs']);
   const [clue01, setClue01] = useState('');
   const [clue02, setClue02] = useState('');
@@ -49,7 +50,7 @@ const App = () => {
     <div className="containerBody">
       <Switch>
         <Route exact path="/">
-          <Home />
+          <Home languages={languages} />
         </Route>
 
         <Route exact path="/gameEn">
