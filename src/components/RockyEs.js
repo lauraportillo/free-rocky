@@ -1,6 +1,5 @@
 // Components
 import Header from './Header';
-import Languages from './Languages';
 import Footer from './Footer';
 // Styles
 import '../stylesheets/Rocky.scss';
@@ -11,8 +10,6 @@ const RockyEs = (props) => {
       <main className="containerMainRocky">
         <div className="rocky">
           <h1 className="rocky__title">rocky dog</h1>
-
-          <Languages languageEn={props.languages[2]} languageEs={props.languages[3]} />
 
           <section className="rocky__description">
             <p className="rocky__description--p">
