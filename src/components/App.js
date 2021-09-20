@@ -54,27 +54,27 @@ const App = () => {
         </Route>
 
         <Route exact path="/gameEn">
-          <GameEn languages={languages} />
+          <GameEn />
         </Route>
 
         <Route exact path="/gameEs">
-          <GameEs languages={languages} />
+          <GameEs />
         </Route>
 
         <Route exact path="/rockyEn">
-          <RockyEn languages={languages} />
+          <RockyEn />
         </Route>
 
         <Route exact path="/rockyEs">
-          <RockyEs languages={languages} />
+          <RockyEs />
         </Route>
 
         <Route exact path="/authorEn">
-          <AuthorEn languages={languages} />
+          <AuthorEn />
         </Route>
 
         <Route exact path="/authorEs">
-          <AuthorEs languages={languages} />
+          <AuthorEs />
         </Route>
 
         <Route exact path="/clue01">
