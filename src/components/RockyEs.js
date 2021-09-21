@@ -1,15 +1,15 @@
 // Components
-import HeaderEn from './HeaderEn';
+import HeaderEs from './HeaderEs';
 import Footer from './Footer';
 // Styles
 import '../stylesheets/Rocky.scss';
 const RockyEs = (props) => {
   return (
     <div className="containerRocky">
-      <HeaderEn />
+      <HeaderEs />
       <main className="containerMainRocky">
         <div className="rocky">
-          <h1 className="rocky__title">rocky dog</h1>
+          <h1 className="rocky__title">rocky el perro</h1>
 
           <section className="rocky__description">
             <p className="rocky__description--p">
