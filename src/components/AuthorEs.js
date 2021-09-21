@@ -1,5 +1,5 @@
 // Components
-import Header from './Header';
+import HeaderEn from './HeaderEn';
 import Footer from './Footer';
 // Styles
 import '../stylesheets/Author.scss';
@@ -7,7 +7,7 @@ import '../stylesheets/Author.scss';
 const AuthorEs = (props) => {
   return (
     <div className="containerAuthor">
-      <Header />
+      <HeaderEn />
       <main className="containerMainAuthor">
         <div className="author">
           <h1 className="author__title">just me</h1>

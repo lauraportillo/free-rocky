@@ -1,9 +1,9 @@
 // React
 import { Link } from 'react-router-dom';
 // Styles
-import '../stylesheets/Header.scss';
+import '../stylesheets/HeaderEn.scss';
 
-const Header = (props) => {
+const HeaderEn = (props) => {
   return (
     <nav className="headerNav">
       <ul className="headerNav__menu">
@@ -27,4 +27,4 @@ const Header = (props) => {
   );
 };
 
-export default Header;
+export default HeaderEn;

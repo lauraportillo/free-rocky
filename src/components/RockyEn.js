@@ -1,12 +1,12 @@
 // Components
-import Header from './Header';
+import HeaderEn from './HeaderEn';
 import Footer from './Footer';
 // Styles
 import '../stylesheets/Rocky.scss';
 const RockyEn = (props) => {
   return (
     <div className="containerRocky">
-      <Header />
+      <HeaderEn />
       <main className="containerMainRocky">
         <div className="rocky">
           <h1 className="rocky__title">rocky dog</h1>

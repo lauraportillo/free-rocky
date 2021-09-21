@@ -1,7 +1,7 @@
 // React
 import { Link } from 'react-router-dom';
 // Components
-import Header from './Header';
+import HeaderEn from './HeaderEn';
 import Languages from './Languages';
 import Footer from './Footer';
 // Styles
@@ -12,7 +12,7 @@ import icon from '../images/home/button-white.png';
 const Home = (props) => {
   return (
     <div className="containerHome">
-      <Header />
+      <HeaderEn />
       <main className="home">
         <div className="home__image"></div>
         <h1 className="home__title">free rocky!</h1>

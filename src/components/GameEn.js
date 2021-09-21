@@ -1,12 +1,12 @@
 // Components
-import Header from './Header';
+import HeaderEn from './HeaderEn';
 import Footer from './Footer';
 // Styles
 import '../stylesheets/Game.scss';
 const GameEn = (props) => {
   return (
     <div className="containerGame">
-      <Header />
+      <HeaderEn />
       <main className="containerMainGame">
         <div className="game">
           <h1 className="game__title">the game</h1>
