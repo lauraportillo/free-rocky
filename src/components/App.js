@@ -5,6 +5,7 @@ import { Route, Switch } from 'react-router-dom';
 import dataClue from '../dataClue/dataClue.json';
 // Components
 import HomeEn from './HomeEn';
+import HomeEs from './HomeEs';
 import GameEn from './GameEn';
 import GameEs from './GameEs';
 import RockyEn from './RockyEn';
@@ -51,6 +52,9 @@ const App = () => {
       <Switch>
         <Route exact path="/">
           <HomeEn languages={languages} />
+        </Route>
+        <Route exact path="/homeEs">
+          <HomeEs languages={languages} />
         </Route>
 
         <Route exact path="/gameEn">
