@@ -4,7 +4,7 @@ import { Route, Switch } from 'react-router-dom';
 // Data
 import dataClue from '../dataClue/dataClue.json';
 // Components
-import Home from './Home';
+import HomeEn from './HomeEn';
 import GameEn from './GameEn';
 import GameEs from './GameEs';
 import RockyEn from './RockyEn';
@@ -50,7 +50,7 @@ const App = () => {
     <div className="containerBody">
       <Switch>
         <Route exact path="/">
-          <Home languages={languages} />
+          <HomeEn languages={languages} />
         </Route>
 
         <Route exact path="/gameEn">

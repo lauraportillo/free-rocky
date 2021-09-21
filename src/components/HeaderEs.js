@@ -12,15 +12,15 @@ const HeaderEn = (props) => {
         </li>
         <li className="headerNav__menu--item">|</li>
         <li className="headerNav__menu--item">
-          <Link to="/gameEn">The game</Link>
+          <Link to="/gameEs">El juego</Link>
+        </li>
+        e<li className="headerNav__menu--item">|</li>
+        <li className="headerNav__menu--item">
+          <Link to="/rockyEs">Rocky</Link>
         </li>
         <li className="headerNav__menu--item">|</li>
         <li className="headerNav__menu--item">
-          <Link to="/rockyEn">Rocky</Link>
-        </li>
-        <li className="headerNav__menu--item">|</li>
-        <li className="headerNav__menu--item">
-          <Link to="/authorEn">Author</Link>
+          <Link to="/authorEs">Autor</Link>
         </li>
       </ul>
     </nav>

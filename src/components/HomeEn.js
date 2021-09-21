@@ -9,7 +9,7 @@ import '../stylesheets/Home.scss';
 // Images
 import icon from '../images/home/button-white.png';
 
-const Home = (props) => {
+const HomeEn = (props) => {
   return (
     <div className="containerHome">
       <HeaderEn />
@@ -28,4 +28,4 @@ const Home = (props) => {
   );
 };
 
-export default Home;
+export default HomeEn;
