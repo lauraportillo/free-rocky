@@ -7,13 +7,13 @@ const Languages = (props) => {
   return (
     <ul className="lang">
       <li className="lang__en">
-        <Link to={props.languageEn} title="english">
+        <Link to="/" title="english">
           En
         </Link>
       </li>
       <li className="lang__item">|</li>
       <li className="lang__es">
-        <Link to={props.languageEs} title="español">
+        <Link to="/homeEs" title="español">
           Es
         </Link>
       </li>

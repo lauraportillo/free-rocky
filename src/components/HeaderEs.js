@@ -8,13 +8,13 @@ const HeaderEn = (props) => {
     <nav className="headerNav">
       <ul className="headerNav__menu">
         <li className="headerNav__menu--item">
-          <Link to="/">Home</Link>
+          <Link to="/homeEs">Home</Link>
         </li>
         <li className="headerNav__menu--item">|</li>
         <li className="headerNav__menu--item">
           <Link to="/gameEs">El juego</Link>
         </li>
-        e<li className="headerNav__menu--item">|</li>
+        <li className="headerNav__menu--item">|</li>
         <li className="headerNav__menu--item">
           <Link to="/rockyEs">Rocky</Link>
         </li>

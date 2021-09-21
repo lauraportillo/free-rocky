@@ -16,7 +16,7 @@ const HomeEn = (props) => {
       <main className="home">
         <div className="home__image"></div>
         <h1 className="home__title">free rocky!</h1>
-        <Languages languageEn={props.languages[0]} languageEs={props.languages[1]} />
+        <Languages />
         <button className="home__btn">
           <Link to="/clue01">
             <img className="home__btn--img" src={icon} alt="start button" />
