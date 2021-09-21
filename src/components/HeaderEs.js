@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 // Styles
 import '../stylesheets/Header.scss';
 
-const HeaderEn = (props) => {
+const HeaderEn = () => {
   return (
     <nav className="headerNav">
       <ul className="headerNav__menu">

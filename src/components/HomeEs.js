@@ -9,7 +9,7 @@ import '../stylesheets/Home.scss';
 // Images
 import icon from '../images/home/button-white.png';
 
-const HomeEs = (props) => {
+const HomeEs = () => {
   return (
     <div className="containerHome">
       <HeaderEs />

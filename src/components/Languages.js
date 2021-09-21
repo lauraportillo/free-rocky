@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 // Styles
 import '../stylesheets/Languages.scss';
 
-const Languages = (props) => {
+const Languages = () => {
   return (
     <ul className="lang">
       <li className="lang__en">
