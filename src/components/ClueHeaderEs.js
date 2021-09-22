@@ -1,6 +1,6 @@
 import '../stylesheets/ClueHeader.scss';
 
-const ClueHeader = (props) => {
+const ClueHeaderEs = (props) => {
   return (
     <>
       <header className="clueHeaderContainer">
@@ -16,4 +16,4 @@ const ClueHeader = (props) => {
   );
 };
 
-export default ClueHeader;
+export default ClueHeaderEs;

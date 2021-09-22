@@ -1,7 +1,7 @@
 // React
 import { Link } from 'react-router-dom';
 // Components
-import ClueHeader from './ClueHeader';
+import ClueHeaderEn from './ClueHeaderEn';
 import Input from './Input';
 import PhotoList from './PhotoList';
 import NextButton from './NextButton';
@@ -17,7 +17,7 @@ const Clue01 = (props) => {
 
   return (
     <div className="containerClue01">
-      <ClueHeader />
+      <ClueHeaderEn />
       <main className="containerMainClue01">
         <div className="clue01">
           <PhotoList password={props.password} photos={props.photos} />

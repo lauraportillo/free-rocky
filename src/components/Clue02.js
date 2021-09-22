@@ -1,7 +1,7 @@
 // React
 import { Link } from 'react-router-dom';
 // Components
-import ClueHeader from './ClueHeader';
+import ClueHeaderEn from './ClueHeaderEn';
 import Input from './Input';
 import NextButton from './NextButton';
 import ResetButton from './ResetButton';
@@ -16,7 +16,7 @@ const Clue02 = (props) => {
 
   return (
     <>
-      <ClueHeader />
+      <ClueHeaderEn />
       <main className="clue02">
         <h1 className="clue02__title">segunda</h1>
         <form onSubmit={handleForm} className="clue02__form">
