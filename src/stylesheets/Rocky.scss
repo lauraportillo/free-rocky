@@ -23,6 +23,15 @@
   color: #fff;
   @include blueNeon();
 }
+
+.rocky__image {
+  background: url('../images/rocky/rocky-wire-1-320.png') no-repeat;
+  background-size: contain;
+  background-position: center center;
+  width: 320px;
+  height: 240px;
+}
+
 .rocky__description {
   margin-top: 30px;
   font-size: 14px;

@@ -11,6 +11,8 @@ const RockyEn = (props) => {
         <div className="rocky">
           <h1 className="rocky__title">rocky dog</h1>
 
+          <div className="rocky__image"></div>
+
           <section className="rocky__description">
             <p className="rocky__description--p">
               Rocky is not a regular dog. He is a very special dog. He is a Bulldog with a beautiful face, like a cuddly
