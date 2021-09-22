@@ -76,6 +76,7 @@ const RockyEs = (props) => {
               </a>
             </li>
           </ul>
+          <div className="rocky__image"></div>
         </div>
       </main>
       <Footer />
