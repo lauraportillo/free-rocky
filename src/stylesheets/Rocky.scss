@@ -23,15 +23,6 @@
   color: #fff;
   @include blueNeon();
 }
-
-.rocky__image {
-  background: url('../images/rocky/rocky-wire-1-320.png') no-repeat;
-  background-size: contain;
-  background-position: center center;
-  width: 320px;
-  height: 240px;
-}
-
 .rocky__description {
   margin-top: 30px;
   font-size: 14px;
@@ -69,6 +60,14 @@
   font-weight: bolder;
 }
 
+.rocky__image {
+  background: url('../images/rocky/rocky-wire-1-320.png') no-repeat;
+  background-size: contain;
+  background-position: center center;
+  width: 320px;
+  height: 240px;
+}
+
 @media all and (min-width: 768px) {
   .rocky {
     width: 480px;
@@ -88,6 +87,13 @@
   .menu {
     width: 480px;
     font-size: 14px;
+  }
+  .rocky__image {
+    background: url('../images/rocky/rocky-wire-1-500.png') no-repeat;
+    background-size: contain;
+    background-position: center center;
+    width: 500px;
+    height: 375px;
   }
 }
 
