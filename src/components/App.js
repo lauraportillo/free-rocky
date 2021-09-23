@@ -13,6 +13,7 @@ import RockyEs from './RockyEs';
 import AuthorEn from './AuthorEn';
 import AuthorEs from './AuthorEs';
 import Clue01En from './Clue01En';
+import Clue01Es from './Clue01Es';
 import Clue02 from './Clue02';
 import Clue03 from './Clue03';
 // Styles
@@ -81,6 +82,17 @@ const App = () => {
 
         <Route exact path="/clue01En">
           <Clue01En
+            handleInput={handleInput}
+            handleReset={handleReset}
+            password={password}
+            route={route}
+            clue01={clue01}
+            photos={photos}
+          />
+        </Route>
+
+        <Route exact path="/clue01Es">
+          <Clue01Es
             handleInput={handleInput}
             handleReset={handleReset}
             password={password}

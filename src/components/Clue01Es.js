@@ -1,7 +1,7 @@
 // React
 import { Link } from 'react-router-dom';
 // Components
-import ClueHeaderEn from './ClueHeaderEn';
+import ClueHeaderEs from './ClueHeaderEs';
 import Input from './Input';
 import PhotoList from './PhotoList';
 import NextButton from './NextButton';
@@ -10,14 +10,14 @@ import FooterBlack from './FooterBlack';
 // Styles
 import '../stylesheets/Clue01.scss';
 
-const Clue01 = (props) => {
+const Clue01Es = (props) => {
   const handleForm = (ev) => {
     ev.preventDefault();
   };
 
   return (
     <div className="containerClue01">
-      <ClueHeaderEn />
+      <ClueHeaderEs />
       <main className="containerMainClue01">
         <div className="clue01">
           <PhotoList password={props.password} photos={props.photos} />
@@ -59,4 +59,4 @@ const Clue01 = (props) => {
   );
 };
 
-export default Clue01;
+export default Clue01Es;
