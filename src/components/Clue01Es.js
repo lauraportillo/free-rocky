@@ -5,7 +5,7 @@ import ClueHeaderEs from './ClueHeaderEs';
 import Input from './Input';
 import PhotoList from './PhotoList';
 import NextButtonEs from './NextButtonEs';
-import ResetButton from './ResetButton';
+import ResetButtonEs from './ResetButtonEs';
 import FooterBlack from './FooterBlack';
 // Styles
 import '../stylesheets/Clue01.scss';
@@ -33,7 +33,7 @@ const Clue01Es = (props) => {
                 placeholder="enter the clue..."
                 value={props.clue01}
               />
-              <ResetButton handleReset={props.handleReset} />
+              <ResetButtonEs handleReset={props.handleReset} />
             </div>
             <NextButtonEs
               handleInput={props.handleInput}

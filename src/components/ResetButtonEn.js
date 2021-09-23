@@ -1,7 +1,7 @@
 // Styles
 import '../stylesheets/ResetButton.scss';
 
-const ResetButton = (props) => {
+const ResetButtonEn = (props) => {
   const handleReset = () => {
     props.handleReset();
   };
@@ -15,4 +15,4 @@ const ResetButton = (props) => {
   );
 };
 
-export default ResetButton;
+export default ResetButtonEn;

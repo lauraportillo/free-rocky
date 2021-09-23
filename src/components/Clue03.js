@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import ClueHeaderEn from './ClueHeaderEn';
 import Input from './Input';
 import NextButtonEn from './NextButtonEn';
-import ResetButton from './ResetButton';
+import ResetButtonEn from './ResetButtonEn';
 import Footer from './Footer';
 // Styles
 import '../stylesheets/Clue03.scss';
@@ -31,7 +31,7 @@ const Clue03 = (props) => {
               placeholder="enter the clue..."
               value={props.clue03}
             />
-            <ResetButton handleReset={props.handleReset} />
+            <ResetButtonEn handleReset={props.handleReset} />
           </div>
 
           <NextButtonEn
