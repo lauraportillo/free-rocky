@@ -46,8 +46,8 @@ const Clue01Es = (props) => {
           <nav className="clue01Nav">
             <ul className="clue01Nav__menu">
               <li>
-                <Link to="/" className="clue01Nav__menu--item">
-                  Home
+                <Link to="/homeEs" className="clue01Nav__menu--item">
+                  Inicio
                 </Link>
               </li>
             </ul>

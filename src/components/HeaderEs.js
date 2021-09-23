@@ -8,7 +8,7 @@ const HeaderEn = () => {
     <nav className="headerNav">
       <ul className="headerNav__menu">
         <li className="headerNav__menu--item">
-          <Link to="/homeEs">Home</Link>
+          <Link to="/homeEs">Inicio</Link>
         </li>
         <li className="headerNav__menu--item">|</li>
         <li className="headerNav__menu--item">
