@@ -12,7 +12,7 @@ import RockyEn from './RockyEn';
 import RockyEs from './RockyEs';
 import AuthorEn from './AuthorEn';
 import AuthorEs from './AuthorEs';
-import Clue01 from './Clue01';
+import Clue01En from './Clue01En';
 import Clue02 from './Clue02';
 import Clue03 from './Clue03';
 // Styles
@@ -79,8 +79,8 @@ const App = () => {
           <AuthorEs />
         </Route>
 
-        <Route exact path="/clue01">
-          <Clue01
+        <Route exact path="/clue01En">
+          <Clue01En
             handleInput={handleInput}
             handleReset={handleReset}
             password={password}
