@@ -19,12 +19,17 @@
 }
 
 .clue01__text {
+  width: 240px;
+  margin-top: 10px;
+}
+
+.clue01__text--para {
   color: $color1;
   font-family: $typo2;
   margin-top: 10px;
   font-size: 14px;
-  width: 240px;
 }
+
 .clue01__form {
   margin-top: 30px;
   @include flexColumn();
