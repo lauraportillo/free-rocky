@@ -3,7 +3,7 @@ import { useHistory } from 'react-router-dom';
 // Styles
 import '../stylesheets/NextButton.scss';
 
-const NextButton = (props) => {
+const NextButtonEs = (props) => {
   const history = useHistory();
 
   const renderMessage = () => {
@@ -35,7 +35,7 @@ const NextButton = (props) => {
         onClick={() => history.push(props.route)}
         className="next"
       >
-        Next
+        Siguiente
       </button>
 
       <div>{renderMessage()}</div>
@@ -43,4 +43,4 @@ const NextButton = (props) => {
   );
 };
 
-export default NextButton;
+export default NextButtonEs;

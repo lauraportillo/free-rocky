@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 // Components
 import ClueHeaderEn from './ClueHeaderEn';
 import Input from './Input';
-import NextButton from './NextButton';
+import NextButtonEn from './NextButtonEn';
 import ResetButton from './ResetButton';
 import Footer from './Footer';
 // Styles
@@ -34,7 +34,7 @@ const Clue02 = (props) => {
             <ResetButton handleReset={props.handleReset} />
           </div>
 
-          <NextButton
+          <NextButtonEn
             handleInput={props.handleInput}
             input={props.clue02}
             password={props.password[1]}
