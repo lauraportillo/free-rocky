@@ -18,8 +18,12 @@
   height: 400px;
 }
 
-.clue01__title {
+.clue01__text {
   color: $color1;
+  font-family: $typo2;
+  margin-top: 10px;
+  font-size: 14px;
+  width: 240px;
 }
 .clue01__form {
   margin-top: 30px;
