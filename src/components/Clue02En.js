@@ -9,7 +9,7 @@ import FooterBlack from './FooterBlack';
 // Styles
 import '../stylesheets/Clue02.scss';
 
-const Clue02 = (props) => {
+const Clue02En = (props) => {
   const handleForm = (ev) => {
     ev.preventDefault();
   };
@@ -68,4 +68,4 @@ const Clue02 = (props) => {
   );
 };
 
-export default Clue02;
+export default Clue02En;
