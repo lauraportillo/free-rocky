@@ -30,7 +30,7 @@ const Clue01Es = (props) => {
                 type="text"
                 name="clue01"
                 id="clue01"
-                placeholder="enter the clue..."
+                placeholder="introduce la clave..."
                 value={props.clue01}
               />
               <ResetButtonEs handleReset={props.handleReset} />
