@@ -24,13 +24,13 @@ const Clue01Es = (props) => {
           <div className="clue01__text">
             <h2 className="clue01__title">1 El templo</h2>
             <p className="clue01__text--para">
-              This image was taken by Rocky's owners on the first big trip they made together.
+              Esta imagen, fue tomada por los dueños de Rocky en el primer gran viaje que hizo con ellos.
             </p>
             <p className="clue01__text--para">
-              They went to a very exotic country where there was a mysterious temple that they loved.
+              Visitaron un país muy exótico donde había un templo misterioso que les encantó.
             </p>
             <p className="clue01__text--para">
-              Find in the images the letters that will lead you to discover the name of the temple.
+              Encuentra en las imágenes las letras que te llevarán a descubrir el nombre de dicho templo.
             </p>
           </div>
           <form onSubmit={handleForm} className="clue01__form">
