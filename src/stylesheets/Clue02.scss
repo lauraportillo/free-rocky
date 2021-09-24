@@ -1,16 +1,39 @@
 @import 'Variables';
 @import 'Mixins';
 
-.clue02 {
-  color: $color1;
+.containerClue02 {
   background-color: $color2;
-  width: 300px;
-  height: 400px;
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+.containerMainClue02 {
   @include flexColumn();
 }
 
+.clue02 {
+  @include flexColumn();
+  color: $color1;
+  width: 300px;
+  height: 400px;
+  margin-top: 50px;
+}
 .clue02__title {
   color: $color1;
+  font-family: $typo2;
+  font-size: 14px;
+  margin-top: 10px;
+}
+.clue02__text {
+  width: 240px;
+  margin-top: 10px;
+}
+
+.clue02__text--para {
+  color: $color1;
+  font-family: $typo2;
+  margin-top: 10px;
+  font-size: 14px;
 }
 .clue02__form {
   margin-top: 30px;
