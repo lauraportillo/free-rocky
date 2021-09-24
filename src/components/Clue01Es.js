@@ -51,7 +51,7 @@ const Clue01Es = (props) => {
               handleInput={props.handleInput}
               input={props.clue01}
               password={props.password[0]}
-              route={props.route[0]}
+              route={props.route[1]}
             />
           </form>
 

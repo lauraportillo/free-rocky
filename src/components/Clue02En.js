@@ -42,7 +42,7 @@ const Clue02En = (props) => {
               handleInput={props.handleInput}
               input={props.clue02}
               password={props.password[1]}
-              route={props.route[1]}
+              route={props.route[2]}
             />
           </form>
 
