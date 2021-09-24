@@ -21,6 +21,18 @@ const Clue01Es = (props) => {
       <main className="containerMainClue01">
         <div className="clue01">
           <PhotoList password={props.password} photos={props.photos} />
+          <div className="clue01__text">
+            <h2 className="clue01__title">1 El templo</h2>
+            <p className="clue01__text--para">
+              This image was taken by Rocky's owners on the first big trip they made together.
+            </p>
+            <p className="clue01__text--para">
+              They went to a very exotic country where there was a mysterious temple that they loved.
+            </p>
+            <p className="clue01__text--para">
+              Find in the images the letters that will lead you to discover the name of the temple.
+            </p>
+          </div>
           <form onSubmit={handleForm} className="clue01__form">
             <div>
               <Input
