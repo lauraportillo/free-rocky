@@ -16,7 +16,8 @@ import Clue01En from './Clue01En';
 import Clue01Es from './Clue01Es';
 import Clue02En from './Clue02En';
 import Clue02Es from './Clue02Es';
-import Clue03 from './Clue03';
+import Clue03En from './Clue03En';
+import Clue03Es from './Clue03Es';
 // Styles
 import '../stylesheets/App.scss';
 import '../stylesheets/Reset.scss';
@@ -123,7 +124,7 @@ const App = () => {
         </Route>
 
         <Route exact path="/clue03En">
-          <Clue03
+          <Clue03En
             handleInput={handleInput}
             handleReset={handleReset}
             password={password}
@@ -133,7 +134,7 @@ const App = () => {
         </Route>
 
         <Route exact path="/clue03Es">
-          <Clue03
+          <Clue03Es
             handleInput={handleInput}
             handleReset={handleReset}
             password={password}

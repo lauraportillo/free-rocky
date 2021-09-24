@@ -9,7 +9,7 @@ import FooterBlack from './FooterBlack';
 // Styles
 import '../stylesheets/Clue03.scss';
 
-const Clue03 = (props) => {
+const Clue03Es = (props) => {
   const handleForm = (ev) => {
     ev.preventDefault();
   };
@@ -42,7 +42,7 @@ const Clue03 = (props) => {
               handleInput={props.handleInput}
               input={props.clue03}
               password={props.password[2]}
-              route={props.route[2]}
+              route={props.route[5]}
             />
           </form>
 
@@ -68,4 +68,4 @@ const Clue03 = (props) => {
   );
 };
 
-export default Clue03;
+export default Clue03Es;
