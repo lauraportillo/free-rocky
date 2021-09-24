@@ -22,6 +22,7 @@ const Clue01En = (props) => {
         <div className="clue01">
           <PhotoList password={props.password} photos={props.photos} />
           <div className="clue01__text">
+            <h2 className="clue01__title">1 The temple</h2>
             <p className="clue01__text--para">
               This image was taken by Rocky's owners on the first big trip they made together.
             </p>

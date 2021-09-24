@@ -18,6 +18,12 @@
   height: 400px;
   margin-top: 50px;
 }
+.clue01__title {
+  color: $color1;
+  font-family: $typo2;
+  font-size: 14px;
+  margin-top: 10px;
+}
 
 .clue01__text {
   width: 240px;
@@ -43,7 +49,7 @@
 
 .clue01Nav__menu {
   @include flex();
-  margin-top: 20px;
+  margin-top: 10px;
   margin-bottom: 20px;
   color: $color1;
 }
