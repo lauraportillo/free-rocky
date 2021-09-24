@@ -21,6 +21,7 @@ const Clue02 = (props) => {
         <div className="clue02">
           <div className="clue02__text">
             <h2 className="clue02__title">2 Segunda Pista</h2>
+            <p className="clue02__text--para">Paragraph with instructions</p>
           </div>
           <form onSubmit={handleForm} className="clue02__form">
             <div>
@@ -54,7 +55,7 @@ const Clue02 = (props) => {
               </li>
               <li className="clue02Nav__menu--item">|</li>
               <li>
-                <Link to="/clue01" className="clue02Nav__menu--item">
+                <Link to="/clue01En" className="clue02Nav__menu--item">
                   Go back
                 </Link>
               </li>
