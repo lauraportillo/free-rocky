@@ -1,2 +1,9 @@
 @import 'Variables';
 @import 'Mixins';
+
+.instructions__text--para {
+  color: $color1;
+  font-family: $typo2;
+  margin-top: 10px;
+  font-size: 14px;
+}

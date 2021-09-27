@@ -6,7 +6,7 @@ import '../stylesheets/Instructions.scss';
 const InstructionsEn = (props) => {
   return (
     <>
-      <p>
+      <p className="instructions__text--para">
         HELP FOR ROCKY EN game instructions You are about to go around the world 🌍 looking for the keys that will make
         you know the final password to free our friend. Rocky is running out of time to catch his plane and escape from
         the old mansion where he has been locked up throughout the pandemic. If you are passioned for trips and
