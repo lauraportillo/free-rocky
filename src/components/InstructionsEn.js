@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 // Styles
 import '../stylesheets/Instructions.scss';
 
-const Instructions = (props) => {
+const InstructionsEn = (props) => {
   return (
     <>
       <p>
@@ -22,4 +22,4 @@ const Instructions = (props) => {
   );
 };
 
-export default Instructions;
+export default InstructionsEn;
