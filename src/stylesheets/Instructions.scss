@@ -12,15 +12,21 @@
 }
 
 .instructions {
-  @include flexColumn();
-  color: $color1;
-  width: 260px;
+  width: 240px;
+  margin-top: 10px;
 }
 .instructions__title {
   color: $color1;
   font-family: $typo2;
-  font-size: 14px;
+  font-size: 15px;
   margin-top: 10px;
+  text-transform: uppercase;
+}
+.instructions__subtitle {
+  color: $color1;
+  font-family: $typo2;
+  font-size: 12px;
+  margin-top: 5px;
 }
 
 .instructions__text--para {
