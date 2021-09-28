@@ -1,11 +1,14 @@
 // React
 import { Link } from 'react-router-dom';
+// Components
+import InstructionsHeaderEn from './InstructionsHeaderEn';
 // Styles
 import '../stylesheets/Instructions.scss';
 
 const InstructionsEn = (props) => {
   return (
-    <>
+    <div className="containerClue01">
+      <InstructionsHeaderEn />
       <p className="instructions__text--para">
         HELP FOR ROCKY EN game instructions You are about to go around the world 🌍 looking for the keys that will make
         you know the final password to free our friend. Rocky is running out of time to catch his plane and escape from
@@ -18,7 +21,7 @@ const InstructionsEn = (props) => {
         you can always go back and navigate between screens. Hurry up, Rocky is waiting impatiently for your help to
         open the door! (photo of Rocky running) Get to know a little more about Rocky's history 👉 by clicking here
       </p>
-    </>
+    </div>
   );
 };
 
