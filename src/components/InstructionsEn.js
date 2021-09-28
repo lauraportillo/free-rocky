@@ -28,11 +28,11 @@ const InstructionsEn = (props) => {
           </p>
         </div>
 
-        <button>Start</button>
-
-        {/* <button className="instructionsBtn">
-          <Link to="/clue01En"></Link>
-        </button> */}
+        <button className="instructionsBtn">
+          <Link to="/clue01En" className="instructionsBtn">
+            Start
+          </Link>
+        </button>
       </main>
       <FooterBlack />
     </div>
