@@ -55,6 +55,16 @@ const InstructionsEn = (props) => {
             Start
           </Link>
         </button>
+
+        <nav className="instructionsNav">
+          <ul className="instructionsNav__menu">
+            <li>
+              <Link to="/" className="instructionsNav__menu--item">
+                Home
+              </Link>
+            </li>
+          </ul>
+        </nav>
       </main>
       <FooterBlack />
     </div>
