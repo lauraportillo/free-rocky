@@ -1,6 +1,28 @@
 @import 'Variables';
 @import 'Mixins';
 
+.containerInstructions {
+  background-color: $color2;
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+.containerMainInstructions {
+  @include flexColumn();
+}
+
+.instructions {
+  @include flexColumn();
+  color: $color1;
+  width: 260px;
+}
+.instructions__title {
+  color: $color1;
+  font-family: $typo2;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
 .instructions__text--para {
   color: $color1;
   font-family: $typo2;
