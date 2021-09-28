@@ -37,9 +37,11 @@
 }
 
 .instructionsBtn {
-  color: $color1;
   margin-top: 20px;
   margin-bottom: 20px;
+}
+.instructionsBtn__link {
+  color: $color1;
   font-size: 12px;
   padding-right: 5px;
   padding-left: 5px;

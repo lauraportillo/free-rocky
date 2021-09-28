@@ -29,7 +29,7 @@ const InstructionsEn = (props) => {
         </div>
 
         <button className="instructionsBtn">
-          <Link to="/clue01En" className="instructionsBtn">
+          <Link to="/clue01En" className="instructionsBtn__link">
             Start
           </Link>
         </button>
