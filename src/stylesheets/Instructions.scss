@@ -62,4 +62,11 @@
   color: $color1;
 }
 .instructions__image {
+  background: url('../images/instructions/instructions-320.png') no-repeat;
+  background-size: contain;
+  background-position: center center;
+  width: 320px;
+  height: 240px;
+  margin-top: 50px;
+  margin-bottom: 30px;
 }
