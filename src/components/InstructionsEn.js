@@ -45,6 +45,7 @@ const InstructionsEn = (props) => {
           <p className="instructions__text--para">
             Hurry up, Rocky is waiting impatiently for your help to open the door! (photo of Rocky running)
           </p>
+          <div className="instructions__image"></div>
           <p className="instructions__text--para">
             Get to know a little more about Rocky's history 👉 by clicking here
           </p>
