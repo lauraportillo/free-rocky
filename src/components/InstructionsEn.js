@@ -46,7 +46,10 @@ const InstructionsEn = (props) => {
             Hurry up, Rocky is waiting impatiently for your help to open the door!
           </p>
           <p className="instructions__text--para">
-            Get to know a little more about Rocky's history 👉 by clicking here
+            Get to know a little more about Rocky's history 👉 by clicking
+            <Link to="/gameEn" className="instructions__text--link">
+              here
+            </Link>
           </p>
         </div>
 
