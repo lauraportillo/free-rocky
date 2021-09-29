@@ -12,6 +12,7 @@ const InstructionsEn = (props) => {
       <InstructionsHeaderEn />
       <main className="containerMainInstructions">
         <div className="instructions">
+          <div className="instructions__image"></div>
           <h2 className="instructions__title">Help for Rocky</h2>
           <h3 className="instructions__subtitle"> game instructions</h3>
           <p className="instructions__text--para">
@@ -43,9 +44,8 @@ const InstructionsEn = (props) => {
             back and navigate between screens.
           </p>
           <p className="instructions__text--para">
-            Hurry up, Rocky is waiting impatiently for your help to open the door! (photo of Rocky running)
+            Hurry up, Rocky is waiting impatiently for your help to open the door!
           </p>
-          <div className="instructions__image"></div>
           <p className="instructions__text--para">
             Get to know a little more about Rocky's history 👉 by clicking here
           </p>
