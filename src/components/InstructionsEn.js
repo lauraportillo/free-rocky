@@ -11,8 +11,8 @@ const InstructionsEn = (props) => {
     <div className="containerInstructions">
       <InstructionsHeaderEn />
       <main className="containerMainInstructions">
+        <div className="instructionsImage"></div>
         <div className="instructions">
-          <div className="instructions__image"></div>
           <h2 className="instructions__title">Help for Rocky</h2>
           <h3 className="instructions__subtitle"> game instructions</h3>
           <p className="instructions__text--para">
@@ -29,9 +29,8 @@ const InstructionsEn = (props) => {
           <p className="instructions__text--para">
             Some indications that will help you to execute the mission successfully:
           </p>
-          <p className="instructions__text--para">
-            - You can play from any device - You can play alone or with friends, that depends on you
-          </p>
+          <p className="instructions__text--para">- You can play from any device </p>
+          <p className="instructions__text--para">- You can play alone or with friends, that depends on you</p>
           <p className="instructions__text--para">
             - You can write the keys in both uppercase and lowercase, that will not be a problem
           </p>
