@@ -1,7 +1,7 @@
 // React
 import { Link } from 'react-router-dom';
 // Components
-import InstructionsHeaderEn from './InstructionsHeaderEn';
+import InstructionsHeader from './InstructionsHeader';
 import FooterBlack from './FooterBlack';
 // Styles
 import '../stylesheets/Instructions.scss';
@@ -9,7 +9,7 @@ import '../stylesheets/Instructions.scss';
 const InstructionsEn = (props) => {
   return (
     <div className="containerInstructions">
-      <InstructionsHeaderEn />
+      <InstructionsHeader />
       <main className="containerMainInstructions">
         <div className="instructionsImage"></div>
         <div className="instructions">
