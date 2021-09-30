@@ -16,8 +16,8 @@ const InstructionsEn = (props) => {
           <h2 className="instructions__title">Help for Rocky</h2>
           <h3 className="instructions__subtitle"> game instructions</h3>
           <p className="instructions__text--para">
-            You are about to go around the world 🌍 looking for the keys that will make you know the final password to
-            free our friend.
+            You are about to go around the world 🌍 looking for the keys that will make you know the final
+            <span className="instructions__text--bold"> password</span> to free our friend.
           </p>
           <p className="instructions__text--para">
             Rocky is running out of time to catch his plane and escape from the old mansion where he has been locked up
