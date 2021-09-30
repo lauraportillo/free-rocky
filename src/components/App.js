@@ -13,6 +13,7 @@ import RockyEs from './RockyEs';
 import AuthorEn from './AuthorEn';
 import AuthorEs from './AuthorEs';
 import InstructionsEn from './InstructionsEn';
+import InstructionsEs from './InstructionsEs';
 import Clue01En from './Clue01En';
 import Clue01Es from './Clue01Es';
 import Clue02En from './Clue02En';
@@ -85,6 +86,10 @@ const App = () => {
 
         <Route exact path="/instructionsEn">
           <InstructionsEn />
+        </Route>
+
+        <Route exact path="/instructionsEs">
+          <InstructionsEs />
         </Route>
 
         <Route exact path="/clue01En">
