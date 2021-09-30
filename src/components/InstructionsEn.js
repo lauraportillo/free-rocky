@@ -50,9 +50,9 @@ const InstructionsEn = (props) => {
             open the door!
           </p>
           <p className="instructions__text--para">
-            Get to know a little more about Rocky's history 👉 by clicking
+            Get to know a little more about Rocky's history by clicking
             <Link to="/gameEn" className="instructions__text--link">
-              here
+              👉 here
             </Link>
           </p>
         </div>
