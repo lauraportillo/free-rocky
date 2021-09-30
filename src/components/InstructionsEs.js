@@ -56,6 +56,19 @@ const InstructionsEs = (props) => {
             <Link to="/gameEn" className="instructions__text--link">
               👉 here
             </Link>
+            <p className="instructions__text--para">
+              Estás a punto de dar la vuelta al mundo 🌍 buscando las claves que te harán descifrar la contraseña final
+              y liberar al fin al nuestro amigo. Nos quedamos sin tiempo para que pueda coger su avión y escapar del
+              viejo caserón donde lleva encerrado durante toda la pandemia. Si sientes pasión por los viajes y
+              diferentes culturas, esto será pan comido! Algunas indicaciones que puede te sirvan de ayuda para ejecutar
+              la misión con éxito: - El juego está pensado para que puedas jugar desde cualquier dispositivo - Puedes
+              jugar sólo o acompañado, eso depende de ti - Puedes escribir las claves tanto en mayúsculas como en
+              minúsculas, eso no será un problema - Si la clave es correcta aparecerá en tu pantalla un mensaje que dirá
+              “correcto” y el botón “Next” quedará habilitado para que pases a la siguiente pantalla. - Te recomiendo
+              que tengas a mano papel y lápiz para tomar notas. Aunque si olvidas algo siempre podrás ir hacia atrás y
+              navegar entre pantallas. Date prisa, Rocky espera impaciente tu ayuda para abrir la puerta! (foto de Rocky
+              corriendo) Conoce a un poco más sobre la historia de Rocky 👉 pinchando aqui
+            </p>
           </p>
         </div>
 
