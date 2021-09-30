@@ -33,15 +33,15 @@ const InstructionsEn = (props) => {
             mission successfully:
           </p>
           <p className="instructions__text--para">- You can play from any device </p>
-          <p className="instructions__text--para">- You can play alone or with friends, that depends on you</p>
-          <p className="instructions__text--para">
+          <p className="instructions__text--para2">- You can play alone or with friends, that depends on you</p>
+          <p className="instructions__text--para2">
             - You can write the keys in both uppercase and lowercase, that will not be a problem
           </p>
-          <p className="instructions__text--para">
+          <p className="instructions__text--para2">
             - If the password is correct, a message will appear on your screen and it will say "correct" and the "Next"
             button will be enabled for you to go to the next screen.
           </p>
-          <p className="instructions__text--para">
+          <p className="instructions__text--para2">
             - I recommend you taking paper and pencil to write notes. Although if you forget something you can always go
             back and navigate between screens.
           </p>

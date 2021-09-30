@@ -48,14 +48,19 @@
   color: $color1;
   font-family: $typo2;
   font-size: 12px;
-  margin-top: 5px;
   text-transform: capitalize;
 }
 
 .instructions__text--para {
   color: $color1;
   font-family: $typo2;
-  margin-top: 10px;
+  margin-top: 20px;
+  font-size: 14px;
+}
+.instructions__text--para2 {
+  color: $color1;
+  font-family: $typo2;
+  margin-top: 5px;
   font-size: 14px;
 }
 .instructions__text--link {
@@ -93,4 +98,33 @@
   margin-left: 5px;
   margin-right: 5px;
   color: $color1;
+}
+
+@media all and (min-width: 768px) {
+  .instructionsImage {
+    background: url('../images/instructions/instructions-500.png') no-repeat;
+    width: 500px;
+    height: 375px;
+    margin-top: 100px;
+    margin-bottom: 20;
+  }
+  .instructions {
+    width: 480px;
+    margin-top: 30px;
+  }
+  .instructions__title {
+    font-size: 18px;
+  }
+  .instructions__subtitle {
+    font-size: 14px;
+    margin-top: 30px;
+  }
+
+  .instructions__text--para {
+    margin-top: 15px;
+    font-size: 14px;
+  }
+}
+
+@media all and (min-width: 1280px) {
 }
