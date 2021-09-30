@@ -18,7 +18,7 @@ const HomeEs = () => {
         <h1 className="home__title">free rocky!</h1>
         <Languages />
         <button className="home__btn">
-          <Link to="/clue01Es">
+          <Link to="/instructionsEs">
             <img className="home__btn--img" src={icon} alt="start button" />
           </Link>
         </button>

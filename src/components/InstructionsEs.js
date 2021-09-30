@@ -58,8 +58,8 @@ const InstructionsEs = (props) => {
         </div>
 
         <button className="instructionsBtn">
-          <Link to="/clue01En" className="instructionsBtn__link">
-            Start
+          <Link to="/clue01Es" className="instructionsBtn__link">
+            Empezar
           </Link>
         </button>
 
