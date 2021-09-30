@@ -50,6 +50,12 @@
   font-size: 12px;
   text-transform: capitalize;
 }
+.instructions__subtitle2 {
+  color: $color1;
+  font-family: $typo2;
+  font-size: 12px;
+  text-transform: lowercase;
+}
 
 .instructions__text--para {
   color: $color1;
@@ -114,10 +120,12 @@
   .instructions__title {
     font-size: 18px;
   }
-  .instructions__subtitle {
+  .instructions__subtitle,
+  .instructions__subtitle2 {
     font-size: 14px;
     margin-top: 30px;
   }
+
   .instructionsBtn {
     margin-top: 40px;
     margin-bottom: 10px;

@@ -13,8 +13,10 @@ const InstructionsEs = (props) => {
       <main className="containerMainInstructions">
         <div className="instructionsImage"></div>
         <div className="instructions">
-          <h2 className="instructions__title">Help for Rocky</h2>
-          <h3 className="instructions__subtitle"> game instructions</h3>
+          <h2 className="instructions__title">Ayuda a Rocky</h2>
+          <h3 className="instructions__subtitle">
+            instrucciones <span className="instructions__subtitle2">del</span> juego
+          </h3>
           <p className="instructions__text--para">
             You are about to go around the world 🌍 looking for the keys that will make you know the final
             <span className="instructions__text--bold"> password</span> to free our friend.
