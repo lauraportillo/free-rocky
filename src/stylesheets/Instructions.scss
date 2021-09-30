@@ -24,11 +24,25 @@
   margin-top: 10px;
 }
 .instructions__title {
+  text-decoration: none;
+  position: relative;
   color: $color1;
   font-family: $typo2;
   font-size: 15px;
   margin-top: 10px;
+  margin-bottom: 20px;
   text-transform: uppercase;
+}
+.instructions__title:after {
+  position: absolute;
+  content: '';
+  height: 1px;
+  bottom: -1px;
+  margin: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  background: $color1;
 }
 .instructions__subtitle {
   color: $color1;
