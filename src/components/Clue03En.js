@@ -20,7 +20,7 @@ const Clue03En = (props) => {
       <main className="containerMainClue03">
         <div className="clue03">
           <div className="clue03__text">
-            <h2 className="clue03__title">3 Tercera Pista</h2>
+            <h2 className="clue03__title">3 Third Clue</h2>
             <p className="clue03__text--para">Paragraph with instructions</p>
           </div>
           <form onSubmit={handleForm} className="clue03__form">
