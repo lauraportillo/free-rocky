@@ -62,6 +62,12 @@ const Clue01Es = (props) => {
                   Inicio
                 </Link>
               </li>
+              <li className="clue01Nav__menu--item">|</li>
+              <li>
+                <Link to="/instructionsEs" className="clue01Nav__menu--item">
+                  Volver
+                </Link>
+              </li>
             </ul>
           </nav>
         </div>
