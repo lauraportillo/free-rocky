@@ -19,7 +19,7 @@ const InstructionsEs = (props) => {
           </h3>
           <p className="instructions__text--para">
             Estás a punto de dar la vuelta al mundo 🌍 buscando las claves que te harán descifrar la
-            <span className="instructions__text--bold"> contraseña final</span> y liberar al fin al nuestro amigo.
+            <span className="instructions__text--bold"> contraseña final</span> y liberar al fin a nuestro amigo.
           </p>
           <p className="instructions__text--para">
             Nos quedamos sin tiempo para que pueda coger su avión y
@@ -50,18 +50,14 @@ const InstructionsEs = (props) => {
             hacia atrás y navegar entre pantallas.
           </p>
           <p className="instructions__text--para">
-            Hurry up, Rocky is waiting impatiently for <span className="instructions__text--bold"> your help</span> to
-            open the door!
+            Date prisa, Rocky espera impaciente <span className="instructions__text--bold"> tu ayuda</span> para abrir
+            la puerta!
           </p>
           <p className="instructions__text--para">
-            Get to know a little more about Rocky's history by clicking
+            Conoce un poco más sobre la historia de Rocky pinchando
             <Link to="/gameEn" className="instructions__text--link">
-              👉 here
+              👉 aqui
             </Link>
-            <p className="instructions__text--para">
-              Date prisa, Rocky espera impaciente tu ayuda para abrir la puerta! (foto de Rocky corriendo) Conoce a un
-              poco más sobre la historia de Rocky 👉 pinchando aqui
-            </p>
           </p>
         </div>
 
@@ -75,7 +71,7 @@ const InstructionsEs = (props) => {
           <ul className="instructionsNav__menu">
             <li>
               <Link to="/" className="instructionsNav__menu--item">
-                Home
+                Inicio
               </Link>
             </li>
           </ul>
