@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom';
 // Components
 import ClueHeaderEs from './ClueHeaderEs';
 import Input from './Input';
-import NextButtonEn from './NextButtonEn';
-import ResetButtonEn from './ResetButtonEn';
+import NextButtonEs from './NextButtonEs';
+import ResetButtonEs from './ResetButtonEs';
 import FooterBlack from './FooterBlack';
 // Styles
 import '../stylesheets/Clue02.scss';
@@ -35,10 +35,10 @@ const Clue02Es = (props) => {
                 placeholder="  introduce la clave..."
                 value={props.clue02}
               />
-              <ResetButtonEn handleReset={props.handleReset} />
+              <ResetButtonEs handleReset={props.handleReset} />
             </div>
 
-            <NextButtonEn
+            <NextButtonEs
               handleInput={props.handleInput}
               input={props.clue02}
               password={props.password[1]}
@@ -49,14 +49,14 @@ const Clue02Es = (props) => {
           <nav className="clue02Nav">
             <ul className="clue02Nav__menu">
               <li>
-                <Link to="/" className="clue02Nav__menu--item">
-                  Home
+                <Link to="/homeEs" className="clue02Nav__menu--item">
+                  Inicio
                 </Link>
               </li>
               <li className="clue02Nav__menu--item">|</li>
               <li>
-                <Link to="/clue01En" className="clue02Nav__menu--item">
-                  Go back
+                <Link to="/clue01Es" className="clue02Nav__menu--item">
+                  Volver
                 </Link>
               </li>
             </ul>
