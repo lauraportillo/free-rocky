@@ -32,10 +32,10 @@ const InstructionsEn = (props) => {
             Some <span className="instructions__text--bold"> indications</span> that will help you to execute the
             mission successfully:
           </p>
-          <p className="instructions__text--para">- You can play from any device </p>
-          <p className="instructions__text--para2">- You can play alone or with friends, that depends on you</p>
+          <p className="instructions__text--para">- You can play from any device. </p>
+          <p className="instructions__text--para2">- You can play alone or with friends, that depends on you.</p>
           <p className="instructions__text--para2">
-            - You can write the keys in both uppercase and lowercase, that will not be a problem
+            - You can write the keys in both uppercase and lowercase, that will not be a problem.
           </p>
           <p className="instructions__text--para2">
             - If the password is correct, a message will appear on your screen and it will say "correct" and the "Next"
