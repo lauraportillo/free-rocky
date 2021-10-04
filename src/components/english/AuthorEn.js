@@ -1,8 +1,8 @@
 // Components
-import HeaderEn from './HeaderEn';
-import Footer from './Footer';
+import HeaderEn from '../HeaderEn';
+import Footer from '../Footer';
 // Styles
-import '../stylesheets/Author.scss';
+import '../../stylesheets/Author.scss';
 
 const AuthorEn = (props) => {
   return (
