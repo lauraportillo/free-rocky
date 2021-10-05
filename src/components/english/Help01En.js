@@ -1,13 +1,13 @@
 // React
 import React from 'react';
 // Components
-import '../stylesheets/Help01.scss';
+import '../../stylesheets/Help01.scss';
 // Styles
 
 const Help01En = (props) => {
   return (
     <>
-      <div></div>
+      <div className="help01">Help</div>
     </>
   );
 };

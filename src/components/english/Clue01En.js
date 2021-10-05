@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import ClueHeaderEn from './ClueHeaderEn';
 import Input from '../Input';
 import PhotoList from '../PhotoList';
+import Help01En from './Help01En';
 import NextButtonEn from './NextButtonEn';
 import ResetButtonEn from './ResetButtonEn';
 import FooterBlack from '../FooterBlack';
@@ -23,6 +24,7 @@ const Clue01En = (props) => {
           <PhotoList password={props.password} photos={props.photos} />
           <div className="clue01__text">
             <h2 className="clue01__title">1 The temple</h2>
+            <Help01En />
             <p className="clue01__text--para">
               This image was taken by Rocky's owners on the first big trip they made together.
             </p>
