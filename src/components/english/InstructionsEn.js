@@ -1,10 +1,10 @@
 // React
 import { Link } from 'react-router-dom';
 // Components
-import InstructionsHeader from './InstructionsHeader';
-import FooterBlack from './FooterBlack';
+import InstructionsHeader from '../InstructionsHeader';
+import FooterBlack from '../FooterBlack';
 // Styles
-import '../stylesheets/Instructions.scss';
+import '../../stylesheets/Instructions.scss';
 
 const InstructionsEn = (props) => {
   return (
