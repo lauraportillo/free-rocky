@@ -6,10 +6,10 @@ import dataClue from '../dataClue/dataClue.json';
 // Components
 import HomeEn from './HomeEn';
 import HomeEs from './HomeEs';
-import GameEn from './GameEn';
-import GameEs from './GameEs';
-import RockyEn from './RockyEn';
-import RockyEs from './RockyEs';
+import GameEn from './english/GameEn';
+import GameEs from './spanish/GameEs';
+import RockyEn from './english/RockyEn';
+import RockyEs from './spanish/RockyEs';
 import AuthorEn from './english/AuthorEn';
 import AuthorEs from './spanish/AuthorEs';
 import InstructionsEn from './InstructionsEn';

@@ -1,8 +1,8 @@
 // Components
-import HeaderEn from './HeaderEn';
-import Footer from './Footer';
+import HeaderEn from '../HeaderEn';
+import Footer from '../Footer';
 // Styles
-import '../stylesheets/Game.scss';
+import '../../stylesheets/Game.scss';
 const GameEn = (props) => {
   return (
     <div className="containerGame">
