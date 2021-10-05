@@ -1,7 +1,7 @@
 // React
 import { useHistory } from 'react-router-dom';
 // Styles
-import '../stylesheets/NextButton.scss';
+import '../../stylesheets/NextButton.scss';
 
 const NextButtonEs = (props) => {
   const history = useHistory();

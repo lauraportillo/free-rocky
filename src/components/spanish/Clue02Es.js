@@ -7,7 +7,7 @@ import NextButtonEs from './NextButtonEs';
 import ResetButtonEs from './ResetButtonEs';
 import FooterBlack from '../FooterBlack';
 // Styles
-import '../stylesheets/Clue02.scss';
+import '../../stylesheets/Clue02.scss';
 
 const Clue02Es = (props) => {
   const handleForm = (ev) => {

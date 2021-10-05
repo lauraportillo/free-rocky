@@ -1,4 +1,5 @@
-import '../stylesheets/ClueHeader.scss';
+// Styles
+import '../../stylesheets/ClueHeader.scss';
 
 const ClueHeaderEs = (props) => {
   return (

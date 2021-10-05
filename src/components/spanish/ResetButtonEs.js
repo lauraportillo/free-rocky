@@ -1,5 +1,5 @@
 // Styles
-import '../stylesheets/ResetButton.scss';
+import '../../stylesheets/ResetButton.scss';
 
 const ResetButtonEs = (props) => {
   const handleReset = () => {
