@@ -1,10 +1,10 @@
 // React
 import React from 'react';
 // Components
-import '../stylesheets/Clue01TempleEn.scss';
+import '../stylesheets/Help01.scss';
 // Styles
 
-const Clue01TempleEn = (props) => {
+const Help01En = (props) => {
   return (
     <>
       <div></div>
@@ -12,4 +12,4 @@ const Clue01TempleEn = (props) => {
   );
 };
 
-export default Clue01TempleEn;
+export default Help01En;
