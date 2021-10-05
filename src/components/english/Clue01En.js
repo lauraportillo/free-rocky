@@ -22,12 +22,8 @@ const Clue01En = (props) => {
       <main className="containerMainClue01">
         <div className="clue01">
           <PhotoList password={props.password} photos={props.photos} />
-          <div className="clue01__title">
-            <h2 className="clue01__title1">1 The temple</h2>
-            <Help01En />
-          </div>
-
           <div className="clue01__text">
+            <h2 className="clue01__text--title">1 The temple</h2>
             <p className="clue01__text--para">
               This image was taken by Rocky's owners on the first big trip they made together.
             </p>
@@ -37,7 +33,12 @@ const Clue01En = (props) => {
             <p className="clue01__text--para">
               Find in the images the letters that will lead you to discover the name of the temple.
             </p>
+
+            <p className="clue01__text--para">
+              <Help01En />
+            </p>
           </div>
+
           <form onSubmit={handleForm} className="clue01__form">
             <div>
               <Input
