@@ -4,8 +4,8 @@ import { Route, Switch } from 'react-router-dom';
 // Data
 import dataClue from '../dataClue/dataClue.json';
 // Components
-import HomeEn from './HomeEn';
-import HomeEs from './HomeEs';
+import HomeEn from './english/HomeEn';
+import HomeEs from './spanish/HomeEs';
 import GameEn from './english/GameEn';
 import GameEs from './spanish/GameEs';
 import RockyEn from './english/RockyEn';
@@ -14,12 +14,12 @@ import AuthorEn from './english/AuthorEn';
 import AuthorEs from './spanish/AuthorEs';
 import InstructionsEn from './english/InstructionsEn';
 import InstructionsEs from './spanish/InstructionsEs';
-import Clue01En from './Clue01En';
-import Clue01Es from './Clue01Es';
-import Clue02En from './Clue02En';
+import Clue01En from './english/Clue01En';
+import Clue01Es from './spanish/Clue01Es';
+import Clue02En from './english/Clue02En';
 import Clue02Es from './spanish/Clue02Es';
-import Clue03En from './Clue03En';
-import Clue03Es from './Clue03Es';
+import Clue03En from './english/Clue03En';
+import Clue03Es from './spanish/Clue03Es';
 // Styles
 import '../stylesheets/App.scss';
 import '../stylesheets/Reset.scss';

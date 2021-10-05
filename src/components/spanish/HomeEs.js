@@ -5,9 +5,9 @@ import HeaderEs from './HeaderEs';
 import Languages from '../Languages';
 import Footer from '../Footer';
 // Styles
-import '../stylesheets/Home.scss';
+import '../../stylesheets/Home.scss';
 // Images
-import icon from '../images/home/button-white.png';
+import icon from '../../images/home/button-white.png';
 
 const HomeEs = () => {
   return (

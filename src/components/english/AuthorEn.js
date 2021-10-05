@@ -1,5 +1,5 @@
 // Components
-import HeaderEn from '../HeaderEn';
+import HeaderEn from './HeaderEn';
 import Footer from '../Footer';
 // Styles
 import '../../stylesheets/Author.scss';
