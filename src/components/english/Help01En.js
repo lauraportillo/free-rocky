@@ -7,7 +7,7 @@ import '../../stylesheets/Help01.scss';
 const Help01En = (props) => {
   return (
     <>
-      <div className="help01">Help</div>
+      <div className="help01">Clues here!</div>
     </>
   );
 };

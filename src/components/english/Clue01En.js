@@ -22,9 +22,12 @@ const Clue01En = (props) => {
       <main className="containerMainClue01">
         <div className="clue01">
           <PhotoList password={props.password} photos={props.photos} />
-          <div className="clue01__text">
-            <h2 className="clue01__title">1 The temple</h2>
+          <div className="clue01__title">
+            <h2 className="clue01__title1">1 The temple</h2>
             <Help01En />
+          </div>
+
+          <div className="clue01__text">
             <p className="clue01__text--para">
               This image was taken by Rocky's owners on the first big trip they made together.
             </p>

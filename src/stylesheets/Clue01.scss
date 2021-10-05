@@ -19,15 +19,20 @@
   margin-top: 50px;
 }
 .clue01__title {
+  margin-top: 20px;
+  width: 240px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.clue01__title1 {
   color: $color1;
   font-family: $typo2;
   font-size: 14px;
-  margin-top: 10px;
 }
 
 .clue01__text {
   width: 240px;
-  margin-top: 10px;
 }
 
 .clue01__text--para {
