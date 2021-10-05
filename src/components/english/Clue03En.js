@@ -1,27 +1,27 @@
 // React
 import { Link } from 'react-router-dom';
 // Components
-import ClueHeaderEs from './ClueHeaderEs';
+import ClueHeaderEn from './english/ClueHeaderEn';
 import Input from './Input';
-import NextButtonEs from './NextButtonEs';
-import ResetButtonEs from './ResetButtonEs';
+import NextButtonEn from './english/NextButtonEn';
+import ResetButtonEn from './english/ResetButtonEn';
 import FooterBlack from './FooterBlack';
 // Styles
 import '../stylesheets/Clue03.scss';
 
-const Clue03Es = (props) => {
+const Clue03En = (props) => {
   const handleForm = (ev) => {
     ev.preventDefault();
   };
 
   return (
     <div className="containerClue03">
-      <ClueHeaderEs />
+      <ClueHeaderEn />
       <main className="containerMainClue03">
         <div className="clue03">
           <div className="clue03__text">
-            <h2 className="clue03__title">3 Tercera Pista</h2>
-            <p className="clue03__text--para">Párrafo con instrucciones</p>
+            <h2 className="clue03__title">3 Third Clue</h2>
+            <p className="clue03__text--para">Paragraph with instructions</p>
           </div>
           <form onSubmit={handleForm} className="clue03__form">
             <div>
@@ -32,31 +32,31 @@ const Clue03Es = (props) => {
                 type="text"
                 name="clue03"
                 id="clue03"
-                placeholder="  introduce la clave..."
+                placeholder="  enter the clue..."
                 value={props.clue03}
               />
-              <ResetButtonEs handleReset={props.handleReset} />
+              <ResetButtonEn handleReset={props.handleReset} />
             </div>
 
-            <NextButtonEs
+            <NextButtonEn
               handleInput={props.handleInput}
               input={props.clue03}
               password={props.password[2]}
-              route={props.route[5]}
+              route={props.route[4]}
             />
           </form>
 
           <nav className="clue03Nav">
             <ul className="clue03Nav__menu">
               <li>
-                <Link to="/homeEs" className="clue03Nav__menu--item">
-                  Inicio
+                <Link to="/" className="clue03Nav__menu--item">
+                  Home
                 </Link>
               </li>
               <li className="clue03Nav__menu--item">|</li>
               <li>
-                <Link to="/clue02Es" className="clue03Nav__menu--item">
-                  Volver
+                <Link to="/clue02En" className="clue03Nav__menu--item">
+                  Go back
                 </Link>
               </li>
             </ul>
@@ -68,4 +68,4 @@ const Clue03Es = (props) => {
   );
 };
 
-export default Clue03Es;
+export default Clue03En;

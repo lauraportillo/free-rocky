@@ -17,7 +17,7 @@ import InstructionsEs from './spanish/InstructionsEs';
 import Clue01En from './Clue01En';
 import Clue01Es from './Clue01Es';
 import Clue02En from './Clue02En';
-import Clue02Es from './Clue02Es';
+import Clue02Es from './spanish/Clue02Es';
 import Clue03En from './Clue03En';
 import Clue03Es from './Clue03Es';
 // Styles

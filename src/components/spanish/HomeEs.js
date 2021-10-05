@@ -2,8 +2,8 @@
 import { Link } from 'react-router-dom';
 // Components
 import HeaderEs from './HeaderEs';
-import Languages from './Languages';
-import Footer from './Footer';
+import Languages from '../Languages';
+import Footer from '../Footer';
 // Styles
 import '../stylesheets/Home.scss';
 // Images

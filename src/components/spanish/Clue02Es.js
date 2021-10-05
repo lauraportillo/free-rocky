@@ -2,10 +2,10 @@
 import { Link } from 'react-router-dom';
 // Components
 import ClueHeaderEs from './ClueHeaderEs';
-import Input from './Input';
+import Input from '../Input';
 import NextButtonEs from './NextButtonEs';
 import ResetButtonEs from './ResetButtonEs';
-import FooterBlack from './FooterBlack';
+import FooterBlack from '../FooterBlack';
 // Styles
 import '../stylesheets/Clue02.scss';
 

@@ -1,5 +1,5 @@
 // Components
-import HeaderEs from '../HeaderEs';
+import HeaderEs from './HeaderEs';
 import Footer from '../Footer';
 // Styles
 import '../../stylesheets/Rocky.scss';

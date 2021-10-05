@@ -2,13 +2,13 @@
 import { Link } from 'react-router-dom';
 // Components
 import ClueHeaderEs from './ClueHeaderEs';
-import Input from './Input';
-import PhotoList from './PhotoList';
+import Input from '../Input';
+import PhotoList from '../PhotoList';
 import NextButtonEs from './NextButtonEs';
 import ResetButtonEs from './ResetButtonEs';
-import FooterBlack from './FooterBlack';
+import FooterBlack from '../FooterBlack';
 // Styles
-import '../stylesheets/Clue01.scss';
+import '../../stylesheets/Clue01.scss';
 
 const Clue01Es = (props) => {
   const handleForm = (ev) => {
