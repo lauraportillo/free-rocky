@@ -5,11 +5,7 @@ import '../../stylesheets/Help01.scss';
 // Styles
 
 const Help01En = (props) => {
-  return (
-    <>
-      <p className="help01">Clues here!</p>
-    </>
-  );
+  return <></>;
 };
 
 export default Help01En;
