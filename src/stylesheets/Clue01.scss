@@ -9,6 +9,7 @@
 }
 .containerMainClue01 {
   @include flexColumn();
+  margin-top: 40px;
 }
 
 .clue01 {
