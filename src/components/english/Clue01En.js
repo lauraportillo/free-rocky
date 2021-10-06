@@ -33,10 +33,7 @@ const Clue01En = (props) => {
             <p className="clue01__text--para">
               Find in the images the letters that will lead you to discover the name of the temple.
             </p>
-
-            <p className="clue01__text--para">
-              <Help01En />
-            </p>
+            <Help01En />
           </div>
 
           <form onSubmit={handleForm} className="clue01__form">
