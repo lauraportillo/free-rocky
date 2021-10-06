@@ -7,9 +7,9 @@
   display: grid;
   grid-template-rows: auto 1fr auto;
 }
+
 .containerMainClue01 {
   @include flexColumn();
-  margin-top: 40px;
 }
 
 .clue01 {
@@ -17,7 +17,7 @@
   color: $color1;
   width: 300px;
   height: 400px;
-  margin-top: 50px;
+  margin-top: 60px;
 }
 
 .clue01__text {
@@ -29,6 +29,7 @@
   color: $color1;
   font-family: $typo2;
   font-size: 14px;
+  margin-top: 10px;
 }
 
 .clue01__text--para {
@@ -39,7 +40,7 @@
 }
 
 .clue01__form {
-  margin-top: 30px;
+  margin-top: 10px;
   @include flexColumn();
 }
 
@@ -49,15 +50,13 @@
   width: 180px;
   height: 22px;
 }
-
-//POR AQUI ESTÁ EL ERROR CON EL FOOTER VER:
 .clue01Nav {
+  margin-top: 10px;
+  margin-bottom: 30px;
 }
 
 .clue01Nav__menu {
   @include flex();
-  margin-top: 10px;
-  margin-bottom: 20px;
   color: $color1;
 }
 .clue01Nav__menu--item {
