@@ -55,6 +55,7 @@ const Clue01En = (props) => {
               input={props.clue01}
               password={props.password[0]}
               route={props.route[0]}
+              className="clue01__form--next"
             />
           </form>
           <nav className="clue01Nav">

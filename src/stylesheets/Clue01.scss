@@ -22,13 +22,13 @@
 
 .clue01__text {
   width: 240px;
+  margin-top: 30px;
 }
 
 .clue01__text--title {
   color: $color1;
   font-family: $typo2;
   font-size: 14px;
-  margin-top: 20px;
 }
 
 .clue01__text--para {
@@ -48,6 +48,10 @@
   margin-right: 3px;
   width: 180px;
   height: 22px;
+}
+
+//POR AQUI ESTÁ EL ERROR CON EL FOOTER VER:
+.clue01Nav {
 }
 
 .clue01Nav__menu {
