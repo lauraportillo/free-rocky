@@ -6,3 +6,10 @@
   font-family: $typo2;
   font-size: 14px;
 }
+
+.fas,
+.fa-paw {
+  color: $color1;
+  font-size: 50px;
+  transform: rotateX(90);
+}

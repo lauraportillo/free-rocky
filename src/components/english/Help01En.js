@@ -7,7 +7,8 @@ import '../../stylesheets/Help01.scss';
 const Help01En = (props) => {
   return (
     <>
-      <p className="help01">🐾🐾🐾 </p>
+      <i class="fas fa-paw"></i>
+
       <p className="help01">
         The temple: CLUE 1: By fitting the pieces of the puzzle you will be able to read the name from left to right and
         following the lines. CLUE 2: The name of the temple contains the name of the chemical element whose symbol is: B
