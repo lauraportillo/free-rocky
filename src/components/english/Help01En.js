@@ -1,20 +1,37 @@
 // React
 import React from 'react';
 // Components
-import '../../stylesheets/Help01.scss';
+import FooterBlack from '../FooterBlack';
 // Styles
+import '../../stylesheets/Help01.scss';
 
 const Help01En = (props) => {
   return (
     <>
-      <i class="fas fa-paw"></i>
+      <header>
+        <i class="fas fa-paw"></i>
+        <i class="fas fa-paw"></i>
+        <i class="fas fa-paw"></i>
+        <i class="fas fa-paw"></i>
+      </header>
 
-      <p className="help01">
-        The temple: Do you need help finding out the name of the Temple? Click on the clues you need to find the
-        solution! CLUE 1: By fitting the pieces of the puzzle you will be able to read the name from left to right and
-        following the lines. CLUE 2: The name of the temple contains the name of the chemical element whose symbol is: B
-        CLUE 3: take a pencil and paper and here you have the puzzle solved.
-      </p>
+      <main>
+        <h1 className="help01">1 The temple</h1>
+        <h2 className="help01"> Do you need help finding out the name of the Temple?</h2>
+        <h2 className="help01">Click on the clues you need to find the solution!</h2>
+        <p className="help01">
+          CLUE 1: By fitting the pieces of the puzzle you will be able to read the name from left to right and following
+          the lines.
+        </p>
+
+        <p className="help01">
+          CLUE 2: The name of the temple contains the name of the chemical element whose symbol is: B
+        </p>
+
+        <p className="help01">CLUE 3: take a pencil and paper and here you have the puzzle solved.</p>
+      </main>
+
+      <FooterBlack />
     </>
   );
 };
