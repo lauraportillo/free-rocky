@@ -22,20 +22,26 @@
   height: 400px;
   margin-top: 60px;
 }
-
-.help01__title {
-  color: $color1;
-  font-family: $typo2;
-  font-size: 14px;
+.help01__paws {
 }
-
-.help01__subtitle {
-  color: $color1;
-  font-family: $typo2;
-  font-size: 14px;
-}
-
 .help01__text {
+  width: 240px;
+  margin-top: 50px;
+}
+
+.help01__text--title {
+  color: $color1;
+  font-family: $typo2;
+  font-size: 14px;
+}
+
+.help01__text--subtitle {
+  color: $color1;
+  font-family: $typo2;
+  font-size: 14px;
+}
+
+.help01__text--para {
   color: $color1;
   font-family: $typo2;
   font-size: 14px;
