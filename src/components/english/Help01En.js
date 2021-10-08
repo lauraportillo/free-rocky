@@ -14,10 +14,12 @@ const Help01En = (props) => {
       <main className="containerMainHelp01">
         <div className="help01">
           <div className="help01__paws">
-            <i class="fas fa-paw"></i>
-            <i class="fas fa-paw"></i>
-            <i class="fas fa-paw"></i>
-            <i class="fas fa-paw"></i>
+            <div className="help01__paws--1">
+              <i class="fas fa-paw fa-rotate-90"></i>
+            </div>
+            <div>
+              <i class="fas fa-paw fa-rotate-90"></i>
+            </div>
           </div>
           <div className="help01__text">
             <h1 className="help01__text--title">1 The temple</h1>
