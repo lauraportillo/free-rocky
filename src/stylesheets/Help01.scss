@@ -1,11 +1,34 @@
 @import 'Variables';
 @import 'Mixins';
 
-.help01 {
-  color: $color1;
-  font-family: $typo2;
-  font-size: 14px;
+.containerHelp01 {
+  background-color: $color2;
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
 }
+
+.help01 {
+  @include flexColumn();
+}
+
+.help01__title {
+  color: $color1;
+}
+
+.help01__subtitle {
+  color: $color1;
+}
+
+.help01__text {
+  color: $color1;
+}
+
+// .help01 {
+//   color: $color1;
+//   font-family: $typo2;
+//   font-size: 14px;
+// }
 
 // meter a las huellas efecto neon
 
