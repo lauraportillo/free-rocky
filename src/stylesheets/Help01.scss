@@ -8,27 +8,38 @@
   grid-template-rows: auto 1fr auto;
 }
 
+.headerHelp01 {
+  @include flex();
+}
+.containerMainHelp01 {
+  @include flexColumn();
+}
+
 .help01 {
   @include flexColumn();
+  color: $color1;
+  width: 300px;
+  height: 400px;
+  margin-top: 60px;
 }
 
 .help01__title {
   color: $color1;
+  font-family: $typo2;
+  font-size: 14px;
 }
 
 .help01__subtitle {
   color: $color1;
+  font-family: $typo2;
+  font-size: 14px;
 }
 
 .help01__text {
   color: $color1;
+  font-family: $typo2;
+  font-size: 14px;
 }
-
-// .help01 {
-//   color: $color1;
-//   font-family: $typo2;
-//   font-size: 14px;
-// }
 
 // meter a las huellas efecto neon
 
