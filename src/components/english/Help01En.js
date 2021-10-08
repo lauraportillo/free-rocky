@@ -16,8 +16,13 @@ const Help01En = (props) => {
           <div className="help01__paws">
             <div className="help01__paws--1">
               <i class="fas fa-paw fa-rotate-90"></i>
+              <i class="fas fa-paw fa-rotate-90"></i>
+              <i class="fas fa-paw fa-rotate-90"></i>
             </div>
             <div>
+              <i class="fas fa-paw fa-rotate-90"></i>
+              <i class="fas fa-paw fa-rotate-90"></i>
+              <i class="fas fa-paw fa-rotate-90"></i>
               <i class="fas fa-paw fa-rotate-90"></i>
             </div>
           </div>
