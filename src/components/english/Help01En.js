@@ -15,21 +15,21 @@ const Help01En = (props) => {
         <div className="help01">
           <div className="help01__paws">
             <div className="help01__paws--1">
-              <i class="fas fa-paw fa-rotate-90"></i>
-              <i class="fas fa-paw fa-rotate-90"></i>
-              <i class="fas fa-paw fa-rotate-90"></i>
+              <i className="fas fa-paw fa-rotate-90"></i>
+              <i className="fas fa-paw fa-rotate-90"></i>
+              <i className="fas fa-paw fa-rotate-90"></i>
             </div>
             <div>
-              <i class="fas fa-paw fa-rotate-90"></i>
-              <i class="fas fa-paw fa-rotate-90"></i>
-              <i class="fas fa-paw fa-rotate-90"></i>
-              <i class="fas fa-paw fa-rotate-90"></i>
+              <i className="fas fa-paw fa-rotate-90"></i>
+              <i className="fas fa-paw fa-rotate-90"></i>
+              <i className="fas fa-paw fa-rotate-90"></i>
+              <i className="fas fa-paw fa-rotate-90"></i>
             </div>
           </div>
           <div className="help01__text">
             <h1 className="help01__text--title">1 The temple</h1>
-            <h2 className="help01__text--subtitle">Do you need help finding out the name of the Temple?</h2>
-            <h2 className="help01__text--subtitle">Click on the clues you need to find the solution!</h2>
+            <p className="help01__text--subtitle">Do you need help finding out the name of the Temple?</p>
+            <p className="help01__text--subtitle">Click on the clues you need to find the solution!</p>
             <p className="help01__text--para">
               CLUE 1: By fitting the pieces of the puzzle you will be able to read the name from left to right and
               following the lines.
