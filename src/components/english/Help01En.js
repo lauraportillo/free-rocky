@@ -11,6 +11,17 @@ const Help01En = () => {
   //state
   const [showClue1, setShowClue1] = useState();
 
+  //function to hide or Show filters section
+  const handleBtn = () => {
+    setShowClue1(!showClue1);
+  };
+  //render the filtersection when the state showFilters is true, and doesn't when is false
+  const renderClue1 = () => {
+    return showClue1
+      ? 'By fitting the pieces of the puzzle you will be able to read the name from left to right and following the lines.'
+      : null;
+  };
+
   return (
     <div className="containerHelp01">
       <ClueHeaderEn />
@@ -34,7 +45,10 @@ const Help01En = () => {
             <h1 className="help01__text--title">1 The temple</h1>
             <p className="help01__text--subtitle">Do you need help finding out the name of the Temple?</p>
             <p className="help01__text--subtitle">Click on the clues you need to find the solution!</p>
-            <button className="help01__text--btn">Clue 1</button>
+            <button className="help01__text--btn" onClick={handleBtn}>
+              Clue 1
+            </button>
+            <p className="help01__text--para"> {renderClue1()}</p>
             <button className="help01__text--btn">Clue 2</button>
             <button className="help01__text--btn">Clue 3</button>
             {/* <p className="help01__text--para">
