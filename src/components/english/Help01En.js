@@ -1,5 +1,5 @@
 // React
-import React from 'react';
+import { Link } from 'react-router-dom';
 // Components
 import ClueHeaderEn from './ClueHeaderEn';
 import FooterBlack from '../FooterBlack';
@@ -41,6 +41,16 @@ const Help01En = (props) => {
 
             <p className="help01__text--para">CLUE 3: take a pencil and paper and here you have the puzzle solved.</p>
           </div>
+
+          <nav className="clue01Nav">
+            <ul className="clue01Nav__menu">
+              <li>
+                <Link to="/clue01En" className="clue01Nav__menu--item">
+                  Go back
+                </Link>
+              </li>
+            </ul>
+          </nav>
         </div>
       </main>
 
