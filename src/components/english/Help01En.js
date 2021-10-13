@@ -10,12 +10,21 @@ import '../../stylesheets/Help01.scss';
 const Help01En = () => {
   //state
   const [showClue1, setShowClue1] = useState();
+  const [showClue2, setShowClue2] = useState();
+  const [showClue3, setShowClue3] = useState();
 
-  //function to hide or Show filters section
-  const handleBtn = () => {
+  //functions to show or hide clues
+  const handleBtn1 = () => {
     setShowClue1(!showClue1);
   };
-  //render the filtersection when the state showFilters is true, and doesn't when is false
+  const handleBtn2 = () => {
+    setShowClue2(!showClue2);
+  };
+  const handleBtn3 = () => {
+    setShowClue3(!showClue3);
+  };
+
+  //functions that render clues information when the state showClue is true, and doesn't when is false
   const renderClue1 = () => {
     return showClue1
       ? 'By fitting the pieces of the puzzle you will be able to read the name from left to right and following the lines.'
@@ -45,12 +54,16 @@ const Help01En = () => {
             <h1 className="help01__text--title">1 The temple</h1>
             <p className="help01__text--subtitle">Do you need help finding out the name of the Temple?</p>
             <p className="help01__text--subtitle">Click on the clues you need to find the solution!</p>
-            <button className="help01__text--btn" onClick={handleBtn}>
+            <button className="help01__text--btn" onClick={handleBtn1}>
               Clue 1
             </button>
             <p className="help01__text--para"> {renderClue1()}</p>
-            <button className="help01__text--btn">Clue 2</button>
-            <button className="help01__text--btn">Clue 3</button>
+            <button className="help01__text--btn" onClick={handleBtn2}>
+              Clue 2
+            </button>
+            <button className="help01__text--btn" onClick={handleBtn3}>
+              Clue 3
+            </button>
             {/* <p className="help01__text--para">
               By fitting the pieces of the puzzle you will be able to read the name from left to right and following the
               lines.
