@@ -34,16 +34,19 @@ const Help01En = () => {
             <h1 className="help01__text--title">1 The temple</h1>
             <p className="help01__text--subtitle">Do you need help finding out the name of the Temple?</p>
             <p className="help01__text--subtitle">Click on the clues you need to find the solution!</p>
-            <p className="help01__text--para">
-              CLUE 1: By fitting the pieces of the puzzle you will be able to read the name from left to right and
-              following the lines.
-            </p>
+            <button className="help01__text--btn">Clue 1</button>
+            <button className="help01__text--btn">Clue 2</button>
+            <button className="help01__text--btn">Clue 3</button>
+            {/* <p className="help01__text--para">
+              By fitting the pieces of the puzzle you will be able to read the name from left to right and following the
+              lines.
+            </p> */}
 
-            <p className="help01__text--para">
-              CLUE 2: The name of the temple contains the name of the chemical element whose symbol is: B
-            </p>
+            {/* <p className="help01__text--para">
+             The name of the temple contains the name of the chemical element whose symbol is: B
+            </p> */}
 
-            <p className="help01__text--para">CLUE 3: take a pencil and paper and here you have the puzzle solved.</p>
+            {/* <p className="help01__text--para"> take a pencil and paper and here you have the puzzle solved.</p> */}
           </div>
 
           <nav className="clue01Nav">

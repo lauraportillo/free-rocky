@@ -30,6 +30,7 @@
   margin-left: 30px;
 }
 .help01__text {
+  @include flexColumnLeft();
   width: 240px;
   margin-top: 50px;
 }
@@ -45,6 +46,18 @@
   font-family: $typo2;
   font-size: 14px;
   margin-top: 10px;
+}
+
+.help01__text--btn {
+  color: $color1;
+  font-family: $typo2;
+  font-size: 14px;
+  margin-top: 10px;
+  text-transform: uppercase;
+  background: none;
+  outline: none;
+  border: none;
+  cursor: pointer;
 }
 
 .help01__text--para {
