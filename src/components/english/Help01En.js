@@ -30,6 +30,12 @@ const Help01En = () => {
       ? 'By fitting the pieces of the puzzle you will be able to read the name from left to right and following the lines.'
       : null;
   };
+  const renderClue2 = () => {
+    return showClue2 ? 'The name of the temple contains the name of the chemical element whose symbol is: B' : null;
+  };
+  const renderClue3 = () => {
+    return showClue3 ? 'take a pencil and paper and here you have the puzzle solved.' : null;
+  };
 
   return (
     <div className="containerHelp01">
@@ -54,26 +60,21 @@ const Help01En = () => {
             <h1 className="help01__text--title">1 The temple</h1>
             <p className="help01__text--subtitle">Do you need help finding out the name of the Temple?</p>
             <p className="help01__text--subtitle">Click on the clues you need to find the solution!</p>
+
             <button className="help01__text--btn" onClick={handleBtn1}>
               Clue 1
             </button>
             <p className="help01__text--para"> {renderClue1()}</p>
+
             <button className="help01__text--btn" onClick={handleBtn2}>
               Clue 2
             </button>
+            <p className="help01__text--para"> {renderClue2()}</p>
+
             <button className="help01__text--btn" onClick={handleBtn3}>
               Clue 3
             </button>
-            {/* <p className="help01__text--para">
-              By fitting the pieces of the puzzle you will be able to read the name from left to right and following the
-              lines.
-            </p> */}
-
-            {/* <p className="help01__text--para">
-             The name of the temple contains the name of the chemical element whose symbol is: B
-            </p> */}
-
-            {/* <p className="help01__text--para"> take a pencil and paper and here you have the puzzle solved.</p> */}
+            <p className="help01__text--para"> {renderClue3()}</p>
           </div>
 
           <nav className="clue01Nav">
