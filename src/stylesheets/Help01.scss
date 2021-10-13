@@ -58,6 +58,12 @@
   outline: none;
   border: none;
   cursor: pointer;
+  font-weight: bold;
+}
+.help01__text--btn:hover {
+  color: burlywood;
+  transform: scale(1.1);
+  transition: all 0.1s ease-in-out;
 }
 
 .help01__text--para {
@@ -66,8 +72,6 @@
   font-size: 14px;
   margin-top: 10px;
 }
-
-// meter a las huellas efecto neon
 
 .fas,
 .fa-paw {

@@ -12,7 +12,6 @@ const Help01En = () => {
   const [showClue1, setShowClue1] = useState();
   const [showClue2, setShowClue2] = useState();
   const [showClue3, setShowClue3] = useState();
-
   //functions to show or hide clues
   const handleBtn1 = () => {
     setShowClue1(!showClue1);
@@ -23,7 +22,6 @@ const Help01En = () => {
   const handleBtn3 = () => {
     setShowClue3(!showClue3);
   };
-
   //functions that render clues information when the state showClue is true, and doesn't when is false
   const renderClue1 = () => {
     return showClue1
