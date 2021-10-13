@@ -1,4 +1,5 @@
 // React
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 // Components
 import ClueHeaderEn from './ClueHeaderEn';
@@ -6,7 +7,10 @@ import FooterBlack from '../FooterBlack';
 // Styles
 import '../../stylesheets/Help01.scss';
 
-const Help01En = (props) => {
+const Help01En = () => {
+  //state
+  const [showClue1, setShowClue1] = useState();
+
   return (
     <div className="containerHelp01">
       <ClueHeaderEn />
