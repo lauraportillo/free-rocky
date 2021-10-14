@@ -34,7 +34,7 @@ const Clue01En = (props) => {
             </p>
             <p className="clue01__text--para">
               <Link to="/help01En" className="clue01__text--help ">
-                Clues here!
+                🔎 Clues!
               </Link>
             </p>
           </div>

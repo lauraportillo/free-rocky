@@ -22,7 +22,7 @@ const Clue01Es = (props) => {
         <div className="clue01">
           <PhotoList password={props.password} photos={props.photos} />
           <div className="clue01__text">
-            <h2 className="clue01__title">1 El templo</h2>
+            <h2 className="clue01__text--title">1 El templo</h2>
             <p className="clue01__text--para">
               Esta imagen, fue tomada por los dueños de Rocky en el primer gran viaje que hizo con ellos.
             </p>
@@ -31,6 +31,11 @@ const Clue01Es = (props) => {
             </p>
             <p className="clue01__text--para">
               Encuentra en las imágenes las letras que te llevarán a descubrir el nombre de dicho templo.
+            </p>
+            <p className="clue01__text--para">
+              <Link to="/help01En" className="clue01__text--help ">
+                🔎 Pistas!
+              </Link>
             </p>
           </div>
           <form onSubmit={handleForm} className="clue01__form">
