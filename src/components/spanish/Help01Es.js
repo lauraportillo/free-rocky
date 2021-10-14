@@ -12,7 +12,9 @@ const Help01Es = () => {
     <div className="containerHelp01">
       <ClueHeaderEs />
 
-      <main className="containerMainHelp01"></main>
+      <main className="containerMainHelp01">
+        <h1 className="help01__text--title help01">PISTAS</h1>
+      </main>
 
       <FooterBlack />
     </div>

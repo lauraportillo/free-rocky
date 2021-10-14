@@ -33,7 +33,7 @@ const Clue01Es = (props) => {
               Encuentra en las imágenes las letras que te llevarán a descubrir el nombre de dicho templo.
             </p>
             <p className="clue01__text--para">
-              <Link to="/help01En" className="clue01__text--help ">
+              <Link to="/help01Es" className="clue01__text--help ">
                 🔎 Pistas!
               </Link>
             </p>

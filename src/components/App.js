@@ -17,6 +17,7 @@ import InstructionsEs from './spanish/InstructionsEs';
 import Clue01En from './english/Clue01En';
 import Clue01Es from './spanish/Clue01Es';
 import Help01En from './english/Help01En';
+import Help01Es from './spanish/Help01Es';
 import Clue02En from './english/Clue02En';
 import Clue02Es from './spanish/Clue02Es';
 import Clue03En from './english/Clue03En';
@@ -117,6 +118,10 @@ const App = () => {
 
         <Route exact path="/help01En">
           <Help01En />
+        </Route>
+
+        <Route exact path="/help01Es">
+          <Help01Es />
         </Route>
 
         <Route exact path="/clue02En">
