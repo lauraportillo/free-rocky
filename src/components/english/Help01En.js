@@ -75,10 +75,10 @@ const Help01En = () => {
             <p className="help01__text--para"> {renderClue3()}</p>
           </div>
 
-          <nav className="clue01Nav">
-            <ul className="clue01Nav__menu">
+          <nav className="help01Nav">
+            <ul className="help01Nav__menu">
               <li>
-                <Link to="/clue01En" className="clue01Nav__menu--item">
+                <Link to="/clue01En" className="help01Nav__menu--item">
                   Go back
                 </Link>
               </li>

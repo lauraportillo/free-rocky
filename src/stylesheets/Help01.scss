@@ -15,7 +15,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 20px;
 }
 
 .help01 {
@@ -82,4 +81,21 @@
   font-size: 30px;
   color: burlywood;
   margin-right: 30px;
+}
+
+.help01Nav {
+  margin-top: 10px;
+}
+
+.help01Nav__menu {
+  @include flex();
+  color: $color1;
+}
+.help01Nav__menu--item {
+  text-transform: uppercase;
+  font-family: $typo1;
+  font-size: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  color: $color1;
 }
