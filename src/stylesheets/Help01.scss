@@ -12,7 +12,10 @@
   @include flex();
 }
 .containerMainHelp01 {
-  @include flexColumn();
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
 }
 
 .help01 {
