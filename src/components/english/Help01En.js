@@ -12,6 +12,7 @@ const Help01En = () => {
   const [showClue1, setShowClue1] = useState();
   const [showClue2, setShowClue2] = useState();
   const [showClue3, setShowClue3] = useState();
+  const [showClue4, setShowClue4] = useState();
   //functions to show or hide clues
   const handleBtn1 = () => {
     setShowClue1(!showClue1);
@@ -21,6 +22,9 @@ const Help01En = () => {
   };
   const handleBtn3 = () => {
     setShowClue3(!showClue3);
+  };
+  const handleBtn4 = () => {
+    setShowClue4(!showClue4);
   };
   //functions that render clues information when the state showClue is true, and doesn't when is false
   const renderClue1 = () => {
@@ -32,7 +36,10 @@ const Help01En = () => {
     return showClue2 ? 'The name of the temple contains the name of the chemical element whose symbol is: B' : null;
   };
   const renderClue3 = () => {
-    return showClue3 ? 'take a pencil and paper and here you have the puzzle solved.' : null;
+    return showClue3 ? 'This temple is on an island that has the same name as a backend programming language.' : null;
+  };
+  const renderClue4 = () => {
+    return showClue4 ? 'Take a pencil and paper and here you have the puzzle solved.' : null;
   };
 
   return (
@@ -73,6 +80,11 @@ const Help01En = () => {
               Clue 3
             </button>
             <p className="help01__text--para"> {renderClue3()}</p>
+
+            <button className="help01__text--btn" onClick={handleBtn3}>
+              Clue 4
+            </button>
+            <p className="help01__text--para"> {renderClue4()}</p>
           </div>
 
           <nav className="help01Nav">
