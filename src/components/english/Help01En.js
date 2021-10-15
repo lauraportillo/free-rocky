@@ -41,7 +41,7 @@ const Help01En = () => {
   const renderClue4 = () => {
     return showClue4 ? 'Take a pencil and paper and here you have the puzzle solved.' : null;
   };
-
+  // CREAR UN COMPONENTE PARA METER EL BLOQUE DE CÓDIGO CON TEXTO E IMAGEN EN RENDERCLUE4
   return (
     <div className="containerHelp01">
       <ClueHeaderEn />
@@ -84,10 +84,6 @@ const Help01En = () => {
             <button className="help01__text--btn" onClick={handleBtn4}>
               Clue 4
             </button>
-            <div>
-              <p className="help01__text--para">Take a pencil and paper and here you have the puzzle solved.</p>
-              <div className="help01__text--img"></div>
-            </div>
             <p className="help01__text--para"> {renderClue4()}</p>
           </div>
 
@@ -107,5 +103,10 @@ const Help01En = () => {
     </div>
   );
 };
-
+{
+  /* <div>
+<p className="help01__text--para">Take a pencil and paper and here you have the puzzle solved.</p>
+<div className="help01__text--img"></div>
+</div> */
+}
 export default Help01En;
