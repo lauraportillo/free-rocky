@@ -84,6 +84,10 @@ const Help01En = () => {
             <button className="help01__text--btn" onClick={handleBtn4}>
               Clue 4
             </button>
+            <div>
+              <p className="help01__text--para">Take a pencil and paper and here you have the puzzle solved.</p>
+              <div className="help01__text--img"></div>
+            </div>
             <p className="help01__text--para"> {renderClue4()}</p>
           </div>
 
