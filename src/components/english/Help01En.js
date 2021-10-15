@@ -81,7 +81,7 @@ const Help01En = () => {
             </button>
             <p className="help01__text--para"> {renderClue3()}</p>
 
-            <button className="help01__text--btn" onClick={handleBtn3}>
+            <button className="help01__text--btn" onClick={handleBtn4}>
               Clue 4
             </button>
             <p className="help01__text--para"> {renderClue4()}</p>
