@@ -1,6 +1,9 @@
 @import 'Variables';
 @import 'Mixins';
 
+.help01Clue4 {
+  @include flexColumn();
+}
 .help01Clue4__text {
   color: $color1;
   font-family: $typo2;
