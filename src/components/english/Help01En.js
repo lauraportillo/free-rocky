@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 // Components
 import ClueHeaderEn from './ClueHeaderEn';
+import Help01Clue4En from './Help01Clue4En';
 import FooterBlack from '../FooterBlack';
 // Styles
 import '../../stylesheets/Help01.scss';
@@ -39,7 +40,7 @@ const Help01En = () => {
     return showClue3 ? 'This temple is on an island that has the same name as a backend programming language.' : null;
   };
   const renderClue4 = () => {
-    return showClue4 ? 'Take a pencil and paper and here you have the puzzle solved.' : null;
+    return showClue4 ? <Help01Clue4En /> : null;
   };
   // CREAR UN COMPONENTE PARA METER EL BLOQUE DE CÓDIGO CON TEXTO E IMAGEN EN RENDERCLUE4
   return (
