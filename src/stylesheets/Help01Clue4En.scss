@@ -1,0 +1,18 @@
+@import 'Variables';
+@import 'Mixins';
+
+.help01__text--para {
+  color: $color1;
+  font-family: $typo2;
+  font-size: 14px;
+  margin-top: 10px;
+}
+.help01__text--img {
+  background: url('../images/01help/help01-clue4.JPG') no-repeat;
+  background-size: contain;
+  background-position: center center;
+  width: 320px;
+  height: 240px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}

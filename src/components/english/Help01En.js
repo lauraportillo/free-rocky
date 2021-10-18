@@ -103,10 +103,5 @@ const Help01En = () => {
     </div>
   );
 };
-{
-  /* <div>
-<p className="help01__text--para">Take a pencil and paper and here you have the puzzle solved.</p>
-<div className="help01__text--img"></div>
-</div> */
-}
+
 export default Help01En;
