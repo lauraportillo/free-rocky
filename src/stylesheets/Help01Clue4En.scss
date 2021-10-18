@@ -1,6 +1,10 @@
 @import 'Variables';
 @import 'Mixins';
 
+.help01Clue4 {
+  width: 200px;
+}
+
 .help01Clue4__text {
   color: $color1;
   font-family: $typo2;
@@ -11,8 +15,6 @@
   background: url('../images/01help/help01-clue4.JPG') no-repeat;
   background-size: contain;
   background-position: center center;
-  width: 320px;
-  height: 240px;
-  margin-top: 50px;
-  margin-bottom: 30px;
+  width: 260px;
+  height: 195px;
 }

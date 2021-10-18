@@ -70,22 +70,22 @@ const Help01En = () => {
             <button className="help01__text--btn" onClick={handleBtn1}>
               Clue 1
             </button>
-            <section className="help01__text--para"> {renderClue1()}</section>
+            <section className="help01__text--sec"> {renderClue1()}</section>
 
             <button className="help01__text--btn" onClick={handleBtn2}>
               Clue 2
             </button>
-            <section className="help01__text--para"> {renderClue2()}</section>
+            <section className="help01__text--sec"> {renderClue2()}</section>
 
             <button className="help01__text--btn" onClick={handleBtn3}>
               Clue 3
             </button>
-            <section className="help01__text--para"> {renderClue3()}</section>
+            <section className="help01__text--sec"> {renderClue3()}</section>
 
             <button className="help01__text--btn" onClick={handleBtn4}>
               Clue 4
             </button>
-            <section className="help01__text--para"> {renderClue4()}</section>
+            <section className="help01__text--sec"> {renderClue4()}</section>
           </div>
 
           <nav className="help01Nav">
