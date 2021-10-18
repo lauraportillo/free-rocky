@@ -42,7 +42,7 @@ const Help01En = () => {
   const renderClue4 = () => {
     return showClue4 ? <Help01Clue4En /> : null;
   };
-  // CREAR UN COMPONENTE PARA METER EL BLOQUE DE CÓDIGO CON TEXTO E IMAGEN EN RENDERCLUE4
+
   return (
     <div className="containerHelp01">
       <ClueHeaderEn />
@@ -70,22 +70,22 @@ const Help01En = () => {
             <button className="help01__text--btn" onClick={handleBtn1}>
               Clue 1
             </button>
-            <p className="help01__text--para"> {renderClue1()}</p>
+            <section className="help01__text--para"> {renderClue1()}</section>
 
             <button className="help01__text--btn" onClick={handleBtn2}>
               Clue 2
             </button>
-            <p className="help01__text--para"> {renderClue2()}</p>
+            <section className="help01__text--para"> {renderClue2()}</section>
 
             <button className="help01__text--btn" onClick={handleBtn3}>
               Clue 3
             </button>
-            <p className="help01__text--para"> {renderClue3()}</p>
+            <section className="help01__text--para"> {renderClue3()}</section>
 
             <button className="help01__text--btn" onClick={handleBtn4}>
               Clue 4
             </button>
-            <p className="help01__text--para"> {renderClue4()}</p>
+            <section className="help01__text--para"> {renderClue4()}</section>
           </div>
 
           <nav className="help01Nav">
