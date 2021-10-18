@@ -46,7 +46,6 @@ const Help01En = () => {
   return (
     <div className="containerHelp01">
       <ClueHeaderEn />
-
       <main className="containerMainHelp01">
         <div className="help01">
           <div className="help01__paws">
