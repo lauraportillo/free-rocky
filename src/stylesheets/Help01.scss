@@ -24,6 +24,7 @@
 }
 .help01__paws {
   width: 240px;
+  @include flexColumn();
 }
 .help01__paws--1 {
   margin-bottom: 10px;
@@ -96,4 +97,27 @@
   font-family: $typo1;
   font-size: 10px;
   color: $color1;
+}
+
+@media all and (min-width: 768px) {
+  .help01 {
+    width: 480px;
+  }
+  .help01__paws {
+    width: 400px;
+  }
+
+  .fas,
+  .fa-paw {
+    font-size: 40px;
+    margin-right: 50px;
+  }
+
+  .help01__paws--1 {
+    margin-bottom: 15px;
+    margin-left: 50px;
+  }
+}
+
+@media all and (min-width: 1280px) {
 }
