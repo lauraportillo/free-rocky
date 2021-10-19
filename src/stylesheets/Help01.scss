@@ -7,13 +7,11 @@
   display: grid;
   grid-template-rows: auto 1fr auto;
 }
-
 .containerMainHelp01 {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-
 .help01 {
   display: flex;
   flex-direction: column;
@@ -42,20 +40,17 @@
   width: 240px;
   margin-top: 50px;
 }
-
 .help01__text--title {
   color: $color1;
   font-family: $typo2;
   font-size: 14px;
 }
-
 .help01__text--subtitle {
   color: $color1;
   font-family: $typo2;
   font-size: 14px;
   margin-top: 10px;
 }
-
 .help01__text--btn {
   color: $color1;
   font-family: $typo2;
@@ -73,7 +68,6 @@
   transform: scale(1.1);
   transition: all 0.1s ease-in-out;
 }
-
 .help01__text--sec {
   color: $color1;
   font-family: $typo2;
@@ -81,12 +75,10 @@
   margin-top: 10px;
   width: 240px;
 }
-
 .help01Nav {
   margin-top: 10px;
   margin-bottom: 20px;
 }
-
 .help01Nav__menu {
   @include flex();
   color: $color1;
@@ -105,34 +97,40 @@
   .help01__paws {
     width: 400px;
   }
-
   .fas,
   .fa-paw {
     font-size: 40px;
     margin-right: 60px;
   }
-
   .help01__paws--1 {
     margin-bottom: 15px;
   }
-
   .help01__text {
     width: 360px;
     margin-top: 70px;
   }
-
-  // .help01__text--title {
-  //   color: $color1;
-  //   font-family: $typo2;
-  //   font-size: 14px;
-  // }
-
-  // .help01__text--subtitle {
-  //   color: $color1;
-  //   font-family: $typo2;
-  //   font-size: 14px;
-  //   margin-top: 10px;
-  // }
+  .help01__text--title {
+    font-size: 16px;
+  }
+  .help01__text--subtitle {
+    font-size: 16px;
+    margin-top: 15px;
+  }
+  .help01__text--btn {
+    font-size: 16px;
+    margin-top: 15px;
+  }
+  .help01__text--sec {
+    font-size: 16px;
+    margin-top: 15px;
+    width: 360px;
+  }
+  .help01Nav {
+    margin-bottom: 30px;
+  }
+  .help01Nav__menu--item {
+    font-size: 12px;
+  }
 }
 
 @media all and (min-width: 1280px) {

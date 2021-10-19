@@ -64,7 +64,7 @@ const Help01En = () => {
           <div className="help01__text">
             <h1 className="help01__text--title">1 The temple</h1>
             <p className="help01__text--subtitle">Do you need help finding out the name of the Temple?</p>
-            <p className="help01__text--subtitle">Click on the clues you need to find the solution!</p>
+            <p className="help01__text--subtitle">Click on the clues you need, to find the solution!</p>
 
             <button className="help01__text--btn" onClick={handleBtn1}>
               Clue 1
