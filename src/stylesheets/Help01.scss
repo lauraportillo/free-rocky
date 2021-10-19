@@ -28,7 +28,14 @@
 }
 .help01__paws--1 {
   margin-bottom: 10px;
-  margin-left: 30px;
+  margin-left: 10px;
+}
+.fas,
+.fa-paw {
+  color: $color1;
+  font-size: 30px;
+  color: burlywood;
+  margin-right: 30px;
 }
 .help01__text {
   @include flexColumnLeft();
@@ -75,14 +82,6 @@
   width: 240px;
 }
 
-.fas,
-.fa-paw {
-  color: $color1;
-  font-size: 30px;
-  color: burlywood;
-  margin-right: 30px;
-}
-
 .help01Nav {
   margin-top: 10px;
   margin-bottom: 20px;
@@ -110,13 +109,30 @@
   .fas,
   .fa-paw {
     font-size: 40px;
-    margin-right: 50px;
+    margin-right: 60px;
   }
 
   .help01__paws--1 {
     margin-bottom: 15px;
-    margin-left: 50px;
   }
+
+  .help01__text {
+    width: 360px;
+    margin-top: 70px;
+  }
+
+  // .help01__text--title {
+  //   color: $color1;
+  //   font-family: $typo2;
+  //   font-size: 14px;
+  // }
+
+  // .help01__text--subtitle {
+  //   color: $color1;
+  //   font-family: $typo2;
+  //   font-size: 14px;
+  //   margin-top: 10px;
+  // }
 }
 
 @media all and (min-width: 1280px) {
