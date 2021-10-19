@@ -17,3 +17,17 @@
   width: 260px;
   height: 195px;
 }
+
+@media all and (min-width: 768px) {
+  .help01Clue4__text {
+    font-size: 16px;
+    margin-top: 15px;
+  }
+  .help01Clue4__img {
+    width: 400px;
+    height: 300px;
+  }
+}
+
+@media all and (min-width: 1280px) {
+}
