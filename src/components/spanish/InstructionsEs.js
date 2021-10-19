@@ -39,7 +39,7 @@ const InstructionsEs = (props) => {
           </p>
           <p className="instructions__text--para2">- Puedes jugar sólo o acompañado, eso depende de ti. </p>
           <p className="instructions__text--para2">
-            - Puedes escribir las claves tanto en mayúsculas como en minúsculas, eso no será un problema.
+            - Puedes escribir las claves tanto en mayúsculas como en minúsculas.
           </p>
           <p className="instructions__text--para2">
             - Si la clave es correcta aparecerá en tu pantalla un mensaje que dirá “correcto” y el botón “Next” quedará

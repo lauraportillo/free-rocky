@@ -34,9 +34,7 @@ const InstructionsEn = (props) => {
           </p>
           <p className="instructions__text--para">- You can play from any device. </p>
           <p className="instructions__text--para2">- You can play alone or with friends, that depends on you.</p>
-          <p className="instructions__text--para2">
-            - You can write the keys in both uppercase and lowercase, that will not be a problem.
-          </p>
+          <p className="instructions__text--para2">- You can write the keys in both uppercase and lowercase.</p>
           <p className="instructions__text--para2">
             - If the password is correct, a message will appear on your screen and it will say "correct" and the "Next"
             button will be enabled for you to go to the next screen.
