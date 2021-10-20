@@ -8,10 +8,8 @@
   grid-template-rows: auto 1fr auto;
 }
 .containerMainGame {
-  // @include flexColumn();
   display: flex;
   flex-direction: column;
-  // justify-content: center;
   align-items: center;
 }
 .game {
