@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 // Components
 import ClueHeaderEs from './ClueHeaderEs';
-// import Help01Clue4En from './Help01Clue4En';
+import Help01Clue4Es from './Help01Clue4Es';
 import FooterBlack from '../FooterBlack';
 // Styles
 import '../../stylesheets/Help01.scss';
@@ -40,7 +40,7 @@ const Help01Es = () => {
     return showClue3 ? 'This temple is on an island that has the same name as a backend programming language.' : null;
   };
   const renderClue4 = () => {
-    // return showClue4 ? <Help01Clue4En /> : null;
+    return showClue4 ? <Help01Clue4Es /> : null;
   };
 
   return (
@@ -62,9 +62,9 @@ const Help01Es = () => {
             </div>
           </div>
           <div className="help01__text">
-            <h1 className="help01__text--title">1 The temple</h1>
-            <p className="help01__text--subtitle">Do you need help finding out the name of the Temple?</p>
-            <p className="help01__text--subtitle">Click on the clues you need, to find the solution!</p>
+            <h1 className="help01__text--title">1 El templo</h1>
+            <p className="help01__text--subtitle">Necesitas ayuda para averiguar el nombre del Templo?</p>
+            <p className="help01__text--subtitle">Haz click en las pistas que necesites para llegar a la solución!</p>
 
             <button className="help01__text--btn" onClick={handleBtn1}>
               Clue 1
