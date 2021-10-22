@@ -30,14 +30,16 @@ const Help01Es = () => {
   //functions that render clues information when the state showClue is true, and doesn't when is false
   const renderClue1 = () => {
     return showClue1
-      ? 'By fitting the pieces of the puzzle you will be able to read the name from left to right and following the lines.'
+      ? 'Encajando las piezas del puzzle podrás leer el nombre de izquierda a derecha y siguiendo las líneas.'
       : null;
   };
   const renderClue2 = () => {
-    return showClue2 ? 'The name of the temple contains the name of the chemical element whose symbol is: B' : null;
+    return showClue2 ? 'El nombre del templo contiene el nombre del elemento químico cuyo símbolo es: B' : null;
   };
   const renderClue3 = () => {
-    return showClue3 ? 'This temple is on an island that has the same name as a backend programming language.' : null;
+    return showClue3
+      ? 'Este templo está en una isla que tiene el mismo nombre que un lenguaje de programación backend.'
+      : null;
   };
   const renderClue4 = () => {
     return showClue4 ? <Help01Clue4Es /> : null;
