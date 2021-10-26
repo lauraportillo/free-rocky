@@ -70,7 +70,7 @@ const InstructionsEs = (props) => {
         <nav className="instructionsNav">
           <ul className="instructionsNav__menu">
             <li>
-              <Link to="/" className="instructionsNav__menu--item">
+              <Link to="/homeEs" className="instructionsNav__menu--item">
                 Inicio
               </Link>
             </li>
