@@ -92,8 +92,8 @@ const Help01Es = () => {
           <nav className="help01Nav">
             <ul className="help01Nav__menu">
               <li>
-                <Link to="/clue01En" className="help01Nav__menu--item">
-                  Go back
+                <Link to="/clue01Es" className="help01Nav__menu--item">
+                  Volver
                 </Link>
               </li>
             </ul>
