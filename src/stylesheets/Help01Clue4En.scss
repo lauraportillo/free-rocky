@@ -7,7 +7,10 @@
   font-size: 14px;
   margin-top: 10px;
 }
-.help01Clue4__img {
+.help01Clue4__container {
+  @include flex();
+}
+.help01Clue4__container--img {
   background: url('../images/01help/help01-clue4.JPG') no-repeat;
   background-size: contain;
   background-position: center center;
@@ -20,7 +23,7 @@
     font-size: 16px;
     margin-top: 15px;
   }
-  .help01Clue4__img {
+  .help01Clue4__container--img {
     width: 400px;
     height: 300px;
   }
