@@ -19,7 +19,7 @@ const ComingSoon = () => {
             <h2>More clues coming soon ...</h2>
           </section>
           <section className="soon__title">
-            <h2 className="animate__animated animate__heartBeat animate__infinite">♡</h2>
+            <h2 className="animate__animated  animate__bounceInUp">♡</h2>
           </section>
         </div>
       </main>
