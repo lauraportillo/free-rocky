@@ -80,6 +80,11 @@
   margin-right: 5px;
   color: $color1;
 }
+.clue01Nav__menu--item:hover {
+  color: $color6;
+  transform: scale(1.1);
+  transition: all 0.1s ease-in-out;
+}
 @media all and (min-width: 768px) {
   .clue01__text--title {
     font-size: 16px;
