@@ -23,7 +23,7 @@
   @include redNeon();
 }
 .soon__titleEn {
-  margin-bottom: 20px;
+  margin-bottom: 50px;
   font-family: $typoNeon;
   font-size: 18px;
   color: #fff;
@@ -31,7 +31,6 @@
 }
 
 .soon__title {
-  margin-bottom: 20px;
   font-family: $typoNeon;
   font-size: 30px;
   color: #fff;
@@ -39,6 +38,21 @@
 }
 
 @media all and (min-width: 768px) {
+  .soon {
+    width: 480px;
+  }
+  .soon__titleEs {
+    margin-bottom: 100px;
+    font-size: 22px;
+  }
+  .soon__titleEn {
+    margin-bottom: 100px;
+    font-size: 22px;
+  }
+
+  .soon__title {
+    font-size: 32px;
+  }
 }
 
 @media all and (min-width: 1280px) {
