@@ -6,17 +6,19 @@ import '../stylesheets/ComingSoon.scss';
 
 const ComingSoon = () => {
   return (
-    <div className="containerRocky">
+    <div className="containerSoon">
       <HeaderEn />
-      <main>
-        <section>
-          <h2>Gracias por jugar!</h2>
-          <h2>Más pistas próximamente...</h2>
-        </section>
-        <section>
-          <h2>Thanks for playing!</h2>
-          <h2>More clues coming soon ...</h2>
-        </section>
+      <main className="containerMainSoon">
+        <div className="soon">
+          <section className="soon__titleEs">
+            <h2>Gracias por jugar!</h2>
+            <h2>Más pistas próximamente...</h2>
+          </section>
+          <section className="soon__titleEn">
+            <h2>Thanks for playing!</h2>
+            <h2>More clues coming soon ...</h2>
+          </section>
+        </div>
       </main>
       <Footer />
     </div>

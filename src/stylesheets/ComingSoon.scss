@@ -1,2 +1,31 @@
 @import 'Variables';
 @import 'Mixins';
+
+.containerSoon {
+  background-color: $color1;
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+.containerMainSoon {
+  @include flexColumn();
+}
+.soon {
+  @include flexColumn();
+  width: 280px;
+}
+
+.soon__titleEs {
+  margin-bottom: 50px;
+  font-family: $typoNeon;
+  font-size: 18px;
+  color: #fff;
+  @include redNeon();
+}
+.soon__titleEn {
+  margin-bottom: 20px;
+  font-family: $typoNeon;
+  font-size: 18px;
+  color: #fff;
+  @include blueNeon();
+}
