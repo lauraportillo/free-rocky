@@ -29,3 +29,11 @@
   color: #fff;
   @include blueNeon();
 }
+
+.soon__title {
+  margin-bottom: 20px;
+  font-family: $typoNeon;
+  font-size: 30px;
+  color: #fff;
+  @include redNeon();
+}
