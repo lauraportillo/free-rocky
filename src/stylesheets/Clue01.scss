@@ -39,6 +39,7 @@
   margin-top: 10px;
   font-size: 14px;
 }
+
 .clue01__text--help {
   color: $color5;
   font-family: $typo2;
@@ -46,7 +47,11 @@
   font-weight: bold;
   margin-top: 20px;
 }
-
+.clue01__text--help:hover {
+  color: $color6;
+  transform: scale(1.1);
+  transition: all 0.1s ease-in-out;
+}
 .clue01__form {
   margin-top: 10px;
   @include flexColumn();

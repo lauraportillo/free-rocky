@@ -33,7 +33,7 @@ const Clue01En = (props) => {
               Find in the images the letters that will lead you to discover the name of the temple.
             </p>
             <p className="clue01__text--para">
-              <Link to="/help01En" className="clue01__text--help ">
+              <Link to="/help01En" className="clue01__text--help">
                 🔎 Clues!
               </Link>
             </p>
