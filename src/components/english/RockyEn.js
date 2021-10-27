@@ -18,7 +18,7 @@ const RockyEn = (props) => {
             </p>
             <p className="rocky__description--p">
               <span className="bold">Rocky</span> seems completely real, however he is not flesh and blood, he is a
-              <span className="bold">3d modelled dog</span>, the work of the great artist
+              <span className="bold"> 3d modelled dog</span>, the work of the great artist
               <span className="bold"> Luis Yrisarry Labadía</span>.
             </p>
             <p className="rocky__description--p">
