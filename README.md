@@ -1,6 +1,8 @@
 # Free Rocky!
 
-Work in progress with **React.JS**
+Work in progress ⛏
+
+Personal Project made with **React.JS**
 
 ### 🚀🚀🚀🚀🚀
 
