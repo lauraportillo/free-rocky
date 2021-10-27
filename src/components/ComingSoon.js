@@ -1,12 +1,13 @@
 // Components
+import HeaderEn from './english/HeaderEn';
 import Footer from './Footer';
 // Styles
 import '../stylesheets/ComingSoon.scss';
 
 const ComingSoon = () => {
   return (
-    <>
-      <header></header>
+    <div className="containerRocky">
+      <HeaderEn />
       <main>
         <section>
           <h2>Gracias por jugar!</h2>
@@ -18,7 +19,7 @@ const ComingSoon = () => {
         </section>
       </main>
       <Footer />
-    </>
+    </div>
   );
 };
 
