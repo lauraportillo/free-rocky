@@ -1,6 +1,6 @@
 # Free Rocky!
 
-I made this web with **React.JS**
+Work in progress with **React.JS**
 
 ### 🚀🚀🚀🚀🚀
 
