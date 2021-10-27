@@ -1,10 +1,13 @@
-import React from 'react';
+// Components
+import Footer from './Footer';
+// Styles
 import '../stylesheets/ComingSoon.scss';
 
-const ComingSoon = (props) => {
+const ComingSoon = () => {
   return (
     <>
       <div></div>
+      <Footer />
     </>
   );
 };

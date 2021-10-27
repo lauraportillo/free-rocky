@@ -22,6 +22,7 @@ import Clue02En from './english/Clue02En';
 import Clue02Es from './spanish/Clue02Es';
 import Clue03En from './english/Clue03En';
 import Clue03Es from './spanish/Clue03Es';
+import ComingSoon from './ComingSoon';
 // Styles
 import '../stylesheets/App.scss';
 import '../stylesheets/Reset.scss';
@@ -161,6 +162,9 @@ const App = () => {
             route={route}
             clue03={clue03}
           />
+        </Route>
+        <Route exact path="/soon">
+          <ComingSoon />
         </Route>
       </Switch>
     </div>
