@@ -2,7 +2,7 @@
 
 Work in progress ⛏
 
-Personal Project made with **React.JS**
+My personal Project made with **React.JS**
 
 ### 🚀🚀🚀🚀🚀
 
