@@ -8,7 +8,7 @@ const ResetButtonEs = (props) => {
 
   return (
     <>
-      <button className="reset" onClick={handleReset}>
+      <button type="button" className="reset" onClick={handleReset}>
         🗑️ Borrar
       </button>
     </>
