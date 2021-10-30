@@ -14,19 +14,33 @@ const Help01En = () => {
   const [showClue2, setShowClue2] = useState();
   const [showClue3, setShowClue3] = useState();
   const [showClue4, setShowClue4] = useState();
+
   //functions to show or hide clues
   const handleBtn1 = () => {
     setShowClue1(!showClue1);
+    setShowClue2();
+    setShowClue3();
+    setShowClue4();
   };
   const handleBtn2 = () => {
     setShowClue2(!showClue2);
+    setShowClue1();
+    setShowClue3();
+    setShowClue4();
   };
   const handleBtn3 = () => {
     setShowClue3(!showClue3);
+    setShowClue1();
+    setShowClue2();
+    setShowClue4();
   };
   const handleBtn4 = () => {
     setShowClue4(!showClue4);
+    setShowClue1();
+    setShowClue2();
+    setShowClue3();
   };
+
   //functions that render clues information when the state showClue is true, and doesn't when is false
   const renderClue1 = () => {
     return showClue1
@@ -69,7 +83,7 @@ const Help01En = () => {
             <button className="help01__text--btn" onClick={handleBtn1}>
               Clue 1
             </button>
-            <section className="help01__text--sec"> {renderClue1()}</section>
+            <section className="help01__text--sec">{renderClue1()}</section>
 
             <button className="help01__text--btn" onClick={handleBtn2}>
               Clue 2
