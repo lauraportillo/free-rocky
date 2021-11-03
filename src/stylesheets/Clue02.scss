@@ -7,25 +7,29 @@
   display: grid;
   grid-template-rows: auto 1fr auto;
 }
+
 .containerMainClue02 {
   @include flexColumn();
 }
 
 .clue02 {
-  @include flexColumn();
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   color: $color1;
   width: 300px;
-  height: 400px;
-  margin-top: 50px;
+  margin-top: 60px;
 }
+
+.clue02__text {
+  width: 240px;
+  margin-top: 30px;
+}
+
 .clue02__title {
   color: $color1;
   font-family: $typo2;
   font-size: 14px;
-  margin-top: 10px;
-}
-.clue02__text {
-  width: 240px;
   margin-top: 10px;
 }
 
