@@ -6,6 +6,7 @@ import Input from '../Input';
 import NextButtonEn from './NextButtonEn';
 import ResetButtonEn from './ResetButtonEn';
 import FooterBlack from '../FooterBlack';
+
 // Styles
 import '../../stylesheets/Clue02.scss';
 
@@ -20,8 +21,13 @@ const Clue02En = (props) => {
       <main className="containerMainClue02">
         <div className="clue02">
           <div className="clue02__text">
-            <h2 className="clue02__title">2 The museum</h2>
+            <h2 className="clue02__text--title">2 The museum</h2>
             <p className="clue02__text--para">Paragraph with instructions</p>
+            <p className="clue01__text--para">
+              <Link to="/help02En" className="clue01__text--help">
+                🔎 Clues!
+              </Link>
+            </p>
           </div>
           <form onSubmit={handleForm} className="clue02__form">
             <div>
