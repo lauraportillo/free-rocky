@@ -1,0 +1,8 @@
+@import 'Variables';
+@import 'Mixins';
+
+.prueba {
+  color: $color1;
+  font-family: $typo2;
+  font-size: 14px;
+}

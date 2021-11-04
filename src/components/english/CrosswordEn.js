@@ -1,10 +1,10 @@
-import React from 'react';
-import '../stylesheets/CrosswordEn.scss';
+// Styles
+import '../../stylesheets/CrosswordEn.scss';
 
 const CrosswordEn = (props) => {
   return (
     <>
-      <div>crucigrama</div>
+      <div className="prueba">probando crucigrama</div>
     </>
   );
 };
