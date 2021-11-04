@@ -1,8 +1,41 @@
 @import 'Variables';
 @import 'Mixins';
 
-.prueba {
+.prueba1 {
   color: $color1;
   font-family: $typo2;
   font-size: 14px;
+}
+
+.prueba2 {
+  border: 1px solid black;
+  background-color: white;
+  color: black;
+  text-align: center;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  cursor: context-menu;
+}
+
+.prueba3 {
+  border: 1px solid black;
+  background-color: black;
+  color: black;
+  text-align: center;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  cursor: none;
+}
+
+.prueba4 {
+  background-color: white;
+  border: none;
+  color: black;
+  text-align: center;
+  display: inline-block;
+  cursor: context-menu;
+  width: 20px;
+  height: 20px;
 }
