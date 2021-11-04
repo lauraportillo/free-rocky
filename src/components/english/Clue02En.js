@@ -2,6 +2,7 @@
 import { Link } from 'react-router-dom';
 // Components
 import ClueHeaderEn from './ClueHeaderEn';
+import CrosswordEn from './CrosswordEn';
 import Input from '../Input';
 import NextButtonEn from './NextButtonEn';
 import ResetButtonEn from './ResetButtonEn';
@@ -20,6 +21,7 @@ const Clue02En = (props) => {
       <ClueHeaderEn />
       <main className="containerMainClue02">
         <div className="clue02">
+          <CrosswordEn />
           <div className="clue02__text">
             <h2 className="clue02__text--title">2 The museum</h2>
             <p className="clue02__text--para">Paragraph with instructions</p>

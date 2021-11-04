@@ -1,5 +1,5 @@
 // Styles
-import '../../stylesheets/CrosswordEn.scss';
+import '../../stylesheets/Crossword.scss';
 
 const CrosswordEn = (props) => {
   return (
