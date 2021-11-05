@@ -10,8 +10,8 @@
   font-size: 14px;
 }
 .crossword__empty {
-  border: 1px solid $color6;
-  background-color: $color6;
+  border: 1px solid $color7;
+  background-color: $color7;
   width: 20px;
   height: 20px;
   cursor: none;
@@ -27,25 +27,15 @@
   height: 20px;
   cursor: context-menu;
 }
+// Squares intersect 4 sides
 
-.prueba3 {
-  border: 1px solid $color1;
-  background-color: $color1;
-  color: $color1;
-  text-align: center;
-  display: inline-block;
-  width: 20px;
-  height: 20px;
-  cursor: none;
-}
-
-.prueba4 {
-  background-color: white;
+.crossword__full2 {
   border: none;
+  background-color: $color2;
   color: $color1;
   text-align: center;
   display: inline-block;
-  cursor: context-menu;
   width: 20px;
   height: 20px;
+  cursor: context-menu;
 }
