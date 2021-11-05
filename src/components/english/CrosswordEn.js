@@ -5,23 +5,26 @@ const CrosswordEn = (props) => {
   return (
     <>
       <div className="crossword">
-        <input class="crossword__empty" type="text" disabled="disabled" maxlength="1" />
-        <input class="prueba2" type="text" disabled="disabled" maxlength="1" />
-        <input class="prueba2" type="text" disabled="disabled" maxlength="1" />
-        <input class="prueba2" type="text" disabled="disabled" maxlength="1" />
-        <input class="prueba2" type="text" disabled="disabled" maxlength="1" />
-        <input class="prueba2" type="text" disabled="disabled" maxlength="1" />
-        <input class="prueba2" type="text" disabled="disabled" maxlength="1" value="P" />
-        <input class="prueba2" type="text" disabled="disabled" maxlength="1" />
-        <input class="prueba2" type="text" disabled="disabled" maxlength="1" />
-        <input class="prueba2" type="text" disabled="disabled" maxlength="1" />
-        <input class="prueba2" type="text" disabled="disabled" maxlength="1" />
-        <input class="prueba2" type="text" disabled="disabled" maxlength="1" />
-        <input class="prueba2" type="text" disabled="disabled" maxlength="1" />
+        <input className="crossword__empty" disabled="disabled" />
+        <input className="crossword__empty" disabled="disabled" />
+        <input className="crossword__empty" disabled="disabled" />
+        <input className="crossword__empty" disabled="disabled" />
+        <input className="crossword__empty" disabled="disabled" />
+        <input className="crossword__empty" disabled="disabled" />
+        <input className="crossword__full" type="text" disabled="disabled" maxLength="1" value="P" />
+        <input className="crossword__empty" disabled="disabled" />
+        <input className="crossword__empty" disabled="disabled" />
+        <input className="crossword__empty" disabled="disabled" />
+        <input className="crossword__empty" disabled="disabled" />
+        <input className="crossword__empty" disabled="disabled" />
+        <input className="crossword__empty" disabled="disabled" />
 
-        <input class="prueba2" type="text" disabled="disabled" maxlength="1" value="X" />
-        <input class="prueba2" type="text" disabled="disabled" maxlength="1" value="X" />
-        <input class="prueba2" type="text" disabled="disabled" maxlength="1" value="X" />
+        <input className="crossword__empty" disabled="disabled" />
+        <input className="crossword__empty" disabled="disabled" />
+        <input className="crossword__empty" disabled="disabled" />
+        <input className="crossword__empty" disabled="disabled" />
+        <input className="crossword__empty" disabled="disabled" />
+        <input className="crossword__full" type="text" disabled="disabled" maxLength="1" value="M" />
       </div>
     </>
   );

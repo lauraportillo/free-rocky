@@ -10,20 +10,17 @@
   font-size: 14px;
 }
 .crossword__empty {
-  border: 1px solid black;
-  // background-color: black;
-  // color: black;
-  // text-align: center;
-  // display: inline-block;
-  // width: 20px;
-  // height: 20px;
-  // cursor: none;
+  border: 1px solid $color6;
+  background-color: $color6;
+  width: 20px;
+  height: 20px;
+  cursor: none;
 }
 
-.prueba2 {
-  border: 1px solid black;
-  background-color: white;
-  color: black;
+.crossword__full {
+  border: 1px solid $color1;
+  background-color: $color2;
+  color: $color1;
   text-align: center;
   display: inline-block;
   width: 20px;
@@ -32,9 +29,9 @@
 }
 
 .prueba3 {
-  border: 1px solid black;
-  background-color: black;
-  color: black;
+  border: 1px solid $color1;
+  background-color: $color1;
+  color: $color1;
   text-align: center;
   display: inline-block;
   width: 20px;
@@ -45,7 +42,7 @@
 .prueba4 {
   background-color: white;
   border: none;
-  color: black;
+  color: $color1;
   text-align: center;
   display: inline-block;
   cursor: context-menu;
