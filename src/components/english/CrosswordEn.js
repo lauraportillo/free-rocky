@@ -11,7 +11,7 @@ const CrosswordEn = (props) => {
         <input className="crossword__empty" disabled="disabled" />
         <input className="crossword__empty" disabled="disabled" />
         <input className="crossword__empty" disabled="disabled" />
-        <input className="crossword__full" type="text" disabled="disabled" maxLength="1" value="P" />
+        <input className="crossword__full" type="text" maxLength="1" value="P" />
         <input className="crossword__empty" disabled="disabled" />
         <input className="crossword__empty" disabled="disabled" />
         <input className="crossword__empty" disabled="disabled" />
@@ -24,7 +24,14 @@ const CrosswordEn = (props) => {
         <input className="crossword__empty" disabled="disabled" />
         <input className="crossword__empty" disabled="disabled" />
         <input className="crossword__empty" disabled="disabled" />
-        <input className="crossword__full" type="text" disabled="disabled" maxLength="1" value="M" />
+        <input className="crossword__full" type="text" maxLength="1" value="M" />
+        <input className="crossword__full" type="text" maxLength="1" value="A" />
+        <input className="crossword__full" type="text" maxLength="1" value="D" />
+        <input className="crossword__full" type="text" maxLength="1" value="R" />
+        <input className="crossword__full" type="text" maxLength="1" value="I" />
+        <input className="crossword__full" type="text" maxLength="1" value="D" />
+        <input className="crossword__empty" disabled="disabled" />
+        <input className="crossword__empty" disabled="disabled" />
       </div>
     </>
   );
