@@ -32,6 +32,34 @@ const CrosswordEn = (props) => {
         <input className="crossword__full" type="text" maxLength="1" value="D" />
         <input className="crossword__empty" disabled="disabled" />
         <input className="crossword__empty" disabled="disabled" />
+
+        <input className="crossword__empty" disabled="disabled" />
+        <input className="crossword__empty" disabled="disabled" />
+        <input className="crossword__empty" disabled="disabled" />
+        <input className="crossword__full" type="text" maxLength="1" value="G" />
+        <input className="crossword__empty" disabled="disabled" />
+        <input className="crossword__empty" disabled="disabled" />
+        <input className="crossword__full" type="text" maxLength="1" value="R" />
+        <input className="crossword__empty" disabled="disabled" />
+        <input className="crossword__empty" disabled="disabled" />
+        <input className="crossword__empty" disabled="disabled" />
+        <input className="crossword__empty" disabled="disabled" />
+        <input className="crossword__empty" disabled="disabled" />
+        <input className="crossword__empty" disabled="disabled" />
+
+        <input className="crossword__empty" disabled="disabled" />
+        <input className="crossword__empty" disabled="disabled" />
+        <input className="crossword__empty" disabled="disabled" />
+        <input className="crossword__full" type="text" maxLength="1" value="L" />
+        <input className="crossword__empty" disabled="disabled" />
+        <input className="crossword__empty" disabled="disabled" />
+        <input className="crossword__full" type="text" maxLength="1" value="I" />
+        <input className="crossword__empty" disabled="disabled" />
+        <input className="crossword__empty" disabled="disabled" />
+        <input className="crossword__empty" disabled="disabled" />
+        <input className="crossword__empty" disabled="disabled" />
+        <input className="crossword__empty" disabled="disabled" />
+        <input className="crossword__empty" disabled="disabled" />
       </div>
     </>
   );
