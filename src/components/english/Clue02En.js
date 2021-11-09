@@ -22,15 +22,27 @@ const Clue02En = (props) => {
       <main className="containerMainClue02">
         <div className="clue02">
           <CrosswordEn />
-          <div className="clue02__text">
+          <section className="clue02__text">
             <h2 className="clue02__text--title">2 The museum</h2>
-            <p className="clue02__text--para">Paragraph with instructions</p>
+
+            <h3 className="clue02__text--para">Across</h3>
+            <p className="clue02__text--para">1</p>
+            <p className="clue02__text--para">2</p>
+            <p className="clue02__text--para">3</p>
+            <p className="clue02__text--para">4</p>
+
+            <h3 className="clue02__text--para">Down</h3>
+            <p className="clue02__text--para">1</p>
+            <p className="clue02__text--para">2</p>
+            <p className="clue02__text--para">3</p>
+            <p className="clue02__text--para">4</p>
+
             <p className="clue01__text--para">
               <Link to="/help02En" className="clue01__text--help">
                 🔎 Clues!
               </Link>
             </p>
-          </div>
+          </section>
           <form onSubmit={handleForm} className="clue02__form">
             <div>
               <Input
