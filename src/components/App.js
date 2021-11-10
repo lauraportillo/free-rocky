@@ -30,7 +30,7 @@ import '../stylesheets/Reset.scss';
 const App = () => {
   //state
   const [photos] = useState(dataClue);
-  const [password] = useState(['borobudur', 'segunda', 'tercera']);
+  const [password] = useState(['borobudur', 'se19tg', 'tercera']);
   const [route] = useState(['/clue02En', '/clue02Es', '/clue03En', '/clue03Es', '/clue04En', '/clue04Es']);
   const [clue01, setClue01] = useState('');
   const [clue02, setClue02] = useState('');
