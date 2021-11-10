@@ -41,24 +41,10 @@ const CrosswordEn = (props) => {
       <input className="crossword__empty" disabled="disabled" />
       <input className="crossword__empty" disabled="disabled" />
       <input className="crossword__empty" disabled="disabled" />
-      <input className="crossword__full" type="text" maxLength="1" value="G" />
+      <CrosswordInput handleCrosswordInput={props.handleCrosswordInput} name="g01" id="g01" />
       <input className="crossword__empty" disabled="disabled" />
       <input className="crossword__empty" disabled="disabled" />
-      <input className="crossword__full" type="text" maxLength="1" value="R" />
-      <input className="crossword__empty" disabled="disabled" />
-      <input className="crossword__empty" disabled="disabled" />
-      <input className="crossword__empty" disabled="disabled" />
-      <input className="crossword__empty" disabled="disabled" />
-      <input className="crossword__empty" disabled="disabled" />
-      <input className="crossword__empty" disabled="disabled" />
-
-      <input className="crossword__empty" disabled="disabled" />
-      <input className="crossword__empty" disabled="disabled" />
-      <input className="crossword__empty" disabled="disabled" />
-      <input className="crossword__full" type="text" maxLength="1" value="L" />
-      <input className="crossword__empty" disabled="disabled" />
-      <input className="crossword__empty" disabled="disabled" />
-      <input className="crossword__full" type="text" maxLength="1" value="I" />
+      <CrosswordInput handleCrosswordInput={props.handleCrosswordInput} name="p03" id="p03" />
       <input className="crossword__empty" disabled="disabled" />
       <input className="crossword__empty" disabled="disabled" />
       <input className="crossword__empty" disabled="disabled" />
@@ -66,14 +52,28 @@ const CrosswordEn = (props) => {
       <input className="crossword__empty" disabled="disabled" />
       <input className="crossword__empty" disabled="disabled" />
 
-      <input className="crossword__full" type="text" maxLength="1" value="B" />
-      <input className="crossword__full" type="text" maxLength="1" value="U" />
-      <input className="crossword__full" type="text" maxLength="1" value="D" />
-      <input className="crossword__full2" type="text" maxLength="1" value="A" />
-      <input className="crossword__full" type="text" maxLength="1" value="P" />
-      <input className="crossword__full" type="text" maxLength="1" value="E" />
-      <input className="crossword__full" type="text" maxLength="1" value="S" />
-      <input className="crossword__full" type="text" maxLength="1" value="T" />
+      <input className="crossword__empty" disabled="disabled" />
+      <input className="crossword__empty" disabled="disabled" />
+      <input className="crossword__empty" disabled="disabled" />
+      <CrosswordInput handleCrosswordInput={props.handleCrosswordInput} name="g02" id="g02" />
+      <input className="crossword__empty" disabled="disabled" />
+      <input className="crossword__empty" disabled="disabled" />
+      <CrosswordInput handleCrosswordInput={props.handleCrosswordInput} name="p04" id="p04" />
+      <input className="crossword__empty" disabled="disabled" />
+      <input className="crossword__empty" disabled="disabled" />
+      <input className="crossword__empty" disabled="disabled" />
+      <input className="crossword__empty" disabled="disabled" />
+      <input className="crossword__empty" disabled="disabled" />
+      <input className="crossword__empty" disabled="disabled" />
+
+      <CrosswordInput handleCrosswordInput={props.handleCrosswordInput} name="bu01" id="bu01" />
+      <CrosswordInput handleCrosswordInput={props.handleCrosswordInput} name="bu02" id="bu02" />
+      <CrosswordInput handleCrosswordInput={props.handleCrosswordInput} name="bu03" id="bu03" />
+      <CrosswordInput handleCrosswordInput={props.handleCrosswordInput} name="bu04" id="bu04" />
+      <CrosswordInput handleCrosswordInput={props.handleCrosswordInput} name="bu05" id="bu05" />
+      <CrosswordInput handleCrosswordInput={props.handleCrosswordInput} name="bu06" id="bu06" />
+      <CrosswordInput handleCrosswordInput={props.handleCrosswordInput} name="bu07" id="bu07" />
+      <CrosswordInput handleCrosswordInput={props.handleCrosswordInput} name="bu08" id="bu08" />
       <input className="crossword__empty" disabled="disabled" />
       <input className="crossword__empty" disabled="disabled" />
       <input className="crossword__empty" disabled="disabled" />
