@@ -25,17 +25,17 @@ const Clue02En = (props) => {
           <section className="clue02__text">
             <h2 className="clue02__text--title">2 The museum</h2>
 
-            <h3 className="clue02__text--para">Across</h3>
-            <p className="clue02__text--para">1</p>
-            <p className="clue02__text--para">2</p>
-            <p className="clue02__text--para">3</p>
-            <p className="clue02__text--para">4</p>
+            <h3 className="clue02__text--para1">Across</h3>
+            <p className="clue02__text--para2">1</p>
+            <p className="clue02__text--para2">2</p>
+            <p className="clue02__text--para2">3</p>
+            <p className="clue02__text--para2">4</p>
 
-            <h3 className="clue02__text--para">Down</h3>
-            <p className="clue02__text--para">1</p>
-            <p className="clue02__text--para">2</p>
-            <p className="clue02__text--para">3</p>
-            <p className="clue02__text--para">4</p>
+            <h3 className="clue02__text--para1">Down</h3>
+            <p className="clue02__text--para2">1</p>
+            <p className="clue02__text--para2">2</p>
+            <p className="clue02__text--para2">3</p>
+            <p className="clue02__text--para2">4</p>
 
             <p className="clue01__text--para">
               <Link to="/help02En" className="clue01__text--help">
