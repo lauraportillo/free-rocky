@@ -1,5 +1,6 @@
 // Components
 import CrosswordInput from '../CrosswordInput';
+import CrosswordInputDisabled from '../CrosswordInputDisabled';
 
 // Styles
 import '../../stylesheets/Crossword.scss';
@@ -10,61 +11,61 @@ const CrosswordEn = (props) => {
   };
   return (
     <form onSubmit={handleForm} className="crossword">
-      <input className="crossword__empty" disabled="disabled" />
-      <input className="crossword__empty" disabled="disabled" />
-      <input className="crossword__empty" disabled="disabled" />
-      <input className="crossword__empty" disabled="disabled" />
-      <input className="crossword__empty" disabled="disabled" />
-      <input className="crossword__empty" disabled="disabled" />
+      <CrosswordInputDisabled />
+      <CrosswordInputDisabled />
+      <CrosswordInputDisabled />
+      <CrosswordInputDisabled />
+      <CrosswordInputDisabled />
+      <CrosswordInputDisabled />
       <CrosswordInput handleCrosswordInput={props.handleCrosswordInput} name="p01" id="p01" />
-      <input className="crossword__empty" disabled="disabled" />
-      <input className="crossword__empty" disabled="disabled" />
-      <input className="crossword__empty" disabled="disabled" />
-      <input className="crossword__empty" disabled="disabled" />
-      <input className="crossword__empty" disabled="disabled" />
-      <input className="crossword__empty" disabled="disabled" />
+      <CrosswordInputDisabled />
+      <CrosswordInputDisabled />
+      <CrosswordInputDisabled />
+      <CrosswordInputDisabled />
+      <CrosswordInputDisabled />
+      <CrosswordInputDisabled />
 
-      <input className="crossword__empty" disabled="disabled" />
-      <input className="crossword__empty" disabled="disabled" />
-      <input className="crossword__empty" disabled="disabled" />
-      <input className="crossword__empty" disabled="disabled" />
-      <input className="crossword__empty" disabled="disabled" />
+      <CrosswordInputDisabled />
+      <CrosswordInputDisabled />
+      <CrosswordInputDisabled />
+      <CrosswordInputDisabled />
+      <CrosswordInputDisabled />
       <CrosswordInput handleCrosswordInput={props.handleCrosswordInput} name="md01" id="md01" />
       <CrosswordInput handleCrosswordInput={props.handleCrosswordInput} name="md02" id="md02" />
       <CrosswordInput handleCrosswordInput={props.handleCrosswordInput} name="md03" id="md03" />
       <CrosswordInput handleCrosswordInput={props.handleCrosswordInput} name="md04" id="md04" />
       <CrosswordInput handleCrosswordInput={props.handleCrosswordInput} name="md05" id="md05" />
       <CrosswordInput handleCrosswordInput={props.handleCrosswordInput} name="md06" id="md06" />
-      <input className="crossword__empty" disabled="disabled" />
-      <input className="crossword__empty" disabled="disabled" />
+      <CrosswordInputDisabled />
+      <CrosswordInputDisabled />
 
-      <input className="crossword__empty" disabled="disabled" />
-      <input className="crossword__empty" disabled="disabled" />
-      <input className="crossword__empty" disabled="disabled" />
+      <CrosswordInputDisabled />
+      <CrosswordInputDisabled />
+      <CrosswordInputDisabled />
       <CrosswordInput handleCrosswordInput={props.handleCrosswordInput} name="g01" id="g01" />
-      <input className="crossword__empty" disabled="disabled" />
-      <input className="crossword__empty" disabled="disabled" />
+      <CrosswordInputDisabled />
+      <CrosswordInputDisabled />
       <CrosswordInput handleCrosswordInput={props.handleCrosswordInput} name="p03" id="p03" />
-      <input className="crossword__empty" disabled="disabled" />
-      <input className="crossword__empty" disabled="disabled" />
-      <input className="crossword__empty" disabled="disabled" />
-      <input className="crossword__empty" disabled="disabled" />
-      <input className="crossword__empty" disabled="disabled" />
-      <input className="crossword__empty" disabled="disabled" />
+      <CrosswordInputDisabled />
+      <CrosswordInputDisabled />
+      <CrosswordInputDisabled />
+      <CrosswordInputDisabled />
+      <CrosswordInputDisabled />
+      <CrosswordInputDisabled />
 
-      <input className="crossword__empty" disabled="disabled" />
-      <input className="crossword__empty" disabled="disabled" />
-      <input className="crossword__empty" disabled="disabled" />
+      <CrosswordInputDisabled />
+      <CrosswordInputDisabled />
+      <CrosswordInputDisabled />
       <CrosswordInput handleCrosswordInput={props.handleCrosswordInput} name="g02" id="g02" />
-      <input className="crossword__empty" disabled="disabled" />
-      <input className="crossword__empty" disabled="disabled" />
+      <CrosswordInputDisabled />
+      <CrosswordInputDisabled />
       <CrosswordInput handleCrosswordInput={props.handleCrosswordInput} name="p04" id="p04" />
-      <input className="crossword__empty" disabled="disabled" />
-      <input className="crossword__empty" disabled="disabled" />
-      <input className="crossword__empty" disabled="disabled" />
-      <input className="crossword__empty" disabled="disabled" />
-      <input className="crossword__empty" disabled="disabled" />
-      <input className="crossword__empty" disabled="disabled" />
+      <CrosswordInputDisabled />
+      <CrosswordInputDisabled />
+      <CrosswordInputDisabled />
+      <CrosswordInputDisabled />
+      <CrosswordInputDisabled />
+      <CrosswordInputDisabled />
 
       <CrosswordInput handleCrosswordInput={props.handleCrosswordInput} name="bu01" id="bu01" />
       <CrosswordInput handleCrosswordInput={props.handleCrosswordInput} name="bu02" id="bu02" />
@@ -74,31 +75,31 @@ const CrosswordEn = (props) => {
       <CrosswordInput handleCrosswordInput={props.handleCrosswordInput} name="bu06" id="bu06" />
       <CrosswordInput handleCrosswordInput={props.handleCrosswordInput} name="bu07" id="bu07" />
       <CrosswordInput handleCrosswordInput={props.handleCrosswordInput} name="bu08" id="bu08" />
-      <input className="crossword__empty" disabled="disabled" />
-      <input className="crossword__empty" disabled="disabled" />
-      <input className="crossword__empty" disabled="disabled" />
-      <input className="crossword__empty" disabled="disabled" />
-      <input className="crossword__empty" disabled="disabled" />
+      <CrosswordInputDisabled />
+      <CrosswordInputDisabled />
+      <CrosswordInputDisabled />
+      <CrosswordInputDisabled />
+      <CrosswordInputDisabled />
 
       <CrosswordInput handleCrosswordInput={props.handleCrosswordInput} name="be02" id="be02" />
-      <input className="crossword__empty" disabled="disabled" />
-      <input className="crossword__empty" disabled="disabled" />
+      <CrosswordInputDisabled />
+      <CrosswordInputDisabled />
       <CrosswordInput handleCrosswordInput={props.handleCrosswordInput} name="g04" id="g04" />
-      <input className="crossword__empty" disabled="disabled" />
-      <input className="crossword__empty" disabled="disabled" />
-      <input className="crossword__empty" disabled="disabled" />
+      <CrosswordInputDisabled />
+      <CrosswordInputDisabled />
+      <CrosswordInputDisabled />
       <CrosswordInput handleCrosswordInput={props.handleCrosswordInput} name="t02" id="t02" />
-      <input className="crossword__empty" disabled="disabled" />
-      <input className="crossword__empty" disabled="disabled" />
-      <input className="crossword__empty" disabled="disabled" />
-      <input className="crossword__empty" disabled="disabled" />
-      <input className="crossword__empty" disabled="disabled" />
+      <CrosswordInputDisabled />
+      <CrosswordInputDisabled />
+      <CrosswordInputDisabled />
+      <CrosswordInputDisabled />
+      <CrosswordInputDisabled />
 
       <CrosswordInput handleCrosswordInput={props.handleCrosswordInput} name="be03" id="be03" />
-      <input className="crossword__empty" disabled="disabled" />
-      <input className="crossword__empty" disabled="disabled" />
+      <CrosswordInputDisabled />
+      <CrosswordInputDisabled />
       <CrosswordInput handleCrosswordInput={props.handleCrosswordInput} name="g05" id="g05" />
-      <input className="crossword__empty" disabled="disabled" />
+      <CrosswordInputDisabled />
       <CrosswordInput handleCrosswordInput={props.handleCrosswordInput} name="c01" id="c01" />
       <CrosswordInput handleCrosswordInput={props.handleCrosswordInput} name="c02" id="c02" />
       <CrosswordInput handleCrosswordInput={props.handleCrosswordInput} name="c03" id="c03" />
@@ -106,49 +107,49 @@ const CrosswordEn = (props) => {
       <CrosswordInput handleCrosswordInput={props.handleCrosswordInput} name="c05" id="c05" />
       <CrosswordInput handleCrosswordInput={props.handleCrosswordInput} name="c06" id="c06" />
       <CrosswordInput handleCrosswordInput={props.handleCrosswordInput} name="c07" id="c07" />
-      <input className="crossword__empty" disabled="disabled" />
+      <CrosswordInputDisabled />
 
       <CrosswordInput handleCrosswordInput={props.handleCrosswordInput} name="be04" id="be04" />
-      <input className="crossword__empty" disabled="disabled" />
-      <input className="crossword__empty" disabled="disabled" />
+      <CrosswordInputDisabled />
+      <CrosswordInputDisabled />
       <CrosswordInput handleCrosswordInput={props.handleCrosswordInput} name="g06" id="g06" />
-      <input className="crossword__empty" disabled="disabled" />
-      <input className="crossword__empty" disabled="disabled" />
-      <input className="crossword__empty" disabled="disabled" />
+      <CrosswordInputDisabled />
+      <CrosswordInputDisabled />
+      <CrosswordInputDisabled />
       <CrosswordInput handleCrosswordInput={props.handleCrosswordInput} name="t04" id="t04" />
-      <input className="crossword__empty" disabled="disabled" />
-      <input className="crossword__empty" disabled="disabled" />
-      <input className="crossword__empty" disabled="disabled" />
-      <input className="crossword__empty" disabled="disabled" />
-      <input className="crossword__empty" disabled="disabled" />
+      <CrosswordInputDisabled />
+      <CrosswordInputDisabled />
+      <CrosswordInputDisabled />
+      <CrosswordInputDisabled />
+      <CrosswordInputDisabled />
 
       <CrosswordInput handleCrosswordInput={props.handleCrosswordInput} name="be05" id="be05" />
-      <input className="crossword__empty" disabled="disabled" />
-      <input className="crossword__empty" disabled="disabled" />
+      <CrosswordInputDisabled />
+      <CrosswordInputDisabled />
       <CrosswordInput handleCrosswordInput={props.handleCrosswordInput} name="g07" id="g07" />
-      <input className="crossword__empty" disabled="disabled" />
+      <CrosswordInputDisabled />
       <CrosswordInput handleCrosswordInput={props.handleCrosswordInput} name="mn01" id="mn01" />
       <CrosswordInput handleCrosswordInput={props.handleCrosswordInput} name="mn02" id="mn02" />
       <CrosswordInput handleCrosswordInput={props.handleCrosswordInput} name="mn03" id="mn03" />
       <CrosswordInput handleCrosswordInput={props.handleCrosswordInput} name="mn04" id="mn04" />
       <CrosswordInput handleCrosswordInput={props.handleCrosswordInput} name="mn05" id="mn05" />
       <CrosswordInput handleCrosswordInput={props.handleCrosswordInput} name="mn06" id="mn06" />
-      <input className="crossword__empty" disabled="disabled" />
-      <input className="crossword__empty" disabled="disabled" />
+      <CrosswordInputDisabled />
+      <CrosswordInputDisabled />
 
       <CrosswordInput handleCrosswordInput={props.handleCrosswordInput} name="be06" id="be06" />
-      <input className="crossword__empty" disabled="disabled" />
-      <input className="crossword__empty" disabled="disabled" />
-      <input className="crossword__empty" disabled="disabled" />
-      <input className="crossword__empty" disabled="disabled" />
-      <input className="crossword__empty" disabled="disabled" />
-      <input className="crossword__empty" disabled="disabled" />
+      <CrosswordInputDisabled />
+      <CrosswordInputDisabled />
+      <CrosswordInputDisabled />
+      <CrosswordInputDisabled />
+      <CrosswordInputDisabled />
+      <CrosswordInputDisabled />
       <CrosswordInput handleCrosswordInput={props.handleCrosswordInput} name="t06" id="t06" />
-      <input className="crossword__empty" disabled="disabled" />
-      <input className="crossword__empty" disabled="disabled" />
-      <input className="crossword__empty" disabled="disabled" />
-      <input className="crossword__empty" disabled="disabled" />
-      <input className="crossword__empty" disabled="disabled" />
+      <CrosswordInputDisabled />
+      <CrosswordInputDisabled />
+      <CrosswordInputDisabled />
+      <CrosswordInputDisabled />
+      <CrosswordInputDisabled />
     </form>
   );
 };
