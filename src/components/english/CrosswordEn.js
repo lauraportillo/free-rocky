@@ -1,3 +1,6 @@
+// Components
+import CrosswordInput from '../CrosswordInput';
+
 // Styles
 import '../../stylesheets/Crossword.scss';
 
@@ -13,7 +16,7 @@ const CrosswordEn = (props) => {
       <input className="crossword__empty" disabled="disabled" />
       <input className="crossword__empty" disabled="disabled" />
       <input className="crossword__empty" disabled="disabled" />
-      <input className="crossword__full" type="text" maxLength="1" value="P" />
+      <CrosswordInput handleCrosswordInput={props.handleCrosswordInput} name="p01" id="p01" />
       <input className="crossword__empty" disabled="disabled" />
       <input className="crossword__empty" disabled="disabled" />
       <input className="crossword__empty" disabled="disabled" />
@@ -26,12 +29,12 @@ const CrosswordEn = (props) => {
       <input className="crossword__empty" disabled="disabled" />
       <input className="crossword__empty" disabled="disabled" />
       <input className="crossword__empty" disabled="disabled" />
-      <input className="crossword__full" type="text" maxLength="1" value="M" />
-      <input className="crossword__full2" type="text" maxLength="1" value="A" />
-      <input className="crossword__full" type="text" maxLength="1" value="D" />
-      <input className="crossword__full" type="text" maxLength="1" value="R" />
-      <input className="crossword__full" type="text" maxLength="1" value="I" />
-      <input className="crossword__full" type="text" maxLength="1" value="D" />
+      <CrosswordInput handleCrosswordInput={props.handleCrosswordInput} name="md01" id="md01" />
+      <CrosswordInput handleCrosswordInput={props.handleCrosswordInput} name="md02" id="md02" />
+      <CrosswordInput handleCrosswordInput={props.handleCrosswordInput} name="md03" id="md03" />
+      <CrosswordInput handleCrosswordInput={props.handleCrosswordInput} name="md04" id="md04" />
+      <CrosswordInput handleCrosswordInput={props.handleCrosswordInput} name="md05" id="md05" />
+      <CrosswordInput handleCrosswordInput={props.handleCrosswordInput} name="md06" id="md06" />
       <input className="crossword__empty" disabled="disabled" />
       <input className="crossword__empty" disabled="disabled" />
 

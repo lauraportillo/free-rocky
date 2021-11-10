@@ -11,7 +11,6 @@ const CrosswordInput = (props) => {
         maxLength="1"
         name={props.name}
         id={props.name}
-        placeholder={props.placeholder}
         value={props.value}
         autoComplete="off"
       />
