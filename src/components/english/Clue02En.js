@@ -1,4 +1,5 @@
 // React
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 // Components
 import ClueHeaderEn from './ClueHeaderEn';
@@ -12,8 +13,17 @@ import FooterBlack from '../FooterBlack';
 import '../../stylesheets/Clue02.scss';
 
 const Clue02En = (props) => {
+  //state
+  const [crossword, setCrossword] = useState('');
+
   const handleForm = (ev) => {
     ev.preventDefault();
+  };
+  //PONERME CON ESTO: function definition that handles the changes in crossword inputs
+  const handleCrosswordInput = (inputCrosswordKey, inputCrosswordValue) => {
+    if (inputCrosswordKey === 'crossword') {
+      setCrossword(inputCrosswordValue);
+    }
   };
 
   return (
@@ -21,7 +31,7 @@ const Clue02En = (props) => {
       <ClueHeaderEn />
       <main className="containerMainClue02">
         <div className="clue02">
-          <CrosswordEn />
+          <CrosswordEn handleCrosswordInput={handleCrosswordInput} crossword={crossword} />
           <section className="clue02__text">
             <h2 className="clue02__text--title">2 The museum</h2>
 
