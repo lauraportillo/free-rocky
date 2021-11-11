@@ -48,6 +48,22 @@ const Clue02En = (props) => {
       setMd05(inputCrosswordValue);
     } else if (inputCrosswordKey === 'md06') {
       setMd06(inputCrosswordValue);
+    } else if (inputCrosswordKey === 'bu01') {
+      setBu01(inputCrosswordValue);
+    } else if (inputCrosswordKey === 'bu02') {
+      setBu02(inputCrosswordValue);
+    } else if (inputCrosswordKey === 'bu03') {
+      setBu03(inputCrosswordValue);
+    } else if (inputCrosswordKey === 'bu04') {
+      setBu04(inputCrosswordValue);
+    } else if (inputCrosswordKey === 'bu05') {
+      setBu05(inputCrosswordValue);
+    } else if (inputCrosswordKey === 'bu06') {
+      setBu06(inputCrosswordValue);
+    } else if (inputCrosswordKey === 'bu07') {
+      setBu07(inputCrosswordValue);
+    } else if (inputCrosswordKey === 'bu08') {
+      setBu08(inputCrosswordValue);
     }
   };
 
@@ -57,6 +73,15 @@ const Clue02En = (props) => {
   console.log(md04);
   console.log(md05);
   console.log(md06);
+
+  console.log(bu01);
+  console.log(bu02);
+  console.log(bu03);
+  console.log(bu04);
+  console.log(bu05);
+  console.log(bu06);
+  console.log(bu07);
+  console.log(bu08);
 
   return (
     <div className="containerClue02">
