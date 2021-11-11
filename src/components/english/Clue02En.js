@@ -14,12 +14,22 @@ import '../../stylesheets/Clue02.scss';
 
 const Clue02En = (props) => {
   //state
+  //across
   const [md01, setMd01] = useState('');
   const [md02, setMd02] = useState('');
   const [md03, setMd03] = useState('');
   const [md04, setMd04] = useState('');
   const [md05, setMd05] = useState('');
   const [md06, setMd06] = useState('');
+
+  const [bu01, setBu01] = useState('');
+  const [bu02, setBu02] = useState('');
+  const [bu03, setBu03] = useState('');
+  const [bu04, setBu04] = useState('');
+  const [bu05, setBu05] = useState('');
+  const [bu06, setBu06] = useState('');
+  const [bu07, setBu07] = useState('');
+  const [bu08, setBu08] = useState('');
 
   const handleForm = (ev) => {
     ev.preventDefault();
