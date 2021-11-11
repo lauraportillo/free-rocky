@@ -24,7 +24,7 @@ const Clue02En = (props) => {
   const handleForm = (ev) => {
     ev.preventDefault();
   };
-  //PONERME CON ESTO: function definition that handles the changes in crossword inputs
+  //function definition that handles the changes in crossword inputs
   const handleCrosswordInput = (inputCrosswordKey, inputCrosswordValue) => {
     if (inputCrosswordKey === 'md01') {
       setMd01(inputCrosswordValue);
@@ -40,6 +40,13 @@ const Clue02En = (props) => {
       setMd06(inputCrosswordValue);
     }
   };
+
+  console.log(md01);
+  console.log(md02);
+  console.log(md03);
+  console.log(md04);
+  console.log(md05);
+  console.log(md06);
 
   return (
     <div className="containerClue02">
