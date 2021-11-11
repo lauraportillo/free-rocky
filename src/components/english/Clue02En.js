@@ -14,15 +14,30 @@ import '../../stylesheets/Clue02.scss';
 
 const Clue02En = (props) => {
   //state
-  const [crossword, setCrossword] = useState('');
+  const [md01, setMd01] = useState('');
+  const [md02, setMd02] = useState('');
+  const [md03, setMd03] = useState('');
+  const [md04, setMd04] = useState('');
+  const [md05, setMd05] = useState('');
+  const [md06, setMd06] = useState('');
 
   const handleForm = (ev) => {
     ev.preventDefault();
   };
   //PONERME CON ESTO: function definition that handles the changes in crossword inputs
   const handleCrosswordInput = (inputCrosswordKey, inputCrosswordValue) => {
-    if (inputCrosswordKey === 'crossword') {
-      setCrossword(inputCrosswordValue);
+    if (inputCrosswordKey === 'md01') {
+      setMd01(inputCrosswordValue);
+    } else if (inputCrosswordKey === 'md02') {
+      setMd02(inputCrosswordValue);
+    } else if (inputCrosswordKey === 'md03') {
+      setMd03(inputCrosswordValue);
+    } else if (inputCrosswordKey === 'md04') {
+      setMd04(inputCrosswordValue);
+    } else if (inputCrosswordKey === 'md05') {
+      setMd05(inputCrosswordValue);
+    } else if (inputCrosswordKey === 'md06') {
+      setMd06(inputCrosswordValue);
     }
   };
 
@@ -31,10 +46,17 @@ const Clue02En = (props) => {
       <ClueHeaderEn />
       <main className="containerMainClue02">
         <div className="clue02">
-          <CrosswordEn handleCrosswordInput={handleCrosswordInput} crossword={crossword} />
+          <CrosswordEn
+            handleCrosswordInput={handleCrosswordInput}
+            md01={md01}
+            md02={md02}
+            md03={md03}
+            md04={md04}
+            md05={md05}
+            md06={md06}
+          />
           <section className="clue02__text">
             <h2 className="clue02__text--title">2 The museum</h2>
-
             <h3 className="clue02__text--para1">Across</h3>
             <p className="clue02__text--para2">1</p>
             <p className="clue02__text--para2">2</p>
