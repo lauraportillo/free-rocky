@@ -30,12 +30,6 @@ const CrosswordEn = (props) => {
       <CrosswordInputDisabled />
       <CrosswordInputDisabled />
       <CrosswordInputDisabled />
-      {/* <CrosswordInput
-        handleCrosswordInput={props.handleCrosswordInput}
-        className={props.md01.toLowerCase() === 'm' ? 'crossword__correct' : 'crossword__full'}
-        name="md01"
-        id="md01"
-      /> */}
       <CrosswordInput handleCrosswordInput={props.handleCrosswordInput} md01={props.md01} name="md01" id="md01" />
       <CrosswordInput handleCrosswordInput={props.handleCrosswordInput} name="md02" id="md02" />
       <CrosswordInput handleCrosswordInput={props.handleCrosswordInput} name="md03" id="md03" />
