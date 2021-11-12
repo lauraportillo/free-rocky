@@ -10,14 +10,24 @@
   font-size: 14px;
 }
 .crossword__empty {
-  border: 1px solid $color7;
-  background-color: $color7;
+  border: 1px solid $color8;
+  background-color: $color8;
   width: 20px;
   height: 20px;
   cursor: none;
 }
 
 .crossword__full {
+  border: 1px solid $color1;
+  background-color: $color2;
+  color: $color1;
+  text-align: center;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  cursor: context-menu;
+}
+.crossword__correct {
   border: 1px solid $color1;
   background-color: $color2;
   color: $color1;
@@ -38,9 +48,4 @@
   width: 20px;
   height: 20px;
   cursor: context-menu;
-}
-
-.correct {
-  background-color: $color7;
-  color: $color7;
 }
