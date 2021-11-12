@@ -67,6 +67,16 @@ const Clue02En = (props) => {
     }
   };
 
+  // //function render input
+
+  // const renderInput = (props) => {
+  //   if (characterFound) {
+  //     return <CrosswordInputCorrect />;
+  //   } else {
+  //     return <CrosswordInput />;
+  //   }
+  // };
+
   console.log(md01);
   console.log(md02);
   console.log(md03);
