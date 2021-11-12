@@ -31,11 +31,11 @@ const CrosswordEn = (props) => {
       <CrosswordInputDisabled />
       <CrosswordInputDisabled />
       <CrosswordInput handleCrosswordInput={props.handleCrosswordInput} md01={props.md01} name="md01" id="md01" />
-      <CrosswordInput handleCrosswordInput={props.handleCrosswordInput} name="md02" id="md02" />
-      <CrosswordInput handleCrosswordInput={props.handleCrosswordInput} name="md03" id="md03" />
-      <CrosswordInput handleCrosswordInput={props.handleCrosswordInput} name="md04" id="md04" />
-      <CrosswordInput handleCrosswordInput={props.handleCrosswordInput} name="md05" id="md05" />
-      <CrosswordInput handleCrosswordInput={props.handleCrosswordInput} name="md06" id="md06" />
+      <CrosswordInput handleCrosswordInput={props.handleCrosswordInput} md02={props.md02} name="md02" id="md02" />
+      <CrosswordInput handleCrosswordInput={props.handleCrosswordInput} md03={props.md03} name="md03" id="md03" />
+      <CrosswordInput handleCrosswordInput={props.handleCrosswordInput} md04={props.md04} name="md04" id="md04" />
+      <CrosswordInput handleCrosswordInput={props.handleCrosswordInput} md05={props.md05} name="md05" id="md05" />
+      <CrosswordInput handleCrosswordInput={props.handleCrosswordInput} md06={props.md06} name="md06" id="md06" />
       <CrosswordInputDisabled />
       <CrosswordInputDisabled />
 
