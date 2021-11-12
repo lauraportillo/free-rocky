@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 // Components
 import ClueHeaderEn from './ClueHeaderEn';
 import CrosswordEn from './CrosswordEn';
+import CrosswordInput from '../CrosswordInput';
 import Input from '../Input';
 import NextButtonEn from './NextButtonEn';
 import ResetButtonEn from './ResetButtonEn';
@@ -67,15 +68,15 @@ const Clue02En = (props) => {
     }
   };
 
-  // //function render input
+  //function render input
 
-  // const renderInput = (props) => {
-  //   if (characterFound) {
-  //     return <CrosswordInputCorrect />;
-  //   } else {
-  //     return <CrosswordInput />;
-  //   }
-  // };
+  const renderInput = (props) => {
+    if (md01 === props.name) {
+      return <CrosswordInput />;
+    } else {
+      return <CrosswordInput />;
+    }
+  };
 
   console.log(md01);
   console.log(md02);
@@ -100,6 +101,7 @@ const Clue02En = (props) => {
         <div className="clue02">
           <CrosswordEn
             handleCrosswordInput={handleCrosswordInput}
+            renderInput={renderInput}
             md01={md01}
             md02={md02}
             md03={md03}
