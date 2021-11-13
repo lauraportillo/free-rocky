@@ -67,21 +67,21 @@ const Clue02En = (props) => {
     }
   };
 
-  console.log(md01);
-  console.log(md02);
-  console.log(md03);
-  console.log(md04);
-  console.log(md05);
-  console.log(md06);
+  // console.log(md01);
+  // console.log(md02);
+  // console.log(md03);
+  // console.log(md04);
+  // console.log(md05);
+  // console.log(md06);
 
-  console.log(bu01);
-  console.log(bu02);
-  console.log(bu03);
-  console.log(bu04);
-  console.log(bu05);
-  console.log(bu06);
-  console.log(bu07);
-  console.log(bu08);
+  // console.log(bu01);
+  // console.log(bu02);
+  // console.log(bu03);
+  // console.log(bu04);
+  // console.log(bu05);
+  // console.log(bu06);
+  // console.log(bu07);
+  // console.log(bu08);
 
   return (
     <div className="containerClue02">

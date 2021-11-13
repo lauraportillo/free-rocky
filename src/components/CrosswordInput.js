@@ -3,15 +3,14 @@ const CrosswordInput = (props) => {
     props.handleCrosswordInput(ev.target.name, ev.target.value);
   };
 
-  const madrid = props.md01 + props.md02 + props.md03 + props.md04 + props.md05 + props.md06;
-  // const madrid = props.md01;
+  // IDEA DE HACER UN JSON PARA PASAR TODO POR PROPS
 
   return (
     <>
       <input
         onChange={handleChange}
         // className="crossword__full"
-        className={madrid === 'MADRID' ? 'crossword__correct' : 'crossword__full'}
+        className={props.md01 === 'M' ? 'crossword__correct' : 'crossword__full'}
         type="text"
         maxLength="1"
         name={props.name}
