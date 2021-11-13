@@ -4,6 +4,7 @@ const CrosswordInput = (props) => {
   };
 
   const madrid = props.md01 + props.md02 + props.md03 + props.md04 + props.md05 + props.md06;
+  // const madrid = props.md01;
 
   return (
     <>
