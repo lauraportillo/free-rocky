@@ -100,7 +100,7 @@ const Clue02En = (props) => {
           <section className="clue02__text">
             <h2 className="clue02__text--title">2 The museum</h2>
             <h3 className="clue02__text--para1">Across</h3>
-            <p className="clue02__text--para2">1</p>
+            <p className="clue02__text--para2">1 Poet Gloria Fuertes birthplace.</p>
             <p className="clue02__text--para2">2</p>
             <p className="clue02__text--para2">3</p>
             <p className="clue02__text--para2">4</p>
