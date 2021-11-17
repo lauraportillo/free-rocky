@@ -1,7 +1,7 @@
 // Styles
 import '../../stylesheets/ClueHeader.scss';
 
-const ClueHeaderEn = (props) => {
+const ClueHeaderEn = () => {
   return (
     <>
       <header className="clueHeaderContainer">

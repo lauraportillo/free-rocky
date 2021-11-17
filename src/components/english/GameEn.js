@@ -3,7 +3,7 @@ import HeaderEn from './HeaderEn';
 import Footer from '../Footer';
 // Styles
 import '../../stylesheets/Game.scss';
-const GameEn = (props) => {
+const GameEn = () => {
   return (
     <div className="containerGame">
       <HeaderEn />

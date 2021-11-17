@@ -3,7 +3,7 @@ import HeaderEn from './HeaderEn';
 import Footer from '../Footer';
 // Styles
 import '../../stylesheets/Rocky.scss';
-const RockyEn = (props) => {
+const RockyEn = () => {
   return (
     <div className="containerRocky">
       <HeaderEn />
