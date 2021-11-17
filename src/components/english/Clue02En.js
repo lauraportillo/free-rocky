@@ -102,7 +102,7 @@ const Clue02En = (props) => {
             <h3 className="clue02__text--para1">Across</h3>
             <p className="clue02__text--para2">1 Poet Gloria Fuertes birthplace.</p>
             <p className="clue02__text--para2">2 The Jewel on the Danube.</p>
-            <p className="clue02__text--para2">3</p>
+            <p className="clue02__text--para2">3 Simón Bolívar is buried here.</p>
             <p className="clue02__text--para2">4</p>
 
             <h3 className="clue02__text--para1">Down</h3>
