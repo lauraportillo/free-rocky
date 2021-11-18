@@ -103,7 +103,7 @@ const Clue02En = (props) => {
             <p className="clue02__text--para2">1 Poet Gloria Fuertes birthplace.</p>
             <p className="clue02__text--para2">2 The Jewel on the Danube.</p>
             <p className="clue02__text--para2">3 Simón Bolívar is buried here.</p>
-            <p className="clue02__text--para2">4</p>
+            <p className="clue02__text--para2">4 Luzon island’s second most populous city.</p>
 
             <h3 className="clue02__text--para1">Down</h3>
             <p className="clue02__text--para2">1</p>
