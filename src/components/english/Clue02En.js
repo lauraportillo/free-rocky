@@ -106,7 +106,7 @@ const Clue02En = (props) => {
             <p className="clue02__text--para2">4 Luzon island’s second most populous city.</p>
 
             <h3 className="clue02__text--para1">Down</h3>
-            <p className="clue02__text--para2">1</p>
+            <p className="clue02__text--para2">1 One of the most famous walls in the world.</p>
             <p className="clue02__text--para2">2</p>
             <p className="clue02__text--para2">3</p>
             <p className="clue02__text--para2">4</p>
