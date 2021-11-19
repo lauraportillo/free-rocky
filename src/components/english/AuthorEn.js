@@ -4,7 +4,7 @@ import Footer from '../Footer';
 // Styles
 import '../../stylesheets/Author.scss';
 
-const AuthorEn = (props) => {
+const AuthorEn = () => {
   return (
     <div className="containerAuthor">
       <HeaderEn />

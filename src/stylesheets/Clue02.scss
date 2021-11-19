@@ -33,13 +33,17 @@
   margin-top: 10px;
 }
 
-.clue02__text--para {
+.clue02__text--para1 {
   color: $color1;
   font-family: $typo2;
-  margin-top: 10px;
+  margin-top: 15px;
   font-size: 14px;
 }
-
+.clue02__text--para2 {
+  color: $color1;
+  font-family: $typo2;
+  font-size: 14px;
+}
 .clue02__text--help {
   color: $color5;
   font-family: $typo2;
@@ -87,7 +91,7 @@
     margin-top: 0;
   }
   .clue02__text--para {
-    margin-top: 20px;
+    // margin-top: 20px;
     font-size: 16px;
   }
   .clue02__form {

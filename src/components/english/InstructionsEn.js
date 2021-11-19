@@ -6,7 +6,7 @@ import FooterBlack from '../FooterBlack';
 // Styles
 import '../../stylesheets/Instructions.scss';
 
-const InstructionsEn = (props) => {
+const InstructionsEn = () => {
   return (
     <div className="containerInstructions">
       <InstructionsHeader />
