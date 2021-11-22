@@ -4,6 +4,7 @@ const CrosswordInput = (props) => {
   };
   console.log(props.city);
   // IDEA DE HACER UN JSON PARA PASAR TODO POR PROPS
+  // cómo sumar resultado de inputs para que sean igual a una palabra
 
   return (
     <>
