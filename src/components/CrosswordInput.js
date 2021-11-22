@@ -10,7 +10,7 @@ const CrosswordInput = (props) => {
       <input
         onChange={handleChange}
         // className="crossword__full"
-        className={props.md01 === 'M' ? 'crossword__correct' : 'crossword__full'}
+        className={props.md01 === props.city[0].letter1 ? 'crossword__correct' : 'crossword__full'}
         type="text"
         maxLength="1"
         name={props.name}
