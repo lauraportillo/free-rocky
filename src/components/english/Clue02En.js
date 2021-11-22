@@ -8,12 +8,16 @@ import Input from '../Input';
 import NextButtonEn from './NextButtonEn';
 import ResetButtonEn from './ResetButtonEn';
 import FooterBlack from '../FooterBlack';
-
+// Data
+import dataCrossword from '../../dataClue/dataCrossword.json';
 // Styles
 import '../../stylesheets/Clue02.scss';
 
 const Clue02En = (props) => {
   //state
+  const [cities] = useState(dataCrossword);
+
+  console.log(cities);
   //across
   const [md01, setMd01] = useState('');
   const [md02, setMd02] = useState('');
@@ -56,6 +60,7 @@ const Clue02En = (props) => {
         <div className="clue02">
           <CrosswordEn
             handleCrosswordInput={handleCrosswordInput}
+            cities={cities}
             md01={md01}
             md02={md02}
             md03={md03}
@@ -66,7 +71,7 @@ const Clue02En = (props) => {
           <section className="clue02__text">
             <h2 className="clue02__text--title">2 The museum</h2>
             <h3 className="clue02__text--para1">Across</h3>
-            <p className="clue02__text--para2">1 Poet Gloria Fuertes birthplace.</p>
+            <p className="clue02__text--para2">{cities[0].clue}</p>
             <p className="clue02__text--para2">2 The Jewel on the Danube.</p>
             <p className="clue02__text--para2">3 Simón Bolívar is buried here.</p>
             <p className="clue02__text--para2">4 Luzon island’s second most populous city.</p>
