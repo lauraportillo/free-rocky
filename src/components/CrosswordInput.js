@@ -2,7 +2,7 @@ const CrosswordInput = (props) => {
   const handleChange = (ev) => {
     props.handleCrosswordInput(ev.target.name, ev.target.value);
   };
-
+  console.log(props.city);
   // IDEA DE HACER UN JSON PARA PASAR TODO POR PROPS
 
   return (

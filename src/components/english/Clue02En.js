@@ -16,8 +16,7 @@ import '../../stylesheets/Clue02.scss';
 const Clue02En = (props) => {
   //state
   const [city] = useState(dataCrossword);
-  // BORRRARRRRRRRRRRRRRRRRRRRRRRRRRRRRR  VER CÓMO USAR LOS DATOS DEL JSON *****************************************************************
-  console.log(city);
+
   //across
   const [md01, setMd01] = useState('');
   const [md02, setMd02] = useState('');
@@ -68,6 +67,7 @@ const Clue02En = (props) => {
             md05={md05}
             md06={md06}
           />
+
           <section className="clue02__text">
             <h2 className="clue02__text--title">2 The museum</h2>
             <h3 className="clue02__text--para1">Across</h3>
