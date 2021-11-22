@@ -1,6 +1,12 @@
 [
     {
       "clue": "1 Poet Gloria Fuertes birthplace.",
-      "answer": "madrid"
+      "answer": "madrid",
+      "letter1": "m",
+      "letter2": "a",
+      "letter3": "d",
+      "letter4": "r",
+      "letter5": "i",
+      "letter6": "d" 
     }
 ]
