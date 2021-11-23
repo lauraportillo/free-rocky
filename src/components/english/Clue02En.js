@@ -129,7 +129,7 @@ const Clue02En = (props) => {
             <p className="clue02__text--para2">{city[0].clue}</p>
             <p className="clue02__text--para2">{city[1].clue}</p>
             <p className="clue02__text--para2">{city[2].clue}</p>
-            <p className="clue02__text--para2">4 Luzon island’s second most populous city.</p>
+            <p className="clue02__text--para2">{city[3].clue}</p>
 
             <h3 className="clue02__text--para1">Down</h3>
             <p className="clue02__text--para2">1 One of the most famous walls.</p>
