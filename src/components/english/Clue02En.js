@@ -114,6 +114,13 @@ const Clue02En = (props) => {
             bu06={bu06}
             bu07={bu07}
             bu08={bu08}
+            ca01={ca01}
+            ca02={ca02}
+            ca03={ca03}
+            ca04={ca04}
+            ca05={ca05}
+            ca06={ca06}
+            ca07={ca07}
           />
 
           <section className="clue02__text">
@@ -121,7 +128,7 @@ const Clue02En = (props) => {
             <h3 className="clue02__text--para1">Across</h3>
             <p className="clue02__text--para2">{city[0].clue}</p>
             <p className="clue02__text--para2">{city[1].clue}</p>
-            <p className="clue02__text--para2">3 Simón Bolívar is buried here.</p>
+            <p className="clue02__text--para2">{city[2].clue}</p>
             <p className="clue02__text--para2">4 Luzon island’s second most populous city.</p>
 
             <h3 className="clue02__text--para1">Down</h3>
