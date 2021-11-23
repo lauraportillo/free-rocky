@@ -16,19 +16,19 @@ const CrosswordEn = (props) => {
 
   return (
     <form onSubmit={handleForm} className="crossword">
-      {/* <CrosswordInputDisabled />
       <CrosswordInputDisabled />
       <CrosswordInputDisabled />
       <CrosswordInputDisabled />
       <CrosswordInputDisabled />
       <CrosswordInputDisabled />
-      <CrosswordInput handleCrosswordInput={props.handleCrosswordInput} city={props.city} name="p01" id="p01" />
+      <CrosswordInputDisabled />
+      {/* <CrosswordInput handleCrosswordInput={props.handleCrosswordInput} city={props.city} name="p01" id="p01" /> */}
       <CrosswordInputDisabled />
       <CrosswordInputDisabled />
       <CrosswordInputDisabled />
       <CrosswordInputDisabled />
       <CrosswordInputDisabled />
-      <CrosswordInputDisabled /> */}
+      <CrosswordInputDisabled />
 
       <CrosswordInputDisabled />
       <CrosswordInputDisabled />
@@ -106,22 +106,94 @@ const CrosswordEn = (props) => {
       <CrosswordInputDisabled />
       <CrosswordInputDisabled />
       <CrosswordInputDisabled /> */}
-      {/* 
-      <CrosswordInputDisabled />
+
+      {/* <CrosswordInputDisabled />
       <CrosswordInputDisabled />
       <CrosswordInputDisabled />
       <CrosswordInput handleCrosswordInput={props.handleCrosswordInput} city={props.city} name="g02" id="g02" />
       <CrosswordInputDisabled />
       <CrosswordInputDisabled />
-      <CrosswordInput handleCrosswordInput={props.handleCrosswordInput} city={props.city} name="p04" id="p04" />
+      <CrosswordInput handleCrosswordInput={props.handleCrosswordInput} city={props.city} name="p04" id="p04" /> */}
       <CrosswordInputDisabled />
       <CrosswordInputDisabled />
       <CrosswordInputDisabled />
       <CrosswordInputDisabled />
       <CrosswordInputDisabled />
       <CrosswordInputDisabled />
+      <input
+        onChange={handleChange}
+        className={props.bu01 === props.city[1].letter1 ? 'crossword__correct' : 'crossword__full'}
+        type="text"
+        maxLength="1"
+        name="bu01"
+        id="bu01"
+        autoComplete="off"
+      />
+      <input
+        onChange={handleChange}
+        className={props.bu02 === props.city[1].letter2 ? 'crossword__correct' : 'crossword__full'}
+        type="text"
+        maxLength="1"
+        name="bu02"
+        id="bu02"
+        autoComplete="off"
+      />
+      <input
+        onChange={handleChange}
+        className={props.bu03 === props.city[1].letter3 ? 'crossword__correct' : 'crossword__full'}
+        type="text"
+        maxLength="1"
+        name="bu03"
+        id="bu03"
+        autoComplete="off"
+      />
+      <input
+        onChange={handleChange}
+        className={props.bu04 === props.city[1].letter4 ? 'crossword__correct' : 'crossword__full'}
+        type="text"
+        maxLength="1"
+        name="bu04"
+        id="bu04"
+        autoComplete="off"
+      />
+      <input
+        onChange={handleChange}
+        className={props.bu05 === props.city[1].letter5 ? 'crossword__correct' : 'crossword__full'}
+        type="text"
+        maxLength="1"
+        name="bu05"
+        id="bu05"
+        autoComplete="off"
+      />
+      <input
+        onChange={handleChange}
+        className={props.bu06 === props.city[1].letter6 ? 'crossword__correct' : 'crossword__full'}
+        type="text"
+        maxLength="1"
+        name="bu06"
+        id="bu06"
+        autoComplete="off"
+      />
+      <input
+        onChange={handleChange}
+        className={props.bu07 === props.city[1].letter7 ? 'crossword__correct' : 'crossword__full'}
+        type="text"
+        maxLength="1"
+        name="bu07"
+        id="bu07"
+        autoComplete="off"
+      />
+      <input
+        onChange={handleChange}
+        className={props.bu08 === props.city[1].letter8 ? 'crossword__correct' : 'crossword__full'}
+        type="text"
+        maxLength="1"
+        name="bu08"
+        id="bu08"
+        autoComplete="off"
+      />
 
-      <CrosswordInput handleCrosswordInput={props.handleCrosswordInput} city={props.city} name="bu01" id="bu01" />
+      {/* <CrosswordInput handleCrosswordInput={props.handleCrosswordInput} city={props.city} name="bu01" id="bu01" />
       <CrosswordInput handleCrosswordInput={props.handleCrosswordInput} city={props.city} name="bu02" id="bu02" />
       <CrosswordInput handleCrosswordInput={props.handleCrosswordInput} city={props.city} name="bu03" id="bu03" />
       <CrosswordInput handleCrosswordInput={props.handleCrosswordInput} city={props.city} name="bu04" id="bu04" />
@@ -133,9 +205,9 @@ const CrosswordEn = (props) => {
       <CrosswordInputDisabled />
       <CrosswordInputDisabled />
       <CrosswordInputDisabled />
-      <CrosswordInputDisabled />
+      <CrosswordInputDisabled /> */}
 
-      <CrosswordInput handleCrosswordInput={props.handleCrosswordInput} city={props.city} name="be02" id="be02" />
+      {/* <CrosswordInput handleCrosswordInput={props.handleCrosswordInput} city={props.city} name="be02" id="be02" />
       <CrosswordInputDisabled />
       <CrosswordInputDisabled />
       <CrosswordInput handleCrosswordInput={props.handleCrosswordInput} city={props.city} name="g04" id="g04" />
@@ -147,9 +219,9 @@ const CrosswordEn = (props) => {
       <CrosswordInputDisabled />
       <CrosswordInputDisabled />
       <CrosswordInputDisabled />
-      <CrosswordInputDisabled />
+      <CrosswordInputDisabled /> */}
 
-      <CrosswordInput handleCrosswordInput={props.handleCrosswordInput} city={props.city} name="be03" id="be03" />
+      {/* <CrosswordInput handleCrosswordInput={props.handleCrosswordInput} city={props.city} name="be03" id="be03" />
       <CrosswordInputDisabled />
       <CrosswordInputDisabled />
       <CrosswordInput handleCrosswordInput={props.handleCrosswordInput} city={props.city} name="g05" id="g05" />
@@ -161,9 +233,9 @@ const CrosswordEn = (props) => {
       <CrosswordInput handleCrosswordInput={props.handleCrosswordInput} city={props.city} name="c05" id="c05" />
       <CrosswordInput handleCrosswordInput={props.handleCrosswordInput} city={props.city} name="c06" id="c06" />
       <CrosswordInput handleCrosswordInput={props.handleCrosswordInput} city={props.city} name="c07" id="c07" />
-      <CrosswordInputDisabled />
+      <CrosswordInputDisabled /> */}
 
-      <CrosswordInput handleCrosswordInput={props.handleCrosswordInput} city={props.city} name="be04" id="be04" />
+      {/* <CrosswordInput handleCrosswordInput={props.handleCrosswordInput} city={props.city} name="be04" id="be04" />
       <CrosswordInputDisabled />
       <CrosswordInputDisabled />
       <CrosswordInput handleCrosswordInput={props.handleCrosswordInput} city={props.city} name="g06" id="g06" />
@@ -175,9 +247,9 @@ const CrosswordEn = (props) => {
       <CrosswordInputDisabled />
       <CrosswordInputDisabled />
       <CrosswordInputDisabled />
-      <CrosswordInputDisabled />
+      <CrosswordInputDisabled /> */}
 
-      <CrosswordInput handleCrosswordInput={props.handleCrosswordInput} city={props.city} name="be05" id="be05" />
+      {/* <CrosswordInput handleCrosswordInput={props.handleCrosswordInput} city={props.city} name="be05" id="be05" />
       <CrosswordInputDisabled />
       <CrosswordInputDisabled />
       <CrosswordInput handleCrosswordInput={props.handleCrosswordInput} city={props.city} name="g07" id="g07" />
@@ -189,9 +261,9 @@ const CrosswordEn = (props) => {
       <CrosswordInput handleCrosswordInput={props.handleCrosswordInput} city={props.city} name="mn05" id="mn05" />
       <CrosswordInput handleCrosswordInput={props.handleCrosswordInput} city={props.city} name="mn06" id="mn06" />
       <CrosswordInputDisabled />
-      <CrosswordInputDisabled />
+      <CrosswordInputDisabled /> */}
 
-      <CrosswordInput handleCrosswordInput={props.handleCrosswordInput} city={props.city} name="be06" id="be06" />
+      {/* <CrosswordInput handleCrosswordInput={props.handleCrosswordInput} city={props.city} name="be06" id="be06" />
       <CrosswordInputDisabled />
       <CrosswordInputDisabled />
       <CrosswordInputDisabled />

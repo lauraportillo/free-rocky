@@ -25,6 +25,15 @@ const Clue02En = (props) => {
   const [md05, setMd05] = useState('');
   const [md06, setMd06] = useState('');
 
+  const [bu01, setBu01] = useState('');
+  const [bu02, setBu02] = useState('');
+  const [bu03, setBu03] = useState('');
+  const [bu04, setBu04] = useState('');
+  const [bu05, setBu05] = useState('');
+  const [bu06, setBu06] = useState('');
+  const [bu07, setBu07] = useState('');
+  const [bu08, setBu08] = useState('');
+
   const handleForm = (ev) => {
     ev.preventDefault();
   };
@@ -42,15 +51,24 @@ const Clue02En = (props) => {
       setMd05(inputCrosswordValue);
     } else if (inputCrosswordKey === 'md06') {
       setMd06(inputCrosswordValue);
+    } else if (inputCrosswordKey === 'bu01') {
+      setBu01(inputCrosswordValue);
+    } else if (inputCrosswordKey === 'bu02') {
+      setBu02(inputCrosswordValue);
+    } else if (inputCrosswordKey === 'bu03') {
+      setBu03(inputCrosswordValue);
+    } else if (inputCrosswordKey === 'bu04') {
+      setBu04(inputCrosswordValue);
+    } else if (inputCrosswordKey === 'bu05') {
+      setBu05(inputCrosswordValue);
+    } else if (inputCrosswordKey === 'bu06') {
+      setBu06(inputCrosswordValue);
+    } else if (inputCrosswordKey === 'bu07') {
+      setBu07(inputCrosswordValue);
+    } else if (inputCrosswordKey === 'bu08') {
+      setBu08(inputCrosswordValue);
     }
   };
-
-  // console.log(md01);
-  // console.log(md02);
-  // console.log(md03);
-  // console.log(md04);
-  // console.log(md05);
-  // console.log(md06);
 
   return (
     <div className="containerClue02">
@@ -66,13 +84,21 @@ const Clue02En = (props) => {
             md04={md04}
             md05={md05}
             md06={md06}
+            bu01={bu01}
+            bu02={bu02}
+            bu03={bu03}
+            bu04={bu04}
+            bu05={bu05}
+            bu06={bu06}
+            bu07={bu07}
+            bu08={bu08}
           />
 
           <section className="clue02__text">
             <h2 className="clue02__text--title">2 The museum</h2>
             <h3 className="clue02__text--para1">Across</h3>
             <p className="clue02__text--para2">{city[0].clue}</p>
-            <p className="clue02__text--para2">2 The Jewel on the Danube.</p>
+            <p className="clue02__text--para2">{city[1].clue}</p>
             <p className="clue02__text--para2">3 Simón Bolívar is buried here.</p>
             <p className="clue02__text--para2">4 Luzon island’s second most populous city.</p>
 
