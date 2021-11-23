@@ -1,5 +1,5 @@
 // Components
-import CrosswordInput from '../CrosswordInput';
+// import CrosswordInput from '../CrosswordInput';
 import CrosswordInputDisabled from '../CrosswordInputDisabled';
 
 // Styles
@@ -10,9 +10,13 @@ const CrosswordEn = (props) => {
     ev.preventDefault();
   };
 
+  const handleChange = (ev) => {
+    props.handleCrosswordInput(ev.target.name, ev.target.value);
+  };
+
   return (
     <form onSubmit={handleForm} className="crossword">
-      <CrosswordInputDisabled />
+      {/* <CrosswordInputDisabled />
       <CrosswordInputDisabled />
       <CrosswordInputDisabled />
       <CrosswordInputDisabled />
@@ -24,22 +28,42 @@ const CrosswordEn = (props) => {
       <CrosswordInputDisabled />
       <CrosswordInputDisabled />
       <CrosswordInputDisabled />
-      <CrosswordInputDisabled />
+      <CrosswordInputDisabled /> */}
 
+      {/* <CrosswordInputDisabled />
       <CrosswordInputDisabled />
       <CrosswordInputDisabled />
       <CrosswordInputDisabled />
-      <CrosswordInputDisabled />
-      <CrosswordInputDisabled />
-      <CrosswordInput
+      <CrosswordInputDisabled /> */}
+      <input
+        onChange={handleChange}
+        className={props.md01 === 'm' ? 'crossword__correct' : 'crossword__full'}
+        type="text"
+        maxLength="1"
+        name="md01"
+        id="md01"
+        autoComplete="off"
+      />
+      <input
+        onChange={handleChange}
+        className={props.md02 === 'a' ? 'crossword__correct' : 'crossword__full'}
+        type="text"
+        maxLength="1"
+        name="md02"
+        id="md02"
+        autoComplete="off"
+      />
+      {/* <CrosswordInput
+        className={props.md01 === 'm' ? 'crossword__correct' : 'crossword__full'}
         handleCrosswordInput={props.handleCrosswordInput}
         md01={props.md01}
         city={props.city}
         name="md01"
         id="md01"
-      />
+      /> */}
 
-      <CrosswordInput
+      {/* <CrosswordInput
+        className={props.md01 === props.city[0].letter1 ? 'crossword__correct' : 'crossword__full'}
         handleCrosswordInput={props.handleCrosswordInput}
         md02={props.md02}
         city={props.city}
@@ -47,6 +71,7 @@ const CrosswordEn = (props) => {
         id="md02"
       />
       <CrosswordInput
+        className={props.md01 === props.city[0].letter1 ? 'crossword__correct' : 'crossword__full'}
         handleCrosswordInput={props.handleCrosswordInput}
         md03={props.md03}
         city={props.city}
@@ -54,6 +79,7 @@ const CrosswordEn = (props) => {
         id="md03"
       />
       <CrosswordInput
+        className={props.md01 === props.city[0].letter1 ? 'crossword__correct' : 'crossword__full'}
         handleCrosswordInput={props.handleCrosswordInput}
         md04={props.md04}
         city={props.city}
@@ -61,6 +87,7 @@ const CrosswordEn = (props) => {
         id="md04"
       />
       <CrosswordInput
+        className={props.md01 === props.city[0].letter1 ? 'crossword__correct' : 'crossword__full'}
         handleCrosswordInput={props.handleCrosswordInput}
         md05={props.md05}
         city={props.city}
@@ -68,13 +95,14 @@ const CrosswordEn = (props) => {
         id="md05"
       />
       <CrosswordInput
+        className={props.md01 === props.city[0].letter1 ? 'crossword__correct' : 'crossword__full'}
         handleCrosswordInput={props.handleCrosswordInput}
         md06={props.md06}
         city={props.city}
         name="md06"
         id="md06"
-      />
-      <CrosswordInputDisabled />
+      /> */}
+      {/* <CrosswordInputDisabled />
       <CrosswordInputDisabled />
 
       <CrosswordInputDisabled />
@@ -89,8 +117,8 @@ const CrosswordEn = (props) => {
       <CrosswordInputDisabled />
       <CrosswordInputDisabled />
       <CrosswordInputDisabled />
-      <CrosswordInputDisabled />
-
+      <CrosswordInputDisabled /> */}
+      {/* 
       <CrosswordInputDisabled />
       <CrosswordInputDisabled />
       <CrosswordInputDisabled />
@@ -187,7 +215,7 @@ const CrosswordEn = (props) => {
       <CrosswordInputDisabled />
       <CrosswordInputDisabled />
       <CrosswordInputDisabled />
-      <CrosswordInputDisabled />
+      <CrosswordInputDisabled /> */}
     </form>
   );
 };
