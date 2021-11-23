@@ -37,7 +37,7 @@ const CrosswordEn = (props) => {
       <CrosswordInputDisabled /> */}
       <input
         onChange={handleChange}
-        className={props.md01 === 'm' ? 'crossword__correct' : 'crossword__full'}
+        className={props.md01 === props.city[0].letter1 ? 'crossword__correct' : 'crossword__full'}
         type="text"
         maxLength="1"
         name="md01"
@@ -46,7 +46,7 @@ const CrosswordEn = (props) => {
       />
       <input
         onChange={handleChange}
-        className={props.md02 === 'a' ? 'crossword__correct' : 'crossword__full'}
+        className={props.md02 === props.city[0].letter2 ? 'crossword__correct' : 'crossword__full'}
         type="text"
         maxLength="1"
         name="md02"
