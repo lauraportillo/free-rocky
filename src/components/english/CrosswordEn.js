@@ -30,11 +30,11 @@ const CrosswordEn = (props) => {
       <CrosswordInputDisabled />
       <CrosswordInputDisabled /> */}
 
-      {/* <CrosswordInputDisabled />
       <CrosswordInputDisabled />
       <CrosswordInputDisabled />
       <CrosswordInputDisabled />
-      <CrosswordInputDisabled /> */}
+      <CrosswordInputDisabled />
+      <CrosswordInputDisabled />
       <input
         onChange={handleChange}
         className={props.md01 === props.city[0].letter1 ? 'crossword__correct' : 'crossword__full'}
@@ -53,55 +53,43 @@ const CrosswordEn = (props) => {
         id="md02"
         autoComplete="off"
       />
-      {/* <CrosswordInput
-        className={props.md01 === 'm' ? 'crossword__correct' : 'crossword__full'}
-        handleCrosswordInput={props.handleCrosswordInput}
-        md01={props.md01}
-        city={props.city}
-        name="md01"
-        id="md01"
-      /> */}
-
-      {/* <CrosswordInput
-        className={props.md01 === props.city[0].letter1 ? 'crossword__correct' : 'crossword__full'}
-        handleCrosswordInput={props.handleCrosswordInput}
-        md02={props.md02}
-        city={props.city}
-        name="md02"
-        id="md02"
-      />
-      <CrosswordInput
-        className={props.md01 === props.city[0].letter1 ? 'crossword__correct' : 'crossword__full'}
-        handleCrosswordInput={props.handleCrosswordInput}
-        md03={props.md03}
-        city={props.city}
+      <input
+        onChange={handleChange}
+        className={props.md03 === props.city[0].letter3 ? 'crossword__correct' : 'crossword__full'}
+        type="text"
+        maxLength="1"
         name="md03"
         id="md03"
+        autoComplete="off"
       />
-      <CrosswordInput
-        className={props.md01 === props.city[0].letter1 ? 'crossword__correct' : 'crossword__full'}
-        handleCrosswordInput={props.handleCrosswordInput}
-        md04={props.md04}
-        city={props.city}
+      <input
+        onChange={handleChange}
+        className={props.md04 === props.city[0].letter4 ? 'crossword__correct' : 'crossword__full'}
+        type="text"
+        maxLength="1"
         name="md04"
         id="md04"
+        autoComplete="off"
       />
-      <CrosswordInput
-        className={props.md01 === props.city[0].letter1 ? 'crossword__correct' : 'crossword__full'}
-        handleCrosswordInput={props.handleCrosswordInput}
-        md05={props.md05}
-        city={props.city}
+      <input
+        onChange={handleChange}
+        className={props.md05 === props.city[0].letter5 ? 'crossword__correct' : 'crossword__full'}
+        type="text"
+        maxLength="1"
         name="md05"
         id="md05"
+        autoComplete="off"
       />
-      <CrosswordInput
-        className={props.md01 === props.city[0].letter1 ? 'crossword__correct' : 'crossword__full'}
-        handleCrosswordInput={props.handleCrosswordInput}
-        md06={props.md06}
-        city={props.city}
+      <input
+        onChange={handleChange}
+        className={props.md06 === props.city[0].letter6 ? 'crossword__correct' : 'crossword__full'}
+        type="text"
+        maxLength="1"
         name="md06"
         id="md06"
-      /> */}
+        autoComplete="off"
+      />
+
       {/* <CrosswordInputDisabled />
       <CrosswordInputDisabled />
 
