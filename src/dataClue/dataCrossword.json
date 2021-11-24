@@ -41,5 +41,15 @@
       "letter4": "i",
       "letter5": "l",
       "letter6": "a" 
+    },
+    {
+      "clue": "1 One of the most famous walls.",
+      "answer": "berlin",
+      "letter1": "b",
+      "letter2": "e",
+      "letter3": "r",
+      "letter4": "l",
+      "letter5": "i",
+      "letter6": "n" 
     }
 ]

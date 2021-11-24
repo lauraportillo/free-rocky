@@ -157,7 +157,7 @@ const Clue02En = (props) => {
             <p className="clue02__text--para2">{city[3].clue}</p>
 
             <h3 className="clue02__text--para1">Down</h3>
-            <p className="clue02__text--para2">1 One of the most famous walls.</p>
+            <p className="clue02__text--para2">{city[4].clue}</p>
             <p className="clue02__text--para2">2 Scotland’s largest city.</p>
             <p className="clue02__text--para2">3 It is the city of love.</p>
             <p className="clue02__text--para2">4 Albania's capital.</p>
