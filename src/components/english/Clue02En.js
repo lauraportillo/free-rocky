@@ -49,6 +49,13 @@ const Clue02En = (props) => {
   const [mn05, setMn05] = useState('');
   const [mn06, setMn06] = useState('');
 
+  const [b01, setB01] = useState('');
+  const [b02, setB02] = useState('');
+  const [b03, setB03] = useState('');
+  const [b04, setB04] = useState('');
+  const [b05, setB05] = useState('');
+  const [b06, setB06] = useState('');
+
   const handleForm = (ev) => {
     ev.preventDefault();
   };
@@ -108,6 +115,18 @@ const Clue02En = (props) => {
       setMn05(inputCrosswordValue);
     } else if (inputCrosswordKey === 'mn06') {
       setMn06(inputCrosswordValue);
+    } else if (inputCrosswordKey === 'b01') {
+      setB01(inputCrosswordValue);
+    } else if (inputCrosswordKey === 'b02') {
+      setB02(inputCrosswordValue);
+    } else if (inputCrosswordKey === 'b03') {
+      setB03(inputCrosswordValue);
+    } else if (inputCrosswordKey === 'b04') {
+      setB04(inputCrosswordValue);
+    } else if (inputCrosswordKey === 'b05') {
+      setB05(inputCrosswordValue);
+    } else if (inputCrosswordKey === 'b06') {
+      setB06(inputCrosswordValue);
     }
   };
 
@@ -146,6 +165,12 @@ const Clue02En = (props) => {
             mn04={mn04}
             mn05={mn05}
             mn06={mn06}
+            b01={b01}
+            b02={b02}
+            b03={b03}
+            b04={b04}
+            b05={b05}
+            b06={b06}
           />
 
           <section className="clue02__text">
@@ -159,8 +184,8 @@ const Clue02En = (props) => {
             <h3 className="clue02__text--para1">Down</h3>
             <p className="clue02__text--para2">{city[4].clue}</p>
             <p className="clue02__text--para2">{city[5].clue}</p>
-            <p className="clue02__text--para2">3 It is the city of love.</p>
-            <p className="clue02__text--para2">4 Albania's capital.</p>
+            <p className="clue02__text--para2">{city[6].clue}</p>
+            <p className="clue02__text--para2">{city[7].clue}</p>
 
             <p className="clue01__text--para">
               <Link to="/help02En" className="clue01__text--help">
