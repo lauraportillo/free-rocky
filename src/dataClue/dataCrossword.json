@@ -62,5 +62,24 @@
       "letter5": "g",
       "letter6": "o",
       "letter7": "w"
+    },
+    {
+      "clue": "3 It is the city of love.",
+      "answer": "paris",
+      "letter1": "p",
+      "letter2": "a",
+      "letter3": "r",
+      "letter4": "i",
+      "letter5": "s"
+    },
+    {
+      "clue": "4 Albania's capital.",
+      "answer": "tirana",
+      "letter1": "t",
+      "letter2": "i",
+      "letter3": "r",
+      "letter4": "a",
+      "letter5": "n",
+      "letter6": "a" 
     }
 ]
