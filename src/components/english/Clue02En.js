@@ -14,10 +14,10 @@ import dataCrossword from '../../dataClue/dataCrossword.json';
 import '../../stylesheets/Clue02.scss';
 
 const Clue02En = (props) => {
-  //state
+  // state
   const [city] = useState(dataCrossword);
 
-  //across
+  // across
   const [md01, setMd01] = useState('');
   const [md02, setMd02] = useState('');
   const [md03, setMd03] = useState('');
@@ -49,6 +49,7 @@ const Clue02En = (props) => {
   const [mn05, setMn05] = useState('');
   const [mn06, setMn06] = useState('');
 
+  // down
   const [b01, setB01] = useState('');
   const [b02, setB02] = useState('');
   const [b03, setB03] = useState('');
@@ -63,6 +64,19 @@ const Clue02En = (props) => {
   const [g05, setG05] = useState('');
   const [g06, setG06] = useState('');
   const [g07, setG07] = useState('');
+
+  const [p01, setP01] = useState('');
+  const [p02, setP02] = useState('');
+  const [p03, setP03] = useState('');
+  const [p04, setP04] = useState('');
+  const [p05, setP05] = useState('');
+
+  const [t01, setT01] = useState('');
+  const [t02, setT02] = useState('');
+  const [t03, setT03] = useState('');
+  const [t04, setT04] = useState('');
+  const [t05, setT05] = useState('');
+  const [t06, setT06] = useState('');
 
   const handleForm = (ev) => {
     ev.preventDefault();
