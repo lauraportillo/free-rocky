@@ -1,5 +1,4 @@
 // Components
-// import CrosswordInput from '../CrosswordInput';
 import CrosswordInputDisabled from '../CrosswordInputDisabled';
 
 // Styles
