@@ -152,13 +152,13 @@ const CrosswordEn = (props) => {
         id="p04"
         autoComplete="off"
       />
+      <CrosswordInputDisabled />
+      <CrosswordInputDisabled />
+      <CrosswordInputDisabled />
+      <CrosswordInputDisabled />
+      <CrosswordInputDisabled />
+      <CrosswordInputDisabled />
 
-      <CrosswordInputDisabled />
-      <CrosswordInputDisabled />
-      <CrosswordInputDisabled />
-      <CrosswordInputDisabled />
-      <CrosswordInputDisabled />
-      <CrosswordInputDisabled />
       <input
         onChange={handleChange}
         className={props.bu01 === props.city[1].letter1 ? 'crossword__correct' : 'crossword__full'}
@@ -231,7 +231,6 @@ const CrosswordEn = (props) => {
         id="bu08"
         autoComplete="off"
       />
-
       <CrosswordInputDisabled />
       <CrosswordInputDisabled />
       <CrosswordInputDisabled />
@@ -258,7 +257,6 @@ const CrosswordEn = (props) => {
         id="g04"
         autoComplete="off"
       />
-
       <CrosswordInputDisabled />
       <CrosswordInputDisabled />
       <CrosswordInputDisabled />
