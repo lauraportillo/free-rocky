@@ -56,6 +56,14 @@ const Clue02En = (props) => {
   const [b05, setB05] = useState('');
   const [b06, setB06] = useState('');
 
+  const [g01, setG01] = useState('');
+  const [g02, setG02] = useState('');
+  const [g03, setG03] = useState('');
+  const [g04, setG04] = useState('');
+  const [g05, setG05] = useState('');
+  const [g06, setG06] = useState('');
+  const [g07, setG07] = useState('');
+
   const handleForm = (ev) => {
     ev.preventDefault();
   };
@@ -127,6 +135,20 @@ const Clue02En = (props) => {
       setB05(inputCrosswordValue);
     } else if (inputCrosswordKey === 'b06') {
       setB06(inputCrosswordValue);
+    } else if (inputCrosswordKey === 'g01') {
+      setG01(inputCrosswordValue);
+    } else if (inputCrosswordKey === 'g02') {
+      setG02(inputCrosswordValue);
+    } else if (inputCrosswordKey === 'g03') {
+      setG03(inputCrosswordValue);
+    } else if (inputCrosswordKey === 'g04') {
+      setG04(inputCrosswordValue);
+    } else if (inputCrosswordKey === 'g05') {
+      setG05(inputCrosswordValue);
+    } else if (inputCrosswordKey === 'g06') {
+      setG06(inputCrosswordValue);
+    } else if (inputCrosswordKey === 'g07') {
+      setG07(inputCrosswordValue);
     }
   };
 
@@ -171,6 +193,13 @@ const Clue02En = (props) => {
             b04={b04}
             b05={b05}
             b06={b06}
+            g01={g01}
+            g02={g02}
+            g03={g03}
+            g04={g04}
+            g05={g05}
+            g06={g06}
+            g07={g07}
           />
 
           <section className="clue02__text">
