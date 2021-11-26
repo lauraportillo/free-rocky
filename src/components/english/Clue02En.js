@@ -163,6 +163,28 @@ const Clue02En = (props) => {
       setG06(inputCrosswordValue);
     } else if (inputCrosswordKey === 'g07') {
       setG07(inputCrosswordValue);
+    } else if (inputCrosswordKey === 'p01') {
+      setP01(inputCrosswordValue);
+    } else if (inputCrosswordKey === 'p02') {
+      setP02(inputCrosswordValue);
+    } else if (inputCrosswordKey === 'p03') {
+      setP03(inputCrosswordValue);
+    } else if (inputCrosswordKey === 'p04') {
+      setP04(inputCrosswordValue);
+    } else if (inputCrosswordKey === 'p05') {
+      setP05(inputCrosswordValue);
+    } else if (inputCrosswordKey === 't01') {
+      setT01(inputCrosswordValue);
+    } else if (inputCrosswordKey === 't02') {
+      setT02(inputCrosswordValue);
+    } else if (inputCrosswordKey === 't03') {
+      setT03(inputCrosswordValue);
+    } else if (inputCrosswordKey === 't04') {
+      setT04(inputCrosswordValue);
+    } else if (inputCrosswordKey === 't05') {
+      setT05(inputCrosswordValue);
+    } else if (inputCrosswordKey === 't06') {
+      setT06(inputCrosswordValue);
     }
   };
 
