@@ -236,6 +236,17 @@ const Clue02En = (props) => {
             g05={g05}
             g06={g06}
             g07={g07}
+            p01={p01}
+            p02={p02}
+            p03={p03}
+            p04={p04}
+            p05={p05}
+            t01={t01}
+            t02={t02}
+            t03={t03}
+            t04={t04}
+            t05={t05}
+            t06={t06}
           />
 
           <section className="clue02__text">
