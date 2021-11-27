@@ -239,7 +239,7 @@ const CrosswordEn = (props) => {
 
       <input
         onChange={handleChange}
-        className={props.b02 === props.city[4].letter2 ? 'crossword__correct' : 'crossword__full'}
+        className={props.b02.toLowerCase() === props.city[4].letter2 ? 'crossword__correct' : 'crossword__full'}
         type="text"
         maxLength="1"
         name="b02"
@@ -250,7 +250,7 @@ const CrosswordEn = (props) => {
       <CrosswordInputDisabled />
       <input
         onChange={handleChange}
-        className={props.g04 === props.city[5].letter4 ? 'crossword__correct' : 'crossword__full'}
+        className={props.g04.toLowerCase() === props.city[5].letter4 ? 'crossword__correct' : 'crossword__full'}
         type="text"
         maxLength="1"
         name="g04"
@@ -262,7 +262,7 @@ const CrosswordEn = (props) => {
       <CrosswordInputDisabled />
       <input
         onChange={handleChange}
-        className={props.t02 === props.city[7].letter2 ? 'crossword__correct' : 'crossword__full'}
+        className={props.t02.toLowerCase() === props.city[7].letter2 ? 'crossword__correct' : 'crossword__full'}
         type="text"
         maxLength="1"
         name="t02"
@@ -277,7 +277,7 @@ const CrosswordEn = (props) => {
 
       <input
         onChange={handleChange}
-        className={props.b03 === props.city[4].letter3 ? 'crossword__correct' : 'crossword__full'}
+        className={props.b03.toLowerCase() === props.city[4].letter3 ? 'crossword__correct' : 'crossword__full'}
         type="text"
         maxLength="1"
         name="b03"
@@ -288,7 +288,7 @@ const CrosswordEn = (props) => {
       <CrosswordInputDisabled />
       <input
         onChange={handleChange}
-        className={props.g05 === props.city[5].letter5 ? 'crossword__correct' : 'crossword__full'}
+        className={props.g05.toLowerCase() === props.city[5].letter5 ? 'crossword__correct' : 'crossword__full'}
         type="text"
         maxLength="1"
         name="g05"
@@ -298,7 +298,7 @@ const CrosswordEn = (props) => {
       <CrosswordInputDisabled />
       <input
         onChange={handleChange}
-        className={props.ca01 === props.city[2].letter1 ? 'crossword__correct' : 'crossword__full'}
+        className={props.ca01.toLowerCase() === props.city[2].letter1 ? 'crossword__correct' : 'crossword__full'}
         type="text"
         maxLength="1"
         name="ca01"
@@ -307,7 +307,7 @@ const CrosswordEn = (props) => {
       />
       <input
         onChange={handleChange}
-        className={props.ca02 === props.city[2].letter2 ? 'crossword__correct' : 'crossword__full'}
+        className={props.ca02.toLowerCase() === props.city[2].letter2 ? 'crossword__correct' : 'crossword__full'}
         type="text"
         maxLength="1"
         name="ca02"
@@ -316,7 +316,7 @@ const CrosswordEn = (props) => {
       />
       <input
         onChange={handleChange}
-        className={props.ca03 === props.city[2].letter3 ? 'crossword__correct' : 'crossword__full'}
+        className={props.ca03.toLowerCase() === props.city[2].letter3 ? 'crossword__correct' : 'crossword__full'}
         type="text"
         maxLength="1"
         name="ca03"
@@ -325,7 +325,7 @@ const CrosswordEn = (props) => {
       />
       <input
         onChange={handleChange}
-        className={props.ca04 === props.city[2].letter4 ? 'crossword__correct' : 'crossword__full'}
+        className={props.ca04.toLowerCase() === props.city[2].letter4 ? 'crossword__correct' : 'crossword__full'}
         type="text"
         maxLength="1"
         name="ca04"
@@ -334,7 +334,7 @@ const CrosswordEn = (props) => {
       />
       <input
         onChange={handleChange}
-        className={props.ca05 === props.city[2].letter5 ? 'crossword__correct' : 'crossword__full'}
+        className={props.ca05.toLowerCase() === props.city[2].letter5 ? 'crossword__correct' : 'crossword__full'}
         type="text"
         maxLength="1"
         name="ca05"
@@ -343,7 +343,7 @@ const CrosswordEn = (props) => {
       />
       <input
         onChange={handleChange}
-        className={props.ca06 === props.city[2].letter6 ? 'crossword__correct' : 'crossword__full'}
+        className={props.ca06.toLowerCase() === props.city[2].letter6 ? 'crossword__correct' : 'crossword__full'}
         type="text"
         maxLength="1"
         name="ca06"
@@ -352,7 +352,7 @@ const CrosswordEn = (props) => {
       />
       <input
         onChange={handleChange}
-        className={props.ca07 === props.city[2].letter7 ? 'crossword__correct' : 'crossword__full'}
+        className={props.ca07.toLowerCase() === props.city[2].letter7 ? 'crossword__correct' : 'crossword__full'}
         type="text"
         maxLength="1"
         name="ca07"
@@ -363,7 +363,7 @@ const CrosswordEn = (props) => {
 
       <input
         onChange={handleChange}
-        className={props.b04 === props.city[4].letter4 ? 'crossword__correct' : 'crossword__full'}
+        className={props.b04.toLowerCase() === props.city[4].letter4 ? 'crossword__correct' : 'crossword__full'}
         type="text"
         maxLength="1"
         name="b04"
@@ -374,7 +374,7 @@ const CrosswordEn = (props) => {
       <CrosswordInputDisabled />
       <input
         onChange={handleChange}
-        className={props.g06 === props.city[5].letter6 ? 'crossword__correct' : 'crossword__full'}
+        className={props.g06.toLowerCase() === props.city[5].letter6 ? 'crossword__correct' : 'crossword__full'}
         type="text"
         maxLength="1"
         name="g06"
@@ -386,7 +386,7 @@ const CrosswordEn = (props) => {
       <CrosswordInputDisabled />
       <input
         onChange={handleChange}
-        className={props.t04 === props.city[7].letter4 ? 'crossword__correct' : 'crossword__full'}
+        className={props.t04.toLowerCase() === props.city[7].letter4 ? 'crossword__correct' : 'crossword__full'}
         type="text"
         maxLength="1"
         name="t04"
@@ -401,7 +401,7 @@ const CrosswordEn = (props) => {
 
       <input
         onChange={handleChange}
-        className={props.b05 === props.city[4].letter5 ? 'crossword__correct' : 'crossword__full'}
+        className={props.b05.toLowerCase() === props.city[4].letter5 ? 'crossword__correct' : 'crossword__full'}
         type="text"
         maxLength="1"
         name="b05"
@@ -412,7 +412,7 @@ const CrosswordEn = (props) => {
       <CrosswordInputDisabled />
       <input
         onChange={handleChange}
-        className={props.g07 === props.city[5].letter7 ? 'crossword__correct' : 'crossword__full'}
+        className={props.g07.toLowerCase() === props.city[5].letter7 ? 'crossword__correct' : 'crossword__full'}
         type="text"
         maxLength="1"
         name="g07"
@@ -422,7 +422,7 @@ const CrosswordEn = (props) => {
       <CrosswordInputDisabled />
       <input
         onChange={handleChange}
-        className={props.mn01 === props.city[3].letter1 ? 'crossword__correct' : 'crossword__full'}
+        className={props.mn01.toLowerCase() === props.city[3].letter1 ? 'crossword__correct' : 'crossword__full'}
         type="text"
         maxLength="1"
         name="mn01"
@@ -431,7 +431,7 @@ const CrosswordEn = (props) => {
       />
       <input
         onChange={handleChange}
-        className={props.mn02 === props.city[3].letter2 ? 'crossword__correct' : 'crossword__full'}
+        className={props.mn02.toLowerCase() === props.city[3].letter2 ? 'crossword__correct' : 'crossword__full'}
         type="text"
         maxLength="1"
         name="mn02"
@@ -440,7 +440,7 @@ const CrosswordEn = (props) => {
       />
       <input
         onChange={handleChange}
-        className={props.mn03 === props.city[3].letter3 ? 'crossword__correct' : 'crossword__full'}
+        className={props.mn03.toLowerCase() === props.city[3].letter3 ? 'crossword__correct' : 'crossword__full'}
         type="text"
         maxLength="1"
         name="mn03"
@@ -449,7 +449,7 @@ const CrosswordEn = (props) => {
       />
       <input
         onChange={handleChange}
-        className={props.mn04 === props.city[3].letter4 ? 'crossword__correct' : 'crossword__full'}
+        className={props.mn04.toLowerCase() === props.city[3].letter4 ? 'crossword__correct' : 'crossword__full'}
         type="text"
         maxLength="1"
         name="mn04"
@@ -458,7 +458,7 @@ const CrosswordEn = (props) => {
       />
       <input
         onChange={handleChange}
-        className={props.mn05 === props.city[3].letter5 ? 'crossword__correct' : 'crossword__full'}
+        className={props.mn05.toLowerCase() === props.city[3].letter5 ? 'crossword__correct' : 'crossword__full'}
         type="text"
         maxLength="1"
         name="mn05"
@@ -467,7 +467,7 @@ const CrosswordEn = (props) => {
       />
       <input
         onChange={handleChange}
-        className={props.mn06 === props.city[3].letter6 ? 'crossword__correct' : 'crossword__full'}
+        className={props.mn06.toLowerCase() === props.city[3].letter6 ? 'crossword__correct' : 'crossword__full'}
         type="text"
         maxLength="1"
         name="mn06"
@@ -479,7 +479,7 @@ const CrosswordEn = (props) => {
 
       <input
         onChange={handleChange}
-        className={props.b06 === props.city[4].letter6 ? 'crossword__correct' : 'crossword__full'}
+        className={props.b06.toLowerCase() === props.city[4].letter6 ? 'crossword__correct' : 'crossword__full'}
         type="text"
         maxLength="1"
         name="b06"
@@ -494,7 +494,7 @@ const CrosswordEn = (props) => {
       <CrosswordInputDisabled />
       <input
         onChange={handleChange}
-        className={props.t06 === props.city[7].letter6 ? 'crossword__correct' : 'crossword__full'}
+        className={props.t06.toLowerCase() === props.city[7].letter6 ? 'crossword__correct' : 'crossword__full'}
         type="text"
         maxLength="1"
         name="t06"
