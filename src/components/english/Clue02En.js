@@ -251,6 +251,12 @@ const Clue02En = (props) => {
 
           <section className="clue02__text">
             <h2 className="clue02__text--title">2 The museum</h2>
+
+            <p className="clue02__text--para1">
+              Rocky has a favourite museum and he used to go there with his family every year. If you know which one it
+              is, go ahead! Otherwise, solve this crossword and follow the clues!
+            </p>
+
             <h3 className="clue02__text--para1">Cities of the world:</h3>
 
             <h3 className="clue02__text--para1">Across</h3>
