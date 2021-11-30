@@ -314,19 +314,24 @@ const CrosswordEn = (props) => {
         id="bu07"
         autoComplete="off"
       />
-      <input
-        onChange={handleChange}
-        className={
-          props.bu08.toLowerCase() === props.city[1].letter8
-            ? 'containerInput__inputCorrect'
-            : 'containerInput__inputFull'
-        }
-        type="text"
-        maxLength="1"
-        name="bu08"
-        id="bu08"
-        autoComplete="off"
-      />
+      <div className="containerInput">
+        <label className="containerInput__label" htmlFor="bu08">
+          7
+        </label>
+        <input
+          onChange={handleChange}
+          className={
+            props.bu08.toLowerCase() === props.city[1].letter8
+              ? 'containerInput__inputCorrect'
+              : 'containerInput__inputFull'
+          }
+          type="text"
+          maxLength="1"
+          name="bu08"
+          id="bu08"
+          autoComplete="off"
+        />
+      </div>
       <CrosswordInputDisabled />
       <CrosswordInputDisabled />
       <CrosswordInputDisabled />
@@ -589,19 +594,24 @@ const CrosswordEn = (props) => {
         autoComplete="off"
       />
       <CrosswordInputDisabled />
-      <input
-        onChange={handleChange}
-        className={
-          props.mn01.toLowerCase() === props.city[3].letter1
-            ? 'containerInput__inputCorrect'
-            : 'containerInput__inputFull'
-        }
-        type="text"
-        maxLength="1"
-        name="mn01"
-        id="mn01"
-        autoComplete="off"
-      />
+      <div className="containerInput">
+        <label className="containerInput__label" htmlFor="mn01">
+          4
+        </label>
+        <input
+          onChange={handleChange}
+          className={
+            props.mn01.toLowerCase() === props.city[3].letter1
+              ? 'containerInput__inputCorrect'
+              : 'containerInput__inputFull'
+          }
+          type="text"
+          maxLength="1"
+          name="mn01"
+          id="mn01"
+          autoComplete="off"
+        />
+      </div>
       <input
         onChange={handleChange}
         className={
