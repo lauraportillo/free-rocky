@@ -288,19 +288,24 @@ const CrosswordEn = (props) => {
         id="bu05"
         autoComplete="off"
       />
-      <input
-        onChange={handleChange}
-        className={
-          props.bu06.toLowerCase() === props.city[1].letter6
-            ? 'containerInput__inputCorrect'
-            : 'containerInput__inputFull'
-        }
-        type="text"
-        maxLength="1"
-        name="bu06"
-        id="bu06"
-        autoComplete="off"
-      />
+      <div className="containerInput">
+        <label className="containerInput__label" htmlFor="bu06">
+          6
+        </label>
+        <input
+          onChange={handleChange}
+          className={
+            props.bu06.toLowerCase() === props.city[1].letter6
+              ? 'containerInput__inputCorrect'
+              : 'containerInput__inputFull'
+          }
+          type="text"
+          maxLength="1"
+          name="bu06"
+          id="bu06"
+          autoComplete="off"
+        />
+      </div>
       <input
         onChange={handleChange}
         className={
@@ -403,19 +408,24 @@ const CrosswordEn = (props) => {
       />
       <CrosswordInputDisabled />
       <CrosswordInputDisabled />
-      <input
-        onChange={handleChange}
-        className={
-          props.g05.toLowerCase() === props.city[5].letter5
-            ? 'containerInput__inputCorrect'
-            : 'containerInput__inputFull'
-        }
-        type="text"
-        maxLength="1"
-        name="g05"
-        id="g05"
-        autoComplete="off"
-      />
+      <div className="containerInput">
+        <label className="containerInput__label" htmlFor="g05">
+          8
+        </label>
+        <input
+          onChange={handleChange}
+          className={
+            props.g05.toLowerCase() === props.city[5].letter5
+              ? 'containerInput__inputCorrect'
+              : 'containerInput__inputFull'
+          }
+          type="text"
+          maxLength="1"
+          name="g05"
+          id="g05"
+          autoComplete="off"
+        />
+      </div>
       <CrosswordInputDisabled />
       <div className="containerInput">
         <label className="containerInput__label" htmlFor="ca01">
@@ -500,19 +510,24 @@ const CrosswordEn = (props) => {
         id="ca06"
         autoComplete="off"
       />
-      <input
-        onChange={handleChange}
-        className={
-          props.ca07.toLowerCase() === props.city[2].letter7
-            ? 'containerInput__inputCorrect'
-            : 'containerInput__inputFull'
-        }
-        type="text"
-        maxLength="1"
-        name="ca07"
-        id="ca07"
-        autoComplete="off"
-      />
+      <div className="containerInput">
+        <label className="containerInput__label" htmlFor="ca07">
+          5
+        </label>
+        <input
+          onChange={handleChange}
+          className={
+            props.ca07.toLowerCase() === props.city[2].letter7
+              ? 'containerInput__inputCorrect'
+              : 'containerInput__inputFull'
+          }
+          type="text"
+          maxLength="1"
+          name="ca07"
+          id="ca07"
+          autoComplete="off"
+        />
+      </div>
       <CrosswordInputDisabled />
 
       <input
