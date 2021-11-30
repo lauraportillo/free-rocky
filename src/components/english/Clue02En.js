@@ -260,8 +260,8 @@ const Clue02En = (props) => {
             <h3 className="clue02__text--para1">Cities of the world:</h3>
 
             <h3 className="clue02__text--para1">Across</h3>
-            <p className="clue02__text--para2">{city[0].clue}</p>
             <p className="clue02__text--para2">{city[1].clue}</p>
+            <p className="clue02__text--para2">{city[0].clue}</p>
             <p className="clue02__text--para2">{city[2].clue}</p>
             <p className="clue02__text--para2">{city[3].clue}</p>
 

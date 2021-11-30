@@ -16,8 +16,13 @@
   height: 20px;
   cursor: none;
 }
-
-.crossword__full {
+.containerInput__label {
+  position: absolute;
+  color: $color4;
+  font-size: 10px;
+  margin-left: 2px;
+}
+.containerInput__inputFull {
   border: 1px solid $color1;
   background-color: $color2;
   color: $color1;
@@ -27,7 +32,7 @@
   height: 20px;
   cursor: context-menu;
 }
-.crossword__correct {
+.containerInput__inputCorrect {
   border: 1px solid $color1;
   background-color: $color7;
   color: $color1;
