@@ -15,22 +15,27 @@ const CrosswordEn = (props) => {
 
   return (
     <form onSubmit={handleForm} className="crossword">
+      {/* <CrosswordInputDisabled />
       <CrosswordInputDisabled />
       <CrosswordInputDisabled />
       <CrosswordInputDisabled />
       <CrosswordInputDisabled />
-      <CrosswordInputDisabled />
-      <CrosswordInputDisabled />
-      <input
-        onChange={handleChange}
-        className={props.p01.toLowerCase() === props.city[6].letter1 ? 'crossword__correct' : 'crossword__full'}
-        type="text"
-        maxLength="1"
-        name="p01"
-        id="p01"
-        autoComplete="off"
-      />
-      <CrosswordInputDisabled />
+      <CrosswordInputDisabled /> */}
+      <div className="containerInput">
+        <label className="containerInput__label" htmlFor="p01">
+          1
+        </label>
+        <input
+          onChange={handleChange}
+          className={props.p01.toLowerCase() === props.city[6].letter1 ? 'crossword__correct' : 'crossword__full'}
+          type="text"
+          maxLength="1"
+          name="p01"
+          id="p01"
+          autoComplete="off"
+        />
+      </div>
+      {/* <CrosswordInputDisabled />
       <CrosswordInputDisabled />
       <CrosswordInputDisabled />
       <CrosswordInputDisabled />
@@ -505,7 +510,7 @@ const CrosswordEn = (props) => {
       <CrosswordInputDisabled />
       <CrosswordInputDisabled />
       <CrosswordInputDisabled />
-      <CrosswordInputDisabled />
+      <CrosswordInputDisabled /> */}
     </form>
   );
 };
