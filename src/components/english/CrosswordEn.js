@@ -23,7 +23,7 @@ const CrosswordEn = (props) => {
       <CrosswordInputDisabled />
       <div className="containerInput">
         <label className="containerInput__label" htmlFor="p01">
-          1
+          3
         </label>
         <input
           onChange={handleChange}
@@ -51,19 +51,24 @@ const CrosswordEn = (props) => {
       <CrosswordInputDisabled />
       <CrosswordInputDisabled />
       <CrosswordInputDisabled />
-      <input
-        onChange={handleChange}
-        className={
-          props.md01.toLowerCase() === props.city[0].letter1
-            ? 'containerInput__inputCorrect'
-            : 'containerInput__inputFull'
-        }
-        type="text"
-        maxLength="1"
-        name="md01"
-        id="md01"
-        autoComplete="off"
-      />
+      <div className="containerInput">
+        <label className="containerInput__label" htmlFor="md01">
+          2
+        </label>
+        <input
+          onChange={handleChange}
+          className={
+            props.md01.toLowerCase() === props.city[0].letter1
+              ? 'containerInput__inputCorrect'
+              : 'containerInput__inputFull'
+          }
+          type="text"
+          maxLength="1"
+          name="md01"
+          id="md01"
+          autoComplete="off"
+        />
+      </div>
       <input
         onChange={handleChange}
         className={
@@ -407,19 +412,24 @@ const CrosswordEn = (props) => {
         autoComplete="off"
       />
       <CrosswordInputDisabled />
-      <input
-        onChange={handleChange}
-        className={
-          props.ca01.toLowerCase() === props.city[2].letter1
-            ? 'containerInput__inputCorrect'
-            : 'containerInput__inputFull'
-        }
-        type="text"
-        maxLength="1"
-        name="ca01"
-        id="ca01"
-        autoComplete="off"
-      />
+      <div className="containerInput">
+        <label className="containerInput__label" htmlFor="ca01">
+          3
+        </label>
+        <input
+          onChange={handleChange}
+          className={
+            props.ca01.toLowerCase() === props.city[2].letter1
+              ? 'containerInput__inputCorrect'
+              : 'containerInput__inputFull'
+          }
+          type="text"
+          maxLength="1"
+          name="ca01"
+          id="ca01"
+          autoComplete="off"
+        />
+      </div>
       <input
         onChange={handleChange}
         className={
