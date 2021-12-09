@@ -1,6 +1,7 @@
+// React
+import React, { useRef } from 'react';
 // Components
 import CrosswordInputDisabled from '../CrosswordInputDisabled';
-
 // Styles
 import '../../stylesheets/Crossword.scss';
 
@@ -12,6 +13,12 @@ const CrosswordEn = (props) => {
   const handleChange = (ev) => {
     props.handleCrosswordInput(ev.target.name, ev.target.value);
   };
+
+  const md02Ref = useRef();
+  const md03Ref = useRef();
+  const md04Ref = useRef();
+  // const md05Ref = useRef();
+  // const md06Ref = useRef();
 
   return (
     <form onSubmit={handleForm} className="crossword">
@@ -67,6 +74,10 @@ const CrosswordEn = (props) => {
           name="md01"
           id="md01"
           autoComplete="off"
+          autoFocus={true}
+          returnKeyType="next"
+          onSubmitEditing={() => md02Ref.current.focus()}
+          // blurOnSubmit={false}
         />
       </div>
       <input
@@ -81,6 +92,9 @@ const CrosswordEn = (props) => {
         name="md02"
         id="md02"
         autoComplete="off"
+        returnKeyType="next"
+        onSubmitEditing={() => md03Ref.current.focus()}
+        ref={md02Ref}
       />
       <input
         onChange={handleChange}
@@ -94,6 +108,9 @@ const CrosswordEn = (props) => {
         name="md03"
         id="md03"
         autoComplete="off"
+        returnKeyType="next"
+        onSubmitEditing={() => md04Ref.current.focus()}
+        ref={md03Ref}
       />
       <input
         onChange={handleChange}
