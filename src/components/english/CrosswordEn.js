@@ -1,5 +1,5 @@
-// // React
-// import { useRef } from 'react';
+// React
+import { useRef } from 'react';
 // Components
 import CrosswordInputDisabled from '../CrosswordInputDisabled';
 // Styles
@@ -10,10 +10,11 @@ const CrosswordEn = (props) => {
     ev.preventDefault();
   };
 
-  const handleFocusMd = (ev) => {
-    props.handleCrosswordInput(ev.target.name, ev.target.value);
-    if (ev.target.nextSibling) ev.target.nextSibling.focus();
-  };
+  const md02Ref = useRef();
+  const md03Ref = useRef();
+  const md04Ref = useRef();
+  const md05Ref = useRef();
+  const md06Ref = useRef();
 
   return (
     <form onSubmit={handleForm} className="crossword">
@@ -58,8 +59,11 @@ const CrosswordEn = (props) => {
           2
         </label>
         <input
-          onChange={handleFocusMd}
           autoFocus={true}
+          onChange={(ev) => {
+            props.handleCrosswordInput(ev.target.name, ev.target.value);
+            md02Ref.current.focus();
+          }}
           className={
             props.md01.toLowerCase() === props.city[0].letter1
               ? 'containerInput__inputCorrect'
@@ -73,7 +77,10 @@ const CrosswordEn = (props) => {
         />
       </div>
       <input
-        onChange={handleFocusMd}
+        onChange={(ev) => {
+          props.handleCrosswordInput(ev.target.name, ev.target.value);
+          md03Ref.current.focus();
+        }}
         className={
           props.md02.toLowerCase() === props.city[0].letter2
             ? 'containerInput__inputCorrect'
@@ -84,9 +91,13 @@ const CrosswordEn = (props) => {
         name="md02"
         id="md02"
         autoComplete="off"
+        ref={md02Ref}
       />
       <input
-        onChange={handleFocusMd}
+        onChange={(ev) => {
+          props.handleCrosswordInput(ev.target.name, ev.target.value);
+          md04Ref.current.focus();
+        }}
         className={
           props.md03.toLowerCase() === props.city[0].letter3
             ? 'containerInput__inputCorrect'
@@ -97,9 +108,13 @@ const CrosswordEn = (props) => {
         name="md03"
         id="md03"
         autoComplete="off"
+        ref={md03Ref}
       />
       <input
-        onChange={handleFocusMd}
+        onChange={(ev) => {
+          props.handleCrosswordInput(ev.target.name, ev.target.value);
+          md05Ref.current.focus();
+        }}
         className={
           props.md04.toLowerCase() === props.city[0].letter4
             ? 'containerInput__inputCorrect'
@@ -110,9 +125,13 @@ const CrosswordEn = (props) => {
         name="md04"
         id="md04"
         autoComplete="off"
+        ref={md04Ref}
       />
       <input
-        onChange={handleFocusMd}
+        onChange={(ev) => {
+          props.handleCrosswordInput(ev.target.name, ev.target.value);
+          md06Ref.current.focus();
+        }}
         className={
           props.md05.toLowerCase() === props.city[0].letter5
             ? 'containerInput__inputCorrect'
@@ -123,9 +142,13 @@ const CrosswordEn = (props) => {
         name="md05"
         id="md05"
         autoComplete="off"
+        ref={md05Ref}
       />
       <input
-        onChange={handleFocusMd}
+        onChange={(ev) => {
+          props.handleCrosswordInput(ev.target.name, ev.target.value);
+          // md06Ref.current.focus();
+        }}
         className={
           props.md06.toLowerCase() === props.city[0].letter6
             ? 'containerInput__inputCorrect'
@@ -136,6 +159,7 @@ const CrosswordEn = (props) => {
         name="md06"
         id="md06"
         autoComplete="off"
+        ref={md06Ref}
       />
       <CrosswordInputDisabled />
       <CrosswordInputDisabled />
