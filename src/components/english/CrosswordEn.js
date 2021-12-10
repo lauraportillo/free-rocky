@@ -84,7 +84,6 @@ const CrosswordEn = (props) => {
           2
         </label>
         <input
-          autoFocus={true}
           onChange={(ev) => {
             props.handleCrosswordInput(ev.target.name, ev.target.value);
             md02Ref.current.focus();
@@ -276,6 +275,7 @@ const CrosswordEn = (props) => {
           1
         </label>
         <input
+          autoFocus={true}
           onChange={(ev) => {
             props.handleCrosswordInput(ev.target.name, ev.target.value);
             bu02Ref.current.focus();
