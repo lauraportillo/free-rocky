@@ -1,5 +1,5 @@
-// React
-import { useRef } from 'react';
+// // React
+// import { useRef } from 'react';
 // Components
 import CrosswordInputDisabled from '../CrosswordInputDisabled';
 // Styles
@@ -10,11 +10,12 @@ const CrosswordEn = (props) => {
     ev.preventDefault();
   };
 
-  const handleChange = (ev) => {
-    props.handleCrosswordInput(ev.target.name, ev.target.value);
-  };
+  // const handleChange = (ev) => {
+  //   props.handleCrosswordInput(ev.target.name, ev.target.value);
+  // };
 
   const handleFocusMd = (ev) => {
+    props.handleCrosswordInput(ev.target.name, ev.target.value);
     if (ev.target.nextSibling) ev.target.nextSibling.focus();
   };
 
@@ -68,6 +69,7 @@ const CrosswordEn = (props) => {
         </label>
         <input
           onChange={handleFocusMd}
+          autoFocus={true}
           className={
             props.md01.toLowerCase() === props.city[0].letter1
               ? 'containerInput__inputCorrect'
@@ -79,7 +81,6 @@ const CrosswordEn = (props) => {
           id="md01"
           autoComplete="off"
           // onKeyUp={handleFocusMd}
-          autoFocus={true}
           // returnKeyType="next"
           // onSubmitEditing={() => {
           //   md02Ref.current.focus();
