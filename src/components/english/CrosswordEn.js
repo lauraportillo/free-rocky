@@ -10,20 +10,10 @@ const CrosswordEn = (props) => {
     ev.preventDefault();
   };
 
-  // const handleChange = (ev) => {
-  //   props.handleCrosswordInput(ev.target.name, ev.target.value);
-  // };
-
   const handleFocusMd = (ev) => {
     props.handleCrosswordInput(ev.target.name, ev.target.value);
     if (ev.target.nextSibling) ev.target.nextSibling.focus();
   };
-
-  // const md02Ref = useRef();
-  // const md03Ref = useRef();
-  // const md04Ref = useRef();
-  // const md05Ref = useRef();
-  // const md06Ref = useRef();
 
   return (
     <form onSubmit={handleForm} className="crossword">
@@ -80,12 +70,6 @@ const CrosswordEn = (props) => {
           name="md01"
           id="md01"
           autoComplete="off"
-          // onKeyUp={handleFocusMd}
-          // returnKeyType="next"
-          // onSubmitEditing={() => {
-          //   md02Ref.current.focus();
-          // }}
-          // blurOnSubmit={false}
         />
       </div>
       <input
@@ -100,12 +84,6 @@ const CrosswordEn = (props) => {
         name="md02"
         id="md02"
         autoComplete="off"
-        // onKeyUp={handleFocusMd}
-        // returnKeyType="next"
-        // onSubmitEditing={() => {
-        //   md03Ref.current.focus();
-        // }}
-        // ref={md02Ref}
       />
       <input
         onChange={handleFocusMd}
@@ -119,12 +97,6 @@ const CrosswordEn = (props) => {
         name="md03"
         id="md03"
         autoComplete="off"
-        // onKeyUp={handleFocusMd}
-        // returnKeyType="next"
-        // onSubmitEditing={() => {
-        //   md04Ref.current.focus();
-        // }}
-        // ref={md03Ref}
       />
       <input
         onChange={handleFocusMd}
@@ -138,7 +110,6 @@ const CrosswordEn = (props) => {
         name="md04"
         id="md04"
         autoComplete="off"
-        // onKeyUp={handleFocusMd}
       />
       <input
         onChange={handleFocusMd}
@@ -152,7 +123,6 @@ const CrosswordEn = (props) => {
         name="md05"
         id="md05"
         autoComplete="off"
-        // onKeyUp={handleFocusMd}
       />
       <input
         onChange={handleFocusMd}
@@ -166,7 +136,6 @@ const CrosswordEn = (props) => {
         name="md06"
         id="md06"
         autoComplete="off"
-        // onKeyUp={handleFocusMd}
       />
       <CrosswordInputDisabled />
       <CrosswordInputDisabled />
