@@ -774,6 +774,10 @@ const CrosswordEn = (props) => {
       <CrosswordInputDisabled />
 
       <input
+        onChange={(ev) => {
+          props.handleCrosswordInput(ev.target.name, ev.target.value);
+          b06Ref.current.focus();
+        }}
         className={
           props.b05.toLowerCase() === props.city[4].letter5
             ? 'containerInput__inputCorrect'
@@ -784,10 +788,15 @@ const CrosswordEn = (props) => {
         name="b05"
         id="b05"
         autoComplete="off"
+        ref={b05Ref}
       />
       <CrosswordInputDisabled />
       <CrosswordInputDisabled />
       <input
+        onChange={(ev) => {
+          props.handleCrosswordInput(ev.target.name, ev.target.value);
+          // Ref.current.focus();
+        }}
         className={
           props.g07.toLowerCase() === props.city[5].letter7
             ? 'containerInput__inputCorrect'
@@ -798,6 +807,7 @@ const CrosswordEn = (props) => {
         name="g07"
         id="g07"
         autoComplete="off"
+        ref={g07Ref}
       />
       <CrosswordInputDisabled />
       <div className="containerInput">
