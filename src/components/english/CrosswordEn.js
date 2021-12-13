@@ -204,7 +204,7 @@ const CrosswordEn = (props) => {
       <input
         onChange={(ev) => {
           props.handleCrosswordInput(ev.target.name, ev.target.value);
-          // Ref.current.focus();
+          ca01Ref.current.focus();
         }}
         className={
           props.md06.toLowerCase() === props.city[0].letter6
@@ -278,7 +278,7 @@ const CrosswordEn = (props) => {
       <input
         onChange={(ev) => {
           props.handleCrosswordInput(ev.target.name, ev.target.value);
-          g03Ref.current.focus();
+          g04Ref.current.focus();
         }}
         className={
           props.g02.toLowerCase() === props.city[5].letter2
@@ -297,7 +297,7 @@ const CrosswordEn = (props) => {
       <input
         onChange={(ev) => {
           props.handleCrosswordInput(ev.target.name, ev.target.value);
-          p05Ref.current.focus();
+          bu07Ref.current.focus();
         }}
         className={
           props.p04.toLowerCase() === props.city[6].letter4
@@ -455,7 +455,7 @@ const CrosswordEn = (props) => {
         <input
           onChange={(ev) => {
             props.handleCrosswordInput(ev.target.name, ev.target.value);
-            // Ref.current.focus();
+            md01Ref.current.focus();
           }}
           className={
             props.bu08.toLowerCase() === props.city[1].letter8
@@ -694,7 +694,7 @@ const CrosswordEn = (props) => {
         <input
           onChange={(ev) => {
             props.handleCrosswordInput(ev.target.name, ev.target.value);
-            // Ref.current.focus();
+            mn01Ref.current.focus();
           }}
           className={
             props.ca07.toLowerCase() === props.city[2].letter7
