@@ -42,7 +42,6 @@ const CrosswordEn = (props) => {
   const mn06Ref = useRef();
 
   // down
-  const b01Ref = useRef();
   const b02Ref = useRef();
   const b03Ref = useRef();
   const b04Ref = useRef();
@@ -51,23 +50,17 @@ const CrosswordEn = (props) => {
 
   const g01Ref = useRef();
   const g02Ref = useRef();
-  const g03Ref = useRef();
   const g04Ref = useRef();
   const g05Ref = useRef();
   const g06Ref = useRef();
   const g07Ref = useRef();
 
   const p01Ref = useRef();
-  const p02Ref = useRef();
   const p03Ref = useRef();
   const p04Ref = useRef();
-  const p05Ref = useRef();
 
-  const t01Ref = useRef();
   const t02Ref = useRef();
-  const t03Ref = useRef();
   const t04Ref = useRef();
-  const t05Ref = useRef();
   const t06Ref = useRef();
   return (
     <form onSubmit={handleForm} className="crossword">
