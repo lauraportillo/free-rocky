@@ -221,7 +221,7 @@ const CrosswordEn = (props) => {
       <CrosswordInputDisabled />
       <CrosswordInputDisabled />
 
-      {/* <CrosswordInputDisabled />
+      <CrosswordInputDisabled />
       <CrosswordInputDisabled />
       <CrosswordInputDisabled />
       <div className="containerInput">
@@ -229,7 +229,10 @@ const CrosswordEn = (props) => {
           2
         </label>
         <input
-          onChange={handleChange}
+          onChange={(ev) => {
+            props.handleCrosswordInput(ev.target.name, ev.target.value);
+            g02Ref.current.focus();
+          }}
           className={
             props.g01.toLowerCase() === props.city[5].letter1
               ? 'containerInput__inputCorrect'
@@ -240,12 +243,16 @@ const CrosswordEn = (props) => {
           name="g01"
           id="g01"
           autoComplete="off"
+          ref={g01Ref}
         />
       </div>
       <CrosswordInputDisabled />
       <CrosswordInputDisabled />
       <input
-        onChange={handleChange}
+        onChange={(ev) => {
+          props.handleCrosswordInput(ev.target.name, ev.target.value);
+          p04Ref.current.focus();
+        }}
         className={
           props.p03.toLowerCase() === props.city[6].letter3
             ? 'containerInput__inputCorrect'
@@ -256,13 +263,14 @@ const CrosswordEn = (props) => {
         name="p03"
         id="p03"
         autoComplete="off"
+        ref={p03Ref}
       />
       <CrosswordInputDisabled />
       <CrosswordInputDisabled />
       <CrosswordInputDisabled />
       <CrosswordInputDisabled />
       <CrosswordInputDisabled />
-      <CrosswordInputDisabled /> */}
+      <CrosswordInputDisabled />
 
       {/* <CrosswordInputDisabled />
       <CrosswordInputDisabled />
