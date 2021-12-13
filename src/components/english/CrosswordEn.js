@@ -71,7 +71,7 @@ const CrosswordEn = (props) => {
   const t06Ref = useRef();
   return (
     <form onSubmit={handleForm} className="crossword">
-      {/* <CrosswordInputDisabled />
+      <CrosswordInputDisabled />
       <CrosswordInputDisabled />
       <CrosswordInputDisabled />
       <CrosswordInputDisabled />
@@ -82,7 +82,10 @@ const CrosswordEn = (props) => {
           3
         </label>
         <input
-          onChange={handleChange}
+          onChange={(ev) => {
+            props.handleCrosswordInput(ev.target.name, ev.target.value);
+            md02Ref.current.focus();
+          }}
           className={
             props.p01.toLowerCase() === props.city[6].letter1
               ? 'containerInput__inputCorrect'
@@ -93,6 +96,7 @@ const CrosswordEn = (props) => {
           name="p01"
           id="p01"
           autoComplete="off"
+          ref={p01Ref}
         />
       </div>
       <CrosswordInputDisabled />
@@ -100,7 +104,7 @@ const CrosswordEn = (props) => {
       <CrosswordInputDisabled />
       <CrosswordInputDisabled />
       <CrosswordInputDisabled />
-      <CrosswordInputDisabled /> */}
+      <CrosswordInputDisabled />
 
       <CrosswordInputDisabled />
       <CrosswordInputDisabled />
