@@ -32,6 +32,16 @@
   height: 20px;
   cursor: context-menu;
 }
+.containerInput__zeroSides {
+  // border: 1px solid $color1;
+  background-color: $color2;
+  color: $color1;
+  text-align: center;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  cursor: context-menu;
+}
 .containerInput__inputCorrect {
   border: 1px solid $color1;
   background-color: $color7;
