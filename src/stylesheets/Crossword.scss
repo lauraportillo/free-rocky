@@ -22,16 +22,7 @@
   font-size: 10px;
   margin-left: 2px;
 }
-.containerInput__inputFull {
-  border: 1px solid $color1;
-  background-color: $color2;
-  color: $color1;
-  text-align: center;
-  display: inline-block;
-  width: 20px;
-  height: 20px;
-  cursor: context-menu;
-}
+
 .containerInput__zeroSides {
   border: none;
   background-color: $color2;
@@ -44,9 +35,32 @@
 }
 .containerInput__threeSidesU {
   border-top: none;
-  border-left: 1px solid $color1;
-  border-bottom: 1px solid $color1;
   border-right: 1px solid $color1;
+  border-bottom: 1px solid $color1;
+  border-left: 1px solid $color1;
+  background-color: $color2;
+  color: $color1;
+  text-align: center;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  cursor: context-menu;
+}
+.containerInput__threeSidesUinverted {
+  border-top: 1px solid $color1;
+  border-right: 1px solid $color1;
+  border-bottom: none;
+  border-left: 1px solid $color1;
+  background-color: $color2;
+  color: $color1;
+  text-align: center;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  cursor: context-menu;
+}
+.containerInput__fourSides {
+  border: 1px solid $color1;
   background-color: $color2;
   color: $color1;
   text-align: center;
