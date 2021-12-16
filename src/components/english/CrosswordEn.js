@@ -585,7 +585,7 @@ const CrosswordEn = (props) => {
           className={
             props.ca01.toLowerCase() === props.city[2].letter1
               ? 'containerInput__inputCorrect'
-              : 'containerInput__fourSides'
+              : 'containerInput__threeSidesC'
           }
           type="text"
           maxLength="1"
@@ -603,7 +603,7 @@ const CrosswordEn = (props) => {
         className={
           props.ca02.toLowerCase() === props.city[2].letter2
             ? 'containerInput__inputCorrect'
-            : 'containerInput__fourSides'
+            : 'containerInput__threeSidesC'
         }
         type="text"
         maxLength="1"
@@ -637,7 +637,7 @@ const CrosswordEn = (props) => {
         className={
           props.ca04.toLowerCase() === props.city[2].letter4
             ? 'containerInput__inputCorrect'
-            : 'containerInput__fourSides'
+            : 'containerInput__threeSidesCinverted'
         }
         type="text"
         maxLength="1"
@@ -654,7 +654,7 @@ const CrosswordEn = (props) => {
         className={
           props.ca05.toLowerCase() === props.city[2].letter5
             ? 'containerInput__inputCorrect'
-            : 'containerInput__fourSides'
+            : 'containerInput__threeSidesCinverted'
         }
         type="text"
         maxLength="1"
@@ -671,7 +671,7 @@ const CrosswordEn = (props) => {
         className={
           props.ca06.toLowerCase() === props.city[2].letter6
             ? 'containerInput__inputCorrect'
-            : 'containerInput__fourSides'
+            : 'containerInput__threeSidesCinverted'
         }
         type="text"
         maxLength="1"
@@ -692,7 +692,7 @@ const CrosswordEn = (props) => {
           className={
             props.ca07.toLowerCase() === props.city[2].letter7
               ? 'containerInput__inputCorrect'
-              : 'containerInput__fourSides'
+              : 'containerInput__threeSidesCinverted'
           }
           type="text"
           maxLength="1"
@@ -751,7 +751,7 @@ const CrosswordEn = (props) => {
         className={
           props.t04.toLowerCase() === props.city[7].letter4
             ? 'containerInput__inputCorrect'
-            : 'containerInput__fourSides'
+            : 'containerInput__twoSidesRightLeft'
         }
         type="text"
         maxLength="1"
