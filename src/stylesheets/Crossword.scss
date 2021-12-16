@@ -22,17 +22,17 @@
   font-size: 10px;
   margin-left: 2px;
 }
-
-.containerInput__zeroSides {
-  border: none;
-  background-color: $color2;
-  color: $color1;
-  text-align: center;
-  display: inline-block;
-  width: 20px;
-  height: 20px;
-  cursor: context-menu;
-}
+// eliminar este y combinar C y U normales e invertidas y dejar la zero sides como four sizes (para que no queden saltos raros)
+// .containerInput__zeroSides {
+//   border: none;
+//   background-color: $color2;
+//   color: $color1;
+//   text-align: center;
+//   display: inline-block;
+//   width: 20px;
+//   height: 20px;
+//   cursor: context-menu;
+// }
 .containerInput__threeSidesU {
   border-top: none;
   border-right: 1px solid $color1;
