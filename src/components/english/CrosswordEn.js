@@ -944,7 +944,7 @@ const CrosswordEn = (props) => {
         className={
           props.t06.toLowerCase() === props.city[7].letter6
             ? 'containerInput__inputCorrect'
-            : 'containerInput__fourSides'
+            : 'containerInput__threeSidesU'
         }
         type="text"
         maxLength="1"
