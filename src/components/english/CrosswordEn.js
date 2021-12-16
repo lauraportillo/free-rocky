@@ -295,7 +295,7 @@ const CrosswordEn = (props) => {
         className={
           props.p04.toLowerCase() === props.city[6].letter4
             ? 'containerInput__inputCorrect'
-            : 'containerInput__threeSidesU'
+            : 'containerInput__twoSidesRightLeft'
         }
         type="text"
         maxLength="1"
@@ -324,7 +324,7 @@ const CrosswordEn = (props) => {
           className={
             props.bu01.toLowerCase() === props.city[1].letter1
               ? 'containerInput__inputCorrect'
-              : 'containerInput__fourSides'
+              : 'containerInput__threeSidesC'
           }
           type="text"
           maxLength="1"
@@ -342,7 +342,7 @@ const CrosswordEn = (props) => {
         className={
           props.bu02.toLowerCase() === props.city[1].letter2
             ? 'containerInput__inputCorrect'
-            : 'containerInput__fourSides'
+            : 'containerInput__threeSidesC'
         }
         type="text"
         maxLength="1"
@@ -359,7 +359,7 @@ const CrosswordEn = (props) => {
         className={
           props.bu03.toLowerCase() === props.city[1].letter3
             ? 'containerInput__inputCorrect'
-            : 'containerInput__fourSides'
+            : 'containerInput__threeSidesC'
         }
         type="text"
         maxLength="1"
@@ -393,7 +393,7 @@ const CrosswordEn = (props) => {
         className={
           props.bu05.toLowerCase() === props.city[1].letter5
             ? 'containerInput__inputCorrect'
-            : 'containerInput__fourSides'
+            : 'containerInput__threeSidesCinverted'
         }
         type="text"
         maxLength="1"
@@ -414,7 +414,7 @@ const CrosswordEn = (props) => {
           className={
             props.bu06.toLowerCase() === props.city[1].letter6
               ? 'containerInput__inputCorrect'
-              : 'containerInput__fourSides'
+              : 'containerInput__twoSidesTopBottom'
           }
           type="text"
           maxLength="1"
@@ -432,7 +432,7 @@ const CrosswordEn = (props) => {
         className={
           props.bu07.toLowerCase() === props.city[1].letter7
             ? 'containerInput__inputCorrect'
-            : 'containerInput__threeSidesU'
+            : 'containerInput__fourSides'
         }
         type="text"
         maxLength="1"
@@ -453,7 +453,7 @@ const CrosswordEn = (props) => {
           className={
             props.bu08.toLowerCase() === props.city[1].letter8
               ? 'containerInput__inputCorrect'
-              : 'containerInput__fourSides'
+              : 'containerInput__threeSidesCinverted'
           }
           type="text"
           maxLength="1"
@@ -516,7 +516,7 @@ const CrosswordEn = (props) => {
         className={
           props.t02.toLowerCase() === props.city[7].letter2
             ? 'containerInput__inputCorrect'
-            : 'containerInput__fourSides'
+            : 'containerInput__twoSidesRightLeft'
         }
         type="text"
         maxLength="1"

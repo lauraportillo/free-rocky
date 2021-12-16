@@ -22,7 +22,20 @@
   font-size: 10px;
   margin-left: 2px;
 }
-
+.containerInput__twoSidesRightLeft {
+  border-top: none;
+  border-right: 1px solid $color1;
+  border-bottom: none;
+  border-left: 1px solid $color1;
+  @include inputBorderSides();
+}
+.containerInput__twoSidesTopBottom {
+  border-top: 1px solid $color1;
+  border-right: none;
+  border-bottom: 1px solid $color1;
+  border-left: none;
+  @include inputBorderSides();
+}
 .containerInput__threeSidesU {
   border-top: none;
   border-right: 1px solid $color1;
