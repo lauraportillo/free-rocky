@@ -38,36 +38,18 @@
   border-right: 1px solid $color1;
   border-bottom: 1px solid $color1;
   border-left: 1px solid $color1;
-  background-color: $color2;
-  color: $color1;
-  text-align: center;
-  display: inline-block;
-  width: 20px;
-  height: 20px;
-  cursor: context-menu;
+  @include inputBorderSides();
 }
 .containerInput__threeSidesUinverted {
   border-top: 1px solid $color1;
   border-right: 1px solid $color1;
   border-bottom: none;
   border-left: 1px solid $color1;
-  background-color: $color2;
-  color: $color1;
-  text-align: center;
-  display: inline-block;
-  width: 20px;
-  height: 20px;
-  cursor: context-menu;
+  @include inputBorderSides();
 }
 .containerInput__fourSides {
   border: 1px solid $color1;
-  background-color: $color2;
-  color: $color1;
-  text-align: center;
-  display: inline-block;
-  width: 20px;
-  height: 20px;
-  cursor: context-menu;
+  @include inputBorderSides();
 }
 .containerInput__inputCorrect {
   border: 1px solid $color1;
@@ -79,15 +61,3 @@
   height: 20px;
   cursor: context-menu;
 }
-
-// // Squares intersect 4 sides
-// .crossword__full2 {
-//   border: none;
-//   background-color: $color2;
-//   color: $color1;
-//   text-align: center;
-//   display: inline-block;
-//   width: 20px;
-//   height: 20px;
-//   cursor: context-menu;
-// }
