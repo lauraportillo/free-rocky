@@ -39,3 +39,53 @@
   height: 20px;
   cursor: context-menu;
 }
+@mixin inputBorderSidesCorrect() {
+  background-color: $color7;
+  color: $color1;
+  text-align: center;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  cursor: context-menu;
+}
+@mixin twoSidesRightLeft() {
+  border-top: none;
+  border-right: 1px solid $color1;
+  border-bottom: none;
+  border-left: 1px solid $color1;
+}
+
+// .containerInput__twoSidesTopBottom {
+//   border-top: 1px solid $color1;
+//   border-right: none;
+//   border-bottom: 1px solid $color1;
+//   border-left: none;
+//   @include inputBorderSides();
+// }
+// .containerInput__threeSidesU {
+//   border-top: none;
+//   border-right: 1px solid $color1;
+//   border-bottom: 1px solid $color1;
+//   border-left: 1px solid $color1;
+//   @include inputBorderSides();
+// }
+// .containerInput__threeSidesUinverted {
+//   border-top: 1px solid $color1;
+//   border-right: 1px solid $color1;
+//   border-bottom: none;
+//   border-left: 1px solid $color1;
+//   @include inputBorderSides();
+// }
+// .containerInput__threeSidesC {
+//   border-top: 1px solid $color1;
+//   border-right: none;
+//   border-bottom: 1px solid $color1;
+//   border-left: 1px solid $color1;
+//   @include inputBorderSides();
+// }
+// .containerInput__threeSidesCinverted {
+//   border-top: 1px solid $color1;
+//   border-right: 1px solid $color1;
+//   border-bottom: 1px solid $color1;
+//   border-left: none;
+//   @include inputBorderSides();

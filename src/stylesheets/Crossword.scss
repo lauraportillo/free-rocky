@@ -23,11 +23,12 @@
   margin-left: 2px;
 }
 .containerInput__twoSidesRightLeft {
-  border-top: none;
-  border-right: 1px solid $color1;
-  border-bottom: none;
-  border-left: 1px solid $color1;
+  @include twoSidesRightLeft();
   @include inputBorderSides();
+}
+.containerInput__twoSidesRightLeftCorrect {
+  @include twoSidesRightLeft();
+  @include inputBorderSidesCorrect();
 }
 .containerInput__twoSidesTopBottom {
   border-top: 1px solid $color1;
