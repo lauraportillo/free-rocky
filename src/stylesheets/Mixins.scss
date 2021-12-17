@@ -39,3 +39,48 @@
   height: 20px;
   cursor: context-menu;
 }
+@mixin inputBorderSidesCorrect() {
+  background-color: $color7;
+  color: $color1;
+  text-align: center;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  cursor: context-menu;
+}
+@mixin twoSidesRightLeft() {
+  border-top: none;
+  border-right: 1px solid $color1;
+  border-bottom: none;
+  border-left: 1px solid $color1;
+}
+@mixin twoSidesTopBottom() {
+  border-top: 1px solid $color1;
+  border-right: none;
+  border-bottom: 1px solid $color1;
+  border-left: none;
+}
+@mixin threeSidesU() {
+  border-top: none;
+  border-right: 1px solid $color1;
+  border-bottom: 1px solid $color1;
+  border-left: 1px solid $color1;
+}
+@mixin threeSidesUinverted() {
+  border-top: 1px solid $color1;
+  border-right: 1px solid $color1;
+  border-bottom: none;
+  border-left: 1px solid $color1;
+}
+@mixin threeSidesC() {
+  border-top: 1px solid $color1;
+  border-right: none;
+  border-bottom: 1px solid $color1;
+  border-left: 1px solid $color1;
+}
+@mixin threeSidesCinverted() {
+  border-top: 1px solid $color1;
+  border-right: 1px solid $color1;
+  border-bottom: 1px solid $color1;
+  border-left: none;
+}
