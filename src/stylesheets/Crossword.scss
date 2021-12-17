@@ -31,44 +31,50 @@
   @include inputBorderSidesCorrect();
 }
 .containerInput__twoSidesTopBottom {
-  border-top: 1px solid $color1;
-  border-right: none;
-  border-bottom: 1px solid $color1;
-  border-left: none;
+  @include twoSidesTopBottom();
   @include inputBorderSides();
+}
+.containerInput__twoSidesTopBottomCorrect {
+  @include twoSidesTopBottom();
+  @include inputBorderSidesCorrect();
 }
 .containerInput__threeSidesU {
-  border-top: none;
-  border-right: 1px solid $color1;
-  border-bottom: 1px solid $color1;
-  border-left: 1px solid $color1;
+  @include threeSidesU();
   @include inputBorderSides();
+}
+.containerInput__threeSidesUCorrect {
+  @include threeSidesU();
+  @include inputBorderSidesCorrect();
 }
 .containerInput__threeSidesUinverted {
-  border-top: 1px solid $color1;
-  border-right: 1px solid $color1;
-  border-bottom: none;
-  border-left: 1px solid $color1;
+  @include threeSidesUinverted();
   @include inputBorderSides();
+}
+.containerInput__threeSidesUinvertedCorrect {
+  @include threeSidesUinverted();
+  @include inputBorderSidesCorrect();
 }
 .containerInput__threeSidesC {
-  border-top: 1px solid $color1;
-  border-right: none;
-  border-bottom: 1px solid $color1;
-  border-left: 1px solid $color1;
+  @include threeSidesC();
   @include inputBorderSides();
 }
+.containerInput__threeSidesCCorrect {
+  @include threeSidesC();
+  @include inputBorderSidesCorrect();
+}
 .containerInput__threeSidesCinverted {
-  border-top: 1px solid $color1;
-  border-right: 1px solid $color1;
-  border-bottom: 1px solid $color1;
-  border-left: none;
+  @include threeSidesCinverted();
   @include inputBorderSides();
+}
+.containerInput__threeSidesCinvertedCorrect {
+  @include threeSidesCinverted();
+  @include inputBorderSidesCorrect();
 }
 .containerInput__fourSides {
   border: 1px solid $color1;
   @include inputBorderSides();
 }
+// sustituir en crossword.js y borrar
 .containerInput__inputCorrect {
   border: 1px solid $color1;
   background-color: $color7;
