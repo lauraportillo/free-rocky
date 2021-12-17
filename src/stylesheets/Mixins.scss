@@ -54,38 +54,33 @@
   border-bottom: none;
   border-left: 1px solid $color1;
 }
-
-// .containerInput__twoSidesTopBottom {
-//   border-top: 1px solid $color1;
-//   border-right: none;
-//   border-bottom: 1px solid $color1;
-//   border-left: none;
-//   @include inputBorderSides();
-// }
-// .containerInput__threeSidesU {
-//   border-top: none;
-//   border-right: 1px solid $color1;
-//   border-bottom: 1px solid $color1;
-//   border-left: 1px solid $color1;
-//   @include inputBorderSides();
-// }
-// .containerInput__threeSidesUinverted {
-//   border-top: 1px solid $color1;
-//   border-right: 1px solid $color1;
-//   border-bottom: none;
-//   border-left: 1px solid $color1;
-//   @include inputBorderSides();
-// }
-// .containerInput__threeSidesC {
-//   border-top: 1px solid $color1;
-//   border-right: none;
-//   border-bottom: 1px solid $color1;
-//   border-left: 1px solid $color1;
-//   @include inputBorderSides();
-// }
-// .containerInput__threeSidesCinverted {
-//   border-top: 1px solid $color1;
-//   border-right: 1px solid $color1;
-//   border-bottom: 1px solid $color1;
-//   border-left: none;
-//   @include inputBorderSides();
+@mixin twoSidesTopBottom() {
+  border-top: 1px solid $color1;
+  border-right: none;
+  border-bottom: 1px solid $color1;
+  border-left: none;
+}
+@mixin threeSidesU() {
+  border-top: none;
+  border-right: 1px solid $color1;
+  border-bottom: 1px solid $color1;
+  border-left: 1px solid $color1;
+}
+@mixin threeSidesUinverted() {
+  border-top: 1px solid $color1;
+  border-right: 1px solid $color1;
+  border-bottom: none;
+  border-left: 1px solid $color1;
+}
+@mixin threeSidesC() {
+  border-top: 1px solid $color1;
+  border-right: none;
+  border-bottom: 1px solid $color1;
+  border-left: 1px solid $color1;
+}
+@mixin threeSidesCinverted() {
+  border-top: 1px solid $color1;
+  border-right: 1px solid $color1;
+  border-bottom: 1px solid $color1;
+  border-left: none;
+}
