@@ -74,6 +74,10 @@
   border: 1px solid $color1;
   @include inputBorderSides();
 }
+.containerInput__fourSidesCorrect {
+  border: 1px solid $color1;
+  @include inputBorderSidesCorrect();
+}
 // sustituir en crossword.js y borrar
 .containerInput__inputCorrect {
   border: 1px solid $color1;
