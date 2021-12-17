@@ -920,7 +920,7 @@ const CrosswordEn = (props) => {
         }}
         className={
           props.b06.toLowerCase() === props.city[4].letter6
-            ? 'containerInput__inputCorrect'
+            ? 'containerInput__threeSidesUCorrect'
             : 'containerInput__threeSidesU'
         }
         type="text"
@@ -943,7 +943,7 @@ const CrosswordEn = (props) => {
         }}
         className={
           props.t06.toLowerCase() === props.city[7].letter6
-            ? 'containerInput__inputCorrect'
+            ? 'containerInput__threeSidesUCorrect'
             : 'containerInput__threeSidesU'
         }
         type="text"
