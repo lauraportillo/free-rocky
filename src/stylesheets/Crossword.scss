@@ -78,14 +78,3 @@
   border: 1px solid $color1;
   @include inputBorderSidesCorrect();
 }
-// sustituir en crossword.js y borrar
-.containerInput__inputCorrect {
-  border: 1px solid $color1;
-  background-color: $color7;
-  color: $color1;
-  text-align: center;
-  display: inline-block;
-  width: 20px;
-  height: 20px;
-  cursor: context-menu;
-}
