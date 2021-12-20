@@ -270,8 +270,15 @@ const Clue02En = (props) => {
             <p className="clue02__text--para2">{city[5].clue}</p>
             <p className="clue02__text--para2">{city[6].clue}</p>
             <p className="clue02__text--para2">{city[7].clue}</p>
+          </section>
 
-            <p className="clue01__text--para">
+          <section className="clue02__text">
+            <p className="clue02__text--para1">
+              Next step 👉 You have solved it easily, right? Now take a good look at everything that the crossword shows
+              to you, because it hides the postal code of the museum's location. Find out the following code: 5 + 6 +
+              number of W + 7 + 8 + number of A
+            </p>
+            <p className="clue02__text--para1">
               <Link to="/help02En" className="clue01__text--help">
                 🔎 Clues!
               </Link>
