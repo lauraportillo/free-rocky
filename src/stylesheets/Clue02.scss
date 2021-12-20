@@ -44,11 +44,22 @@
   font-family: $typo2;
   font-size: 14px;
 }
-.clue02__text--help {
+.clue02__text--paraBoldBlack {
+  color: $color1;
+  font-family: $typo2;
+  font-size: 14px;
+  font-weight: bold;
+}
+.clue02__text--paraBoldGray {
   color: $color5;
   font-family: $typo2;
   font-size: 14px;
   font-weight: bold;
+}
+.clue02__text--help {
+  color: $color5;
+  font-family: $typo2;
+  font-size: 14px;
   margin-top: 20px;
 }
 .clue02__text--help:hover {
