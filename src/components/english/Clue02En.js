@@ -286,7 +286,7 @@ const Clue02En = (props) => {
                 type="text"
                 name="clue02"
                 id="clue02"
-                placeholder="  enter the clue..."
+                placeholder="  enter museum's name ..."
                 value={props.clue02}
               />
               <ResetButtonEn handleReset={props.handleReset} />
