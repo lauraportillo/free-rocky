@@ -273,7 +273,7 @@ const Clue02En = (props) => {
           </section>
 
           <section className="clue02__text">
-            <p className="clue02__text--para2">
+            <p className="clue02__text--para1">
               <span className="clue02__text--paraBoldBlack">Next step</span> 👉
             </p>
 
