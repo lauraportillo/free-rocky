@@ -3,7 +3,8 @@
 .next {
   color: $color1;
   margin-top: 20px;
-  font-size: 12px;
+  font-family: $typo2;
+  font-size: 14px;
   padding-right: 5px;
   padding-left: 5px;
 }
@@ -11,6 +12,20 @@
 .hidden {
   display: none;
 }
+
+.message {
+  color: $color8;
+  font-family: $typo2;
+  font-size: 14px;
+  margin-top: 20px;
+}
+.message__boldGreen {
+  color: $color8;
+  font-family: $typo2;
+  font-size: 14px;
+  font-weight: bold;
+}
+
 @media all and (min-width: 768px) {
   .next {
     font-size: 14px;
