@@ -8,22 +8,22 @@
   padding-right: 5px;
   padding-left: 5px;
 }
-
 .hidden {
   display: none;
-}
-
-.message {
-  color: $color8;
-  font-family: $typo2;
-  font-size: 14px;
-  margin-top: 20px;
 }
 .message__boldGreen {
   color: $color8;
   font-family: $typo2;
   font-size: 14px;
   font-weight: bold;
+  margin-top: 20px;
+}
+.message__boldRed {
+  color: $color3;
+  font-family: $typo2;
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 20px;
 }
 
 @media all and (min-width: 768px) {
