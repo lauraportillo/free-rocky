@@ -10,7 +10,7 @@ const NextButtonEs = (props) => {
     if (props.input.toLowerCase() === props.password) {
       return (
         <>
-          <h3 className="next">Correcto ✔</h3>
+          <h3 className="message__boldGreen">Correcto ✔</h3>
         </>
       );
     } else if (props.input.length === 0) {
@@ -22,7 +22,7 @@ const NextButtonEs = (props) => {
     } else if (props.input.length > 4) {
       return (
         <>
-          <h3 className="next">Incorrecto ❌</h3>
+          <h3 className="message__boldRed">Incorrecto X</h3>
         </>
       );
     }
