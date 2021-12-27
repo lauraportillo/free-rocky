@@ -5,7 +5,7 @@ import '../../stylesheets/Clue02.scss';
 
 const Clue02NextStepEn = (props) => {
   return (
-    <section className="clue02__text">
+    <>
       <p className="clue02__text--para1">You have solved it easily, right?</p>
       <p className="clue02__text--para1">
         Now take a good look at everything that the crossword shows to you, because it hides the postal code of the
@@ -18,7 +18,7 @@ const Clue02NextStepEn = (props) => {
           🔎 <span className="clue02__text--paraBoldGray">Clues!</span>
         </Link>
       </p>
-    </section>
+    </>
   );
 };
 
