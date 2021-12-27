@@ -194,6 +194,13 @@ const Clue02En = (props) => {
     setShowNextStep(!showNextStep);
   };
 
+  //function that render next step when the state showNextStep is true, and doesn't when is false
+  const renderNextStep = () => {
+    return showNextStep
+      ? 'By fitting the pieces of the puzzle you will be able to read the name from left to right and following the lines.'
+      : null;
+  };
+
   return (
     <div className="containerClue02">
       <ClueHeaderEn />

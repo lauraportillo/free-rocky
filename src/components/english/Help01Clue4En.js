@@ -1,4 +1,4 @@
-import React from 'react';
+// Styles
 import '../../stylesheets/Help01Clue4En.scss';
 
 const Help01Clue4En = () => {
