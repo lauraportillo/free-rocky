@@ -16,6 +16,7 @@ import '../../stylesheets/Clue02.scss';
 const Clue02En = (props) => {
   // state
   const [city] = useState(dataCrossword);
+  const [showNextStep, setShowNextStep] = useState();
 
   // across
   const [md01, setMd01] = useState('');
@@ -186,6 +187,11 @@ const Clue02En = (props) => {
     } else if (inputCrosswordKey === 't06') {
       setT06(inputCrosswordValue);
     }
+  };
+
+  //function to show or hide Next Step
+  const handleNextStep = () => {
+    setShowNextStep(!showNextStep);
   };
 
   return (
