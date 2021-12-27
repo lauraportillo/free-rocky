@@ -34,7 +34,7 @@ const Clue01En = (props) => {
             </p>
 
             <p className="clue01__text--help">
-              <Link to="/help02En">
+              <Link to="/help01En">
                 🔎 <span className="clue01__text--paraBoldGray">Clues!</span>
               </Link>
             </p>
