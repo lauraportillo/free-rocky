@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 import ClueHeaderEn from './ClueHeaderEn';
 import CrosswordEn from './CrosswordEn';
 import Input from '../Input';
+import Clue02NextStepEn from './Clue02NextStepEn';
 import NextButtonEn from './NextButtonEn';
 import ResetButtonEn from './ResetButtonEn';
 import FooterBlack from '../FooterBlack';
@@ -196,9 +197,7 @@ const Clue02En = (props) => {
 
   //function that render next step when the state showNextStep is true, and doesn't when is false
   const renderNextStep = () => {
-    return showNextStep
-      ? 'By fitting the pieces of the puzzle you will be able to read the name from left to right and following the lines.'
-      : null;
+    return showNextStep ? <Clue02NextStepEn /> : null;
   };
 
   return (
@@ -286,22 +285,10 @@ const Clue02En = (props) => {
           </section>
 
           <section className="clue02__text">
-            <p className="clue02__text--para1">
+            <button className="clue02__text--para1" onClick={handleNextStep}>
               <span className="clue02__text--paraBoldBlack">Next step</span> 👉
-            </p>
-
-            <p className="clue02__text--para1">You have solved it easily, right?</p>
-            <p className="clue02__text--para1">
-              Now take a good look at everything that the crossword shows to you, because it hides the postal code of
-              the museum's location.
-            </p>
-            <p className="clue02__text--para1">Find out the following code:</p>
-            <p className="clue02__text--para1">5 + 6 + number of W + 7 + 8 + number of A</p>
-            <p className="clue02__text--help">
-              <Link to="/help02En">
-                🔎 <span className="clue02__text--paraBoldGray">Clues!</span>
-              </Link>
-            </p>
+            </button>
+            <section className="clue02__text"> {renderNextStep()}</section>
           </section>
           <form onSubmit={handleForm} className="clue02__form">
             <div>
