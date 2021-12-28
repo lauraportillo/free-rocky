@@ -25,14 +25,12 @@
   width: 240px;
   margin-top: 30px;
 }
-
 .clue02__text--title {
   color: $color1;
   font-family: $typo2;
   font-size: 14px;
   margin-top: 10px;
 }
-
 .clue02__text--para1 {
   color: $color1;
   font-family: $typo2;
@@ -68,12 +66,27 @@
   transition: all 0.1s ease-in-out;
 }
 
-.clue02__btn {
+.clue02__next {
+  width: 240px;
+  // margin-top: 30px;
+}
+.clue02__next--btn {
   margin-top: 10px;
   background: none;
   outline: none;
   border: none;
   cursor: pointer;
+}
+.clue02__next--btnBoldGray {
+  color: $color5;
+  font-family: $typo2;
+  font-size: 14px;
+  font-weight: bold;
+}
+.clue02__next--btnBoldGray:hover {
+  color: $color6;
+  transform: scale(1.1);
+  transition: all 0.1s ease-in-out;
 }
 
 .clue02__form {
