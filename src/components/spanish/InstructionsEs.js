@@ -55,8 +55,8 @@ const InstructionsEs = (props) => {
           </p>
           <p className="instructions__text--para">
             Conoce un poco más sobre la historia de Rocky pinchando
-            <Link to="/gameEn" className="instructions__text--link">
-              👉 aqui
+            <Link to="/gameEs" className="instructions__text--link">
+              👉<span className="instructions__text--linkBold">aqui</span>
             </Link>
           </p>
         </div>
