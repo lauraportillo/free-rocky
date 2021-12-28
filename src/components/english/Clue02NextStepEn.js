@@ -7,7 +7,7 @@ const Clue02NextStepEn = (props) => {
   return (
     <>
       <p className="clue02__text--para1">You have solved it easily, right?</p>
-      <p className="clue02__text--para1">
+      <p className="clue02__text--para2">
         Now take a good look at everything that the crossword shows to you, because it hides the postal code of the
         museum's location.
       </p>

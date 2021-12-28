@@ -284,13 +284,6 @@ const Clue02En = (props) => {
             <p className="clue02__text--para2">{city[7].clue}</p>
           </section>
 
-          {/* <section className="clue02__text">
-            <button className="clue02__btn" onClick={handleNextStep}>
-              <span className="clue02__text--paraBoldGray">Next step</span> 👉
-            </button>
-            <section className="clue02__text"> {renderNextStep()}</section>
-          </section> */}
-
           <section className="clue02__next">
             <button className="clue02__next--btn" onClick={handleNextStep}>
               <span className="clue02__next--btnBoldGray">Next step</span> 👉
