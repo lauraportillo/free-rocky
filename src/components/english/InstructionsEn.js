@@ -50,7 +50,7 @@ const InstructionsEn = () => {
           <p className="instructions__text--para">
             Get to know a little more about Rocky's history by clicking
             <Link to="/gameEn" className="instructions__text--link">
-              👉 here
+              👉<span className="instructions__text--linkBold">here</span>
             </Link>
           </p>
         </div>
