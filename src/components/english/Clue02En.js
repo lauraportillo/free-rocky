@@ -288,7 +288,7 @@ const Clue02En = (props) => {
             <button className="clue02__next--btn" onClick={handleNextStep}>
               <span className="clue02__next--btnBoldGray">Next step</span> 👉
             </button>
-            <section className="clue02__next--step"> {renderNextStep()}</section>
+            <section> {renderNextStep()}</section>
           </section>
 
           <form onSubmit={handleForm} className="clue02__form">

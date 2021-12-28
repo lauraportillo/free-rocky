@@ -115,6 +115,10 @@
   margin-right: 5px;
   color: $color1;
 }
+.bold {
+  color: $color1;
+  font-weight: bold;
+}
 @media all and (min-width: 768px) {
   .clue02__text--title {
     font-size: 16px;
@@ -145,6 +149,10 @@
   }
   .clue02__next--btnBoldGray {
     font-size: 16px;
+  }
+  .clue02__next--step {
+    padding: 20px;
+    margin-top: 20px;
   }
   .clue02__form {
     margin-top: 40px;
